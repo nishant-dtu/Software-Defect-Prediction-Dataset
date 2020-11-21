@@ -1,0 +1,702 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,android.util.Pools,1,1,0,0,1,0,1,1,0,67,1,0,No Change
+1,Public Generic Interface,android.util.Pools.Pool,0,0,0,1,2,0,2,2,2,4,0,0,No Change
+3,Public Static Generic Class,android.util.Pools.SimplePool,2,2,0,1,4,2,4,4,3,42,1,12,No Change
+5,Public Static Generic Class,android.util.Pools.SynchronizedPool,1,1,0,0,3,1,7,3,3,18,2,33,No Change
+7,Public Class,com.android.camera.CameraActivity,1,1,0,0,1,0,1,1,1,10,2,0,Lines Increased
+8,Public Class,com.android.camera.DisableCameraReceiver,2,1,0,0,4,0,4,4,1,44,2,0,Lines Increased
+9,Public Class,com.android.gallery3d.anim.AlphaAnimation,1,1,0,0,4,3,14,4,3,22,3,41,Lines Increased
+10,Public Abstract Class,com.android.gallery3d.anim.Animation,1,1,0,3,8,3,8,8,7,35,1,57,Lines Increased
+11,Public Abstract Class,com.android.gallery3d.anim.CanvasAnimation,0,1,0,1,2,0,10,2,2,3,2,0,Lines Increased
+12,Public Class,com.android.gallery3d.anim.FloatAnimation,1,1,0,0,3,3,11,3,2,17,2,22,Lines Increased
+13,Public Class,com.android.gallery3d.anim.StateTransitionAnimation,1,1,2,0,8,8,16,8,6,135,2,73,Lines Increased
+14,Public Static Class,com.android.gallery3d.anim.StateTransitionAnimation.Spec,5,1,1,0,0,14,1,1,0,55,1,100,No Change
+15,Public Class,com.android.gallery3d.app.AbstractGalleryActivity,1,2,12,2,30,13,31,31,16,276,2,91,Lines Increased
+16,Anonymous Class,com.android.gallery3d.app.AbstractGalleryActivity.(Anon_1),2,1,1,0,1,0,1,1,1,5,2,0,No Change
+17,Anonymous Class,com.android.gallery3d.app.AbstractGalleryActivity.(Anon_4),1,1,3,0,2,0,2,2,2,9,2,0,No Change
+18,Anonymous Class,com.android.gallery3d.app.AbstractGalleryActivity.onStart.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+19,Anonymous Class,com.android.gallery3d.app.AbstractGalleryActivity.onStart.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+20,Public Abstract Class,com.android.gallery3d.app.ActivityState,1,1,10,5,25,13,25,25,2,186,1,90,Lines Increased
+21,Anonymous Class,com.android.gallery3d.app.ActivityState.(Anon_1),3,1,1,0,1,0,1,1,1,12,2,0,No Change
+22,Protected Static Class,com.android.gallery3d.app.ActivityState.ResultEntry,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+23,Public Class,com.android.gallery3d.app.AlbumDataLoader,2,1,9,0,14,16,14,14,11,288,1,83,Lines Increased
+24,Anonymous Class,com.android.gallery3d.app.AlbumDataLoader.AlbumDataLoader.(Anon_1),6,1,3,0,1,0,1,1,1,19,2,0,Modified
+25,Public Interface,com.android.gallery3d.app.AlbumDataLoader.DataListener,0,0,0,0,2,0,2,2,2,4,0,0,Modified
+27,Private Class,com.android.gallery3d.app.AlbumDataLoader.GetUpdateInfo,3,2,2,0,2,1,2,2,2,26,1,0,No Change
+28,Private Class,com.android.gallery3d.app.AlbumDataLoader.MySourceListener,2,2,2,0,1,0,1,1,1,6,1,0,No Change
+29,Private Class,com.android.gallery3d.app.AlbumDataLoader.ReloadTask,3,1,7,0,4,3,4,4,3,53,2,58,No Change
+30,Private Class,com.android.gallery3d.app.AlbumDataLoader.UpdateContent,5,2,6,0,2,1,2,2,2,42,1,0,No Change
+31,Private Static Class,com.android.gallery3d.app.AlbumDataLoader.UpdateInfo,0,1,0,0,0,5,0,0,0,7,1,0,No Change
+32,Public Class,com.android.gallery3d.app.AlbumPage,2,5,25,0,31,29,56,31,6,616,2,88,Lines Increased
+33,Anonymous Class,com.android.gallery3d.app.AlbumPage.(Anon_1),2,1,5,0,2,0,2,2,2,19,2,0,Modified
+34,Anonymous Class,com.android.gallery3d.app.AlbumPage.(Anon_2),2,1,4,0,2,1,2,2,0,33,2,0,Modified
+35,Anonymous Class,com.android.gallery3d.app.AlbumPage.initializeViews.(Anon_4),1,1,1,0,4,0,4,4,4,17,2,0,Modified
+36,Anonymous Class,com.android.gallery3d.app.AlbumPage.initializeViews.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+37,Private Class,com.android.gallery3d.app.AlbumPage.MyDetailsSource,1,2,5,0,3,1,3,3,3,23,1,33,Modified
+38,Private Class,com.android.gallery3d.app.AlbumPage.MyLoadingListener,1,2,1,0,2,0,2,2,2,13,1,0,No Change
+39,Anonymous Class,com.android.gallery3d.app.AlbumPage.onCreate.(Anon_3),2,1,1,0,1,0,1,1,1,12,2,0,Modified
+40,Anonymous Class,com.android.gallery3d.app.AlbumPage.onSyncDone.(Anon_7),2,1,4,0,1,0,1,1,1,16,2,0,Modified
+41,Anonymous Class,com.android.gallery3d.app.AlbumPage.showDetails.(Anon_6),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+42,Public Class,com.android.gallery3d.app.AlbumPicker,2,1,4,0,1,0,36,1,1,13,4,0,Lines Increased
+43,Public Class,com.android.gallery3d.app.AlbumSetDataLoader,1,1,9,0,17,17,17,17,13,289,1,85,Lines Increased
+44,Anonymous Class,com.android.gallery3d.app.AlbumSetDataLoader.AlbumSetDataLoader.(Anon_1),6,1,2,0,1,0,1,1,1,15,2,0,Modified
+45,Public Interface,com.android.gallery3d.app.AlbumSetDataLoader.DataListener,0,0,0,0,2,0,2,2,2,4,0,0,Modified
+47,Private Class,com.android.gallery3d.app.AlbumSetDataLoader.GetUpdateInfo,2,2,2,0,3,1,3,3,2,25,1,33,No Change
+48,Private Class,com.android.gallery3d.app.AlbumSetDataLoader.MySourceListener,1,2,2,0,1,0,1,1,1,6,1,0,No Change
+49,Private Class,com.android.gallery3d.app.AlbumSetDataLoader.ReloadTask,3,1,5,0,4,3,4,4,3,53,2,58,No Change
+50,Private Class,com.android.gallery3d.app.AlbumSetDataLoader.UpdateContent,5,2,4,0,2,1,2,2,2,33,1,0,No Change
+51,Private Static Class,com.android.gallery3d.app.AlbumSetDataLoader.UpdateInfo,0,1,2,0,0,6,0,0,0,8,1,0,No Change
+52,Public Class,com.android.gallery3d.app.AlbumSetPage,2,5,23,0,33,30,59,34,12,603,2,89,Lines Increased
+53,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.(Anon_1),1,1,4,0,2,1,2,2,0,25,2,50,Modified
+54,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.initializeViews.(Anon_4),1,1,1,0,4,0,4,4,4,17,2,0,Modified
+55,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.initializeViews.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+56,Private Class,com.android.gallery3d.app.AlbumSetPage.MyDetailsSource,1,2,5,0,3,1,3,3,3,23,1,33,Modified
+57,Private Class,com.android.gallery3d.app.AlbumSetPage.MyLoadingListener,1,2,1,0,2,0,2,2,2,10,1,0,No Change
+58,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.onCreate.(Anon_2),2,1,1,0,1,0,1,1,1,11,2,0,Modified
+59,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.onSyncDone.(Anon_7),3,1,5,0,1,0,1,1,1,17,2,0,Modified
+60,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.setupCameraButton.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+61,Anonymous Class,com.android.gallery3d.app.AlbumSetPage.showDetails.(Anon_6),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+62,Public Abstract Class,com.android.gallery3d.app.AppBridge,1,2,1,0,9,0,9,9,9,22,1,0,Lines Increased
+63,Public Interface,com.android.gallery3d.app.AppBridge.Server,0,0,0,1,5,0,5,5,5,7,0,0,No Change
+64,Public Class,com.android.gallery3d.app.BatchService,1,1,1,0,2,2,2,2,2,15,2,50,Lines Increased
+65,Public Class,com.android.gallery3d.app.BatchService.LocalBinder,1,1,1,0,1,0,1,1,0,5,2,0,No Change
+66,Class,com.android.gallery3d.app.Bookmarker,2,1,1,0,3,1,3,3,3,53,1,0,Lines Increased
+67,Public Abstract Class,com.android.gallery3d.app.CommonControllerOverlay,1,4,3,2,27,10,27,27,19,237,2,81,Lines Increased
+68,Class,com.android.gallery3d.app.Config,0,1,0,0,0,0,0,0,0,84,1,0,No Change
+69,Public Static Class,com.android.gallery3d.app.Config.AlbumPage,1,1,0,0,1,2,2,2,1,19,1,50,Modified
+70,Public Static Class,com.android.gallery3d.app.Config.AlbumSetPage,1,1,0,1,1,5,2,2,1,46,1,50,Modified
+71,Public Static Class,com.android.gallery3d.app.Config.ManageCachePage,1,1,0,0,1,2,4,2,2,17,2,50,No Change
+72,Public Interface,com.android.gallery3d.app.ControllerOverlay,0,0,1,1,10,0,10,10,0,21,0,0,Lines Increased
+73,Interface,com.android.gallery3d.app.ControllerOverlay.Listener,0,0,0,2,7,0,7,7,0,9,0,0,No Change
+74,Public Class,com.android.gallery3d.app.DialogPicker,2,1,4,0,1,0,36,1,1,14,4,0,Lines Increased
+75,Public Class,com.android.gallery3d.app.EyePosition,3,1,2,0,6,12,6,6,4,139,1,44,Lines Increased
+76,Public Interface,com.android.gallery3d.app.EyePosition.EyePositionListener,0,0,0,2,1,0,1,1,1,3,0,0,No Change
+77,Private Class,com.android.gallery3d.app.EyePosition.PositionListener,2,2,1,0,2,0,2,2,2,19,1,0,No Change
+78,Public Class,com.android.gallery3d.app.FilmstripPage,0,1,0,0,0,0,87,0,0,1,3,0,Lines Increased
+79,Public Class,com.android.gallery3d.app.FilterUtils,3,1,3,0,0,0,11,11,4,165,1,0,Lines Increased
+80,Public Class,com.android.gallery3d.app.Gallery,1,1,0,0,1,0,1,1,1,10,2,0,Lines Increased
+81,Public Class,com.android.gallery3d.app.GalleryActionBar,2,2,8,0,26,18,27,27,25,335,1,88,Lines Increased
+82,Private Static Class,com.android.gallery3d.app.GalleryActionBar.ActionItem,1,1,0,0,2,6,2,2,2,21,1,50,No Change
+83,Private Class,com.android.gallery3d.app.GalleryActionBar.AlbumModeAdapter,1,1,1,0,5,0,5,5,5,35,2,0,No Change
+84,Private Class,com.android.gallery3d.app.GalleryActionBar.ClusterAdapter,1,1,2,0,4,0,4,4,4,24,2,0,No Change
+85,Public Interface,com.android.gallery3d.app.GalleryActionBar.ClusterRunner,0,0,0,2,1,0,1,1,1,3,0,0,No Change
+86,Public Interface,com.android.gallery3d.app.GalleryActionBar.OnAlbumModeSelectedListener,0,0,0,2,1,0,1,1,1,3,0,0,No Change
+87,Anonymous Class,com.android.gallery3d.app.GalleryActionBar.showClusterDialog.(Anon_1),1,1,3,0,1,0,1,1,1,10,2,0,Modified
+88,Public Class,com.android.gallery3d.app.GalleryActivity,3,2,11,0,10,1,41,10,3,203,3,60,Lines Increased
+89,Public Interface,com.android.gallery3d.app.GalleryApp,0,0,2,1,8,0,8,8,8,10,0,0,Modified
+90,Public Class,com.android.gallery3d.app.GalleryAppImpl,2,2,2,0,7,5,7,7,6,64,2,85,Lines Increased
+91,Public Interface,com.android.gallery3d.app.GalleryContext,0,0,1,1,5,0,5,5,5,6,0,0,Lines Increased
+92,Public Interface,com.android.gallery3d.app.LoadingListener,0,0,0,3,2,0,2,2,2,3,0,0,Lines Increased
+93,Public Class,com.android.gallery3d.app.Log,1,1,0,0,0,0,11,11,11,35,1,0,No Change
+94,Public Class,com.android.gallery3d.app.ManageCachePage,1,5,10,0,23,17,48,23,14,297,2,89,Lines Increased
+95,Anonymous Class,com.android.gallery3d.app.ManageCachePage.(Anon_1),1,1,5,0,3,1,3,3,0,34,2,66,Modified
+96,Anonymous Class,com.android.gallery3d.app.ManageCachePage.(Anon_3),2,1,1,0,1,0,1,1,1,9,2,0,Modified
+97,Anonymous Class,com.android.gallery3d.app.ManageCachePage.initializeViews.(Anon_4),1,1,1,0,3,0,3,3,3,13,2,0,Modified
+98,Anonymous Class,com.android.gallery3d.app.ManageCachePage.onCreate.(Anon_2),3,1,1,0,1,0,1,1,1,15,2,0,Modified
+99,Public Class,com.android.gallery3d.app.MovieActivity,1,1,2,0,15,4,15,15,10,177,2,78,Lines Increased
+100,Anonymous Class,com.android.gallery3d.app.MovieActivity.initializeActionBar.(Anon_2),3,1,1,0,1,0,1,1,0,14,2,0,No Change
+101,Anonymous Class,com.android.gallery3d.app.MovieActivity.onCreate.(Anon_1),2,1,1,0,1,0,26,1,1,7,2,0,No Change
+102,Public Class,com.android.gallery3d.app.MovieControllerOverlay,1,2,2,0,17,4,44,17,11,125,3,80,Lines Increased
+103,Anonymous Class,com.android.gallery3d.app.MovieControllerOverlay.MovieControllerOverlay.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+104,Public Class,com.android.gallery3d.app.MoviePlayer,1,4,6,1,24,17,25,25,17,341,1,87,Modified
+105,Anonymous Class,com.android.gallery3d.app.MoviePlayer.(Anon_1),2,1,2,0,1,0,1,1,1,9,2,0,No Change
+106,Anonymous Class,com.android.gallery3d.app.MoviePlayer.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+107,Private Class,com.android.gallery3d.app.MoviePlayer.AudioBecomingNoisyReceiver,1,1,1,0,3,0,3,3,3,13,2,0,No Change
+108,Anonymous Class,com.android.gallery3d.app.MoviePlayer.MoviePlayer.(Anon_3),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+109,Anonymous Class,com.android.gallery3d.app.MoviePlayer.MoviePlayer.(Anon_4),2,1,2,0,1,0,1,1,1,10,2,0,No Change
+110,Anonymous Class,com.android.gallery3d.app.MoviePlayer.MoviePlayer.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+111,Anonymous Class,com.android.gallery3d.app.MoviePlayer.setOnSystemUiVisibilityChangeListener.(Anon_6),2,1,2,0,1,0,1,1,1,10,2,0,No Change
+112,Anonymous Class,com.android.gallery3d.app.MoviePlayer.showResumeDialog.(Anon_7),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+113,Anonymous Class,com.android.gallery3d.app.MoviePlayer.showResumeDialog.(Anon_8),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+114,Anonymous Class,com.android.gallery3d.app.MoviePlayer.showResumeDialog.(Anon_9),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+115,Public Class,com.android.gallery3d.app.MuteVideo,1,1,0,0,3,7,3,3,2,58,1,57,Lines Increased
+116,Anonymous Class,com.android.gallery3d.app.MuteVideo.muteInBackground.(Anon_1),2,1,2,0,1,0,1,1,1,30,2,0,Modified
+117,Anonymous Class,com.android.gallery3d.app.MuteVideo.muteInBackground.(Anon_1).run.(Anon_2),2,1,1,0,1,0,1,1,1,17,2,0,Modified
+118,Public Class,com.android.gallery3d.app.NotificationIds,0,1,0,0,0,0,0,0,0,3,1,0,Lines Increased
+119,Public Class,com.android.gallery3d.app.OrientationManager,2,2,2,0,8,4,10,10,7,95,1,70,Lines Increased
+120,Private Class,com.android.gallery3d.app.OrientationManager.MyOrientationEventListener,1,1,1,0,2,0,2,2,2,10,2,0,No Change
+121,Public Class,com.android.gallery3d.app.PackagesMonitor,2,1,1,0,1,0,3,3,2,34,2,0,Lines Increased
+122,Public Static Class,com.android.gallery3d.app.PackagesMonitor.AsyncService,1,1,1,0,2,0,2,2,1,9,2,0,No Change
+123,Public Class,com.android.gallery3d.app.PanoramaMetadataSupport,2,2,4,0,4,5,4,4,4,54,1,19,Lines Increased
+124,Public Class,com.android.gallery3d.app.PhotoDataAdapter,3,2,15,0,45,29,45,45,26,829,1,91,Lines Increased
+125,Public Interface,com.android.gallery3d.app.PhotoDataAdapter.DataListener,0,1,1,1,1,0,3,1,1,3,1,0,No Change
+127,Private Class,com.android.gallery3d.app.PhotoDataAdapter.FullImageJob,1,2,2,0,2,1,2,2,2,13,1,0,No Change
+128,Private Class,com.android.gallery3d.app.PhotoDataAdapter.FullImageListener,1,3,4,0,3,2,3,3,3,18,1,33,No Change
+129,Private Class,com.android.gallery3d.app.PhotoDataAdapter.GetUpdateInfo,2,2,4,0,2,0,2,2,1,21,1,0,No Change
+130,Private Static Class,com.android.gallery3d.app.PhotoDataAdapter.ImageEntry,0,1,1,0,0,7,0,0,0,9,1,0,Modified
+131,Private Static Class,com.android.gallery3d.app.PhotoDataAdapter.ImageFetch,1,1,0,0,1,2,1,1,1,8,1,0,No Change
+132,Anonymous Class,com.android.gallery3d.app.PhotoDataAdapter.PhotoDataAdapter.(Anon_1),7,1,2,0,1,0,1,1,1,27,2,0,Modified
+133,Private Class,com.android.gallery3d.app.PhotoDataAdapter.ReloadTask,3,1,8,0,7,3,7,7,3,94,2,76,Modified
+134,Private Class,com.android.gallery3d.app.PhotoDataAdapter.ScreenNailJob,3,2,2,0,2,1,2,2,2,21,1,0,Modified
+135,Private Class,com.android.gallery3d.app.PhotoDataAdapter.ScreenNailListener,1,3,4,0,3,2,3,3,3,18,1,33,No Change
+136,Private Class,com.android.gallery3d.app.PhotoDataAdapter.SourceListener,2,2,2,0,1,0,1,1,1,6,1,0,No Change
+137,Private Class,com.android.gallery3d.app.PhotoDataAdapter.UpdateContent,5,2,5,0,2,1,2,2,2,37,1,0,No Change
+138,Private Static Class,com.android.gallery3d.app.PhotoDataAdapter.UpdateInfo,0,1,1,0,0,8,0,0,0,10,1,0,No Change
+139,Public Abstract Class,com.android.gallery3d.app.PhotoPage,3,6,38,2,59,47,87,62,25,1229,2,93,Lines Increased
+140,Anonymous Class,com.android.gallery3d.app.PhotoPage.(Anon_1),3,2,2,0,1,0,1,1,1,9,1,0,No Change
+141,Anonymous Class,com.android.gallery3d.app.PhotoPage.(Anon_2),4,2,2,0,1,0,1,1,1,9,1,0,No Change
+142,Anonymous Class,com.android.gallery3d.app.PhotoPage.(Anon_3),3,2,2,0,1,0,1,1,1,9,1,0,No Change
+143,Anonymous Class,com.android.gallery3d.app.PhotoPage.(Anon_4),2,1,2,0,1,0,1,1,0,9,2,0,Modified
+144,Anonymous Class,com.android.gallery3d.app.PhotoPage.(Anon_9),1,1,1,0,5,0,5,5,5,15,2,0,Modified
+145,Public Interface,com.android.gallery3d.app.PhotoPage.Model,0,1,1,2,4,0,4,4,4,6,2,0,Modified
+146,Private Class,com.android.gallery3d.app.PhotoPage.MyDetailsSource,1,2,3,0,3,0,3,3,3,14,1,0,Modified
+147,Private Class,com.android.gallery3d.app.PhotoPage.MyMenuVisibilityListener,1,2,1,0,1,0,1,1,1,7,1,0,No Change
+148,Anonymous Class,com.android.gallery3d.app.PhotoPage.onCreate.(Anon_5),26,1,10,0,1,0,1,1,1,108,2,0,Modified
+149,Anonymous Class,com.android.gallery3d.app.PhotoPage.onCreate.(Anon_6),5,2,8,0,3,0,3,3,3,49,1,0,Modified
+150,Anonymous Class,com.android.gallery3d.app.PhotoPage.onCreate.(Anon_7),2,1,1,0,1,0,1,1,1,10,2,0,No Change
+151,Anonymous Class,com.android.gallery3d.app.PhotoPage.setupNfcBeamPush.(Anon_8),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+152,Anonymous Class,com.android.gallery3d.app.PhotoPage.showDetails.(Anon_10),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+153,Public Class,com.android.gallery3d.app.PhotoPageBottomControls,2,2,1,0,6,7,7,7,4,90,1,59,Lines Increased
+154,Public Interface,com.android.gallery3d.app.PhotoPageBottomControls.Delegate,0,0,0,1,4,0,4,4,4,6,0,0,No Change
+155,Public Class,com.android.gallery3d.app.PhotoPageProgressBar,1,1,0,0,3,2,3,3,3,20,1,16,Lines Increased
+156,Public Class,com.android.gallery3d.app.PickerActivity,2,2,0,2,4,0,35,4,4,37,3,0,Lines Increased
+157,Public Class,com.android.gallery3d.app.SinglePhotoDataAdapter,1,2,6,0,23,10,23,23,20,190,2,90,Lines Increased
+158,Anonymous Class,com.android.gallery3d.app.SinglePhotoDataAdapter.(Anon_2),2,1,2,0,1,0,1,1,1,14,2,0,No Change
+159,Anonymous Class,com.android.gallery3d.app.SinglePhotoDataAdapter.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+160,Private Static Class,com.android.gallery3d.app.SinglePhotoDataAdapter.ImageBundle,1,1,0,0,1,2,1,1,1,8,1,0,No Change
+161,Anonymous Class,com.android.gallery3d.app.SinglePhotoDataAdapter.SinglePhotoDataAdapter.(Anon_1),2,1,2,0,1,0,1,1,1,11,2,0,Modified
+162,Public Class,com.android.gallery3d.app.SinglePhotoPage,0,1,0,0,0,0,87,0,0,1,3,0,Lines Increased
+163,Public Class,com.android.gallery3d.app.SlideshowDataAdapter,2,2,8,0,6,13,6,6,4,147,1,65,Lines Increased
+164,Anonymous Class,com.android.gallery3d.app.SlideshowDataAdapter.nextSlide.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+165,Private Class,com.android.gallery3d.app.SlideshowDataAdapter.ReloadTask,10,2,3,0,1,0,1,1,1,47,1,0,No Change
+166,Public Interface,com.android.gallery3d.app.SlideshowDataAdapter.SlideshowSource,0,0,3,2,5,0,5,5,5,7,0,0,No Change
+167,Private Class,com.android.gallery3d.app.SlideshowDataAdapter.SourceListener,1,2,1,0,1,0,1,1,1,10,1,0,No Change
+168,Public Class,com.android.gallery3d.app.SlideshowPage,2,1,13,0,8,7,34,9,3,269,2,71,Lines Increased
+169,Anonymous Class,com.android.gallery3d.app.SlideshowPage.(Anon_1),1,1,2,0,3,0,3,3,0,16,2,0,Modified
+170,Anonymous Class,com.android.gallery3d.app.SlideshowPage.loadNextBitmap.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+171,Public Interface,com.android.gallery3d.app.SlideshowPage.Model,0,0,0,1,3,0,3,3,3,5,0,0,No Change
+172,Anonymous Class,com.android.gallery3d.app.SlideshowPage.onCreate.(Anon_2),3,1,1,0,1,0,1,1,1,13,2,0,Modified
+173,Private Static Class,com.android.gallery3d.app.SlideshowPage.SequentialSource,1,2,5,0,6,5,6,6,6,48,1,60,No Change
+174,Private Static Class,com.android.gallery3d.app.SlideshowPage.ShuffleSource,2,2,7,0,7,6,7,7,6,62,1,64,No Change
+175,Public Static Class,com.android.gallery3d.app.SlideshowPage.Slide,1,1,1,0,1,3,1,1,1,10,1,0,No Change
+176,Public Class,com.android.gallery3d.app.StateManager,3,1,8,0,21,4,21,21,19,263,1,61,Lines Increased
+177,Private Static Class,com.android.gallery3d.app.StateManager.StateEntry,1,1,1,0,1,2,1,1,1,8,1,0,No Change
+178,Public Interface,com.android.gallery3d.app.StitchingChangeListener,0,0,0,2,3,0,3,3,3,4,0,0,Lines Increased
+179,Public Class,com.android.gallery3d.app.TimeBar,2,1,1,1,13,18,13,13,6,178,2,71,Lines Increased
+180,Public Interface,com.android.gallery3d.app.TimeBar.Listener,0,0,0,1,3,0,3,3,0,5,0,0,No Change
+181,Public Class,com.android.gallery3d.app.TransitionStore,1,1,0,0,5,1,5,5,5,20,1,0,Lines Increased
+185,Public Class,com.android.gallery3d.app.TrimControllerOverlay,2,1,3,0,6,0,33,6,4,67,3,0,Lines Increased
+186,Anonymous Class,com.android.gallery3d.app.TrimControllerOverlay.showPlaying.(Anon_1),1,1,1,0,4,0,4,4,4,15,2,0,No Change
+187,Public Class,com.android.gallery3d.app.TrimTimeBar,2,1,1,0,16,9,29,16,3,268,3,73,Lines Increased
+188,Public Class,com.android.gallery3d.app.TrimVideo,1,4,3,0,22,14,22,22,16,235,2,84,Lines Increased
+189,Anonymous Class,com.android.gallery3d.app.TrimVideo.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+190,Anonymous Class,com.android.gallery3d.app.TrimVideo.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+191,Anonymous Class,com.android.gallery3d.app.TrimVideo.trimVideo.(Anon_3),2,1,2,0,1,0,1,1,1,30,2,0,Modified
+192,Anonymous Class,com.android.gallery3d.app.TrimVideo.trimVideo.(Anon_3).run.(Anon_4),2,1,1,0,1,0,1,1,1,17,2,0,Modified
+193,Public Class,com.android.gallery3d.app.VideoUtils,5,1,0,0,0,0,7,7,2,207,1,0,Lines Increased
+194,Public Class,com.android.gallery3d.app.Wallpaper,3,1,3,0,5,2,5,5,0,101,2,19,Lines Increased
+195,Public Class,com.android.gallery3d.data.ActionImage,1,1,3,3,9,2,47,9,9,60,3,88,Lines Increased
+196,Private Class,com.android.gallery3d.data.ActionImage.BitmapJob,1,2,3,0,2,1,2,2,1,18,1,0,No Change
+197,Class,com.android.gallery3d.data.BucketHelper,3,1,2,0,0,0,7,7,2,159,1,0,Lines Increased
+198,Public Static Class,com.android.gallery3d.data.BucketHelper.BucketEntry,1,1,0,0,3,3,3,3,3,19,1,55,No Change
+199,Anonymous Class,com.android.gallery3d.data.BucketHelper.loadBucketEntriesFromImagesAndVideoTable.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+200,Public Class,com.android.gallery3d.data.BytesBufferPool,1,1,1,0,4,3,4,4,4,54,1,25,Lines Increased
+201,Public Static Class,com.android.gallery3d.data.BytesBufferPool.BytesBuffer,2,1,1,0,2,3,2,2,1,29,1,50,No Change
+202,Public Class,com.android.gallery3d.data.CameraShortcutImage,1,1,2,0,2,0,49,2,2,10,4,0,Lines Increased
+203,Public Class,com.android.gallery3d.data.ChangeNotifier,1,1,3,0,5,2,5,5,4,24,1,50,No Change
+204,Class,com.android.gallery3d.data.Cluster,2,1,1,0,6,2,6,6,6,64,1,58,Lines Increased
+205,Public Class,com.android.gallery3d.data.ClusterAlbum,1,2,4,0,16,5,60,17,14,106,3,80,No Change
+206,Public Class,com.android.gallery3d.data.ClusterAlbum,1,2,4,0,16,5,60,17,14,106,3,80,No Change
+207,Anonymous Class,com.android.gallery3d.data.ClusterAlbum.delete.(Anon_2),2,2,2,0,1,0,1,1,1,7,1,0,No Change
+208,Anonymous Class,com.android.gallery3d.data.ClusterAlbum.delete.(Anon_2),2,2,2,0,1,0,1,1,1,7,1,0,No Change
+209,Anonymous Class,com.android.gallery3d.data.ClusterAlbum.getMediaItemFromPath.(Anon_1),1,2,2,0,1,0,1,1,1,5,1,0,No Change
+210,Anonymous Class,com.android.gallery3d.data.ClusterAlbum.getMediaItemFromPath.(Anon_1),1,2,2,0,1,0,1,1,1,5,1,0,No Change
+211,Public Abstract Class,com.android.gallery3d.data.Clustering,1,1,2,5,5,0,5,5,5,8,1,0,Lines Increased
+212,Class,com.android.gallery3d.data.ClusterSource,6,1,7,0,2,2,12,2,2,53,2,0,Lines Increased
+213,Public Class,com.android.gallery3d.data.ComboAlbum,2,2,3,0,9,2,52,9,9,68,3,50,Lines Increased
+214,Public Class,com.android.gallery3d.data.ComboAlbumSet,2,2,3,0,8,2,51,8,8,62,3,50,Lines Increased
+215,Class,com.android.gallery3d.data.ComboSource,2,1,7,0,2,2,12,2,2,29,2,0,Lines Increased
+216,Public Interface,com.android.gallery3d.data.ContentListener,0,0,0,14,1,0,1,1,1,2,0,0,Modified
+217,Public Class,com.android.gallery3d.data.DataManager,2,2,19,0,27,5,28,28,27,240,1,86,Lines Increased
+218,Private Static Class,com.android.gallery3d.data.DataManager.DateTakenComparator,1,2,1,0,1,0,1,1,1,6,1,0,No Change
+219,Private Static Class,com.android.gallery3d.data.DataManager.NotifyBroker,1,1,1,0,3,1,3,3,3,16,2,33,No Change
+220,Public Class,com.android.gallery3d.data.DataSourceType,5,1,3,0,0,0,1,1,1,18,1,0,Lines Increased
+221,Public Class,com.android.gallery3d.data.DecodeUtils,2,1,3,0,0,0,18,18,16,217,1,0,Lines Increased
+222,Private Static Class,com.android.gallery3d.data.DecodeUtils.DecodeCanceller,1,2,0,0,2,1,2,2,2,10,1,0,No Change
+223,Public Class,com.android.gallery3d.data.DownloadCache,3,1,7,0,7,8,7,7,2,281,1,60,Lines Increased
+224,Private Class,com.android.gallery3d.data.DownloadCache.DatabaseHelper,1,1,3,0,3,0,3,3,3,21,2,0,No Change
+225,Private Class,com.android.gallery3d.data.DownloadCache.DownloadTask,2,3,5,0,5,3,5,5,5,66,1,46,No Change
+226,Public Class,com.android.gallery3d.data.DownloadCache.Entry,1,1,0,0,1,2,1,1,0,8,1,0,No Change
+227,Public Static Class,com.android.gallery3d.data.DownloadCache.TaskProxy,2,1,4,0,2,3,2,2,1,31,1,33,No Change
+228,Anonymous Class,com.android.gallery3d.data.DownloadCache.TaskProxy.get.(Anon_1),1,1,2,0,1,0,1,1,1,9,2,0,No Change
+229,Public Class,com.android.gallery3d.data.DownloadEntry,1,1,0,0,1,7,1,1,1,38,2,0,No Change
+230,Public Interface,com.android.gallery3d.data.DownloadEntry.Columns,0,1,0,0,0,0,0,0,0,9,2,0,No Change
+231,Public Class,com.android.gallery3d.data.DownloadUtils,2,1,1,0,0,0,3,3,3,45,1,0,No Change
+232,Anonymous Class,com.android.gallery3d.data.DownloadUtils.dump.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+233,Public Class,com.android.gallery3d.data.EmptyAlbumImage,1,1,2,0,2,0,49,2,2,10,4,0,Lines Increased
+234,Public Class,com.android.gallery3d.data.Exif,2,1,0,0,0,0,4,4,4,43,1,0,Lines Increased
+235,Public Class,com.android.gallery3d.data.Face,1,2,0,0,5,3,5,5,5,35,1,53,Lines Increased
+236,Public Class,com.android.gallery3d.data.FaceClustering,1,1,4,0,6,3,11,6,6,100,2,55,Lines Increased
+237,Private Class,com.android.gallery3d.data.FaceClustering.FaceCluster,2,1,5,0,4,5,4,4,4,44,1,60,No Change
+238,Anonymous Class,com.android.gallery3d.data.FaceClustering.run.(Anon_1),4,2,4,0,1,0,1,1,1,18,1,0,No Change
+239,Public Class,com.android.gallery3d.data.FilterDeleteSet,2,2,4,0,12,3,55,12,11,161,3,66,Lines Increased
+240,Private Static Class,com.android.gallery3d.data.FilterDeleteSet.Deletion,1,1,1,0,1,2,1,1,1,8,1,0,No Change
+241,Private Static Class,com.android.gallery3d.data.FilterDeleteSet.Request,1,1,1,0,1,3,1,1,1,10,1,0,No Change
+242,Public Class,com.android.gallery3d.data.FilterEmptyPromptSet,1,2,2,0,8,2,51,8,8,52,3,50,Lines Increased
+243,Public Class,com.android.gallery3d.data.FilterSource,4,1,13,0,2,4,12,2,2,65,2,0,Lines Increased
+244,Public Class,com.android.gallery3d.data.FilterTypeSet,1,2,4,0,11,5,54,11,10,97,3,69,Lines Increased
+245,Anonymous Class,com.android.gallery3d.data.FilterTypeSet.delete.(Anon_2),2,2,2,0,1,0,1,1,1,7,1,0,No Change
+246,Anonymous Class,com.android.gallery3d.data.FilterTypeSet.updateData.(Anon_1),3,2,4,0,1,0,1,1,1,9,1,0,No Change
+247,Abstract Class,com.android.gallery3d.data.ImageCacheRequest,4,2,7,2,4,5,4,4,3,64,1,13,Lines Increased
+248,Public Class,com.android.gallery3d.data.LocalAlbum,2,1,11,0,11,12,59,16,15,248,3,80,Lines Increased
+249,Public Class,com.android.gallery3d.data.LocalAlbumSet,2,2,8,0,9,9,55,12,7,142,3,80,Lines Increased
+250,Private Class,com.android.gallery3d.data.LocalAlbumSet.AlbumsLoader,5,2,7,0,1,0,1,1,1,26,1,0,Modified
+252,Anonymous Class,com.android.gallery3d.data.LocalAlbumSet.onFutureDone.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+253,Public Class,com.android.gallery3d.data.LocalImage,1,1,9,0,18,3,67,19,16,257,4,77,Lines Increased
+254,Public Static Class,com.android.gallery3d.data.LocalImage.LocalImageRequest,3,1,4,0,2,1,6,2,1,33,2,0,No Change
+255,Public Static Class,com.android.gallery3d.data.LocalImage.LocalLargeImageRequest,1,2,1,0,2,1,2,2,2,11,1,0,No Change
+256,Public Abstract Class,com.android.gallery3d.data.LocalMediaItem,1,1,2,2,10,13,48,10,8,65,3,87,Lines Increased
+257,Public Class,com.android.gallery3d.data.LocalMergeAlbum,2,2,4,0,15,6,58,15,13,179,3,75,Lines Increased
+258,Private Static Class,com.android.gallery3d.data.LocalMergeAlbum.FetchCache,2,1,3,0,3,3,3,3,3,33,1,44,No Change
+259,Class,com.android.gallery3d.data.LocalSource,4,1,18,0,9,4,20,10,7,212,2,72,Lines Increased
+260,Private Static Class,com.android.gallery3d.data.LocalSource.IdComparator,3,2,2,0,1,0,1,1,1,16,1,0,No Change
+261,Public Class,com.android.gallery3d.data.LocalVideo,1,1,6,0,17,2,65,17,14,180,4,76,Lines Increased
+262,Public Static Class,com.android.gallery3d.data.LocalVideo.LocalVideoRequest,1,1,3,0,2,1,6,2,1,15,2,0,No Change
+263,Class,com.android.gallery3d.data.LocationClustering,5,1,4,0,5,5,12,7,5,230,2,68,Lines Increased
+264,Private Static Class,com.android.gallery3d.data.LocationClustering.Point,1,1,0,0,2,2,2,2,2,8,1,50,No Change
+265,Anonymous Class,com.android.gallery3d.data.LocationClustering.run.(Anon_1),2,2,4,0,1,0,1,1,1,11,1,0,No Change
+266,Anonymous Class,com.android.gallery3d.data.LocationClustering.run.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+267,Private Static Class,com.android.gallery3d.data.LocationClustering.SmallItem,0,1,1,0,0,3,0,0,0,4,1,0,No Change
+268,Public Class,com.android.gallery3d.data.Log,1,1,0,0,0,0,11,11,11,34,1,0,Lines Increased
+269,Public Class,com.android.gallery3d.data.MediaDetails,1,2,2,0,7,2,9,9,8,116,1,61,Lines Increased
+270,Public Static Class,com.android.gallery3d.data.MediaDetails.FlashState,1,1,0,0,2,1,2,2,2,14,1,75,No Change
+271,Public Abstract Class,com.android.gallery3d.data.MediaItem,1,1,3,4,16,0,38,19,19,74,2,85,Lines Increased
+272,Public Abstract Class,com.android.gallery3d.data.MediaObject,1,1,4,2,16,2,19,19,19,114,1,91,Lines Increased
+273,Public Interface,com.android.gallery3d.data.MediaObject.PanoramaSupportCallback,0,0,1,3,1,0,1,1,0,4,0,0,Modified
+274,Public Abstract Class,com.android.gallery3d.data.MediaSet,1,1,7,12,24,1,43,24,20,219,2,86,Lines Increased
+275,Anonymous Class,com.android.gallery3d.data.MediaSet.(Anon_1),1,1,1,0,5,0,5,5,5,17,2,0,No Change
+276,Public Interface,com.android.gallery3d.data.MediaSet.ItemConsumer,0,0,1,14,1,0,1,1,0,3,0,0,Modified
+277,Private Class,com.android.gallery3d.data.MediaSet.MultiSetSyncFuture,2,3,2,0,7,5,7,7,6,64,1,65,No Change
+278,Public Interface,com.android.gallery3d.data.MediaSet.SyncListener,0,0,1,5,1,0,1,1,0,3,0,0,No Change
+279,Public Abstract Class,com.android.gallery3d.data.MediaSource,1,1,7,7,10,1,10,10,9,54,1,77,Lines Increased
+280,Public Static Class,com.android.gallery3d.data.MediaSource.PathId,1,1,1,0,1,2,1,1,1,8,1,0,No Change
+281,Public Class,com.android.gallery3d.data.MtpClient,2,1,1,0,15,8,16,16,15,223,1,85,Lines Increased
+282,Anonymous Class,com.android.gallery3d.data.MtpClient.(Anon_1),13,1,2,0,1,0,1,1,1,46,2,0,No Change
+283,Public Interface,com.android.gallery3d.data.MtpClient.Listener,0,0,0,0,2,0,2,2,2,4,0,0,No Change
+284,Public Class,com.android.gallery3d.data.PanoramaMetadataJob,1,2,0,0,2,2,2,2,2,12,1,0,No Change
+285,Public Class,com.android.gallery3d.data.Path,2,1,2,0,13,4,19,19,14,190,1,80,Lines Increased
+286,Public Class,com.android.gallery3d.data.PathMatcher,1,1,2,0,6,2,6,6,6,67,1,41,Lines Increased
+287,Private Static Class,com.android.gallery3d.data.PathMatcher.Node,1,1,1,0,4,2,4,4,0,25,1,50,No Change
+288,Public Class,com.android.gallery3d.data.SecureAlbum,2,2,8,0,13,12,56,13,10,146,3,82,Lines Increased
+289,Anonymous Class,com.android.gallery3d.data.SecureAlbum.getMediaItem.(Anon_1),1,2,2,0,1,0,1,1,1,5,1,0,No Change
+290,Public Class,com.android.gallery3d.data.SecureSource,1,1,8,0,2,1,13,3,3,32,2,33,No Change
+291,Public Class,com.android.gallery3d.data.SingleItemAlbum,1,1,2,1,7,2,50,7,7,37,3,64,Lines Increased
+292,Public Class,com.android.gallery3d.data.SizeClustering,2,1,1,0,7,4,12,7,6,97,2,67,Lines Increased
+293,Anonymous Class,com.android.gallery3d.data.SizeClustering.run.(Anon_1),4,2,4,0,1,0,1,1,1,17,1,0,No Change
+294,Class,com.android.gallery3d.data.SmallItem,0,1,1,0,0,4,0,0,0,5,1,0,No Change
+295,Public Class,com.android.gallery3d.data.SnailAlbum,1,1,2,0,3,1,53,3,3,19,4,33,Lines Increased
+296,Public Class,com.android.gallery3d.data.SnailItem,1,1,1,0,9,1,47,9,9,48,3,77,Modified
+297,Anonymous Class,com.android.gallery3d.data.SnailItem.requestImage.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+298,Anonymous Class,com.android.gallery3d.data.SnailItem.requestLargeImage.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+299,Public Class,com.android.gallery3d.data.SnailSource,1,1,7,0,2,2,15,5,5,41,2,66,No Change
+300,Public Class,com.android.gallery3d.data.TagClustering,1,1,2,0,5,3,10,5,5,59,2,53,Lines Increased
+301,Anonymous Class,com.android.gallery3d.data.TagClustering.run.(Anon_1),4,2,4,0,1,0,1,1,1,19,1,0,No Change
+302,Public Class,com.android.gallery3d.data.TimeClustering,3,1,5,0,10,8,17,12,5,243,2,75,Modified
+303,Private Static Class,com.android.gallery3d.data.TimeClustering.DateComparator,1,2,1,0,1,0,1,1,1,6,1,0,No Change
+304,Anonymous Class,com.android.gallery3d.data.TimeClustering.run.(Anon_1),2,2,4,0,1,0,1,1,1,12,1,0,No Change
+305,Public Class,com.android.gallery3d.data.UnlockImage,1,1,2,0,2,0,49,2,2,10,4,0,Lines Increased
+306,Public Class,com.android.gallery3d.data.UriImage,2,1,11,0,18,10,56,18,13,221,3,86,Lines Increased
+307,Private Class,com.android.gallery3d.data.UriImage.BitmapJob,2,2,3,0,2,1,2,2,1,24,1,0,No Change
+308,Anonymous Class,com.android.gallery3d.data.UriImage.prepareInputFile.(Anon_1),1,1,0,0,1,0,1,1,1,7,2,0,No Change
+309,Private Class,com.android.gallery3d.data.UriImage.RegionDecoderJob,2,2,2,0,1,0,1,1,1,11,1,0,No Change
+310,Class,com.android.gallery3d.data.UriSource,3,1,4,0,4,1,14,4,3,55,2,25,Lines Increased
+311,Public Class,com.android.gallery3d.filtershow.cache.BitmapCache,4,1,3,0,10,5,10,10,7,172,1,78,Lines Increased
+312,Class,com.android.gallery3d.filtershow.cache.BitmapCache.BitmapTracking,0,1,0,0,0,2,0,0,0,4,1,0,No Change
+313,Public Class,com.android.gallery3d.filtershow.cache.ImageLoader,4,1,2,0,1,0,20,20,18,411,1,0,Lines Increased
+314,Public Class,com.android.gallery3d.filtershow.category.Action,1,2,6,0,25,12,25,25,23,161,1,89,Lines Increased
+315,Public Class,com.android.gallery3d.filtershow.category.CategoryAdapter,2,1,9,0,21,8,21,21,20,191,2,88,Lines Increased
+316,Public Class,com.android.gallery3d.filtershow.category.CategoryPanel,3,2,6,0,7,3,7,7,7,115,2,61,Lines Increased
+317,Public Class,com.android.gallery3d.filtershow.category.CategorySelected,1,1,0,0,2,2,2,2,2,16,2,25,Lines Increased
+318,Public Class,com.android.gallery3d.filtershow.category.CategoryTrack,1,1,1,0,4,5,4,4,4,49,2,75,Lines Increased
+319,Anonymous Class,com.android.gallery3d.filtershow.category.CategoryTrack.(Anon_1),1,1,1,0,2,0,2,2,2,15,2,0,No Change
+320,Public Class,com.android.gallery3d.filtershow.category.CategoryView,3,3,4,0,10,15,32,10,8,155,3,80,Lines Increased
+321,Public Class,com.android.gallery3d.filtershow.category.IconView,1,1,0,1,22,11,22,22,18,176,2,85,Lines Increased
+322,Public Class,com.android.gallery3d.filtershow.category.MainPanel,3,1,4,0,13,7,13,13,10,244,2,80,Lines Increased
+323,Anonymous Class,com.android.gallery3d.filtershow.category.MainPanel.onCreateView.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+324,Anonymous Class,com.android.gallery3d.filtershow.category.MainPanel.onCreateView.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+325,Anonymous Class,com.android.gallery3d.filtershow.category.MainPanel.onCreateView.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+326,Anonymous Class,com.android.gallery3d.filtershow.category.MainPanel.onCreateView.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+327,Anonymous Class,com.android.gallery3d.filtershow.category.MainPanel.setToggleVersionsPanelButton.(Anon_5),2,1,1,0,1,0,1,1,1,10,2,0,No Change
+328,Public Interface,com.android.gallery3d.filtershow.category.SwipableView,0,0,0,2,1,0,1,1,1,2,0,0,Lines Increased
+329,Public Class,com.android.gallery3d.filtershow.CenteredLinearLayout,1,1,0,0,2,1,2,2,1,20,2,0,Lines Increased
+330,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorBrightnessView,1,2,1,0,11,16,11,11,7,134,2,73,Lines Increased
+331,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorCompareView,1,2,0,0,13,14,13,13,9,117,2,80,No Change
+332,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorGridDialog,3,1,3,0,3,1,3,3,2,66,2,66,Lines Increased
+333,Anonymous Class,com.android.gallery3d.filtershow.colorpicker.ColorGridDialog.ColorGridDialog.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+334,Anonymous Class,com.android.gallery3d.filtershow.colorpicker.ColorGridDialog.ColorGridDialog.(for_loop_1).(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+335,Anonymous Class,com.android.gallery3d.filtershow.colorpicker.ColorGridDialog.showColorPicker.(Anon_3),1,2,2,0,2,0,2,2,2,11,1,0,No Change
+336,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorHueView,1,2,0,0,12,19,12,12,7,145,2,79,Lines Increased
+337,Public Interface,com.android.gallery3d.filtershow.colorpicker.ColorListener,0,0,0,17,2,0,2,2,1,3,0,0,Lines Increased
+338,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorOpacityView,1,2,1,0,12,17,12,12,7,134,2,76,Lines Increased
+339,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorPickerDialog,2,1,6,0,5,6,5,5,3,109,2,66,Lines Increased
+340,Anonymous Class,com.android.gallery3d.filtershow.colorpicker.ColorPickerDialog.ColorPickerDialog.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+341,Anonymous Class,com.android.gallery3d.filtershow.colorpicker.ColorPickerDialog.ColorPickerDialog.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+342,Anonymous Class,com.android.gallery3d.filtershow.colorpicker.ColorPickerDialog.ColorPickerDialog.(Anon_3),1,2,1,0,2,0,2,2,2,10,1,0,No Change
+343,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorRectView,1,2,0,0,12,19,12,12,7,157,2,75,Lines Increased
+344,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorSaturationView,1,2,1,0,11,16,11,11,7,134,2,73,Lines Increased
+345,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorSVRectView,1,2,0,0,14,16,14,14,7,152,2,81,Lines Increased
+346,Public Class,com.android.gallery3d.filtershow.colorpicker.ColorValueView,1,2,1,0,11,15,11,11,7,117,2,73,Lines Increased
+347,Public Interface,com.android.gallery3d.filtershow.colorpicker.RGBListener,0,0,0,0,1,0,1,1,0,2,0,0,Lines Increased
+348,Public Class,com.android.gallery3d.filtershow.controller.ActionSlider,1,1,3,0,3,2,7,3,3,38,2,33,Lines Increased
+349,Anonymous Class,com.android.gallery3d.filtershow.controller.ActionSlider.setUp.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+350,Anonymous Class,com.android.gallery3d.filtershow.controller.ActionSlider.setUp.(Anon_2),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+351,Public Class,com.android.gallery3d.filtershow.controller.BasicParameterInt,1,2,2,4,14,9,14,14,14,78,1,83,Lines Increased
+352,Public Class,com.android.gallery3d.filtershow.controller.BasicParameterStyle,1,2,3,1,14,8,14,14,14,74,1,85,Lines Increased
+353,Public Class,com.android.gallery3d.filtershow.controller.BasicSlider,1,2,3,0,4,3,4,4,4,49,1,33,Lines Increased
+354,Anonymous Class,com.android.gallery3d.filtershow.controller.BasicSlider.setUp.(Anon_1),1,1,3,0,3,0,3,3,3,14,2,0,No Change
+355,Public Interface,com.android.gallery3d.filtershow.controller.BitmapCaller,0,0,0,1,1,0,1,1,1,2,0,0,Lines Increased
+356,Public Class,com.android.gallery3d.filtershow.controller.ColorChooser,1,2,5,0,10,13,10,10,9,139,1,73,Lines Increased
+357,Anonymous Class,com.android.gallery3d.filtershow.controller.ColorChooser.setUp.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+358,Anonymous Class,com.android.gallery3d.filtershow.controller.ColorChooser.setUp.(for_loop_1).(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+359,Anonymous Class,com.android.gallery3d.filtershow.controller.ColorChooser.showColorPicker.(Anon_3),1,2,1,0,2,0,2,2,2,8,1,0,No Change
+360,Public Interface,com.android.gallery3d.filtershow.controller.Control,0,0,2,8,4,0,4,4,4,5,0,0,Lines Increased
+361,Public Interface,com.android.gallery3d.filtershow.controller.FilterView,0,0,1,2,2,0,2,2,2,3,0,0,Lines Increased
+362,Public Interface,com.android.gallery3d.filtershow.controller.Parameter,0,0,2,3,6,0,6,6,3,7,0,0,Lines Increased
+363,Public Interface,com.android.gallery3d.filtershow.controller.ParameterActionAndInt,0,1,0,1,4,0,15,4,4,6,2,0,Lines Increased
+364,Public Class,com.android.gallery3d.filtershow.controller.ParameterBrightness,1,1,0,0,4,1,18,4,4,17,2,62,Lines Increased
+365,Public Class,com.android.gallery3d.filtershow.controller.ParameterColor,1,2,2,0,15,7,15,15,15,76,1,85,Lines Increased
+366,Public Class,com.android.gallery3d.filtershow.controller.ParameterHue,1,1,0,0,4,1,18,4,4,17,2,62,Lines Increased
+367,Public Class,com.android.gallery3d.filtershow.controller.ParameterIconStyle,1,1,1,0,2,1,16,2,2,10,2,0,Lines Increased
+368,Public Interface,com.android.gallery3d.filtershow.controller.ParameterInteger,0,1,0,4,5,0,11,5,0,7,1,0,Lines Increased
+369,Public Class,com.android.gallery3d.filtershow.controller.ParameterOpacity,1,1,0,0,4,1,18,4,4,17,2,62,Lines Increased
+370,Public Class,com.android.gallery3d.filtershow.controller.ParameterSaturation,1,1,0,0,4,1,18,4,4,17,2,62,Lines Increased
+371,Public Interface,com.android.gallery3d.filtershow.controller.ParameterSet,0,0,1,1,2,0,2,2,0,3,0,0,Lines Increased
+372,Public Interface,com.android.gallery3d.filtershow.controller.ParameterStyles,0,1,1,1,6,0,12,6,0,8,1,0,Lines Increased
+373,Public Class,com.android.gallery3d.filtershow.controller.SliderBrightness,1,2,4,0,4,3,4,4,4,42,1,33,Lines Increased
+374,Anonymous Class,com.android.gallery3d.filtershow.controller.SliderBrightness.setUp.(Anon_1),1,2,3,0,2,0,2,2,2,9,1,0,No Change
+375,Public Class,com.android.gallery3d.filtershow.controller.SliderHue,1,2,4,0,4,3,4,4,4,43,1,50,Lines Increased
+376,Anonymous Class,com.android.gallery3d.filtershow.controller.SliderHue.setUp.(Anon_1),1,2,3,0,2,0,2,2,2,9,1,0,No Change
+377,Public Class,com.android.gallery3d.filtershow.controller.SliderOpacity,1,2,4,0,4,3,4,4,4,42,1,33,Lines Increased
+378,Anonymous Class,com.android.gallery3d.filtershow.controller.SliderOpacity.setUp.(Anon_1),1,2,3,0,2,0,2,2,2,9,1,0,No Change
+379,Public Class,com.android.gallery3d.filtershow.controller.SliderSaturation,1,2,4,0,4,3,4,4,4,42,1,33,Lines Increased
+380,Anonymous Class,com.android.gallery3d.filtershow.controller.SliderSaturation.setUp.(Anon_1),1,2,3,0,2,0,2,2,2,9,1,0,No Change
+381,Public Class,com.android.gallery3d.filtershow.controller.StyleChooser,1,2,3,0,4,7,4,4,4,64,1,67,Lines Increased
+382,Anonymous Class,com.android.gallery3d.filtershow.controller.StyleChooser.setUp.(for_loop_1).(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+383,Anonymous Class,com.android.gallery3d.filtershow.controller.StyleChooser.setUp.(for_loop_1).(Anon_2),2,2,1,0,1,0,1,1,1,8,1,0,No Change
+384,Public Class,com.android.gallery3d.filtershow.controller.TitledSlider,1,2,3,1,4,8,4,4,4,68,1,53,Lines Increased
+385,Anonymous Class,com.android.gallery3d.filtershow.controller.TitledSlider.setUp.(Anon_1),2,1,4,0,3,0,3,3,3,20,2,0,No Change
+386,Public Class,com.android.gallery3d.filtershow.crop.BoundedRect,3,1,2,0,17,4,17,17,12,270,1,41,Lines Increased
+387,Public Class,com.android.gallery3d.filtershow.crop.CropActivity,2,1,6,0,15,11,20,20,3,533,2,89,Lines Increased
+388,Private Class,com.android.gallery3d.filtershow.crop.CropActivity.BitmapIOTask,10,1,3,0,4,12,4,4,1,224,2,41,No Change
+389,Private Class,com.android.gallery3d.filtershow.crop.CropActivity.LoadBitmapTask,1,1,2,0,3,4,3,3,1,24,2,16,No Change
+390,Anonymous Class,com.android.gallery3d.filtershow.crop.CropActivity.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+391,Public Abstract Class,com.android.gallery3d.filtershow.crop.CropDrawingUtils,2,1,1,0,0,0,10,10,10,145,1,0,Lines Increased
+392,Public Class,com.android.gallery3d.filtershow.crop.CropExtras,1,1,0,0,14,12,14,14,14,85,1,78,No Change
+393,Public Class,com.android.gallery3d.filtershow.crop.CropMath,2,1,1,0,0,0,13,13,12,122,1,0,Lines Increased
+394,Public Class,com.android.gallery3d.filtershow.crop.CropObject,2,1,3,0,21,8,27,27,24,256,1,86,Lines Increased
+395,Public Class,com.android.gallery3d.filtershow.crop.CropView,2,1,4,0,20,31,20,20,14,287,2,89,Lines Increased
+396,Public Class,com.android.gallery3d.filtershow.data.FilterStackDBHelper,1,1,1,0,5,0,7,7,5,64,2,0,Lines Increased
+397,Public Interface,com.android.gallery3d.filtershow.data.FilterStackDBHelper.FilterStack,0,0,0,0,0,0,0,0,0,6,0,0,No Change
+398,Public Class,com.android.gallery3d.filtershow.data.FilterStackSource,2,1,4,0,10,2,10,10,10,150,1,40,Lines Increased
+399,Public Class,com.android.gallery3d.filtershow.data.UserPresetsManager,1,2,7,0,13,6,13,13,8,115,1,76,Lines Increased
+400,Anonymous Class,com.android.gallery3d.filtershow.data.UserPresetsManager.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+401,Static Class,com.android.gallery3d.filtershow.data.UserPresetsManager.SaveOperation,0,1,0,0,0,2,0,0,0,4,1,0,No Change
+402,Static Class,com.android.gallery3d.filtershow.data.UserPresetsManager.UpdateOperation,0,1,0,0,0,2,0,0,0,4,1,0,No Change
+403,Public Class,com.android.gallery3d.filtershow.EditorPlaceHolder,1,1,3,0,9,4,9,9,9,54,1,69,Lines Increased
+404,Public Class,com.android.gallery3d.filtershow.editors.BasicEditor,1,2,4,2,16,1,65,16,13,86,3,96,Lines Increased
+405,Public Class,com.android.gallery3d.filtershow.editors.Editor,1,3,5,8,33,13,34,34,28,212,1,93,Lines Increased
+406,Public Class,com.android.gallery3d.filtershow.editors.EditorChanSat,2,3,10,0,16,19,65,16,11,311,3,85,Lines Increased
+407,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorChanSat.openUtilityPanel.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+408,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorChanSat.openUtilityPanel.(Anon_2),1,1,3,0,1,0,1,1,1,6,2,0,No Change
+409,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorChanSat.swapLeft.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+410,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorChanSat.swapRight.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+411,Public Class,com.android.gallery3d.filtershow.editors.EditorColorBorder,2,1,8,0,11,4,60,11,8,147,3,86,Lines Increased
+412,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorder.openUtilityPanel.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+413,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorder.showPopupMenu.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+414,Public Class,com.android.gallery3d.filtershow.editors.EditorColorBorderTabletUI,2,1,9,0,6,16,6,6,2,189,1,71,Lines Increased
+415,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorderTabletUI.setupCBCornerSizeSeekBar.(Anon_2),1,1,4,0,3,0,3,3,3,15,2,0,No Change
+416,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorderTabletUI.setupCBSizeSeekBar.(Anon_1),1,1,4,0,3,0,3,3,3,15,2,0,No Change
+417,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorderTabletUI.setupColor.(Anon_3),3,1,1,0,1,0,1,1,1,8,2,0,No Change
+418,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorderTabletUI.setupColor.(Anon_5),1,2,4,0,2,0,2,2,2,19,1,0,No Change
+419,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorColorBorderTabletUI.setupColor.(for_loop_1).(Anon_4),2,1,8,0,1,0,1,1,1,18,2,0,No Change
+420,Public Class,com.android.gallery3d.filtershow.editors.EditorCrop,1,2,8,0,13,2,47,13,10,121,2,80,Lines Increased
+421,Protected Static Class,com.android.gallery3d.filtershow.editors.EditorCrop.AspectInfo,1,1,0,0,1,3,1,1,0,10,1,0,No Change
+422,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorCrop.openUtilityPanel.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+423,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorCrop.showPopupMenu.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+424,Public Class,com.android.gallery3d.filtershow.editors.EditorCurves,1,1,3,0,7,1,41,7,6,38,2,71,Lines Increased
+425,Public Class,com.android.gallery3d.filtershow.editors.EditorDraw,2,2,11,0,13,7,62,13,10,199,3,85,Lines Increased
+426,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDraw.openUtilityPanel.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+427,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDraw.showPopupMenu.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+428,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDraw.showPopupMenu.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+429,Public Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI,3,1,10,0,4,17,4,4,3,201,1,61,Lines Increased
+430,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI.EditorDrawTabletUI.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+431,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI.EditorDrawTabletUI.(Anon_2),1,1,4,0,3,0,3,3,3,16,2,0,No Change
+432,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI.EditorDrawTabletUI.(Anon_4),3,1,1,0,1,0,1,1,1,8,2,0,No Change
+433,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI.EditorDrawTabletUI.(Anon_6),1,2,4,0,2,0,2,2,2,19,1,0,No Change
+434,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI.EditorDrawTabletUI.(for_loop_1).(Anon_3),2,1,4,0,1,0,1,1,1,13,2,0,No Change
+435,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorDrawTabletUI.EditorDrawTabletUI.(for_loop_2).(Anon_5),2,1,8,0,1,0,1,1,1,19,2,0,No Change
+436,Public Class,com.android.gallery3d.filtershow.editors.EditorGrad,1,3,9,0,30,6,79,30,26,338,3,90,Lines Increased
+437,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorGrad.openUtilityPanel.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+438,Private Class,com.android.gallery3d.filtershow.editors.EditorGrad.ParamAdapter,1,2,3,0,6,5,6,6,5,54,1,60,No Change
+439,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorGrad.setUpPopupMenu.(Anon_4),5,1,4,0,1,0,1,1,1,28,2,0,No Change
+440,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorGrad.setUtilityPanelUI.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+441,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorGrad.setUtilityPanelUI.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+442,Public Interface,com.android.gallery3d.filtershow.editors.EditorInfo,0,0,0,3,3,0,3,3,3,4,0,0,Lines Increased
+443,Public Class,com.android.gallery3d.filtershow.editors.EditorMirror,1,2,5,0,10,1,44,10,10,66,2,70,Lines Increased
+444,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorMirror.openUtilityPanel.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+445,Public Class,com.android.gallery3d.filtershow.editors.EditorPanel,2,1,6,0,6,3,6,6,6,110,2,55,Lines Increased
+446,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorPanel.onCreateView.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+447,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorPanel.onCreateView.(Anon_2),1,1,3,0,1,0,1,1,1,7,2,0,No Change
+448,Public Class,com.android.gallery3d.filtershow.editors.EditorRedEye,1,1,4,0,5,2,39,5,4,29,2,80,Lines Increased
+449,Public Class,com.android.gallery3d.filtershow.editors.EditorRedEye,1,1,4,0,5,2,39,5,4,29,2,80,Lines Increased
+450,Public Class,com.android.gallery3d.filtershow.editors.EditorStraighten,1,2,5,0,10,1,44,10,10,64,2,70,Lines Increased
+451,Public Class,com.android.gallery3d.filtershow.editors.EditorTinyPlanet,1,1,4,0,4,1,69,4,4,27,4,50,Lines Increased
+452,Public Class,com.android.gallery3d.filtershow.editors.EditorVignette,2,1,8,0,16,15,65,16,11,304,3,84,Lines Increased
+453,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorVignette.openUtilityPanel.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+454,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorVignette.openUtilityPanel.(Anon_2),1,1,3,0,1,0,1,1,1,6,2,0,No Change
+455,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorVignette.swapLeft.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+456,Anonymous Class,com.android.gallery3d.filtershow.editors.EditorVignette.swapRight.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+457,Public Class,com.android.gallery3d.filtershow.editors.EditorZoom,1,1,0,0,1,0,66,1,1,6,4,0,No Change
+458,Public Class,com.android.gallery3d.filtershow.editors.ImageOnlyEditor,1,1,1,0,4,1,38,4,3,18,2,100,No Change
+459,Public Class,com.android.gallery3d.filtershow.editors.ParametricEditor,1,1,21,6,13,6,49,15,9,141,2,91,Lines Increased
+460,Public Class,com.android.gallery3d.filtershow.editors.SwapButton,1,2,1,0,10,4,10,10,10,69,2,86,Lines Increased
+461,Public Interface,com.android.gallery3d.filtershow.editors.SwapButton.SwapButtonListener,0,0,0,1,2,0,2,2,2,4,0,0,No Change
+462,Public Abstract Class,com.android.gallery3d.filtershow.filters.BaseFiltersManager,1,2,34,0,19,6,19,19,17,281,1,86,Lines Increased
+463,Public Class,com.android.gallery3d.filtershow.filters.ColorSpaceMatrix,1,1,0,0,18,1,18,18,10,129,1,11,Lines Increased
+464,Public Class,com.android.gallery3d.filtershow.filters.FilterBasicRepresentation,1,2,2,1,25,6,64,25,24,144,2,84,Lines Increased
+465,Public Class,com.android.gallery3d.filtershow.filters.FilterChanSatRepresentation,1,2,4,0,18,9,57,18,17,152,2,91,No Change
+466,Public Class,com.android.gallery3d.filtershow.filters.FilterColorBorderRepresentation,1,1,5,0,20,5,59,20,19,146,2,86,Lines Increased
+467,Public Class,com.android.gallery3d.filtershow.filters.FilterCropRepresentation,1,1,1,0,15,1,57,18,17,125,2,44,Lines Increased
+468,Public Class,com.android.gallery3d.filtershow.filters.FilterCurvesRepresentation,2,1,2,0,11,1,50,11,10,135,2,45,Lines Increased
+469,Public Class,com.android.gallery3d.filtershow.filters.FilterDirectRepresentation,1,1,0,0,3,0,42,3,2,15,2,0,Lines Increased
+470,Public Class,com.android.gallery3d.filtershow.filters.FilterDrawRepresentation,2,1,7,0,23,8,63,24,21,307,2,90,Lines Increased
+471,Public Static Class,com.android.gallery3d.filtershow.filters.FilterDrawRepresentation.StrokeData,1,2,0,0,5,6,5,5,5,41,1,50,No Change
+472,Public Class,com.android.gallery3d.filtershow.filters.FilterFxRepresentation,1,1,2,0,12,2,51,12,11,77,2,62,Lines Increased
+473,Public Class,com.android.gallery3d.filtershow.filters.FilterGradRepresentation,2,2,4,0,34,2,73,34,32,418,2,61,Lines Increased
+474,Static Class,com.android.gallery3d.filtershow.filters.FilterGradRepresentation.Band,1,1,0,0,3,8,3,3,3,28,1,50,No Change
+475,Public Class,com.android.gallery3d.filtershow.filters.FilterImageBorderRepresentation,1,1,2,0,10,1,49,10,9,59,2,50,Lines Increased
+476,Public Class,com.android.gallery3d.filtershow.filters.FilterMirrorRepresentation,1,1,2,0,17,1,57,18,17,157,2,50,Lines Increased
+478,Public Abstract Class,com.android.gallery3d.filtershow.filters.FilterPointRepresentation,1,1,3,1,12,1,51,12,11,55,2,27,Lines Increased
+479,Public Class,com.android.gallery3d.filtershow.filters.FilterRedEyeRepresentation,1,1,3,0,4,0,55,4,3,36,3,0,Lines Increased
+480,Public Class,com.android.gallery3d.filtershow.filters.FilterRepresentation,1,1,1,17,39,12,39,39,38,198,1,91,Lines Increased
+481,Public Class,com.android.gallery3d.filtershow.filters.FilterRotateRepresentation,1,1,2,0,15,1,55,16,15,143,2,56,Lines Increased
+482,Public Interface,com.android.gallery3d.filtershow.filters.FiltersManagerInterface,0,0,2,1,1,0,1,1,0,2,0,0,Lines Increased
+483,Public Class,com.android.gallery3d.filtershow.filters.FilterStraightenRepresentation,1,1,1,0,15,1,55,16,14,111,2,62,Lines Increased
+484,Public Class,com.android.gallery3d.filtershow.filters.FilterTinyPlanetRepresentation,1,1,2,0,12,1,76,12,11,77,3,58,Lines Increased
+485,Public Class,com.android.gallery3d.filtershow.filters.FilterUserPresetRepresentation,1,1,2,0,5,2,44,5,5,26,2,40,Lines Increased
+486,Public Class,com.android.gallery3d.filtershow.filters.FilterVignetteRepresentation,1,2,3,0,25,11,64,25,24,206,2,86,Lines Increased
+487,Public Class,com.android.gallery3d.filtershow.filters.IconUtilities,1,1,1,0,0,0,3,3,3,43,1,0,Lines Increased
+488,Anonymous Class,com.android.gallery3d.filtershow.filters.IconUtilities.applyFX.(Anon_1),1,1,1,0,1,0,25,1,1,12,3,0,No Change
+489,Public Abstract Class,com.android.gallery3d.filtershow.filters.ImageFilter,1,2,5,9,14,3,16,16,14,56,1,85,Lines Increased
+490,Anonymous Class,com.android.gallery3d.filtershow.filters.ImageFilter.displayLowMemoryToast.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+491,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterBorder,1,1,2,0,8,3,24,8,8,53,2,70,Lines Increased
+492,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterBwFilter,1,1,2,0,4,0,23,4,3,34,3,0,Lines Increased
+493,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterChanSat,1,1,3,0,13,4,52,13,5,102,3,84,No Change
+494,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterColorBorder,1,1,2,0,6,5,22,6,5,52,2,80,Lines Increased
+495,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterContrast,1,1,2,0,4,0,23,4,3,31,3,0,No Change
+496,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterContrast,1,1,2,0,4,0,23,4,3,30,3,0,No Change
+497,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterDownsample,2,1,4,0,3,1,22,3,3,46,3,66,Lines Increased
+498,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterDraw,1,1,7,0,10,5,26,10,9,209,2,72,Lines Increased
+499,Class,com.android.gallery3d.filtershow.filters.ImageFilterDraw.Brush,1,2,2,0,6,3,6,6,5,66,1,77,No Change
+500,Public Interface,com.android.gallery3d.filtershow.filters.ImageFilterDraw.DrawStyle,0,0,1,2,2,0,2,2,2,5,0,0,No Change
+501,Class,com.android.gallery3d.filtershow.filters.ImageFilterDraw.SimpleDraw,2,2,1,0,3,2,3,3,3,34,1,50,No Change
+502,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterEdge,1,1,2,0,4,0,23,4,3,27,3,0,Lines Increased
+503,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterExposure,1,1,2,0,4,0,23,4,3,30,3,0,Lines Increased
+504,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterFx,2,1,4,1,8,4,24,8,7,71,2,75,Lines Increased
+505,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterGrad,1,1,3,0,13,4,52,13,5,124,3,82,Lines Increased
+506,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterHighlights,2,1,3,0,4,2,23,4,3,44,3,66,Lines Increased
+507,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterHue,1,1,4,0,4,1,23,4,3,34,3,33,Lines Increased
+508,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterKMeans,3,1,2,0,4,1,23,4,3,59,3,33,Lines Increased
+509,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterNegative,1,1,3,0,5,0,21,5,4,27,2,0,Lines Increased
+510,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterRedEye,1,1,4,0,8,1,24,8,7,45,2,28,Lines Increased
+511,Public Abstract Class,com.android.gallery3d.filtershow.filters.ImageFilterRS,1,1,2,4,21,5,39,23,8,193,2,91,No Change
+512,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterSaturated,1,1,2,0,4,0,23,4,3,32,3,0,Lines Increased
+513,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterShadows,1,1,2,0,4,0,23,4,3,30,3,0,Lines Increased
+514,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterSharpen,1,1,4,0,9,2,48,9,4,74,3,55,Lines Increased
+515,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterTinyPlanet,2,1,8,0,6,1,26,7,4,107,3,66,Lines Increased
+516,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterVibrance,1,1,2,0,4,0,23,4,3,30,3,0,Lines Increased
+517,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterVignette,1,1,6,0,11,3,50,11,5,112,3,80,Lines Increased
+518,Public Class,com.android.gallery3d.filtershow.filters.ImageFilterWBalance,1,1,3,0,5,0,21,5,4,29,2,0,Lines Increased
+519,Public Class,com.android.gallery3d.filtershow.filters.ParametericFilterRepresentation,1,1,0,0,1,0,40,1,1,4,2,0,Lines Increased
+520,Public Class,com.android.gallery3d.filtershow.filters.RedEyeCandidate,1,2,0,0,5,2,5,5,5,24,1,19,Lines Increased
+521,Public Class,com.android.gallery3d.filtershow.filters.SimpleImageFilter,1,1,2,13,3,1,19,3,3,14,2,33,Lines Increased
+522,Public Class,com.android.gallery3d.filtershow.filters.SplineMath,3,1,0,0,5,2,6,6,4,131,1,50,Lines Increased
+523,Public Class,com.android.gallery3d.filtershow.FilterShowActivity,2,5,48,0,98,42,98,98,71,1174,2,97,Lines Increased
+524,Anonymous Class,com.android.gallery3d.filtershow.FilterShowActivity.(Anon_1),1,1,3,0,2,0,2,2,2,11,2,0,No Change
+526,Private Class,com.android.gallery3d.filtershow.FilterShowActivity.LoadBitmapTask,3,1,8,0,4,1,4,4,1,81,2,50,No Change
+527,Anonymous Class,com.android.gallery3d.filtershow.FilterShowActivity.loadEditorPanel.(Anon_2),1,1,3,0,1,0,1,1,1,10,2,0,No Change
+528,Private Class,com.android.gallery3d.filtershow.FilterShowActivity.LoadHighresBitmapTask,2,1,4,0,2,0,2,2,0,32,2,0,No Change
+529,Anonymous Class,com.android.gallery3d.filtershow.FilterShowActivity.loadXML.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+530,Anonymous Class,com.android.gallery3d.filtershow.FilterShowActivity.onBackPressed.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+531,Anonymous Class,com.android.gallery3d.filtershow.FilterShowActivity.onBackPressed.(Anon_6),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+532,Anonymous Class,com.android.gallery3d.filtershow.FilterShowActivity.startTouchAnimation.(Anon_7),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+533,Public Class,com.android.gallery3d.filtershow.history.HistoryItem,1,1,2,0,5,3,5,5,5,23,1,60,Lines Increased
+534,Public Class,com.android.gallery3d.filtershow.history.HistoryManager,1,1,1,0,19,5,19,19,13,126,1,81,Lines Increased
+535,Public Class,com.android.gallery3d.filtershow.imageshow.ControlPoint,2,2,0,0,5,2,5,5,5,40,1,9,No Change
+536,Public Class,com.android.gallery3d.filtershow.imageshow.EclipseControl,2,1,1,0,16,17,16,16,14,247,1,87,Lines Increased
+537,Public Class,com.android.gallery3d.filtershow.imageshow.GeometryMathUtils,2,1,13,0,1,0,33,33,28,399,1,0,Lines Increased
+538,Public Static Class,com.android.gallery3d.filtershow.imageshow.GeometryMathUtils.GeometryHolder,1,1,6,0,5,4,5,5,5,43,1,0,No Change
+539,Public Class,com.android.gallery3d.filtershow.imageshow.GradControl,1,1,1,0,16,26,16,16,14,207,1,88,Lines Increased
+540,Public Class,com.android.gallery3d.filtershow.imageshow.ImageCrop,2,1,10,0,18,20,71,18,11,257,3,87,Lines Increased
+541,Public Class,com.android.gallery3d.filtershow.imageshow.ImageCurves,3,1,8,0,20,16,73,20,13,354,3,90,Modified
+542,Class,com.android.gallery3d.filtershow.imageshow.ImageCurves.ComputeHistogramTask,2,1,1,0,2,0,2,2,0,30,2,0,No Change
+543,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageCurves.openUtilityPanel.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+544,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageCurves.showPopupMenu.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+545,Public Class,com.android.gallery3d.filtershow.imageshow.ImageDraw,1,1,5,0,21,23,75,22,17,222,3,93,Lines Increased
+546,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageDraw.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+547,Public Class,com.android.gallery3d.filtershow.imageshow.ImageGrad,3,1,5,0,8,8,61,8,8,165,3,60,Lines Increased
+548,Public Class,com.android.gallery3d.filtershow.imageshow.ImageMirror,1,1,5,0,8,3,61,8,8,39,3,75,Lines Increased
+549,Public Abstract Class,com.android.gallery3d.filtershow.imageshow.ImagePoint,1,1,5,1,7,2,61,8,7,46,3,80,Lines Increased
+550,Public Class,com.android.gallery3d.filtershow.imageshow.ImageRedEye,2,1,4,0,5,1,66,5,4,94,4,60,Lines Increased
+551,Public Class,com.android.gallery3d.filtershow.imageshow.ImageRotate,1,1,5,0,9,3,62,9,9,42,3,74,Lines Increased
+552,Public Class,com.android.gallery3d.filtershow.imageshow.ImageShow,2,4,11,10,51,38,53,53,40,784,2,96,Lines Increased
+553,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageShow.onDoubleTap.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+554,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageShow.onDoubleTap.(Anon_4),1,1,2,0,4,0,4,4,4,16,2,0,No Change
+555,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageShow.startAnimTranslation.(Anon_1),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+556,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageShow.startAnimTranslation.(Anon_2),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+557,Public Class,com.android.gallery3d.filtershow.imageshow.ImageStraighten,2,1,9,0,12,22,67,14,9,243,3,87,Lines Increased
+558,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageStraighten.hidesGrid.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+559,Public Class,com.android.gallery3d.filtershow.imageshow.ImageTinyPlanet,1,1,5,0,8,13,62,9,6,123,3,79,Lines Increased
+560,Anonymous Class,com.android.gallery3d.filtershow.imageshow.ImageTinyPlanet.(Anon_1),1,1,4,0,3,1,3,3,3,25,2,33,No Change
+561,Public Class,com.android.gallery3d.filtershow.imageshow.ImageVignette,2,1,6,0,8,5,61,8,8,183,3,60,Lines Increased
+562,Static Class,com.android.gallery3d.filtershow.imageshow.ImageVignette.OvalSpaceAdapter,1,2,0,0,10,8,10,10,10,79,1,33,No Change
+563,Public Interface,com.android.gallery3d.filtershow.imageshow.Line,0,0,0,1,6,0,6,6,0,7,0,0,Lines Increased
+564,Public Class,com.android.gallery3d.filtershow.imageshow.MasterImage,1,2,20,0,88,46,91,91,88,663,1,97,Lines Increased
+565,Anonymous Class,com.android.gallery3d.filtershow.imageshow.MasterImage.(Anon_1),2,1,2,0,1,0,1,1,1,9,2,0,No Change
+566,Anonymous Class,com.android.gallery3d.filtershow.imageshow.MasterImage.onNewLook.(Anon_2),3,1,1,0,1,0,1,1,1,11,2,0,No Change
+567,Anonymous Class,com.android.gallery3d.filtershow.imageshow.MasterImage.onNewLook.(Anon_3),1,1,1,0,4,0,4,4,4,18,2,0,No Change
+568,Public Interface,com.android.gallery3d.filtershow.imageshow.Oval,0,0,0,2,8,0,8,8,0,9,0,0,Lines Increased
+569,Public Class,com.android.gallery3d.filtershow.imageshow.Spline,2,1,1,0,20,3,24,24,20,346,1,81,Lines Increased
+570,Public Class,com.android.gallery3d.filtershow.info.HistogramView,2,1,1,0,4,6,4,4,3,102,2,75,Lines Increased
+571,Class,com.android.gallery3d.filtershow.info.HistogramView.ComputeHistogramTask,2,1,1,0,2,0,2,2,0,30,2,0,No Change
+572,Public Class,com.android.gallery3d.filtershow.info.InfoPanel,4,1,3,0,2,5,2,2,1,90,2,50,Lines Increased
+573,Public Class,com.android.gallery3d.filtershow.pipeline.Buffer,1,1,4,0,9,4,9,9,9,59,1,63,Lines Increased
+574,Public Class,com.android.gallery3d.filtershow.pipeline.CacheProcessing,7,1,4,0,5,1,5,5,2,245,1,19,Lines Increased
+575,Static Class,com.android.gallery3d.filtershow.pipeline.CacheProcessing.CacheStep,3,1,4,0,6,2,7,7,7,88,1,57,No Change
+576,Public Class,com.android.gallery3d.filtershow.pipeline.CachingPipeline,2,2,9,0,26,15,29,29,25,396,1,87,Lines Increased
+577,Public Class,com.android.gallery3d.filtershow.pipeline.FilterEnvironment,1,1,9,0,23,8,23,23,23,112,1,86,Lines Increased
+578,Public Class,com.android.gallery3d.filtershow.pipeline.FullresRenderingRequestTask,1,1,6,0,8,2,19,8,8,50,2,56,Lines Increased
+579,Static Class,com.android.gallery3d.filtershow.pipeline.FullresRenderingRequestTask.Render,0,2,1,0,0,1,0,0,0,3,1,0,No Change
+580,Static Class,com.android.gallery3d.filtershow.pipeline.FullresRenderingRequestTask.RenderResult,0,2,1,0,0,1,0,0,0,3,1,0,No Change
+581,Public Class,com.android.gallery3d.filtershow.pipeline.HighresRenderingRequestTask,1,1,6,0,10,2,21,10,10,56,2,60,No Change
+582,Static Class,com.android.gallery3d.filtershow.pipeline.HighresRenderingRequestTask.Render,0,2,1,0,0,1,0,0,0,3,1,0,No Change
+583,Static Class,com.android.gallery3d.filtershow.pipeline.HighresRenderingRequestTask.RenderResult,0,2,1,0,0,1,0,0,0,3,1,0,No Change
+584,Public Class,com.android.gallery3d.filtershow.pipeline.ImagePreset,3,1,17,0,48,5,50,50,45,591,1,82,Lines Increased
+585,Public Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask,1,1,13,0,6,1,17,6,5,117,2,33,Lines Increased
+586,Anonymous Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask.doInBackground.(Anon_1),1,2,4,0,2,0,2,2,2,15,1,0,No Change
+587,Static Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask.SaveRequest,0,2,1,0,0,9,0,0,0,11,1,0,No Change
+588,Static Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask.UpdateBitmap,0,2,0,0,0,1,0,0,0,3,1,0,No Change
+589,Static Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask.UpdatePreviewSaved,0,2,0,0,0,2,0,0,0,4,1,0,No Change
+590,Static Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask.UpdateProgress,0,2,0,0,0,2,0,0,0,4,1,0,No Change
+591,Static Class,com.android.gallery3d.filtershow.pipeline.ImageSavingTask.URIResult,0,2,0,0,0,2,0,0,0,4,1,0,No Change
+592,Public Interface,com.android.gallery3d.filtershow.pipeline.PipelineInterface,0,0,0,1,6,0,6,6,6,8,0,0,No Change
+593,Public Class,com.android.gallery3d.filtershow.pipeline.ProcessingService,1,1,15,0,21,13,22,22,20,244,2,84,Lines Increased
+594,Public Class,com.android.gallery3d.filtershow.pipeline.ProcessingService.LocalBinder,1,1,1,0,1,0,1,1,1,5,2,0,No Change
+595,Public Abstract Class,com.android.gallery3d.filtershow.pipeline.ProcessingTask,1,1,4,5,11,4,11,11,11,57,1,66,Lines Increased
+596,Interface,com.android.gallery3d.filtershow.pipeline.ProcessingTask.Request,0,0,0,4,0,0,0,0,0,1,0,0,No Change
+597,Interface,com.android.gallery3d.filtershow.pipeline.ProcessingTask.Result,0,0,0,4,0,0,0,0,0,1,0,0,No Change
+598,Interface,com.android.gallery3d.filtershow.pipeline.ProcessingTask.Update,0,0,0,3,0,0,0,0,0,1,0,0,No Change
+599,Public Class,com.android.gallery3d.filtershow.pipeline.ProcessingTaskController,1,2,2,0,8,6,8,8,8,59,1,79,Lines Increased
+600,Anonymous Class,com.android.gallery3d.filtershow.pipeline.ProcessingTaskController.(Anon_1),4,1,4,0,1,0,1,1,1,14,2,0,No Change
+601,Public Class,com.android.gallery3d.filtershow.pipeline.RenderingRequest,1,1,8,0,21,10,24,24,24,150,1,90,No Change
+602,Public Interface,com.android.gallery3d.filtershow.pipeline.RenderingRequestCaller,0,0,1,2,1,0,1,1,1,2,0,0,Lines Increased
+603,Public Class,com.android.gallery3d.filtershow.pipeline.RenderingRequestTask,1,1,6,0,7,2,18,7,7,54,2,50,Lines Increased
+604,Static Class,com.android.gallery3d.filtershow.pipeline.RenderingRequestTask.Render,0,2,1,0,0,1,0,0,0,3,1,0,No Change
+605,Static Class,com.android.gallery3d.filtershow.pipeline.RenderingRequestTask.RenderResult,0,2,1,0,0,1,0,0,0,3,1,0,No Change
+606,Public Class,com.android.gallery3d.filtershow.pipeline.SharedBuffer,1,1,1,0,7,5,7,7,7,50,1,68,Lines Increased
+607,Public Class,com.android.gallery3d.filtershow.pipeline.SharedPreset,2,1,1,0,2,4,2,2,2,26,1,25,Lines Increased
+608,Public Class,com.android.gallery3d.filtershow.pipeline.UpdatePreviewTask,1,1,8,0,7,3,18,7,7,50,2,61,No Change
+609,Public Class,com.android.gallery3d.filtershow.presets.PresetManagementDialog,2,2,2,0,2,2,2,2,2,34,2,0,Lines Increased
+610,Public Class,com.android.gallery3d.filtershow.presets.UserPresetsAdapter,1,3,5,0,14,5,14,14,11,118,2,82,Lines Increased
+611,Static Class,com.android.gallery3d.filtershow.presets.UserPresetsAdapter.UserPresetViewHolder,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+612,Public Class,com.android.gallery3d.filtershow.provider.SharedImageProvider,2,1,0,0,8,1,8,8,8,86,2,75,Lines Increased
+613,Class,com.android.gallery3d.filtershow.state.DragListener,5,2,3,0,3,1,3,3,2,82,1,33,Lines Increased
+614,Public Interface,com.android.gallery3d.filtershow.state.PanelTrack,0,0,1,1,12,0,12,12,12,13,0,0,Lines Increased
+615,Public Class,com.android.gallery3d.filtershow.state.State,1,1,3,0,11,3,11,11,7,45,1,69,Lines Increased
+616,Public Class,com.android.gallery3d.filtershow.state.StateAdapter,2,1,6,0,8,3,8,8,8,73,2,79,Lines Increased
+617,Public Class,com.android.gallery3d.filtershow.state.StatePanel,3,1,3,0,2,4,2,2,2,34,2,37,Lines Increased
+618,Public Class,com.android.gallery3d.filtershow.state.StatePanelTrack,3,2,8,0,17,18,17,17,15,293,2,86,Lines Increased
+619,Anonymous Class,com.android.gallery3d.filtershow.state.StatePanelTrack.(Anon_1),1,1,1,0,2,0,2,2,2,11,2,0,No Change
+620,Anonymous Class,com.android.gallery3d.filtershow.state.StatePanelTrack.StatePanelTrack.(Anon_2),1,1,1,0,2,0,2,2,2,10,2,0,No Change
+621,Public Class,com.android.gallery3d.filtershow.state.StateView,2,2,5,0,21,20,21,21,18,280,2,89,Lines Increased
+622,Public Class,com.android.gallery3d.filtershow.tools.IconFactory,3,1,0,0,0,0,2,2,2,47,1,0,No Change
+623,Public Class,com.android.gallery3d.filtershow.tools.MatrixFit,5,1,0,0,9,3,9,9,7,151,1,66,Lines Increased
+624,Public Class,com.android.gallery3d.filtershow.tools.SaveImage,3,1,10,0,11,7,27,27,14,495,1,87,Lines Increased
+625,Public Interface,com.android.gallery3d.filtershow.tools.SaveImage.Callback,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+626,Public Interface,com.android.gallery3d.filtershow.tools.SaveImage.ContentResolverQueryCallback,0,0,0,4,1,0,1,1,0,3,0,0,Modified
+627,Anonymous Class,com.android.gallery3d.filtershow.tools.SaveImage.deleteAuxFiles.(Anon_1),1,2,1,0,1,0,1,1,1,6,1,0,No Change
+628,Anonymous Class,com.android.gallery3d.filtershow.tools.SaveImage.deleteAuxFiles.(Anon_2),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+629,Anonymous Class,com.android.gallery3d.filtershow.tools.SaveImage.getContentValues.(Anon_5),2,2,1,0,1,0,1,1,1,11,1,0,No Change
+630,Anonymous Class,com.android.gallery3d.filtershow.tools.SaveImage.getLocalFileFromUri.(Anon_3),1,2,1,0,1,0,1,1,1,5,1,0,No Change
+631,Anonymous Class,com.android.gallery3d.filtershow.tools.SaveImage.getTrueFilename.(Anon_4),1,2,1,0,1,0,1,1,1,5,1,0,No Change
+632,Public Class,com.android.gallery3d.filtershow.tools.XmpPresets,5,1,3,0,0,0,2,2,2,83,1,0,Lines Increased
+633,Public Static Class,com.android.gallery3d.filtershow.tools.XmpPresets.XMresults,0,1,1,0,0,3,0,0,0,5,1,0,No Change
+634,Public Class,com.android.gallery3d.filtershow.ui.ExportDialog,2,3,6,0,9,18,9,9,7,180,2,76,Lines Increased
+635,Anonymous Class,com.android.gallery3d.filtershow.ui.ExportDialog.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+636,Private Class,com.android.gallery3d.filtershow.ui.ExportDialog.Watcher,1,2,1,0,4,1,4,4,3,16,1,50,No Change
+637,Public Class,com.android.gallery3d.filtershow.ui.FramedTextButton,1,1,0,0,6,1,10,10,10,95,2,80,No Change
+638,Public Class,com.android.gallery3d.filtershow.ui.SelectionRenderer,1,1,0,0,0,0,2,2,2,24,1,0,No Change
+639,Public Class,com.android.photos.adapters.AlbumSetCursorAdapter,1,1,2,0,4,1,4,4,4,31,2,50,Lines Increased
+640,Public Class,com.android.photos.adapters.PhotoThumbnailAdapter,1,2,2,0,6,2,6,6,6,35,2,66,No Change
+641,Public Class,com.android.photos.AlbumActivity,1,2,2,0,2,1,2,2,1,22,2,0,Lines Increased
+642,Public Class,com.android.photos.AlbumFragment,1,2,6,0,14,6,38,14,13,104,3,79,Lines Increased
+643,Public Class,com.android.photos.AlbumSetFragment,1,2,5,0,13,2,37,13,13,78,3,65,No Change
+644,Public Class,com.android.photos.BitmapRegionTileSource,2,2,1,0,9,10,10,10,7,135,1,75,Lines Increased
+645,Public Class,com.android.photos.data.AlbumSetLoader,2,1,0,0,0,0,2,2,0,46,1,0,Lines Decreased
+646,Public Class,com.android.photos.data.GalleryBitmapPool,2,1,4,0,8,3,9,9,6,87,1,77,Lines Increased
+647,Public Class,com.android.photos.data.NotificationWatcher,1,2,0,0,5,2,5,5,5,21,1,30,Lines Increased
+648,Public Class,com.android.photos.data.PhotoDatabase,1,1,4,0,10,0,15,15,5,136,2,0,Lines Increased
+649,Public Class,com.android.photos.data.PhotoProvider,2,1,6,0,13,1,43,25,8,348,3,92,Lines Increased
+650,Public Interface,com.android.photos.data.PhotoProvider.Accounts,0,1,1,0,0,0,0,0,0,5,2,0,No Change
+651,Public Interface,com.android.photos.data.PhotoProvider.Albums,0,1,1,0,0,0,0,0,0,16,2,0,No Change
+652,Public Interface,com.android.photos.data.PhotoProvider.ChangeNotification,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+653,Public Interface,com.android.photos.data.PhotoProvider.Metadata,0,1,1,0,0,0,0,0,0,20,2,0,No Change
+654,Public Interface,com.android.photos.data.PhotoProvider.Photos,0,1,1,0,0,0,0,0,0,14,2,0,No Change
+655,Public Class,com.android.photos.data.PhotoSetLoader,1,2,2,0,8,1,8,8,6,67,2,75,Lines Increased
+656,Public Class,com.android.photos.data.SparseArrayBitmapPool,2,1,3,0,9,6,9,9,7,110,1,62,Lines Increased
+657,Protected Static Class,com.android.photos.data.SparseArrayBitmapPool.Node,0,1,0,0,0,5,0,0,0,7,1,0,No Change
+658,Public Abstract Class,com.android.photos.data.SQLiteContentProvider,1,1,0,1,18,3,18,18,13,178,2,71,No Change
+659,Public Abstract Generic Class,com.android.photos.drawables.AutoThumbnailDrawable,2,1,1,1,18,13,18,18,9,236,2,84,Lines Increased
+660,Anonymous Class,com.android.photos.drawables.AutoThumbnailDrawable.(Anon_1),13,1,2,0,1,0,1,1,1,72,2,0,No Change
+661,Anonymous Class,com.android.photos.drawables.AutoThumbnailDrawable.(Anon_2),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+663,Public Class,com.android.photos.drawables.DataUriThumbnailDrawable,2,1,0,0,3,0,21,3,0,24,3,0,Lines Increased
+664,Public Class,com.android.photos.FullscreenViewer,1,1,2,0,2,1,2,2,0,15,2,0,Lines Increased
+665,Public Class,com.android.photos.GalleryActivity,1,2,4,0,5,3,5,5,3,119,2,73,Lines Increased
+666,Public Static Class,com.android.photos.GalleryActivity.TabsAdapter,1,3,4,0,11,4,11,11,11,72,2,72,No Change
+667,Static Class,com.android.photos.GalleryActivity.TabsAdapter.TabInfo,1,1,0,0,1,2,1,1,0,8,1,0,No Change
+668,Public Class,com.android.photos.MultiChoiceManager,2,4,7,0,15,6,15,15,10,217,1,72,Lines Increased
+669,Private Static Class,com.android.photos.MultiChoiceManager.BulkDeleteTask,1,1,1,0,2,2,2,2,1,15,2,0,No Change
+670,Public Interface,com.android.photos.MultiChoiceManager.Delegate,0,0,0,1,9,0,9,9,9,11,0,0,No Change
+671,Public Interface,com.android.photos.MultiChoiceManager.Provider,0,0,1,2,1,0,1,1,1,3,0,0,No Change
+672,Public Abstract Class,com.android.photos.MultiSelectGridFragment,1,3,2,3,24,10,24,24,22,202,2,84,Lines Increased
+673,Anonymous Class,com.android.photos.MultiSelectGridFragment.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+674,Public Class,com.android.photos.PhotoFragment,0,1,0,0,0,0,0,0,0,1,2,0,Lines Increased
+675,Public Class,com.android.photos.PhotoSetFragment,1,2,5,0,13,3,37,13,13,76,3,74,Lines Increased
+676,Public Class,com.android.photos.SelectionManager,6,1,2,0,5,15,5,5,5,138,1,52,Lines Increased
+677,Public Interface,com.android.photos.SelectionManager.SelectedUriSource,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+678,Anonymous Class,com.android.photos.SelectionManager.SelectionManager.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+679,Public Class,com.android.photos.shims.BitmapJobDrawable,1,2,3,0,11,6,11,11,9,120,2,75,Lines Increased
+680,Private Static Class,com.android.photos.shims.BitmapJobDrawable.ThumbnailLoader,1,1,2,0,3,1,3,3,1,16,2,0,Modified
+681,Public Generic Interface,com.android.photos.shims.LoaderCompatShim,0,0,0,3,5,0,5,5,0,6,0,0,Lines Increased
+683,Public Class,com.android.photos.shims.MediaItemsLoader,1,2,9,0,12,5,13,13,9,128,2,75,Lines Increased
+684,Anonymous Class,com.android.photos.shims.MediaItemsLoader.(Anon_1),1,2,1,0,1,0,1,1,1,4,1,0,No Change
+685,Anonymous Class,com.android.photos.shims.MediaItemsLoader.(Anon_2),1,2,0,0,1,0,1,1,1,5,1,0,No Change
+686,Anonymous Class,com.android.photos.shims.MediaItemsLoader.loadInBackground.(Anon_3),3,2,4,0,1,0,1,1,1,22,1,0,No Change
+687,Public Class,com.android.photos.shims.MediaSetLoader,1,2,9,0,12,5,13,13,9,132,2,73,Lines Increased
+688,Anonymous Class,com.android.photos.shims.MediaSetLoader.(Anon_1),1,2,1,0,1,0,1,1,1,4,1,0,No Change
+689,Anonymous Class,com.android.photos.shims.MediaSetLoader.(Anon_2),1,2,0,0,1,0,1,1,1,5,1,0,No Change
+690,Anonymous Class,com.android.photos.shims.MediaSetLoader.urisForSubItems.(Anon_3),2,2,3,0,1,0,1,1,1,7,1,0,No Change
+691,Public Class,com.android.photos.views.BlockingGLTextureView,1,2,1,0,9,1,9,9,8,292,2,33,Lines Increased
+692,Private Static Class,com.android.photos.views.BlockingGLTextureView.EglHelper,2,1,0,0,10,5,14,14,9,128,1,67,No Change
+693,Private Static Class,com.android.photos.views.BlockingGLTextureView.RenderThread,2,1,1,0,10,9,10,10,6,113,2,76,No Change
+694,Public Class,com.android.photos.views.GalleryThumbnailView,3,1,4,0,28,25,28,28,11,608,2,90,Lines Increased
+695,Private Class,com.android.photos.views.GalleryThumbnailView.AdapterDataSetObserver,1,1,2,0,2,0,2,2,2,16,2,0,No Change
+696,Public Interface,com.android.photos.views.GalleryThumbnailView.GalleryThumbnailAdapter,0,1,0,1,1,0,1,1,0,3,2,0,No Change
+697,Public Static Class,com.android.photos.views.GalleryThumbnailView.LayoutParams,2,1,1,0,3,5,3,3,3,48,2,93,No Change
+698,Private Class,com.android.photos.views.GalleryThumbnailView.RecycleBin,3,1,1,0,6,4,6,6,6,73,1,54,No Change
+699,Public Class,com.android.photos.views.HeaderGridView,1,1,3,0,12,1,12,12,9,311,2,66,Lines Increased
+700,Private Static Class,com.android.photos.views.HeaderGridView.FixedViewInfo,0,1,0,0,0,4,0,0,0,6,1,0,No Change
+701,Private Class,com.android.photos.views.HeaderGridView.FullWidthFixedViewLayout,1,1,1,0,2,0,2,2,1,14,2,0,No Change
+702,Private Static Class,com.android.photos.views.HeaderGridView.HeaderViewGridAdapter,2,3,1,0,20,6,20,20,19,203,1,69,No Change
+703,Public Class,com.android.photos.views.SquareImageView,1,1,0,0,4,0,4,4,3,25,2,0,Lines Increased
+704,Public Class,com.android.photos.views.TiledImageRenderer,3,1,6,0,25,30,28,28,10,602,1,87,Lines Increased
+705,Private Class,com.android.photos.views.TiledImageRenderer.Tile,1,1,3,0,9,6,9,9,6,68,2,62,Modified
+706,Private Class,com.android.photos.views.TiledImageRenderer.TileDecoder,2,1,3,0,3,0,3,3,2,31,2,0,No Change
+707,Private Static Class,com.android.photos.views.TiledImageRenderer.TileQueue,2,1,2,0,4,1,4,4,3,33,1,0,No Change
+708,Public Interface,com.android.photos.views.TiledImageRenderer.TileSource,0,0,0,2,6,0,6,6,6,8,0,0,Modified
+709,Public Class,com.android.photos.views.TiledImageView,3,1,5,0,13,9,14,14,10,292,2,84,Lines Increased
+710,Anonymous Class,com.android.photos.views.TiledImageView.(Anon_1),1,1,3,0,1,0,1,1,1,5,2,0,No Change
+711,Private Static Class,com.android.photos.views.TiledImageView.ColoredTiles,1,2,0,0,6,2,6,6,6,53,1,83,Modified
+712,Private Static Class,com.android.photos.views.TiledImageView.ImageRendererWrapper,0,1,2,0,0,7,0,0,0,8,1,0,No Change
+713,Anonymous Class,com.android.photos.views.TiledImageView.invalOnVsync.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+714,Private Class,com.android.photos.views.TiledImageView.TileRenderer,2,2,3,0,3,1,3,3,3,36,1,0,Modified

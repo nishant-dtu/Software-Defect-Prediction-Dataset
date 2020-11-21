@@ -1,0 +1,261 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Abstract Class,com.android.dialer.activity.TransactionSafeActivity,1,1,0,1,5,1,5,5,1,25,2,0,Class Deleted
+1,Public Class,com.android.dialer.CallDetailActivity,2,2,17,0,21,27,22,22,9,537,2,92,Lines Decreased
+2,Anonymous Class,com.android.dialer.CallDetailActivity.markVoicemailAsRead.(Anon_3),1,1,1,0,1,0,1,1,1,9,2,0,Class Deleted
+3,Anonymous Class,com.android.dialer.CallDetailActivity.onMenuRemoveFromCallLog.(Anon_5),1,1,1,0,2,0,2,2,2,12,2,0,Class Deleted
+4,Anonymous Class,com.android.dialer.CallDetailActivity.onMenuTrashVoicemail.(Anon_6),1,1,1,0,2,0,2,2,2,11,2,0,Class Deleted
+5,Private Class,com.android.dialer.CallDetailActivity.ProximitySensorListener,1,2,1,0,4,2,4,4,3,37,1,50,Class Deleted
+6,Anonymous Class,com.android.dialer.CallDetailActivity.ProximitySensorListener.(Anon_1),1,1,0,0,1,0,1,1,1,7,2,0,Class Deleted
+7,Anonymous Class,com.android.dialer.CallDetailActivity.ProximitySensorListener.(Anon_2),1,1,0,0,1,0,1,1,1,7,2,0,Class Deleted
+8,Class,com.android.dialer.CallDetailActivity.updateData.UpdateContactDetailsTask,5,1,6,0,3,0,3,3,2,99,2,0,Class Deleted
+9,Anonymous Class,com.android.dialer.CallDetailActivity.updateVoicemailStatusMessage.(Anon_4),1,1,3,0,1,0,1,1,1,6,2,0,Class Deleted
+10,Static Class,com.android.dialer.CallDetailActivity.ViewEntry,1,1,0,0,2,7,2,2,2,19,1,57,Class Deleted
+11,Public Class,com.android.dialer.CallDetailActivityQueryHandler,1,1,2,0,6,2,6,6,2,53,2,75,Class Deleted
+12,Public Class,com.android.dialer.calllog.CallDetailHistoryAdapter,1,1,4,0,10,5,10,10,8,105,2,74,Lines Increased
+13,Public Class,com.android.dialer.calllog.CallLogActivity,2,2,8,0,8,12,8,8,6,161,2,82,Lines Decreased
+14,Anonymous Class,com.android.dialer.calllog.CallLogActivity.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+15,Public Class,com.android.dialer.calllog.CallLogActivity.ViewPagerAdapter,2,1,3,0,4,0,4,4,4,29,2,0,Lines Increased
+16,Public Class,com.android.dialer.calllog.CallLogAdapter,2,3,24,0,47,30,48,48,12,842,2,95,Lines Decreased
+17,Anonymous Class,com.android.dialer.calllog.CallLogAdapter.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Lines Increased
+18,Anonymous Class,com.android.dialer.calllog.CallLogAdapter.(Anon_2),1,1,2,0,1,0,1,1,1,6,2,0,Lines Decreased
+19,Anonymous Class,com.android.dialer.calllog.CallLogAdapter.(Anon_3),2,1,2,0,1,0,1,1,1,10,2,0,Lines Decreased
+20,Anonymous Class,com.android.dialer.calllog.CallLogAdapter.(Anon_4),3,1,1,0,1,0,1,1,1,12,2,0,Lines Increased
+21,Anonymous Class,com.android.dialer.calllog.CallLogAdapter.bindBadge.(Anon_6),1,1,3,0,1,0,1,1,1,7,2,0,Class Deleted
+22,Public Interface,com.android.dialer.calllog.CallLogAdapter.CallFetcher,0,0,0,2,1,0,1,1,1,3,0,0,Modified
+23,Public Interface,com.android.dialer.calllog.CallLogAdapter.CallItemExpandedListener,0,0,1,1,2,0,2,2,2,4,0,0,Class Deleted
+24,Private Static Class,com.android.dialer.calllog.CallLogAdapter.ContactInfoRequest,4,1,0,0,3,3,3,3,3,30,1,0,Class Deleted
+25,Anonymous Class,com.android.dialer.calllog.CallLogAdapter.inflateActionViewStub.(Anon_5),2,1,3,0,1,0,1,1,1,7,2,0,Class Deleted
+26,Private Static Class,com.android.dialer.calllog.CallLogAdapter.NumberWithCountryIso,2,1,0,0,3,2,3,3,3,21,1,0,Class Deleted
+27,Public Interface,com.android.dialer.calllog.CallLogAdapter.OnReportButtonClickListener,0,0,0,1,1,0,1,1,1,3,0,0,Class Deleted
+28,Private Class,com.android.dialer.calllog.CallLogAdapter.QueryThread,3,1,2,0,3,1,3,3,3,36,2,33,Class Deleted
+29,Public Class,com.android.dialer.calllog.CallLogFragment,1,5,14,0,37,30,37,37,25,462,2,93,Lines Decreased
+30,Private Class,com.android.dialer.calllog.CallLogFragment.CustomContentObserver,1,1,1,0,2,0,2,2,2,9,2,0,No Change
+31,Anonymous Class,com.android.dialer.calllog.CallLogFragment.maybeAddFooterView.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+32,Anonymous Class,com.android.dialer.calllog.CallLogFragment.onCallsFetched.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+33,Anonymous Class,com.android.dialer.calllog.CallLogFragment.onItemExpanded.(Anon_4),6,1,3,0,1,0,1,1,1,72,2,0,Class Deleted
+34,Anonymous Class,com.android.dialer.calllog.CallLogFragment.onItemExpanded.(Anon_4).onPreDraw.(Anon_5),3,1,3,0,1,1,1,1,1,18,2,0,Class Deleted
+35,Anonymous Class,com.android.dialer.calllog.CallLogFragment.onItemExpanded.(Anon_4).onPreDraw.(Anon_6),2,1,4,0,1,0,1,1,1,11,2,0,Class Deleted
+36,Anonymous Class,com.android.dialer.calllog.CallLogFragment.updateVoicemailStatusMessage.(Anon_2),1,1,2,0,1,0,1,1,1,6,2,0,Class Deleted
+37,Public Class,com.android.dialer.calllog.CallLogGroupBuilder,3,1,2,0,6,1,6,6,2,121,1,50,No Change
+38,Public Interface,com.android.dialer.calllog.CallLogGroupBuilder.GroupCreator,0,0,0,1,3,0,3,3,3,5,0,0,No Change
+39,Class,com.android.dialer.calllog.CallLogListItemHelper,2,1,4,0,8,3,8,8,5,84,1,62,Lines Increased
+40,Public Class,com.android.dialer.calllog.CallLogListItemView,1,1,0,0,3,0,3,3,3,10,2,0,Class Deleted
+41,Public Class,com.android.dialer.calllog.CallLogListItemViews,1,1,1,0,1,21,3,3,2,54,1,84,Class Deleted
+42,Public Class,com.android.dialer.calllog.CallLogNotificationsHelper,1,1,1,0,0,0,2,2,2,11,1,0,Lines Decreased
+43,Public Class,com.android.dialer.calllog.CallLogNotificationsService,2,1,2,0,3,1,3,3,2,31,2,33,Lines Increased
+44,Public Class,com.android.dialer.calllog.CallLogQuery,0,1,0,0,0,0,0,0,0,49,1,0,Lines Increased
+45,Public Class,com.android.dialer.calllog.CallLogQueryHandler,2,1,4,0,14,2,14,14,8,155,2,82,Lines Increased
+46,Protected Class,com.android.dialer.calllog.CallLogQueryHandler.CatchingWorkerHandler,3,1,1,0,2,0,2,2,2,19,2,0,Lines Increased
+47,Public Interface,com.android.dialer.calllog.CallLogQueryHandler.Listener,0,0,0,4,2,0,2,2,0,4,0,0,Modified
+48,Public Class,com.android.dialer.calllog.CallLogReceiver,3,1,1,0,1,0,1,1,1,18,2,0,Lines Decreased
+49,Public Class,com.android.dialer.calllog.CallTypeHelper,3,1,0,0,3,9,4,4,4,65,1,50,No Change
+50,Public Class,com.android.dialer.calllog.CallTypeIconsView,1,1,1,0,11,5,11,11,8,109,2,61,No Change
+51,Private Static Class,com.android.dialer.calllog.CallTypeIconsView.Resources,1,1,0,0,1,6,1,1,1,29,1,0,No Change
+52,Public Class,com.android.dialer.calllog.ClearCallLogDialog,1,1,2,0,1,0,2,2,2,44,2,0,Lines Increased
+53,Anonymous Class,com.android.dialer.calllog.ClearCallLogDialog.onCreateDialog.(Anon_1),1,1,0,0,1,0,1,1,1,23,2,0,Lines Increased
+54,Anonymous Class,com.android.dialer.calllog.ClearCallLogDialog.onCreateDialog.(Anon_1).onClick.(Anon_2),1,1,3,0,2,0,2,2,0,13,2,0,Lines Increased
+55,Public Class,com.android.dialer.calllog.ContactInfoHelper,3,1,4,0,8,2,10,10,5,152,1,75,Lines Increased
+56,Public Class,com.android.dialer.calllog.ContactInfoHelper,3,1,4,0,8,2,10,10,5,152,1,75,Lines Increased
+57,Public Class,com.android.dialer.calllog.DefaultVoicemailNotifier,2,2,8,0,4,5,8,8,6,210,1,72,Lines Increased
+58,Private Static Class,com.android.dialer.calllog.DefaultVoicemailNotifier.DefaultNameLookupQuery,2,2,0,0,2,1,2,2,1,23,1,0,Lines Increased
+59,Private Static Class,com.android.dialer.calllog.DefaultVoicemailNotifier.DefaultNewCallsQuery,2,2,1,0,3,1,3,3,1,41,1,33,Lines Increased
+60,Public Interface,com.android.dialer.calllog.DefaultVoicemailNotifier.NameLookupQuery,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+61,Private Static Class,com.android.dialer.calllog.DefaultVoicemailNotifier.NewCall,1,1,0,0,1,4,1,1,1,13,1,0,Lines Increased
+62,Public Interface,com.android.dialer.calllog.DefaultVoicemailNotifier.NewCallsQuery,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+63,Public Abstract Class,com.android.dialer.calllog.IntentProvider,1,1,0,4,1,0,7,7,7,65,1,0,Lines Increased
+64,Public Abstract Class,com.android.dialer.calllog.IntentProvider,1,1,0,4,1,0,7,7,7,65,1,0,Lines Increased
+65,Anonymous Class,com.android.dialer.calllog.IntentProvider.getCallDetailIntentProvider.(Anon_4),3,1,1,0,1,0,8,1,1,17,2,0,Class Deleted
+66,Anonymous Class,com.android.dialer.calllog.IntentProvider.getCallDetailIntentProvider.(Anon_4),3,1,1,0,1,0,8,1,1,17,2,0,Class Deleted
+67,Anonymous Class,com.android.dialer.calllog.IntentProvider.getPlayVoicemailIntentProvider.(Anon_3),2,1,1,0,1,0,8,1,1,13,2,0,Class Deleted
+68,Anonymous Class,com.android.dialer.calllog.IntentProvider.getPlayVoicemailIntentProvider.(Anon_3),2,1,1,0,1,0,8,1,1,13,2,0,Class Deleted
+69,Anonymous Class,com.android.dialer.calllog.IntentProvider.getReturnCallIntentProvider.(Anon_1),1,1,0,0,1,0,8,1,1,5,2,0,Modified
+70,Anonymous Class,com.android.dialer.calllog.IntentProvider.getReturnCallIntentProvider.(Anon_1),1,1,0,0,1,0,8,1,1,5,2,0,Modified
+71,Anonymous Class,com.android.dialer.calllog.IntentProvider.getReturnVideoCallIntentProvider.(Anon_2),1,1,0,0,1,0,8,1,1,5,2,0,Modified
+72,Anonymous Class,com.android.dialer.calllog.IntentProvider.getReturnVideoCallIntentProvider.(Anon_2),1,1,0,0,1,0,8,1,1,5,2,0,Modified
+73,Public Class,com.android.dialer.calllog.PhoneNumberDisplayHelper,3,1,1,0,4,2,4,4,3,44,1,25,Class Deleted
+74,Public Class,com.android.dialer.calllog.PhoneNumberUtilsWrapper,2,1,0,0,3,0,6,6,6,41,1,0,Class Deleted
+75,Class,com.android.dialer.calllog.PhoneQuery,0,1,0,0,0,0,0,0,0,20,1,0,No Change
+76,Public Interface,com.android.dialer.calllog.VoicemailNotifier,0,0,0,1,2,0,2,2,2,3,0,0,Class Deleted
+77,Public Class,com.android.dialer.contact.ContactUpdateService,1,1,0,0,2,0,3,3,2,16,2,0,No Change
+78,Public Class,com.android.dialer.database.DialerDatabaseHelper,2,1,12,0,22,1,24,24,12,678,2,87,Lines Increased
+79,Private Class,com.android.dialer.database.DialerDatabaseHelper.ContactMatch,1,1,0,0,3,2,3,3,3,24,1,0,No Change
+80,Public Static Class,com.android.dialer.database.DialerDatabaseHelper.ContactNumber,1,1,0,0,3,6,3,3,3,37,1,0,No Change
+81,Public Interface,com.android.dialer.database.DialerDatabaseHelper.DeleteContactQuery,0,0,0,0,0,0,0,0,0,11,0,0,No Change
+82,Public Interface,com.android.dialer.database.DialerDatabaseHelper.PhoneQuery,0,0,0,0,0,0,0,0,0,43,0,0,No Change
+83,Public Interface,com.android.dialer.database.DialerDatabaseHelper.PrefixColumns,0,1,0,0,0,0,0,0,0,4,2,0,No Change
+84,Public Interface,com.android.dialer.database.DialerDatabaseHelper.PropertiesColumns,0,0,0,0,0,2,0,0,0,4,0,0,No Change
+85,Public Interface,com.android.dialer.database.DialerDatabaseHelper.SmartDialDbColumns,0,0,0,0,0,0,0,0,0,16,0,0,No Change
+86,Private Interface,com.android.dialer.database.DialerDatabaseHelper.SmartDialSortingOrder,0,0,2,0,0,0,0,0,0,21,0,0,No Change
+87,Private Class,com.android.dialer.database.DialerDatabaseHelper.SmartDialUpdateAsyncTask,2,1,1,0,3,0,3,3,0,24,2,0,No Change
+88,Public Interface,com.android.dialer.database.DialerDatabaseHelper.Tables,0,0,0,0,0,0,0,0,0,5,0,0,No Change
+89,Public Class,com.android.dialer.DialerApplication,2,1,0,0,2,1,2,2,2,19,2,50,Lines Decreased
+90,Public Class,com.android.dialer.DialerBackupAgent,1,1,1,0,1,0,1,1,1,8,2,0,No Change
+91,Public Class,com.android.dialer.dialpad.DialpadFragment,3,8,9,0,51,28,54,54,24,980,2,94,Lines Increased
+92,Anonymous Class,com.android.dialer.dialpad.DialpadFragment.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+93,Anonymous Class,com.android.dialer.dialpad.DialpadFragment.buildOptionsMenu.(Anon_3),2,1,1,0,1,0,1,1,1,12,2,0,Class Deleted
+94,Private Static Class,com.android.dialer.dialpad.DialpadFragment.DialpadChooserAdapter,1,1,1,0,5,2,5,5,5,59,2,50,No Change
+95,Static Class,com.android.dialer.dialpad.DialpadFragment.DialpadChooserAdapter.ChoiceItem,1,1,0,0,1,3,1,1,1,10,1,0,No Change
+96,Public Static Class,com.android.dialer.dialpad.DialpadFragment.DialpadSlidingRelativeLayout,1,1,0,0,5,0,5,5,5,21,2,0,Modified
+97,Public Static Class,com.android.dialer.dialpad.DialpadFragment.ErrorDialogFragment,1,1,0,0,2,2,4,4,4,41,2,50,No Change
+98,Anonymous Class,com.android.dialer.dialpad.DialpadFragment.ErrorDialogFragment.onCreateDialog.(Anon_4),1,1,0,0,1,0,1,1,1,5,2,0,Class Deleted
+99,Anonymous Class,com.android.dialer.dialpad.DialpadFragment.onCreateView.(Anon_2),2,1,1,0,1,0,1,1,1,9,2,0,Class Deleted
+100,Public Interface,com.android.dialer.dialpad.DialpadFragment.OnDialpadQueryChangedListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+101,Anonymous Class,com.android.dialer.dialpad.DialpadFragment.queryLastOutgoingCall.(Anon_5),2,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+102,Public Class,com.android.dialer.dialpad.LatinSmartDialMap,57,2,0,0,6,0,6,6,6,385,1,0,No Change
+103,Public Class,com.android.dialer.dialpad.SmartDialCursorLoader,2,1,5,0,9,6,9,9,5,89,2,75,Lines Increased
+104,Public Class,com.android.dialer.dialpad.SmartDialMatchPosition,1,1,0,0,2,2,4,4,3,24,1,25,No Change
+105,Public Class,com.android.dialer.dialpad.SmartDialMatchPosition,1,1,0,0,2,2,4,4,3,24,1,25,No Change
+106,Public Class,com.android.dialer.dialpad.SmartDialNameMatcher,3,1,4,0,15,5,17,17,13,211,1,83,Class Deleted
+107,Public Class,com.android.dialer.dialpad.SmartDialPrefix,3,1,3,0,0,0,12,12,9,427,1,86,No Change
+108,Public Static Class,com.android.dialer.dialpad.SmartDialPrefix.PhoneNumberTokens,1,1,0,0,1,3,1,1,1,10,1,0,No Change
+109,Public Class,com.android.dialer.dialpad.UnicodeDialerKeyListener,3,1,0,0,1,0,1,1,1,17,2,0,No Change
+110,Public Class,com.android.dialer.DialtactsActivity,2,12,19,0,60,30,67,62,37,779,3,94,Lines Increased
+111,Anonymous Class,com.android.dialer.DialtactsActivity.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+112,Anonymous Class,com.android.dialer.DialtactsActivity.(Anon_2),3,1,1,0,3,0,3,3,3,31,2,0,Lines Decreased
+113,Anonymous Class,com.android.dialer.DialtactsActivity.(Anon_3),2,1,2,0,1,0,1,1,1,8,2,0,Lines Increased
+114,Anonymous Class,com.android.dialer.DialtactsActivity.(Anon_4),2,1,1,0,1,0,1,1,1,9,2,0,Modified
+115,Private Class,com.android.dialer.DialtactsActivity.LayoutOnDragListener,2,2,2,0,1,0,1,1,1,9,1,0,No Change
+116,Anonymous Class,com.android.dialer.DialtactsActivity.onCreate.(Anon_5),1,2,1,0,1,0,1,1,1,5,1,0,Class Deleted
+117,Anonymous Class,com.android.dialer.DialtactsActivity.onCreate.(Anon_6),2,1,1,0,1,0,1,1,1,13,2,0,Lines Decreased
+118,Private Class,com.android.dialer.DialtactsActivity.OptionsPopupMenu,1,1,3,0,2,0,2,2,2,14,2,0,Lines Increased
+119,Anonymous Class,com.android.dialer.DialtactsActivity.setupActivityOverlay.(Anon_7),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+120,Public Class,com.android.dialer.interactions.PhoneNumberInteraction,2,2,4,0,10,7,15,15,5,315,1,81,No Change
+121,Public Static Class,com.android.dialer.interactions.PhoneNumberInteraction.PhoneDisambiguationDialogFragment,2,3,4,0,2,4,3,3,3,56,2,41,No Change
+122,Static Class,com.android.dialer.interactions.PhoneNumberInteraction.PhoneItem,1,3,0,0,7,7,7,7,6,57,1,67,No Change
+123,Anonymous Class,com.android.dialer.interactions.PhoneNumberInteraction.PhoneItem.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+124,Private Static Class,com.android.dialer.interactions.PhoneNumberInteraction.PhoneItemAdapter,1,1,1,0,2,1,2,2,2,18,2,0,No Change
+125,Public Class,com.android.dialer.interactions.UndemoteOutgoingCallReceiver,2,1,0,0,3,0,3,3,1,43,2,0,Lines Increased
+126,Anonymous Class,com.android.dialer.interactions.UndemoteOutgoingCallReceiver.onReceive.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+127,Public Class,com.android.dialer.list.AllContactsFragment,1,1,1,0,6,0,6,6,3,47,2,0,Lines Increased
+128,Anonymous Class,com.android.dialer.list.AllContactsFragment.createListAdapter.(Anon_1),1,1,0,0,1,0,1,1,0,6,2,0,Class Deleted
+129,Public Class,com.android.dialer.list.DialerPhoneNumberListAdapter,2,1,0,2,13,3,13,13,12,123,2,79,Lines Increased
+130,Public Class,com.android.dialer.list.DragDropController,2,1,3,0,6,3,6,6,5,51,1,50,No Change
+131,Public Interface,com.android.dialer.list.DragDropController.DragItemContainer,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+132,Public Class,com.android.dialer.list.ListsFragment,1,4,16,0,22,19,22,22,20,299,2,89,Lines Decreased
+133,Anonymous Class,com.android.dialer.list.ListsFragment.(Anon_1),2,2,3,0,5,0,5,5,5,46,1,0,Class Deleted
+134,Public Interface,com.android.dialer.list.ListsFragment.HostInterface,0,0,0,1,3,0,3,3,3,5,0,0,Lines Decreased
+135,Public Class,com.android.dialer.list.ListsFragment.ViewPagerAdapter,2,1,5,0,6,0,6,6,6,47,2,0,Lines Increased
+136,Public Interface,com.android.dialer.list.OnDragDropListener,0,0,1,3,4,0,4,4,4,5,0,0,No Change
+137,Public Interface,com.android.dialer.list.OnListFragmentScrolledListener,0,0,0,1,2,0,2,2,2,4,0,0,No Change
+138,Public Class,com.android.dialer.list.PhoneFavoriteListView,2,3,3,0,16,24,16,16,12,215,2,89,No Change
+139,Anonymous Class,com.android.dialer.list.PhoneFavoriteListView.(Anon_1),3,1,1,0,1,0,1,1,1,10,2,0,No Change
+140,Anonymous Class,com.android.dialer.list.PhoneFavoriteListView.(Anon_2),2,1,1,0,1,0,1,1,1,10,2,0,No Change
+141,Public Class,com.android.dialer.list.PhoneFavoriteSquareTileView,1,1,0,0,7,3,15,7,3,56,3,71,No Change
+142,Anonymous Class,com.android.dialer.list.PhoneFavoriteSquareTileView.loadFromContact.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+143,Public Class,com.android.dialer.list.PhoneFavoritesTileAdapter,2,2,4,0,33,29,33,33,24,383,2,91,Lines Increased
+144,Anonymous Class,com.android.dialer.list.PhoneFavoritesTileAdapter.(Anon_1),1,1,0,0,1,0,1,1,1,8,2,0,No Change
+145,Public Interface,com.android.dialer.list.PhoneFavoritesTileAdapter.OnDataSetChangedForAnimationListener,0,0,0,1,2,0,2,2,2,4,0,0,No Change
+146,Protected Static Class,com.android.dialer.list.PhoneFavoritesTileAdapter.ViewTypes,0,1,0,0,0,0,0,0,0,4,1,0,No Change
+147,Public Abstract Class,com.android.dialer.list.PhoneFavoriteTileView,1,1,0,1,8,2,8,8,2,77,2,81,No Change
+148,Anonymous Class,com.android.dialer.list.PhoneFavoriteTileView.createClickListener.(Anon_2),3,1,1,0,1,0,1,1,1,13,2,0,No Change
+149,Anonymous Class,com.android.dialer.list.PhoneFavoriteTileView.onFinishInflate.(Anon_1),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+150,Public Class,com.android.dialer.list.RegularSearchFragment,1,1,3,0,5,0,13,5,2,31,3,0,Lines Increased
+151,Public Class,com.android.dialer.list.RegularSearchListAdapter,2,1,2,0,3,0,16,3,3,43,3,0,Lines Increased
+152,Public Class,com.android.dialer.list.RemoveView,1,1,1,0,8,6,8,8,5,64,2,72,No Change
+153,Public Class,com.android.dialer.list.SearchFragment,3,1,5,2,8,8,8,8,5,143,2,76,Lines Increased
+154,Public Interface,com.android.dialer.list.SearchFragment.HostInterface,0,0,0,1,4,0,4,4,4,6,0,0,Lines Increased
+155,Anonymous Class,com.android.dialer.list.SearchFragment.onStart.(Anon_1),1,1,2,0,2,0,2,2,2,9,2,0,No Change
+156,Public Class,com.android.dialer.list.ShortcutCardsAdapter,1,1,7,0,10,15,10,10,10,257,2,84,Class Deleted
+157,Anonymous Class,com.android.dialer.list.ShortcutCardsAdapter.(Anon_1),1,2,4,0,3,0,3,3,3,15,1,0,Class Deleted
+158,Anonymous Class,com.android.dialer.list.ShortcutCardsAdapter.(Anon_2),1,2,2,0,2,0,2,2,2,10,1,0,Class Deleted
+159,Private Class,com.android.dialer.list.ShortcutCardsAdapter.CustomDataSetObserver,1,1,0,0,1,0,1,1,1,6,2,0,Class Deleted
+160,Class,com.android.dialer.list.ShortcutCardsAdapter.SwipeableShortcutCard,1,2,4,0,14,4,14,14,12,128,2,85,Class Deleted
+161,Public Class,com.android.dialer.list.SmartDialNumberListAdapter,2,1,4,0,5,1,18,5,4,64,3,40,Lines Increased
+162,Public Class,com.android.dialer.list.SmartDialSearchFragment,1,1,3,0,3,0,11,3,1,28,3,0,Lines Increased
+163,Public Class,com.android.dialer.list.SpeedDialFragment,2,3,11,0,14,14,14,14,10,268,2,87,Lines Increased
+164,Anonymous Class,com.android.dialer.list.SpeedDialFragment.animateGridView.(Anon_1),9,1,2,0,1,0,1,1,1,52,2,0,Lines Increased
+165,Private Class,com.android.dialer.list.SpeedDialFragment.ContactTileAdapterListener,1,2,1,0,3,0,3,3,3,18,1,0,No Change
+166,Private Class,com.android.dialer.list.SpeedDialFragment.ContactTileLoaderListener,2,2,2,0,3,0,3,3,3,17,1,0,No Change
+167,Public Interface,com.android.dialer.list.SpeedDialFragment.HostInterface,0,0,1,1,1,0,1,1,1,3,0,0,Lines Increased
+168,Private Class,com.android.dialer.list.SpeedDialFragment.ScrollListener,1,2,2,0,2,0,2,2,2,14,1,0,No Change
+169,Public Class,com.android.dialer.list.SwipeHelper,2,1,1,0,19,17,23,23,13,356,1,90,Class Deleted
+170,Anonymous Class,com.android.dialer.list.SwipeHelper.dismissChild.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,Class Deleted
+171,Anonymous Class,com.android.dialer.list.SwipeHelper.dismissChild.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+172,Public Interface,com.android.dialer.list.SwipeHelper.OnItemGestureListener,0,0,0,1,3,0,3,3,3,5,0,0,Class Deleted
+173,Anonymous Class,com.android.dialer.list.SwipeHelper.snapChild.(Anon_3),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+174,Anonymous Class,com.android.dialer.list.SwipeHelper.snapChild.(Anon_4),1,1,2,0,1,0,1,1,1,6,2,0,Class Deleted
+175,Public Interface,com.android.dialer.list.SwipeHelper.SwipeHelperCallback,0,0,0,1,7,0,7,7,0,9,0,0,Class Deleted
+176,Public Class,com.android.dialer.list.TileInteractionTeaserView,1,1,2,0,9,4,9,9,4,104,2,86,Class Deleted
+177,Anonymous Class,com.android.dialer.list.TileInteractionTeaserView.onFinishInflate.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+178,Anonymous Class,com.android.dialer.list.TileInteractionTeaserView.onLayout.(Anon_2),2,1,1,0,1,0,1,1,1,15,2,0,Class Deleted
+179,Anonymous Class,com.android.dialer.list.TileInteractionTeaserView.startDestroyAnimation.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+180,Anonymous Class,com.android.dialer.list.TileInteractionTeaserView.startDestroyAnimation.(Anon_4),1,1,1,0,4,0,4,4,4,18,2,0,Class Deleted
+181,Public Class,com.android.dialer.PhoneCallDetails,1,1,0,0,3,19,3,3,3,61,1,66,Lines Decreased
+182,Public Class,com.android.dialer.PhoneCallDetailsHelper,2,1,7,0,9,5,9,9,6,128,1,68,Class Deleted
+183,Public Class,com.android.dialer.PhoneCallDetailsViews,1,1,1,0,1,6,3,3,2,34,1,66,Class Deleted
+184,Public Interface,com.android.dialer.ProximitySensorAware,0,0,0,1,2,0,2,2,2,3,0,0,Class Deleted
+185,Public Class,com.android.dialer.ProximitySensorManager,2,1,2,0,3,2,3,3,3,110,1,16,Class Deleted
+186,Public Interface,com.android.dialer.ProximitySensorManager.Listener,0,0,0,1,2,0,2,2,2,4,0,0,Class Deleted
+187,Private Static Class,com.android.dialer.ProximitySensorManager.ProximitySensorEventListener,2,2,2,0,8,6,8,8,6,73,1,60,Class Deleted
+188,Public Interface,com.android.dialer.service.CachedNumberLookupService,0,0,1,0,8,0,8,8,8,15,0,0,Lines Increased
+189,Public Interface,com.android.dialer.service.CachedNumberLookupService.CachedContactInfo,0,0,0,0,4,0,4,4,4,6,0,0,Lines Increased
+190,Public Class,com.android.dialer.settings.DefaultRingtonePreference,1,1,0,0,4,0,4,4,1,17,2,0,Lines Increased
+191,Public Class,com.android.dialer.settings.GeneralSettingsFragment,3,2,0,0,4,7,4,4,4,89,2,50,Class Deleted
+192,Public Class,com.android.dialer.settings.GeneralSettingsFragment,3,2,0,0,4,7,4,4,4,89,2,50,Class Deleted
+193,Anonymous Class,com.android.dialer.settings.GeneralSettingsFragment.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,Class Deleted
+194,Anonymous Class,com.android.dialer.settings.GeneralSettingsFragment.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,Class Deleted
+195,Anonymous Class,com.android.dialer.settings.GeneralSettingsFragment.onCreate.(Anon_2),2,1,1,0,1,0,1,1,1,12,2,0,Class Deleted
+196,Anonymous Class,com.android.dialer.settings.GeneralSettingsFragment.onCreate.(Anon_2),2,1,1,0,1,0,1,1,1,12,2,0,Class Deleted
+197,Public Class,com.android.dialer.SpecialCharSequenceMgr,2,1,2,0,1,0,12,12,2,205,1,83,Lines Increased
+198,Private Static Class,com.android.dialer.SpecialCharSequenceMgr.QueryHandler,1,1,2,0,3,1,3,3,2,33,2,33,Lines Increased
+199,Private Static Class,com.android.dialer.SpecialCharSequenceMgr.SimContactQueryCookie,1,2,1,0,4,5,4,4,4,25,1,55,No Change
+200,Public Interface,com.android.dialer.util.AsyncTaskExecutor,0,0,0,1,1,0,1,1,0,2,0,0,No Change
+202,Public Class,com.android.dialer.util.AsyncTaskExecutors,1,1,3,0,0,0,4,4,4,43,1,25,No Change
+203,Public Interface,com.android.dialer.util.AsyncTaskExecutors.AsyncTaskExecutorFactory,0,0,1,0,1,0,1,1,0,3,0,0,No Change
+204,Private Static Class,com.android.dialer.util.AsyncTaskExecutors.SimpleAsyncTaskExecutor,1,2,1,0,2,1,2,2,2,12,1,0,No Change
+206,Public Class,com.android.dialer.util.DialerUtils,2,1,0,0,0,0,9,9,9,79,1,0,Lines Increased
+207,Public Class,com.android.dialer.util.EmptyLoader,1,1,0,0,1,0,1,1,1,20,2,0,No Change
+208,Public Static Class,com.android.dialer.util.EmptyLoader.Callback,1,2,1,0,4,1,4,4,4,16,1,50,No Change
+209,Public Generic Class,com.android.dialer.util.ExpirableCache,1,1,2,0,7,2,9,9,8,57,1,66,No Change
+210,Public Generic Interface,com.android.dialer.util.ExpirableCache.CachedValue,0,0,0,1,2,0,2,2,2,4,0,0,No Change
+216,Private Static Generic Class,com.android.dialer.util.ExpirableCache.GenerationalCachedValue,1,2,0,0,3,3,3,3,3,18,1,33,No Change
+220,Public Class,com.android.dialer.util.OrientationUtil,1,1,0,0,0,0,1,1,1,5,1,0,No Change
+221,Public Class,com.android.dialer.voicemail.VoicemailPlaybackFragment,1,1,5,0,6,2,10,10,5,345,2,76,Class Deleted
+222,Private Class,com.android.dialer.voicemail.VoicemailPlaybackFragment.ActivityReference,1,1,0,0,1,0,1,1,1,5,1,0,Class Deleted
+223,Private Static Class,com.android.dialer.voicemail.VoicemailPlaybackFragment.PlaybackViewImpl,1,2,4,0,31,8,31,31,29,206,1,80,Class Deleted
+224,Private Static Class,com.android.dialer.voicemail.VoicemailPlaybackFragment.TextViewWithMessagesController,1,1,0,0,3,4,3,3,3,40,1,41,Class Deleted
+225,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackFragment.TextViewWithMessagesController.setTemporaryText.(Anon_1),2,1,1,0,1,0,1,1,1,13,2,0,Class Deleted
+226,Public Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter,1,1,12,0,16,11,17,17,8,442,1,77,Lines Increased
+227,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.AsyncPrepareTask,3,1,3,0,3,1,3,3,2,47,2,33,Class Deleted
+228,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.checkThatWeHaveContent.(Anon_1),1,1,2,0,2,0,2,2,2,13,2,0,Class Deleted
+229,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.FetchResultHandler,1,2,4,0,5,2,5,5,5,43,2,60,Lines Increased
+230,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.FetchResultHandler.onChange.(Anon_2),2,1,3,0,2,0,2,2,2,14,2,0,Lines Decreased
+231,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.MediaPlayerCompletionListener,1,2,2,0,1,0,1,1,1,11,1,0,Class Deleted
+232,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.MediaPlayerCompletionListener.onCompletion.(Anon_5),1,1,2,0,1,0,1,1,1,5,2,0,Class Deleted
+233,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.MediaPlayerErrorListener,1,2,2,0,1,0,1,1,1,12,1,0,Class Deleted
+234,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.MediaPlayerErrorListener.onError.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+235,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.PlaybackPositionListener,2,2,2,0,3,1,3,3,3,25,1,33,Class Deleted
+236,Public Interface,com.android.dialer.voicemail.VoicemailPlaybackPresenter.PlaybackView,0,0,0,1,28,0,28,28,0,30,0,0,Lines Decreased
+237,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.PositionUpdater,1,2,2,0,4,5,4,4,4,45,1,55,Class Deleted
+238,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.PositionUpdater.(Anon_6),2,1,3,0,1,0,1,1,1,12,2,0,Class Deleted
+239,Anonymous Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.postSuccessfullyFetchedContent.(Anon_3),2,1,2,0,2,0,2,2,2,22,2,0,Class Deleted
+240,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.RateChangeListener,1,2,1,0,2,1,2,2,2,11,1,0,Class Deleted
+241,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.SpeakerphoneListener,2,2,2,0,1,0,1,1,1,12,1,0,Class Deleted
+242,Private Class,com.android.dialer.voicemail.VoicemailPlaybackPresenter.StartStopButtonListener,2,2,2,0,1,0,1,1,1,10,1,0,Class Deleted
+243,Public Interface,com.android.dialer.voicemail.VoicemailStatusHelper,0,0,0,1,2,0,2,2,2,24,0,0,Lines Increased
+244,Public Class,com.android.dialer.voicemail.VoicemailStatusHelper.StatusMessage,1,1,0,0,3,5,3,3,3,21,1,53,No Change
+245,Public Class,com.android.dialer.voicemail.VoicemailStatusHelperImpl,4,2,4,0,6,0,6,6,2,174,1,0,No Change
+246,Private Static Class,com.android.dialer.voicemail.VoicemailStatusHelperImpl.MessageStatusWithPriority,1,1,1,0,1,2,1,1,1,8,1,0,No Change
+247,Anonymous Class,com.android.dialer.voicemail.VoicemailStatusHelperImpl.reorderMessages.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+248,Public Class,com.android.dialer.widget.ActionBarController,2,1,3,0,14,4,14,14,14,152,1,55,Lines Increased
+249,Anonymous Class,com.android.dialer.widget.ActionBarController.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+250,Public Interface,com.android.dialer.widget.ActionBarController.ActivityUi,0,0,0,1,5,0,5,5,5,7,0,0,Lines Increased
+251,Anonymous Class,com.android.dialer.widget.ActionBarController.slideActionBar.(Anon_2),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+252,Public Class,com.android.dialer.widget.OverlappingPaneLayout,3,1,6,0,42,22,43,43,20,876,2,90,Class Deleted
+253,Class,com.android.dialer.widget.OverlappingPaneLayout.AccessibilityDelegate,2,1,1,0,3,1,3,3,2,51,2,66,Class Deleted
+254,Private Class,com.android.dialer.widget.OverlappingPaneLayout.DragHelperCallback,3,1,4,0,10,0,24,10,10,145,2,0,Class Deleted
+255,Public Static Class,com.android.dialer.widget.OverlappingPaneLayout.LayoutParams,1,1,0,0,6,2,6,6,6,29,2,83,Class Deleted
+256,Public Interface,com.android.dialer.widget.OverlappingPaneLayout.PanelSlideCallbacks,0,0,0,1,5,0,5,5,5,7,0,0,Class Deleted
+257,Static Class,com.android.dialer.widget.OverlappingPaneLayout.SavedState,1,1,0,0,3,1,3,3,1,24,2,33,Class Deleted
+258,Anonymous Class,com.android.dialer.widget.OverlappingPaneLayout.SavedState.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,Class Deleted
+259,Public Class,com.android.dialer.widget.SearchEditTextLayout,1,1,1,0,16,20,16,16,12,190,2,86,Lines Increased
+260,Public Interface,com.android.dialer.widget.SearchEditTextLayout.OnBackButtonClickedListener,0,0,0,1,1,0,1,1,1,3,0,0,Class Deleted
+261,Anonymous Class,com.android.dialer.widget.SearchEditTextLayout.onFinishInflate.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,Lines Decreased
+262,Anonymous Class,com.android.dialer.widget.SearchEditTextLayout.onFinishInflate.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,Lines Increased
+263,Anonymous Class,com.android.dialer.widget.SearchEditTextLayout.onFinishInflate.(Anon_3),2,1,2,0,1,0,1,1,1,7,2,0,No Change
+264,Anonymous Class,com.android.dialer.widget.SearchEditTextLayout.prepareAnimator.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+265,Public Class,com.android.dialer.widget.ViewDragHelper,2,1,1,0,55,23,57,57,34,790,1,88,Class Deleted
+266,Anonymous Class,com.android.dialer.widget.ViewDragHelper.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+267,Public Static Abstract Class,com.android.dialer.widget.ViewDragHelper.Callback,1,1,0,1,14,0,14,14,14,28,1,0,Class Deleted
+268,Public Class,com.android.dialerbind.DatabaseHelperManager,1,1,1,0,0,0,1,1,1,4,1,0,No Change
+269,Public Class,com.android.dialerbind.ObjectFactory,1,1,6,0,0,0,3,3,3,14,1,0,Lines Increased

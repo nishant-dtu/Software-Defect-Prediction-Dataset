@@ -1,0 +1,4 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.htmlviewer.FileContentProvider,1,1,0,0,7,0,7,7,7,46,2,0,Class Deleted
+1,Public Class,com.android.htmlviewer.HTMLViewerActivity,1,1,2,0,5,1,5,5,0,68,2,40,Modified
+2,Class,com.android.htmlviewer.HTMLViewerActivity.WebChrome,1,1,1,0,2,0,2,2,2,14,2,0,Class Deleted

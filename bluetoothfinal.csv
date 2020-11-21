@@ -1,0 +1,262 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,Main,1,1,0,0,0,0,1,1,1,173,1,0.0,Class Deleted
+1,Public Class,Main,1,1,0,0,0,0,7,7,7,76,1,0.0,Class Deleted
+2,Public Class,Main,1,1,0,0,0,0,5,5,5,157,1,0.0,Class Deleted
+3,Public Class,Main.main.BluetoothMapFolderElement,2,1,0,0,17,5,19,19,18,158,1,81.0,Class Deleted
+4,Public Class,com.android.bluetooth.Utils,1,1,0,0,0,0,17,17,17,152,1,0.0,Lines Increased
+5,Class,com.android.bluetooth.avrcp.Avrcp.Metadata,1,1,0,0,2,3,2,2,2,14,1,0.0,No Change
+6,Public Interface,com.android.bluetooth.btservice.ProfileService.IProfileServiceBinder,0,1,0,10,1,0,1,1,1,3,2,0.0,Modified
+7,Class,com.android.bluetooth.gatt.AdvertiseClient,1,1,0,0,4,5,4,4,2,32,1,65.0,Lines Increased
+8,Class,com.android.bluetooth.gatt.CallbackInfo,1,1,0,0,2,7,2,2,0,22,1,35.0,Lines Increased
+9,Class,com.android.bluetooth.gatt.ContextMap.Connection,1,1,0,0,1,3,1,1,0,10,1,0.0,No Change
+11,Class,com.android.bluetooth.gatt.GattService.ClientMap,0,1,0,0,0,0,13,0,0,1,2,0.0,Modified
+12,Class,com.android.bluetooth.gatt.GattService.ServerMap,0,1,0,0,0,0,13,0,0,1,2,0.0,Modified
+13,Class,com.android.bluetooth.gatt.GattServiceConfig,0,1,0,0,0,0,0,0,0,5,1,0.0,Lines Increased
+14,Class,com.android.bluetooth.gatt.GattServiceConfig,0,1,0,0,0,0,0,0,0,6,1,0.0,Lines Increased
+15,Class,com.android.bluetooth.gatt.ScanClient,1,1,0,0,7,7,7,7,2,48,1,83.0,Lines Increased
+16,Class,com.android.bluetooth.gatt.ScanFilterQueue.Entry,2,1,0,0,2,10,2,2,2,35,1,0.0,No Change
+17,Class,com.android.bluetooth.gatt.ScanManager.BatchScanParams,2,1,0,0,2,3,2,2,1,22,1,0.0,No Change
+18,Class,com.android.bluetooth.gatt.SearchQueue.Entry,0,1,0,0,0,8,0,0,0,10,1,0.0,No Change
+19,Private Class,com.android.bluetooth.hdp.HealthService.ChannelStateEvent,1,1,0,0,1,6,1,1,0,17,1,0.0,No Change
+20,Private Class,com.android.bluetooth.hdp.HealthService.HealthChannel,1,1,0,0,1,6,1,1,0,17,1,0.0,No Change
+21,Private Class,com.android.bluetooth.hfp.AtPhonebook.PhonebookResult,0,1,0,0,0,5,0,0,0,7,1,0.0,No Change
+22,Public Class,com.android.bluetooth.hfp.BluetoothCmeError,0,1,0,0,0,0,0,0,0,24,1,0.0,No Change
+23,Class,com.android.bluetooth.hfp.HeadsetCallState,1,1,0,0,1,5,1,1,1,14,1,0.0,No Change
+24,Class,com.android.bluetooth.hfp.HeadsetClccResponse,1,1,0,0,1,7,1,1,1,19,1,0.0,No Change
+25,Class,com.android.bluetooth.hfp.HeadsetDeviceState,1,1,0,0,1,4,1,1,0,12,1,0.0,No Change
+26,Public Class,com.android.bluetooth.hfp.HeadsetHalConstants,0,1,0,0,0,0,0,0,0,27,1,0.0,Lines Increased
+27,Class,com.android.bluetooth.hfp.HeadsetVendorSpecificResultCode,1,1,0,0,1,3,1,1,1,9,1,0.0,Lines Increased
+28,Public Class,com.android.bluetooth.hfpclient.HeadsetClientHalConstants,0,1,0,0,0,0,0,0,0,85,1,0.0,Lines Increased
+29,Public Class,com.android.bluetooth.map.BluetoothMapAppParams,2,1,0,0,61,25,61,61,59,663,1,96.0,Lines Increased
+30,Private Class,com.android.bluetooth.map.BluetoothMapContent.FilterInfo,1,1,0,0,3,34,3,3,3,75,1,70.0,Lines Increased
+31,Private Class,com.android.bluetooth.map.BluetoothMapContentObserver.Msg,2,1,0,0,4,7,4,4,4,38,1,75.0,Lines Increased
+32,Private Class,com.android.bluetooth.map.BluetoothMapContentObserver.PushMsgInfo,1,1,0,0,1,13,1,1,1,28,1,23.0,No Change
+33,Private Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter.ChildHolder,0,1,0,0,0,2,0,0,0,4,1,0.0,Class Deleted
+34,Private Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter.GroupHolder,0,1,0,0,0,3,0,0,0,5,1,0.0,Class Deleted
+35,Public Class,com.android.bluetooth.map.BluetoothMapEmailSettingsDataHolder,0,1,0,0,0,0,0,0,0,3,1,0.0,Class Deleted
+36,Public Class,com.android.bluetooth.map.BluetoothMapRfcommTransport,1,2,0,0,11,1,11,11,11,32,1,63.0,Class Deleted
+38,Public Class,com.android.bluetooth.map.BluetoothMapbMessageEmail,1,1,0,0,5,1,30,5,5,30,2,19.0,Lines Increased
+39,Public Class,com.android.bluetooth.map.BluetoothMnsRfcommTransport,1,2,0,0,12,1,12,12,12,37,1,58.0,Class Deleted
+40,Public Interface,com.android.bluetooth.opp.BluetoothOppBatch.BluetoothOppBatchListener,0,0,0,1,3,0,3,3,3,5,0,0.0,No Change
+41,Public Class,com.android.bluetooth.opp.BluetoothOppBtErrorActivity,1,2,0,0,3,1,3,3,1,29,2,33.0,Lines Increased
+42,Public Class,com.android.bluetooth.opp.BluetoothOppLiveFolder,1,1,0,0,1,0,2,2,0,28,2,0.0,Class Deleted
+43,Static Class,com.android.bluetooth.opp.BluetoothOppNotification.NotificationItem,0,1,0,0,0,8,0,0,0,10,1,0.0,No Change
+44,Public Class,com.android.bluetooth.opp.BluetoothOppPreference,2,1,0,0,8,6,9,9,7,94,1,75.0,Lines Increased
+45,Public Class,com.android.bluetooth.opp.BluetoothOppReceiveFileInfo,5,1,0,0,3,5,7,7,4,157,1,80.0,Lines Increased
+46,Public Class,com.android.bluetooth.opp.BluetoothOppRfcommListener,5,1,0,0,3,6,3,3,3,150,1,50.0,Lines Increased
+47,Public Class,com.android.bluetooth.opp.BluetoothOppRfcommTransport,1,2,0,0,12,1,12,12,12,37,1,58.0,Class Deleted
+48,Public Class,com.android.bluetooth.opp.BluetoothOppSendFileInfo,6,1,0,0,2,6,3,3,3,107,1,33.0,Lines Increased
+49,Public Class,com.android.bluetooth.opp.BluetoothOppShareInfo,2,1,0,0,4,14,4,4,4,60,1,64.0,Lines Increased
+50,Public Class,com.android.bluetooth.opp.BluetoothOppTransferInfo,0,1,0,0,0,12,0,0,0,14,1,0.0,No Change
+51,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_5),1,1,0,0,1,0,1,1,1,5,2,0.0,Modified
+52,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_7),1,1,0,0,1,0,1,1,1,12,2,0.0,No Change
+53,Class,com.android.bluetooth.opp.TestTcpListener,2,1,0,0,4,4,4,4,4,83,1,56.0,Modified
+54,Class,com.android.bluetooth.opp.TestTcpTransport,1,2,0,0,11,1,11,11,11,32,1,54.0,Lines Increased
+55,Private Class,com.android.bluetooth.pan.PanService.BluetoothPanDevice,1,1,0,0,1,4,1,1,0,12,1,0.0,No Change
+56,Protected Static Class,com.android.bluetooth.pan.PanService.ConnectState,1,1,0,0,1,5,1,1,1,14,1,0.0,No Change
+57,Public Class,com.android.bluetooth.pbap.BluetoothPbapCallLogComposer,2,1,0,0,12,5,12,12,9,182,1,73.0,Lines Increased
+58,Public Class,com.android.bluetooth.pbap.BluetoothPbapConfig,2,1,0,0,0,0,3,3,3,24,1,33.0,Lines Increased
+59,Public Static Class,com.android.bluetooth.pbap.BluetoothPbapObexServer.ContentType,0,1,0,0,0,0,0,0,0,7,1,0.0,No Change
+60,Public Class,com.android.bluetooth.pbap.BluetoothPbapRfcommTransport,1,2,0,0,11,1,11,11,11,32,1,63.0,Class Deleted
+61,Anonymous Class,com.android.bluetooth.pbap.BluetoothPbapVcardManager.composeAndSendVCards.(Anon_1),1,1,0,0,1,0,1,1,1,8,2,0.0,Class Deleted
+62,Private Class,com.android.bluetooth.a2dp.A2dpSinkStateMachine.StackEvent,1,1,1,0,1,4,1,1,0,9,1,75.0,No Change
+63,Private Class,com.android.bluetooth.a2dp.A2dpStateMachine.StackEvent,1,1,1,0,1,3,1,1,0,8,1,66.0,No Change
+64,Private Class,com.android.bluetooth.avrcp.Avrcp.AvrcpMessageHandler,28,1,1,0,2,0,2,2,1,191,2,0.0,No Change
+65,Private Static Class,com.android.bluetooth.avrcp.Avrcp.RemoteControllerWeak,2,2,1,0,6,1,6,6,6,46,1,0.0,No Change
+66,Private Class,com.android.bluetooth.avrcp.AvrcpControllerService.AvrcpMessageHandler,2,1,1,0,2,0,2,2,1,15,2,0.0,No Change
+67,Public Class,com.android.bluetooth.btservice.AdapterApp,2,1,1,0,3,0,3,3,2,32,2,33.0,Lines Increased
+68,Anonymous Class,com.android.bluetooth.btservice.AdapterService.(Anon_1),6,1,1,0,1,0,1,1,1,32,2,0.0,No Change
+69,Anonymous Class,com.android.bluetooth.btservice.AdapterService.(Anon_2),1,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+70,Private Class,com.android.bluetooth.btservice.BondStateMachine.StableState,3,1,1,0,2,0,2,2,2,35,2,0.0,Lines Increased
+71,Anonymous Class,com.android.bluetooth.btservice.RemoteDevices.(Anon_1),5,1,1,0,1,0,1,1,1,18,2,0.0,Lines Decreased
+72,Class,com.android.bluetooth.gatt.GattService.ServerDeathRecipient,1,2,1,0,2,1,2,2,2,10,1,0.0,No Change
+73,Class,com.android.bluetooth.gatt.ScanFilterQueue,2,1,1,0,16,1,16,16,0,194,1,12.0,Lines Increased
+74,Anonymous Class,com.android.bluetooth.gatt.ScanManager.ScanNative.ScanNative.(Anon_1),3,1,1,0,1,0,1,1,1,12,2,0.0,No Change
+75,Class,com.android.bluetooth.gatt.SearchQueue,1,1,1,0,6,1,6,6,0,57,1,0.0,Lines Increased
+76,Class,com.android.bluetooth.gatt.ServiceDeclaration.Entry,1,1,1,0,4,8,4,4,0,35,1,46.0,No Change
+77,Private Static Class,com.android.bluetooth.hdp.HealthService.BluetoothHealthDeathRecipient,1,2,1,0,3,2,3,3,3,16,1,0.0,No Change
+78,Anonymous Class,com.android.bluetooth.hfp.HeadsetStateMachine.(Anon_1),2,1,1,0,2,0,2,2,2,9,2,0.0,No Change
+79,Private Class,com.android.bluetooth.hfp.HeadsetStateMachine.StackEvent,1,1,1,0,1,5,1,1,0,10,1,80.0,No Change
+80,Private Class,com.android.bluetooth.hfpclient.HeadsetClientStateMachine.StackEvent,1,1,1,0,2,7,2,2,1,24,1,42.0,No Change
+81,Anonymous Class,com.android.bluetooth.map.BluetoothMapContentObserver.(Anon_1),1,1,1,0,2,0,2,2,2,11,2,0.0,Lines Increased
+82,Anonymous Class,com.android.bluetooth.map.BluetoothMapContentObserver.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+83,Anonymous Class,com.android.bluetooth.map.BluetoothMapEmailAppObserver.registerObserver.(Anon_1),2,1,1,0,2,0,2,2,2,15,2,0.0,Class Deleted
+84,Anonymous Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter.getGroupView.(Anon_3).onCheckedChanged.(Anon_4),2,1,1,0,1,0,1,1,1,5,2,0.0,Class Deleted
+85,Public Class,com.android.bluetooth.map.BluetoothMapEmailSettingsItem,2,2,1,0,16,8,16,16,16,128,1,74.0,Class Deleted
+86,Anonymous Class,com.android.bluetooth.map.BluetoothMapService.(Anon_1),23,1,1,0,1,0,1,1,1,73,2,0.0,No Change
+87,Public Class,com.android.bluetooth.map.BluetoothMapSmsPdu,6,1,1,0,0,0,6,6,3,498,1,75.0,Lines Increased
+88,Public Static Class,com.android.bluetooth.map.BluetoothMapSmsPdu.SmsPdu,2,1,1,0,26,9,26,26,17,308,1,82.0,No Change
+89,Private Static Class,com.android.bluetooth.map.BluetoothMapbMessage.BMsgReader,3,1,1,0,7,1,7,7,6,80,1,57.0,Lines Increased
+90,Public Static Class,com.android.bluetooth.map.BluetoothMapbMessage.vCard,3,1,1,0,10,6,11,11,10,142,1,60.0,Lines Increased
+91,Public Class,com.android.bluetooth.map.BluetoothMapbMessageMms,3,1,1,0,48,16,74,49,43,585,2,91.0,Class Deleted
+92,Public Static Class,com.android.bluetooth.map.BluetoothMapbMessageMms.MimePart,6,1,1,0,3,9,3,3,2,76,1,59.0,Class Deleted
+93,Private Class,com.android.bluetooth.map.BluetoothMnsObexClient.MnsObexClientHandler,2,1,1,0,2,0,2,2,1,18,2,0.0,No Change
+94,Public Class,com.android.bluetooth.opp.BluetoothOppBtEnablingActivity,2,1,1,0,5,3,5,5,1,84,2,60.0,Lines Increased
+95,Anonymous Class,com.android.bluetooth.opp.BluetoothOppBtEnablingActivity.(Anon_1),3,1,1,0,1,0,1,1,1,12,2,0.0,No Change
+96,Anonymous Class,com.android.bluetooth.opp.BluetoothOppBtEnablingActivity.(Anon_2),4,1,1,0,1,0,1,1,1,16,2,0.0,No Change
+97,Public Class,com.android.bluetooth.opp.BluetoothOppHandoverReceiver,17,1,1,0,1,0,1,1,1,54,2,0.0,Lines Increased
+98,Anonymous Class,com.android.bluetooth.opp.BluetoothOppIncomingFileConfirmActivity.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0.0,Modified
+99,Anonymous Class,com.android.bluetooth.opp.BluetoothOppIncomingFileConfirmActivity.(Anon_2),3,1,1,0,1,0,1,1,1,12,2,0.0,No Change
+100,Private Class,com.android.bluetooth.opp.BluetoothOppNotification.NotificationUpdateThread,1,1,1,0,2,0,2,2,2,22,2,0.0,No Change
+101,Public Interface,com.android.bluetooth.opp.BluetoothOppObexSession,0,0,1,2,4,6,4,4,0,11,0,0.0,Lines Increased
+102,Private Class,com.android.bluetooth.opp.BluetoothOppProvider.DatabaseHelper,2,1,1,0,3,0,3,3,3,23,2,0.0,No Change
+103,Anonymous Class,com.android.bluetooth.opp.BluetoothOppService.(Anon_3),6,1,1,0,1,0,1,1,1,18,2,0.0,No Change
+104,Private Class,com.android.bluetooth.opp.BluetoothOppService.BluetoothShareContentObserver,1,1,1,0,2,0,2,2,2,10,2,0.0,No Change
+105,Anonymous Class,com.android.bluetooth.opp.BluetoothOppService.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+106,Private Class,com.android.bluetooth.opp.BluetoothOppTransferActivity.BluetoothTransferContentObserver,1,1,1,0,2,0,2,2,2,11,2,0.0,No Change
+107,Anonymous Class,com.android.bluetooth.opp.BluetoothOppTransferHistory.promptClearList.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+108,Public Class,com.android.bluetooth.opp.TestActivity,3,1,1,0,1,16,1,1,1,141,2,18.0,Modified
+109,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_1),8,1,1,0,1,0,1,1,1,39,2,0.0,Modified
+110,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0.0,Modified
+111,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_3),1,1,1,0,1,0,1,1,1,9,2,0.0,Modified
+112,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_4),1,1,1,0,1,0,1,1,1,8,2,0.0,Modified
+113,Class,com.android.bluetooth.opp.TestTcpServer,1,2,1,0,10,1,10,10,10,79,2,90.0,Modified
+114,Class,com.android.bluetooth.opp.TestTcpSessionNotifier,1,1,1,0,3,2,3,3,3,21,1,50.0,No Change
+115,Public Class,com.android.bluetooth.pan.BluetoothTetheringNetworkFactory,1,1,1,0,7,6,7,7,3,107,2,71.0,Lines Increased
+116,Anonymous Class,com.android.bluetooth.pan.BluetoothTetheringNetworkFactory.startNetwork.(Anon_1),3,1,1,0,1,0,1,1,1,33,2,0.0,No Change
+117,Anonymous Class,com.android.bluetooth.pan.BluetoothTetheringNetworkFactory.startNetwork.(Anon_1).run.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+118,Anonymous Class,com.android.bluetooth.pbap.BluetoothPbapActivity.(Anon_2),3,1,1,0,1,0,1,1,1,12,2,0.0,No Change
+119,Public Class,com.android.bluetooth.pbap.BluetoothPbapAuthenticator,1,2,1,0,7,4,7,7,6,48,1,60.0,Lines Increased
+120,Private Class,com.android.bluetooth.pbap.BluetoothPbapObexServer.AppParamValue,1,1,1,0,2,9,2,2,2,27,1,11.0,No Change
+121,Public Class,com.android.bluetooth.pbap.BluetoothPbapReceiver,9,1,1,0,1,0,1,1,1,32,2,0.0,Lines Increased
+122,Anonymous Class,com.android.bluetooth.pbap.BluetoothPbapService.(Anon_1),14,1,1,0,1,0,1,1,1,64,2,0.0,No Change
+123,Public Class,com.android.bluetooth.pbap.BluetoothPbapVcardManager.FilterVcard,10,1,1,0,6,20,6,6,4,208,1,75.0,Class Deleted
+124,Private Class,com.android.bluetooth.a2dp.A2dpSinkStateMachine.Connected,5,1,2,0,4,0,4,4,2,115,2,0.0,No Change
+125,Private Class,com.android.bluetooth.a2dp.A2dpSinkStateMachine.IntentBroadcastHandler,1,1,2,0,2,0,2,2,1,21,2,0.0,No Change
+126,Private Class,com.android.bluetooth.a2dp.A2dpSinkStateMachine.Pending,10,1,2,0,3,0,3,3,2,167,2,0.0,No Change
+127,Private Class,com.android.bluetooth.a2dp.A2dpStateMachine.IntentBroadcastHandler,1,1,2,0,2,0,2,2,1,21,2,0.0,No Change
+128,Private Class,com.android.bluetooth.a2dp.A2dpStateMachine.Pending,9,1,2,0,3,0,3,3,2,163,2,0.0,Lines Increased
+129,Private Static Class,com.android.bluetooth.btservice.AdapterService.AdapterServiceBinder,2,1,2,0,54,1,54,54,54,429,2,94.0,Lines Increased
+130,Class,com.android.bluetooth.btservice.RemoteDevices.DeviceProperties,1,1,2,0,11,8,11,11,0,69,1,85.0,Lines Increased
+131,Class,com.android.bluetooth.gatt.ContextMap.App,1,1,2,0,5,6,5,5,0,38,1,66.0,No Change
+132,Class,com.android.bluetooth.gatt.ServiceDeclaration,1,1,2,0,8,2,8,8,0,88,1,25.0,Lines Increased
+133,Private Static Class,com.android.bluetooth.hdp.HealthService.AppInfo,3,1,2,0,2,3,2,2,0,29,1,16.0,No Change
+134,Anonymous Class,com.android.bluetooth.hfp.HeadsetPhoneState.(Anon_1),8,1,2,0,4,0,4,4,2,74,2,0.0,Lines Decreased
+135,Anonymous Class,com.android.bluetooth.hfp.HeadsetService.(Anon_1),6,1,2,0,1,0,1,1,1,22,2,0.0,No Change
+136,Anonymous Class,com.android.bluetooth.hfpclient.HeadsetClientService.(Anon_1),4,1,2,0,1,0,1,1,1,18,2,0.0,No Change
+137,Anonymous Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter.BluetoothMapEmailSettingsAdapter.(Anon_1),2,1,2,0,1,0,1,1,1,6,2,0.0,Class Deleted
+138,Anonymous Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter.getGroupView.(Anon_3),5,1,2,0,1,0,1,1,1,28,2,0.0,Class Deleted
+139,Public Class,com.android.bluetooth.map.BluetoothMapEmailSettingsLoader,5,1,2,0,5,5,5,5,5,116,1,60.0,Class Deleted
+140,Private Class,com.android.bluetooth.map.BluetoothMapMasInstance.SocketAcceptThread,8,1,2,0,2,1,2,2,1,59,2,0.0,Class Deleted
+141,Public Class,com.android.bluetooth.map.BluetoothMapMessageListing,2,1,2,0,8,2,8,8,8,71,1,43.0,Lines Increased
+142,Public Class,com.android.bluetooth.map.BluetoothMapMessageListingElement,1,2,2,0,41,20,42,42,41,211,1,92.0,Lines Increased
+143,Public Class,com.android.bluetooth.map.BluetoothMapUtils,3,1,2,0,0,0,5,5,5,77,1,0.0,Lines Increased
+144,Public Class,com.android.bluetooth.opp.BluetoothOppBatch,2,1,2,0,9,8,9,9,9,82,1,75.0,Lines Increased
+145,Public Class,com.android.bluetooth.opp.BluetoothOppBtEnableActivity,1,2,2,0,3,0,3,3,1,40,2,0.0,Lines Increased
+146,Public Class,com.android.bluetooth.opp.BluetoothOppIncomingFileConfirmActivity,2,2,2,0,8,7,8,8,2,135,2,69.0,Modified
+147,Anonymous Class,com.android.bluetooth.opp.BluetoothOppLauncherActivity.onCreate.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+148,Anonymous Class,com.android.bluetooth.opp.BluetoothOppLauncherActivity.onCreate.(Anon_2),1,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+149,Anonymous Class,com.android.bluetooth.opp.BluetoothOppLauncherActivity.onCreate.(Anon_3),1,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+150,Private Class,com.android.bluetooth.opp.BluetoothOppManager.InsertShareInfoThread,3,1,2,0,4,7,4,4,2,82,2,39.0,Lines Decreased
+151,Anonymous Class,com.android.bluetooth.opp.BluetoothOppNotification.(Anon_1),7,1,2,0,1,0,1,1,1,19,2,0.0,No Change
+152,Public Class,com.android.bluetooth.opp.BluetoothOppObexClientSession,3,2,2,0,5,6,7,7,6,455,1,76.0,Lines Increased
+153,Public Class,com.android.bluetooth.opp.BluetoothOppProvider,5,1,2,0,8,1,10,10,6,315,2,50.0,Lines Decreased
+154,Private Static Class,com.android.bluetooth.opp.BluetoothOppService.MediaScannerNotifier,3,2,2,0,3,4,3,3,3,46,1,25.0,No Change
+155,Private Class,com.android.bluetooth.opp.BluetoothOppService.UpdateThread,15,1,2,0,2,0,2,2,2,111,2,0.0,Modified
+156,Anonymous Class,com.android.bluetooth.opp.BluetoothOppTransfer.setConfirmed.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0.0,Class Deleted
+157,Public Class,com.android.bluetooth.opp.BluetoothOppTransferAdapter,4,1,2,0,2,1,2,2,2,62,2,0.0,Lines Increased
+158,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_6),1,1,2,0,1,0,1,1,1,6,2,0.0,No Change
+159,Anonymous Class,com.android.bluetooth.opp.TestActivity.(Anon_7).onClick.(Anon_8),1,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+160,Anonymous Class,com.android.bluetooth.opp.TestTcpListener.start.(Anon_9),12,1,2,0,1,1,1,1,1,41,2,0.0,No Change
+161,Public Class,com.android.bluetooth.pbap.BluetoothPbapActivity,1,4,2,0,17,11,17,17,5,198,2,86.0,Lines Increased
+162,Anonymous Class,com.android.bluetooth.pbap.BluetoothPbapActivity.(Anon_1),2,1,2,0,1,0,1,1,1,8,2,0.0,No Change
+163,Anonymous Class,com.android.bluetooth.pbap.BluetoothPbapService.(Anon_2),3,1,2,0,5,0,5,5,5,62,2,0.0,No Change
+164,Private Class,com.android.bluetooth.pbap.BluetoothPbapService.SocketAcceptThread,10,1,2,0,2,1,2,2,1,83,2,0.0,No Change
+165,Public Class,com.android.bluetooth.pbap.BluetoothPbapVcardManager.HandlerForStringBuffer,3,1,2,0,5,3,5,5,4,46,1,46.0,No Change
+166,Private Static Class,com.android.bluetooth.a2dp.A2dpService.BluetoothA2dpBinder,1,2,3,0,14,1,14,14,12,76,2,78.0,No Change
+167,Public Class,com.android.bluetooth.a2dp.A2dpSinkService,1,1,3,0,11,1,33,14,3,147,3,57.0,Lines Increased
+168,Private Static Class,com.android.bluetooth.a2dp.A2dpSinkService.BluetoothA2dpSinkBinder,1,2,3,0,9,1,9,9,7,51,2,66.0,No Change
+169,Private Class,com.android.bluetooth.a2dp.A2dpSinkStateMachine.Disconnected,4,1,3,0,4,0,4,4,3,107,2,0.0,No Change
+170,Private Class,com.android.bluetooth.a2dp.A2dpStateMachine.Connected,5,1,3,0,4,0,4,4,2,119,2,0.0,Lines Increased
+171,Private Class,com.android.bluetooth.a2dp.A2dpStateMachine.Disconnected,4,1,3,0,4,0,4,4,3,104,2,0.0,No Change
+172,Private Static Class,com.android.bluetooth.avrcp.AvrcpControllerService.BluetoothAvrcpControllerBinder,1,2,3,0,7,1,7,7,5,42,2,57.0,No Change
+173,Private Class,com.android.bluetooth.btservice.AdapterState.OffState,4,1,3,0,2,0,2,2,2,32,2,0.0,Lines Decreased
+174,Private Class,com.android.bluetooth.btservice.AdapterState.PendingCommandState,6,1,3,0,6,2,6,6,6,144,2,66.0,Lines Increased
+175,Public Abstract Class,com.android.bluetooth.btservice.ProfileService,2,1,3,10,19,5,19,19,6,160,2,78.0,Lines Increased
+176,Class,com.android.bluetooth.btservice.RemoteDevices,2,1,3,0,18,3,18,18,1,310,1,79.0,Lines Decreased
+177,Private Class,com.android.bluetooth.gatt.AdvertiseManager.AdvertiseNative,3,1,3,0,15,0,15,15,0,173,1,0.0,Lines Increased
+178,Generic Class,com.android.bluetooth.gatt.ContextMap,2,1,3,2,13,2,13,13,0,189,1,46.0,Lines Increased
+179,Class,com.android.bluetooth.gatt.GattDebugUtils,5,1,3,0,0,0,4,4,0,131,1,0.0,Lines Decreased
+180,Private Static Class,com.android.bluetooth.hdp.HealthService.BluetoothHealthBinder,1,2,3,0,12,1,12,12,11,70,2,75.0,No Change
+181,Class,com.android.bluetooth.hfp.HeadsetPhoneState,1,1,3,0,21,14,21,21,1,181,1,90.0,Lines Increased
+182,Private Static Class,com.android.bluetooth.hfp.HeadsetService.BluetoothHeadsetBinder,2,2,3,0,27,1,27,27,26,147,2,88.0,No Change
+183,Public Class,com.android.bluetooth.hfpclient.HeadsetClientService,2,1,3,0,33,2,55,36,12,600,3,70.0,Lines Increased
+184,Private Static Class,com.android.bluetooth.hfpclient.HeadsetClientService.BluetoothHeadsetClientBinder,1,2,3,0,31,1,31,31,30,246,2,90.0,No Change
+185,Private Class,com.android.bluetooth.hfpclient.HeadsetClientStateMachine.AudioOn,4,1,3,0,5,0,5,5,3,115,2,0.0,No Change
+186,Private Class,com.android.bluetooth.hfpclient.HeadsetClientStateMachine.Connecting,9,1,3,0,4,0,4,4,3,107,2,0.0,Lines Increased
+187,Private Static Class,com.android.bluetooth.hid.HidService.BluetoothInputDeviceBinder,1,2,3,0,16,1,16,16,15,84,2,81.0,No Change
+188,Private Class,com.android.bluetooth.map.BluetoothMapContentObserver.Event,7,1,3,0,2,5,2,2,2,64,1,0.0,Lines Increased
+189,Private Class,com.android.bluetooth.map.BluetoothMapContentObserver.SmsBroadcastReceiver,5,1,3,0,5,2,5,5,3,142,2,80.0,Lines Decreased
+190,Public Class,com.android.bluetooth.map.BluetoothMapEmailAppObserver,3,1,3,0,13,8,13,13,6,194,1,77.0,Class Deleted
+191,Anonymous Class,com.android.bluetooth.map.BluetoothMapEmailAppObserver.createReceiver.(Anon_2),8,1,3,0,1,0,1,1,1,28,2,0.0,Class Deleted
+192,Public Class,com.android.bluetooth.map.BluetoothMapEmailSettings,1,1,3,0,1,2,1,1,0,15,2,0.0,Class Deleted
+193,Anonymous Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter.getChildView.(Anon_2),10,1,3,0,1,0,1,1,1,50,2,0.0,Class Deleted
+194,Private Static Class,com.android.bluetooth.map.BluetoothMapService.BluetoothMapBinder,2,2,3,0,13,1,13,13,11,82,2,76.0,Lines Increased
+195,Anonymous Class,com.android.bluetooth.opp.BluetoothOppRfcommListener.start.(Anon_1),24,1,3,0,1,0,1,1,1,88,2,0.0,Modified
+196,Anonymous Class,com.android.bluetooth.opp.BluetoothOppService.(Anon_2),21,1,3,0,1,0,1,1,1,107,2,0.0,Modified
+197,Private Static Class,com.android.bluetooth.pan.PanService.BluetoothPanBinder,1,2,3,0,12,1,12,12,9,67,2,75.0,Lines Increased
+198,Public Class,com.android.bluetooth.pbap.BluetoothPbapUtils,3,1,3,0,0,0,8,8,8,125,1,95.0,Lines Increased
+199,Public Class,com.android.bluetooth.a2dp.A2dpService,1,1,4,0,17,2,39,20,9,217,3,68.0,Lines Increased
+200,Public Class,com.android.bluetooth.avrcp.Avrcp,2,1,4,0,40,28,42,42,7,685,1,91.0,Lines Increased
+201,Public Class,com.android.bluetooth.avrcp.AvrcpControllerService,2,1,4,0,16,2,39,20,4,189,3,79.0,Lines Increased
+202,Class,com.android.bluetooth.btservice.AdapterProperties,2,1,4,0,41,25,41,41,4,435,1,92.0,Lines Increased
+203,Private Class,com.android.bluetooth.btservice.AdapterState.OnState,4,1,4,0,2,0,2,2,2,40,2,0.0,Lines Decreased
+204,Private Class,com.android.bluetooth.btservice.BondStateMachine.PendingCommandState,8,1,4,0,2,1,2,2,2,82,2,50.0,Lines Increased
+205,Class,com.android.bluetooth.btservice.JniCallbacks,1,1,4,0,14,4,14,14,1,56,1,67.0,Lines Decreased
+206,Private Static Class,com.android.bluetooth.gatt.GattService.BluetoothGattBinder,1,2,4,0,38,1,38,38,37,244,2,92.0,Lines Increased
+207,Class,com.android.bluetooth.gatt.GattService.ClientDeathRecipient,3,2,4,0,3,1,3,3,2,32,1,33.0,No Change
+208,Private Class,com.android.bluetooth.hfpclient.HeadsetClientStateMachine.Connected,20,1,4,0,6,0,6,6,3,509,2,0.0,Lines Increased
+209,Public Class,com.android.bluetooth.hid.HidService,2,1,4,0,38,4,62,43,5,563,3,85.0,Lines Increased
+210,Anonymous Class,com.android.bluetooth.hid.HidService.(Anon_1),27,1,4,0,1,0,1,1,1,141,2,0.0,No Change
+211,Private Class,com.android.bluetooth.map.BluetoothMapService.MapBroadcastReceiver,27,1,4,0,1,0,1,1,1,100,2,0.0,Lines Increased
+212,Public Class,com.android.bluetooth.map.BluetoothMapbMessageSms,2,1,4,0,6,2,31,6,6,54,2,41.0,Lines Increased
+213,Public Class,com.android.bluetooth.map.BluetoothMnsObexClient,5,1,4,0,11,9,11,11,8,268,1,76.0,Lines Increased
+214,Public Class,com.android.bluetooth.opp.BluetoothOppLauncherActivity,10,1,4,0,4,0,5,5,1,242,2,0.0,Lines Increased
+215,Class,com.android.bluetooth.opp.BluetoothOppNotification,9,1,4,0,5,8,5,5,1,355,1,60.0,Lines Increased
+216,Private Class,com.android.bluetooth.opp.BluetoothOppTransfer.SocketConnectThread,4,1,4,0,7,7,7,7,5,139,2,55.0,Modified
+217,Public Class,com.android.bluetooth.opp.BluetoothOppUtility,4,1,4,0,0,0,13,13,8,233,1,0.0,Lines Decreased
+218,Anonymous Class,com.android.bluetooth.pan.PanService.(Anon_1),7,1,4,0,1,0,1,1,1,45,2,0.0,No Change
+219,Public Class,com.android.bluetooth.pbap.BluetoothPbapObexServer,7,1,4,0,24,8,27,27,13,827,2,91.0,Lines Increased
+220,Class,com.android.bluetooth.btservice.AdapterState,1,1,5,0,9,5,10,10,5,305,2,78.0,Lines Increased
+221,Class,com.android.bluetooth.gatt.AdvertiseManager,1,1,5,0,10,5,10,10,0,310,1,80.0,Lines Increased
+222,Private Class,com.android.bluetooth.gatt.ScanManager.ClientHandler,2,1,5,0,7,0,7,7,1,82,2,0.0,Lines Increased
+223,Public Class,com.android.bluetooth.hfp.AtPhonebook,5,1,5,0,17,13,19,19,9,477,1,80.0,Lines Increased
+224,Private Class,com.android.bluetooth.hfpclient.HeadsetClientStateMachine.Disconnected,4,1,5,0,4,0,4,4,3,104,2,0.0,No Change
+225,Public Class,com.android.bluetooth.map.BluetoothMapEmailSettingsAdapter,1,1,5,0,17,8,17,17,14,242,2,86.0,Class Deleted
+226,Public Class,com.android.bluetooth.opp.BluetoothOppManager,2,1,5,0,14,13,15,15,11,290,1,79.0,Lines Decreased
+227,Private Class,com.android.bluetooth.opp.BluetoothOppObexClientSession.ClientThread,7,1,5,0,10,9,10,10,4,378,2,65.0,Lines Increased
+228,Public Class,com.android.bluetooth.opp.BluetoothOppObexServerSession,7,2,5,0,13,14,13,13,10,412,2,78.0,Lines Increased
+229,Private Class,com.android.bluetooth.opp.BluetoothOppTransfer.EventHandler,15,1,5,0,2,0,2,2,2,101,2,0.0,Modified
+230,Public Class,com.android.bluetooth.opp.BluetoothOppTransferActivity,6,2,5,0,9,15,9,9,1,311,2,74.0,Lines Decreased
+231,Public Class,com.android.bluetooth.opp.BluetoothOppTransferHistory,2,3,5,0,12,8,12,12,7,194,2,73.0,Modified
+232,Private Class,com.android.bluetooth.gatt.AdvertiseManager.ClientHandler,2,1,6,0,5,0,5,5,1,60,2,0.0,Lines Increased
+233,Public Class,com.android.bluetooth.gatt.ScanManager,1,1,6,0,13,10,13,13,0,680,1,90.0,Lines Increased
+234,Public Class,com.android.bluetooth.hdp.HealthService,3,1,6,0,39,5,59,40,0,700,3,81.0,Lines Increased
+235,Public Class,com.android.bluetooth.hfp.HeadsetService,2,1,6,0,29,2,51,32,6,430,3,71.0,Lines Increased
+236,Private Class,com.android.bluetooth.hfp.HeadsetStateMachine.Pending,11,1,6,0,4,0,4,4,2,247,2,0.0,No Change
+237,Public Class,com.android.bluetooth.pan.PanService,3,1,6,0,27,8,48,29,1,472,3,84.0,Lines Increased
+238,Private Class,com.android.bluetooth.gatt.ScanManager.ScanNative,3,1,7,0,43,6,43,43,0,495,1,88.0,Lines Increased
+239,Private Class,com.android.bluetooth.hdp.HealthService.HealthServiceMessageHandler,11,1,7,0,2,0,2,2,1,141,2,0.0,No Change
+240,Public Class,com.android.bluetooth.map.BluetoothMapMasInstance,3,1,7,0,13,16,13,13,9,267,1,81.0,Lines Increased
+241,Private Class,com.android.bluetooth.hfp.HeadsetStateMachine.Disconnected,5,1,8,0,4,0,4,4,3,134,2,0.0,No Change
+242,Private Class,com.android.bluetooth.hfp.HeadsetStateMachine.MultiHFPending,17,1,8,0,5,0,5,5,2,399,2,0.0,Lines Increased
+243,Public Abstract Class,com.android.bluetooth.map.BluetoothMapbMessage,4,1,8,3,24,11,25,25,21,628,1,87.0,Lines Increased
+244,Public Class,com.android.bluetooth.opp.BluetoothOppReceiver,49,1,8,0,1,0,1,1,1,195,2,0.0,Lines Increased
+245,Public Class,com.android.bluetooth.opp.BluetoothOppTransfer,3,2,8,0,16,10,16,16,9,461,1,80.0,Lines Increased
+246,Public Class,com.android.bluetooth.pbap.BluetoothPbapService,4,1,8,0,19,16,22,22,8,622,2,89.0,Lines Increased
+247,Public Class,com.android.bluetooth.pbap.BluetoothPbapVcardManager,8,1,8,0,14,2,14,14,13,771,1,42.0,Lines Decreased
+248,Class,com.android.bluetooth.a2dp.A2dpSinkStateMachine,1,1,9,0,21,13,23,23,2,616,2,88.0,Lines Increased
+249,Class,com.android.bluetooth.a2dp.A2dpStateMachine,2,1,9,0,18,13,20,20,2,601,2,86.0,Lines Increased
+250,Class,com.android.bluetooth.hfpclient.HeadsetClientStateMachine,4,1,9,0,86,34,88,88,6,2198,2,95.0,Lines Increased
+251,Public Class,com.android.bluetooth.map.BluetoothMapObexServer,9,1,9,0,21,16,22,22,8,773,2,84.0,Lines Increased
+252,Public Class,com.android.bluetooth.map.BluetoothMapService,3,1,9,0,33,16,53,34,15,790,3,88.0,Lines Increased
+253,Class,com.android.bluetooth.btservice.BondStateMachine,2,1,10,0,17,6,18,18,3,350,2,78.0,Lines Increased
+254,Public Class,com.android.bluetooth.btservice.Config,3,1,10,0,0,0,2,2,0,51,1,0.0,Lines Increased
+255,Private Class,com.android.bluetooth.hfp.HeadsetStateMachine.AudioOn,11,1,10,0,7,0,7,7,2,388,2,0.0,Lines Increased
+256,Private Class,com.android.bluetooth.hfp.HeadsetStateMachine.Connected,12,1,10,0,6,0,6,6,2,369,2,0.0,Lines Increased
+257,Public Class,com.android.bluetooth.btservice.AdapterService,2,1,12,0,113,25,119,119,19,1449,2,95.0,Lines Increased
+258,Public Class,com.android.bluetooth.opp.BluetoothOppService,5,1,12,0,18,22,19,19,4,756,2,87.0,Lines Increased
+259,Public Class,com.android.bluetooth.map.BluetoothMapContent,6,1,13,0,63,3,64,64,9,1724,1,83.0,Lines Increased
+260,Class,com.android.bluetooth.hfp.HeadsetStateMachine,3,1,17,0,91,29,95,95,3,2796,2,95.0,Lines Increased
+261,Public Class,com.android.bluetooth.map.BluetoothMapContentObserver,7,1,17,0,34,21,35,35,14,1526,1,87.0,Lines Increased
+262,Public Class,com.android.bluetooth.gatt.GattService,3,1,20,0,150,11,171,152,1,1784,3,91.0,Lines Increased

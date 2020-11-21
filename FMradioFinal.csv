@@ -1,0 +1,67 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.fmradio.dialogs.FmFavoriteEditDialog,1,1,1,0,5,2,6,6,4,81,2,66,Lines Increased
+1,Public Interface,com.android.fmradio.dialogs.FmFavoriteEditDialog.EditFavoriteListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+2,Anonymous Class,com.android.fmradio.dialogs.FmFavoriteEditDialog.onCreateDialog.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+3,Anonymous Class,com.android.fmradio.dialogs.FmFavoriteEditDialog.setTextChangedCallback.(Anon_2),1,1,1,0,3,0,3,3,3,11,2,0,No Change
+4,Public Class,com.android.fmradio.dialogs.FmSaveDialog,1,1,3,0,8,11,8,8,7,142,2,76,Lines Increased
+5,Anonymous Class,com.android.fmradio.dialogs.FmSaveDialog.(Anon_2),6,1,2,0,1,0,1,1,1,35,2,0,No Change
+6,Public Interface,com.android.fmradio.dialogs.FmSaveDialog.OnRecordingDialogClickListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+7,Anonymous Class,com.android.fmradio.dialogs.FmSaveDialog.setTextChangedCallback.(Anon_1),1,1,1,0,3,0,3,3,3,20,2,0,No Change
+8,Public Interface,com.android.fmradio.FmListener,0,0,0,2,1,51,1,1,0,53,0,0,Lines Increased
+9,Public Class,com.android.fmradio.FmMainActivity,2,2,14,0,39,40,39,39,12,836,2,90,Lines Increased
+10,Anonymous Class,com.android.fmradio.FmMainActivity.(Anon_1),2,2,1,0,1,0,1,1,1,12,1,0,No Change
+11,Anonymous Class,com.android.fmradio.FmMainActivity.(Anon_2),8,1,3,0,1,0,1,1,1,31,2,0,No Change
+12,Anonymous Class,com.android.fmradio.FmMainActivity.(Anon_3),17,1,6,0,1,0,1,1,1,102,2,0,No Change
+13,Anonymous Class,com.android.fmradio.FmMainActivity.(Anon_4),3,1,4,0,2,0,2,2,2,34,2,0,No Change
+14,Private Class,com.android.fmradio.FmMainActivity.NoHeadsetAlpaInListener,1,2,1,0,3,0,3,3,3,20,1,0,No Change
+15,Private Class,com.android.fmradio.FmMainActivity.NoHeadsetAlpaOutListener,1,2,1,0,3,0,3,3,3,22,1,0,No Change
+16,Anonymous Class,com.android.fmradio.FmMainActivity.onActivityResult.(Anon_6),3,2,1,0,1,0,1,1,1,20,1,0,No Change
+17,Anonymous Class,com.android.fmradio.FmMainActivity.onCreate.(Anon_5),2,2,4,0,3,0,3,3,3,22,1,0,No Change
+18,Public Class,com.android.fmradio.FmNative,0,1,0,0,0,0,16,16,0,20,1,0,Lines Increased
+19,Public Class,com.android.fmradio.FmProvider,2,1,3,0,6,2,6,6,6,131,2,33,Lines Increased
+20,Private Static Class,com.android.fmradio.FmProvider.DatabaseHelper,1,1,3,0,3,0,3,3,2,26,2,0,No Change
+21,Public Class,com.android.fmradio.FmRecordActivity,2,2,9,0,20,19,20,20,4,396,2,85,Lines Increased
+22,Anonymous Class,com.android.fmradio.FmRecordActivity.(Anon_2),2,1,5,0,2,0,2,2,2,24,2,0,No Change
+23,Anonymous Class,com.android.fmradio.FmRecordActivity.(Anon_3),9,1,5,0,1,0,1,1,1,44,2,0,No Change
+24,Anonymous Class,com.android.fmradio.FmRecordActivity.(Anon_4),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+25,Anonymous Class,com.android.fmradio.FmRecordActivity.(Anon_5),2,2,1,0,1,0,1,1,1,12,1,0,No Change
+26,Anonymous Class,com.android.fmradio.FmRecordActivity.onCreate.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+27,Public Class,com.android.fmradio.FmRecorder,2,3,2,0,18,7,19,19,12,346,1,72,Lines Increased
+28,Public Interface,com.android.fmradio.FmRecorder.OnRecorderStateChangedListener,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+29,Public Class,com.android.fmradio.FmService,2,2,15,0,119,53,122,122,62,1731,2,96,Lines Increased
+30,Anonymous Class,com.android.fmradio.FmService.(Anon_2),5,1,1,0,1,0,1,1,1,34,2,0,No Change
+31,Private Class,com.android.fmradio.FmService.FmOnAudioPortUpdateListener,3,2,1,0,3,0,3,3,3,44,1,0,Lines Increased
+32,Class,com.android.fmradio.FmService.FmRadioServiceHandler,13,1,5,0,2,0,2,2,2,147,2,0,No Change
+33,Private Class,com.android.fmradio.FmService.FmServiceBroadcastReceiver,10,1,3,0,1,0,1,1,1,45,2,0,No Change
+34,Public Interface,com.android.fmradio.FmService.OnExitListener,0,0,0,0,1,0,1,1,0,3,0,0,Modified
+35,Private Static Class,com.android.fmradio.FmService.Record,0,1,1,0,0,2,0,0,0,4,1,0,No Change
+36,Class,com.android.fmradio.FmService.RenderThread,7,1,1,0,2,1,2,2,1,57,2,0,No Change
+37,Private Class,com.android.fmradio.FmService.SdcardListener,5,1,3,0,1,0,1,1,1,28,2,0,No Change
+38,Public Class,com.android.fmradio.FmService.ServiceBinder,1,1,1,0,1,0,1,1,0,5,2,0,No Change
+39,Anonymous Class,com.android.fmradio.FmService.startRdsThread.(Anon_1),19,1,5,0,1,0,1,1,1,78,2,0,No Change
+40,Public Class,com.android.fmradio.FmStation,1,1,2,0,0,0,16,16,16,182,1,0,Lines Increased
+41,Public Static Class,com.android.fmradio.FmStation.Station,0,2,1,0,0,0,0,0,0,8,1,0,No Change
+42,Public Class,com.android.fmradio.FmUtils,1,1,0,0,0,0,19,19,18,151,1,84,Lines Increased
+44,Public Class,com.android.fmradio.views.FmScroller,1,1,6,0,54,29,54,54,22,1073,2,94,Lines Increased
+45,Anonymous Class,com.android.fmradio.views.FmScroller.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+46,Anonymous Class,com.android.fmradio.views.FmScroller.(Anon_2),1,1,0,0,1,0,1,1,1,6,2,0,No Change
+47,Private Static Class,com.android.fmradio.views.FmScroller.AcceleratingFlingInterpolator,1,2,0,0,4,4,4,4,3,32,1,56,No Change
+48,Private Class,com.android.fmradio.views.FmScroller.Adjuster,1,1,3,0,6,18,6,6,2,367,1,76,No Change
+49,Private Class,com.android.fmradio.views.FmScroller.Adjuster.FirstRangeAdjuster,2,1,2,1,4,30,4,4,2,193,1,44,No Change
+50,Private Class,com.android.fmradio.views.FmScroller.Adjuster.SecondRangeAdjuster,2,1,2,0,2,0,6,2,2,100,2,0,No Change
+51,Anonymous Class,com.android.fmradio.views.FmScroller.doOnPreDraw.(Anon_6),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+52,Public Interface,com.android.fmradio.views.FmScroller.EventListener,0,0,0,1,3,0,3,3,0,5,0,0,No Change
+53,Class,com.android.fmradio.views.FmScroller.FavoriteAdapter,2,1,6,0,7,2,7,7,7,101,2,57,No Change
+54,Anonymous Class,com.android.fmradio.views.FmScroller.FavoriteAdapter.getView.(Anon_7),2,1,2,0,1,0,1,1,1,9,2,0,No Change
+55,Anonymous Class,com.android.fmradio.views.FmScroller.initialize.(Anon_3),2,1,3,0,1,0,1,1,1,15,2,0,No Change
+56,Anonymous Class,com.android.fmradio.views.FmScroller.initialize.(Anon_3).onItemClick.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+57,Anonymous Class,com.android.fmradio.views.FmScroller.initialize.(Anon_5),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+58,Anonymous Class,com.android.fmradio.views.FmScroller.showPopupMenu.(Anon_8),5,1,2,0,1,0,1,1,1,19,2,0,No Change
+59,Private Class,com.android.fmradio.views.FmScroller.ViewHolder,0,1,1,0,0,5,0,0,0,7,1,0,No Change
+60,Public Class,com.android.fmradio.views.FmSnackBar,2,1,1,0,4,10,5,5,3,100,2,60,Lines Increased
+61,Anonymous Class,com.android.fmradio.views.FmSnackBar.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+62,Anonymous Class,com.android.fmradio.views.FmSnackBar.init.(Anon_2),2,1,2,0,1,0,1,1,1,7,2,0,No Change
+63,Public Interface,com.android.fmradio.views.FmSnackBar.OnActionTriggerListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+64,Public Class,com.android.fmradio.views.FmTouchlessScrollView,1,1,0,0,6,0,6,6,5,26,2,0,Lines Increased
+65,Public Class,com.android.fmradio.views.FmVisualizerView,1,1,0,0,11,7,11,11,8,108,2,81,Lines Increased
+66,Anonymous Class,com.android.fmradio.views.FmVisualizerView.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change

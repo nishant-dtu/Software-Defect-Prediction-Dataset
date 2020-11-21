@@ -1,0 +1,168 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.camera.ActionMenuButton,1,1,0,0,6,2,6,6,4,45,2,75,No Change
+1,Class,com.android.camera.BitmapCache,3,2,1,0,7,1,7,7,6,81,1,28,No Change
+2,Public Static Class,com.android.camera.BitmapCache.Entry,1,1,0,0,2,2,2,2,2,11,1,50,No Change
+3,Public Class,com.android.camera.BitmapManager,2,1,2,0,9,1,10,10,6,119,1,80,No Change
+4,Private Static Class,com.android.camera.BitmapManager.ThreadStatus,3,1,1,0,1,3,1,1,1,18,1,33,No Change
+5,Public Class,com.android.camera.CropImage,5,1,8,0,6,21,13,6,1,382,4,69,No Change
+6,Anonymous Class,com.android.camera.CropImage.(Anon_7),3,1,3,0,4,4,4,4,1,108,2,50,No Change
+7,Anonymous Class,com.android.camera.CropImage.(Anon_7).run.(Anon_8),5,1,4,0,1,0,1,1,1,22,2,0,No Change
+8,Anonymous Class,com.android.camera.CropImage.onCreate.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+9,Anonymous Class,com.android.camera.CropImage.onCreate.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+10,Anonymous Class,com.android.camera.CropImage.onSaveClicked.(Anon_5),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+11,Anonymous Class,com.android.camera.CropImage.saveOutput.(Anon_6),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+12,Anonymous Class,com.android.camera.CropImage.startFaceDetection.(Anon_3),3,1,2,0,1,0,1,1,1,27,2,0,No Change
+13,Anonymous Class,com.android.camera.CropImage.startFaceDetection.(Anon_3).run.(Anon_4),3,1,3,0,1,0,1,1,1,12,2,0,No Change
+14,Class,com.android.camera.CropImageView,4,1,4,0,12,5,41,12,3,196,3,78,No Change
+15,Public Class,com.android.camera.DeleteImage,1,1,0,0,4,7,5,4,0,49,3,50,No Change
+16,Anonymous Class,com.android.camera.DeleteImage.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+17,Public Class,com.android.camera.EvenlySpacedLayout,4,1,0,0,5,2,5,5,1,90,2,40,No Change
+18,Public Abstract Class,com.android.camera.gallery.BaseImage,1,2,5,2,19,11,19,19,16,127,1,85,No Change
+19,Public Abstract Class,com.android.camera.gallery.BaseImageList,2,2,5,2,18,7,19,19,10,157,1,83,No Change
+20,Public Interface,com.android.camera.gallery.IImage,0,0,1,4,17,0,17,17,17,30,0,0,No Change
+21,Public Interface,com.android.camera.gallery.IImageList,0,0,1,5,9,0,9,9,9,11,0,0,No Change
+22,Public Class,com.android.camera.gallery.Image,2,2,3,0,11,2,30,11,7,97,2,72,No Change
+23,Public Class,com.android.camera.gallery.ImageList,1,2,2,0,7,0,26,7,2,93,2,0,No Change
+24,Public Class,com.android.camera.gallery.ImageListUber,3,2,6,0,13,6,13,13,10,197,1,66,No Change
+25,Private Static Class,com.android.camera.gallery.ImageListUber.AscendingComparator,3,2,1,0,1,0,1,1,1,8,1,0,No Change
+26,Private Static Class,com.android.camera.gallery.ImageListUber.DescendingComparator,3,2,1,0,1,0,1,1,1,8,1,0,No Change
+27,Private Static Class,com.android.camera.gallery.ImageListUber.MergeSlot,1,1,2,0,2,5,2,2,2,17,1,40,No Change
+28,Public Generic Class,com.android.camera.gallery.LruCache,1,1,1,0,5,3,5,5,4,49,1,26,No Change
+29,Private Static Generic Class,com.android.camera.gallery.LruCache.Entry,1,1,0,0,1,1,1,1,1,7,2,0,No Change
+33,Anonymous Class,com.android.camera.gallery.LruCache.LruCache.(Anon_1),1,1,1,0,1,0,1,1,0,5,2,0,No Change
+35,Public Class,com.android.camera.gallery.SingleImageList,1,2,2,0,10,2,10,10,10,38,1,60,No Change
+36,Class,com.android.camera.gallery.UriImage,1,2,3,0,22,3,22,22,18,120,1,83,No Change
+37,Public Class,com.android.camera.gallery.VideoList,1,1,2,0,7,0,26,7,2,80,2,0,No Change
+38,Public Class,com.android.camera.gallery.VideoObject,1,2,2,0,13,0,32,13,12,70,2,0,No Change
+39,Public Class,com.android.camera.GalleryPicker,2,1,10,0,31,15,33,32,5,532,3,88,No Change
+40,Anonymous Class,com.android.camera.GalleryPicker.checkBucketIds.(Anon_11),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+41,Anonymous Class,com.android.camera.GalleryPicker.checkBucketIds.(for_loop_2).(Anon_10),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+42,Anonymous Class,com.android.camera.GalleryPicker.checkImageList.(for_loop_1).(Anon_9),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+43,Anonymous Class,com.android.camera.GalleryPicker.checkLowStorage.(Anon_13),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+44,Anonymous Class,com.android.camera.GalleryPicker.checkScanning.(Anon_8),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+45,Anonymous Class,com.android.camera.GalleryPicker.checkThumbBitmap.(for_loop_3).(Anon_12),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+46,Private Static Class,com.android.camera.GalleryPicker.ImageListData,1,1,0,0,1,4,1,1,0,12,1,0,No Change
+47,Anonymous Class,com.android.camera.GalleryPicker.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+48,Anonymous Class,com.android.camera.GalleryPicker.onCreate.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+49,Anonymous Class,com.android.camera.GalleryPicker.onCreate.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+50,Anonymous Class,com.android.camera.GalleryPicker.onCreate.(Anon_4),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+51,Anonymous Class,com.android.camera.GalleryPicker.onCreateGalleryPickerContextMenu.(Anon_5),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+52,Anonymous Class,com.android.camera.GalleryPicker.onCreateGalleryPickerContextMenu.(Anon_6),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+53,Anonymous Class,com.android.camera.GalleryPicker.onCreateOptionsMenu.(Anon_14),1,1,2,0,1,0,1,1,1,8,2,0,No Change
+54,Anonymous Class,com.android.camera.GalleryPicker.startWorker.(Anon_7),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+55,Class,com.android.camera.GalleryPickerAdapter,1,1,2,0,10,2,10,10,9,55,2,60,No Change
+56,Class,com.android.camera.GalleryPickerItem,1,1,0,0,8,3,8,8,4,63,2,58,No Change
+57,Public Class,com.android.camera.GallerySettings,1,1,0,0,1,0,1,1,1,7,2,0,No Change
+58,Class,com.android.camera.GetterHandler,1,1,0,0,4,0,4,4,4,26,2,0,No Change
+59,Class,com.android.camera.GridViewSpecial,2,1,10,0,33,23,34,34,22,494,2,87,No Change
+60,Anonymous Class,com.android.camera.GridViewSpecial.(Anon_1),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+61,Anonymous Class,com.android.camera.GridViewSpecial.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+62,Public Interface,com.android.camera.GridViewSpecial.DrawAdapter,0,0,1,1,3,0,3,3,3,7,0,0,No Change
+63,Static Class,com.android.camera.GridViewSpecial.LayoutSpec,1,1,1,0,1,4,1,1,0,12,1,0,No Change
+64,Public Interface,com.android.camera.GridViewSpecial.Listener,0,0,0,1,4,0,4,4,4,6,0,0,No Change
+65,Private Class,com.android.camera.GridViewSpecial.MyGestureDetector,3,1,2,0,5,1,5,5,5,63,2,80,No Change
+66,Class,com.android.camera.HighlightView,3,1,1,0,15,17,15,15,9,308,1,80,No Change
+67,Class,com.android.camera.ImageBlockManager,2,1,6,0,14,18,14,14,4,323,1,81,No Change
+68,Private Class,com.android.camera.ImageBlockManager.ImageBlock,2,1,8,0,12,5,12,12,8,139,1,65,No Change
+69,Anonymous Class,com.android.camera.ImageBlockManager.ImageBlock.loadImages.(for_loop_9).(Anon_3),1,2,1,0,1,0,1,1,1,9,1,0,No Change
+70,Anonymous Class,com.android.camera.ImageBlockManager.ImageBlock.loadImages.(for_loop_9).(Anon_3).run.(Anon_4),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+71,Public Class,com.android.camera.ImageGallery,3,3,13,0,42,33,43,42,16,794,3,93,No Change
+72,Anonymous Class,com.android.camera.ImageGallery.(Anon_5),4,1,4,0,1,0,1,1,1,14,2,0,No Change
+73,Anonymous Class,com.android.camera.ImageGallery.addSlideShowMenu.(Anon_4),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+74,Private Class,com.android.camera.ImageGallery.CreateContextMenuListener,8,2,5,0,1,0,1,1,1,52,1,0,No Change
+75,Anonymous Class,com.android.camera.ImageGallery.CreateContextMenuListener.onCreateContextMenu.(Anon_10),2,1,2,0,1,0,1,1,1,6,2,0,No Change
+76,Anonymous Class,com.android.camera.ImageGallery.CreateContextMenuListener.onCreateContextMenu.(Anon_11),2,2,3,0,1,0,1,1,1,8,1,0,No Change
+77,Anonymous Class,com.android.camera.ImageGallery.initializeFooterButtons.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+78,Anonymous Class,com.android.camera.ImageGallery.initializeFooterButtons.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+79,Anonymous Class,com.android.camera.ImageGallery.initializeFooterButtons.(Anon_3),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+80,Anonymous Class,com.android.camera.ImageGallery.launchCropperOrFinish.(Anon_6),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+81,Anonymous Class,com.android.camera.ImageGallery.onCreateOptionsMenu.(Anon_8),1,1,2,0,1,0,1,1,1,8,2,0,No Change
+82,Anonymous Class,com.android.camera.ImageGallery.onCreateOptionsMenu.(Anon_9),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+83,Anonymous Class,com.android.camera.ImageGallery.onDeleteMultipleClicked.(Anon_12),3,1,3,0,1,0,1,1,1,16,2,0,No Change
+84,Anonymous Class,com.android.camera.ImageGallery.onResume.(Anon_7),6,1,1,0,1,0,1,1,1,16,2,0,No Change
+85,Class,com.android.camera.ImageGetter,1,1,6,0,5,10,5,5,4,161,1,70,No Change
+86,Private Class,com.android.camera.ImageGetter.ImageGetterRunnable,6,2,7,0,4,0,4,4,1,103,1,0,No Change
+87,Anonymous Class,com.android.camera.ImageGetter.ImageGetterRunnable.callback.(Anon_1),3,1,4,0,1,0,1,1,1,8,2,0,No Change
+88,Anonymous Class,com.android.camera.ImageGetter.ImageGetterRunnable.completedCallback.(Anon_2),2,1,3,0,1,0,1,1,1,6,2,0,No Change
+89,Interface,com.android.camera.ImageGetterCallback,0,0,1,2,6,0,6,6,6,9,0,0,No Change
+90,Public Class,com.android.camera.ImageLoader,2,1,5,0,7,4,7,7,5,117,1,57,No Change
+91,Public Interface,com.android.camera.ImageLoader.LoadedCallback,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+92,Private Class,com.android.camera.ImageLoader.WorkerThread,6,2,4,0,1,0,1,1,1,25,1,0,No Change
+93,Private Static Class,com.android.camera.ImageLoader.WorkItem,1,1,2,0,1,3,1,1,0,10,1,0,No Change
+94,Public Class,com.android.camera.ImageManager,2,1,12,0,0,0,21,21,18,340,1,0,No Change
+95,Private Static Class,com.android.camera.ImageManager.EmptyImageList,1,2,1,0,9,0,9,9,9,28,1,0,No Change
+96,Public Static Class,com.android.camera.ImageManager.ImageListParam,1,2,1,0,5,6,5,5,4,42,1,40,No Change
+97,Anonymous Class,com.android.camera.ImageManager.ImageListParam.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+98,Class,com.android.camera.ImageViewTouch,3,1,4,0,5,3,34,5,4,94,3,60,No Change
+99,Abstract Class,com.android.camera.ImageViewTouchBase,1,1,2,2,29,11,29,29,9,269,2,90,No Change
+100,Public Interface,com.android.camera.ImageViewTouchBase.Recycler,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+101,Anonymous Class,com.android.camera.ImageViewTouchBase.setImageRotateBitmapResetBase.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+102,Anonymous Class,com.android.camera.ImageViewTouchBase.zoomTo.(Anon_2),2,1,1,0,1,0,1,1,1,10,2,0,No Change
+103,Class,com.android.camera.Item,3,1,3,0,6,7,7,7,7,77,1,75,No Change
+104,Public Class,com.android.camera.MenuHelper,2,1,6,0,0,0,36,36,13,724,1,0,No Change
+105,Anonymous Class,com.android.camera.MenuHelper.addCapturePictureMenuItems.(Anon_23),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+106,Anonymous Class,com.android.camera.MenuHelper.addCaptureVideoMenuItems.(Anon_24),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+107,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_12),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+108,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_13),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+109,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_14),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+110,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_15),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+111,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_16),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+112,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_17),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+113,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_18),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+114,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_19),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+115,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_20),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+116,Anonymous Class,com.android.camera.MenuHelper.addImageMenuItems.(Anon_21),4,2,3,0,2,0,2,2,2,27,1,0,No Change
+117,Anonymous Class,com.android.camera.MenuHelper.confirmAction.(Anon_22),3,1,1,0,1,0,1,1,1,7,2,0,No Change
+118,Public Interface,com.android.camera.MenuHelper.MenuCallback,0,0,1,8,1,0,1,1,1,3,0,0,No Change
+119,Public Interface,com.android.camera.MenuHelper.MenuInvoker,0,0,1,2,1,0,1,1,1,3,0,0,No Change
+120,Public Interface,com.android.camera.MenuHelper.MenuItemsResult,0,0,1,1,2,0,2,2,2,4,0,0,No Change
+121,Anonymous Class,com.android.camera.MenuHelper.onCropClicked.(Anon_7),2,2,2,0,1,0,1,1,1,11,1,0,No Change
+122,Anonymous Class,com.android.camera.MenuHelper.onDeleteClicked.(Anon_11),2,2,2,0,1,0,1,1,1,5,1,0,No Change
+123,Anonymous Class,com.android.camera.MenuHelper.onDetailsClicked.(Anon_3),9,2,3,0,1,0,1,1,1,84,1,0,No Change
+124,Anonymous Class,com.android.camera.MenuHelper.onDetailsClicked.(Anon_3).run.(Anon_4),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+125,Anonymous Class,com.android.camera.MenuHelper.onDetailsClicked.(Anon_3).run.(Anon_5),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+126,Anonymous Class,com.android.camera.MenuHelper.onImageShareClicked.(Anon_9),5,2,3,0,1,0,1,1,1,21,1,0,No Change
+127,Anonymous Class,com.android.camera.MenuHelper.onRotateClicked.(Anon_6),2,2,2,0,1,0,1,1,1,7,1,0,No Change
+128,Anonymous Class,com.android.camera.MenuHelper.onSetAsClicked.(Anon_8),2,2,3,0,1,0,1,1,1,9,1,0,No Change
+129,Anonymous Class,com.android.camera.MenuHelper.onShowMapClicked.(Anon_1),5,2,2,0,1,0,1,1,1,30,1,0,No Change
+130,Anonymous Class,com.android.camera.MenuHelper.onShowMapClicked.(Anon_1).run.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+131,Anonymous Class,com.android.camera.MenuHelper.onViewPlayClicked.(Anon_10),2,2,2,0,1,0,1,1,1,7,1,0,No Change
+132,Private Static Class,com.android.camera.MenuHelper.UpdateLocationCallback,2,2,1,0,2,1,2,2,2,17,1,0,No Change
+133,Public Class,com.android.camera.MonitoredActivity,1,1,1,1,6,1,7,6,2,55,3,0,No Change
+134,Public Static Class,com.android.camera.MonitoredActivity.LifeCycleAdapter,1,2,1,1,4,0,4,4,4,10,1,0,No Change
+135,Public Interface,com.android.camera.MonitoredActivity.LifeCycleListener,0,0,1,1,4,0,4,4,4,6,0,0,No Change
+136,Public Class,com.android.camera.MovieView,2,1,1,0,4,5,5,4,4,59,3,35,No Change
+137,Anonymous Class,com.android.camera.MovieView.onCreate.(Anon_1),2,1,1,0,1,0,11,1,1,7,2,0,No Change
+138,Public Class,com.android.camera.MovieViewControl,2,3,1,1,8,9,10,10,6,162,1,75,No Change
+139,Anonymous Class,com.android.camera.MovieViewControl.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+140,Anonymous Class,com.android.camera.MovieViewControl.MovieViewControl.(Anon_2),1,1,1,0,1,0,1,1,1,3,2,0,No Change
+141,Anonymous Class,com.android.camera.MovieViewControl.MovieViewControl.(Anon_3),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+142,Anonymous Class,com.android.camera.MovieViewControl.MovieViewControl.(Anon_4),1,1,1,0,1,0,1,1,1,3,2,0,No Change
+143,Public Class,com.android.camera.NoSearchActivity,1,1,0,9,1,0,1,1,1,6,2,0,No Change
+144,Class,com.android.camera.PhotoAppWidgetBind,3,1,2,0,1,0,2,1,0,32,3,0,No Change
+145,Public Class,com.android.camera.PhotoAppWidgetConfigure,2,1,2,0,2,1,3,2,0,53,3,0,No Change
+146,Public Class,com.android.camera.PhotoAppWidgetProvider,2,1,1,0,2,0,3,3,2,133,2,0,No Change
+147,Static Class,com.android.camera.PhotoAppWidgetProvider.PhotoDatabaseHelper,2,1,1,0,6,0,6,6,5,95,2,0,No Change
+148,Public Class,com.android.camera.PickWallpaper,0,1,0,0,0,0,4,0,0,2,4,0,No Change
+149,Public Class,com.android.camera.ReverseGeocoderTask,2,1,2,0,3,4,3,3,1,42,2,33,No Change
+150,Public Interface,com.android.camera.ReverseGeocoderTask.Callback,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+151,Public Class,com.android.camera.RotateBitmap,1,1,0,0,11,2,11,11,11,59,1,36,No Change
+152,Public Class,com.android.camera.Util,3,1,4,0,1,0,18,18,15,298,1,94,No Change
+153,Private Static Class,com.android.camera.Util.BackgroundJob,1,2,1,0,5,5,9,5,5,41,2,56,No Change
+154,Anonymous Class,com.android.camera.Util.BackgroundJob.(Anon_2),2,1,2,0,1,0,1,1,1,5,2,0,No Change
+155,Anonymous Class,com.android.camera.Util.getNullOnClickListener.(Anon_1),1,1,0,0,1,0,1,1,1,3,2,0,No Change
+157,Public Class,com.android.camera.ViewImage,3,2,16,0,34,37,36,35,9,818,3,90,No Change
+158,Anonymous Class,com.android.camera.ViewImage.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+159,Anonymous Class,com.android.camera.ViewImage.(Anon_9),3,1,4,0,1,0,1,1,1,15,2,0,No Change
+160,Anonymous Class,com.android.camera.ViewImage.loadNextImage.(Anon_11),1,2,3,0,6,0,6,6,6,67,1,0,No Change
+161,Anonymous Class,com.android.camera.ViewImage.loadNextImage.(Anon_11).imageLoaded.(Anon_12),7,1,4,0,1,0,1,1,1,46,2,0,No Change
+162,Private Class,com.android.camera.ViewImage.MyGestureListener,2,1,3,0,4,0,4,4,4,37,2,0,No Change
+163,Anonymous Class,com.android.camera.ViewImage.onCreateOptionsMenu.(Anon_6),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+164,Anonymous Class,com.android.camera.ViewImage.onCreateOptionsMenu.(Anon_7),3,2,5,0,1,0,1,1,1,12,1,0,No Change
+165,Anonymous Class,com.android.camera.ViewImage.onCreateOptionsMenu.(Anon_8),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+166,Anonymous Class,com.android.camera.ViewImage.setImage.(Anon_10),1,2,4,0,6,0,6,6,6,30,1,0,No Change
+167,Anonymous Class,com.android.camera.ViewImage.setupOnTouchListeners.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+168,Anonymous Class,com.android.camera.ViewImage.setupOnTouchListeners.(Anon_5),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+169,Anonymous Class,com.android.camera.ViewImage.setupZoomButtonController.(Anon_3),2,1,2,0,2,0,2,2,2,15,2,0,No Change
+170,Anonymous Class,com.android.camera.ViewImage.showOnScreenControls.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+171,Public Class,com.android.camera.Wallpaper,1,1,1,1,3,0,4,3,0,43,3,0,No Change

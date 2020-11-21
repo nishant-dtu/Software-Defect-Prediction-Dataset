@@ -1,0 +1,380 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.browser.AccountsChangedReceiver,1,1,1,0,1,0,1,1,1,50,2,0.0,No Change
+1,Static Class,com.android.browser.AccountsChangedReceiver.DeleteRemovedAccounts,2,1,1,0,4,1,4,4,2,37,2,50.0,No Change
+2,Public Interface,com.android.browser.ActivityController,0,0,0,2,28,0,28,28,0,30,0,0.0,No Change
+3,Public Class,com.android.browser.addbookmark.FolderSpinner,1,2,1,0,7,2,7,7,7,43,2,64.0,No Change
+4,Public Interface,com.android.browser.addbookmark.FolderSpinner.OnSetSelectionListener,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+5,Public Class,com.android.browser.addbookmark.FolderSpinnerAdapter,2,1,0,0,12,7,12,12,11,114,2,78.0,No Change
+6,Public Class,com.android.browser.AddBookmarkPage,3,8,16,0,28,39,28,28,10,902,2,88.0,No Change
+7,Anonymous Class,com.android.browser.AddBookmarkPage.(Anon_1),3,1,4,0,3,0,3,3,3,43,2,0.0,No Change
+8,Static Class,com.android.browser.AddBookmarkPage.AccountsLoader,1,1,0,0,1,0,1,1,1,13,2,0.0,No Change
+9,Public Static Class,com.android.browser.AddBookmarkPage.BookmarkAccount,1,1,1,0,2,4,2,2,2,21,1,37.0,No Change
+10,Anonymous Class,com.android.browser.AddBookmarkPage.createHandler.(Anon_2),5,1,2,0,1,0,1,1,1,27,2,0.0,No Change
+11,Public Static Class,com.android.browser.AddBookmarkPage.CustomListView,1,1,0,0,5,1,5,5,5,19,2,60.0,No Change
+12,Static Class,com.android.browser.AddBookmarkPage.EditBookmarkInfo,0,1,0,0,0,10,0,0,0,12,1,0.0,No Change
+13,Static Class,com.android.browser.AddBookmarkPage.EditBookmarkInfoLoader,3,1,2,0,3,2,3,3,2,88,2,33.0,No Change
+14,Private Static Class,com.android.browser.AddBookmarkPage.Folder,1,1,0,0,1,2,1,1,0,8,1,0.0,No Change
+15,Private Class,com.android.browser.AddBookmarkPage.FolderAdapter,1,1,1,0,4,0,4,4,4,23,2,0.0,No Change
+16,Private Class,com.android.browser.AddBookmarkPage.SaveBookmarkRunnable,2,2,3,0,2,2,2,2,2,29,1,0.0,Modified
+17,Private Static Class,com.android.browser.AddBookmarkPage.UpdateBookmarkTask,1,1,1,0,2,2,2,2,1,19,2,0.0,No Change
+18,Class,com.android.browser.AddNewBookmark,1,1,0,0,2,1,2,2,0,13,2,0.0,No Change
+19,Public Class,com.android.browser.AutoFillProfileDatabase,1,1,2,0,5,1,6,6,4,86,1,66.0,No Change
+20,Private Static Class,com.android.browser.AutoFillProfileDatabase.AutoFillProfileDatabaseHelper,1,1,2,0,3,0,3,3,2,28,2,0.0,No Change
+21,Public Static Class,com.android.browser.AutoFillProfileDatabase.Profiles,1,2,0,0,1,0,1,1,0,13,1,0.0,No Change
+22,Public Class,com.android.browser.AutologinBar,1,3,3,0,10,8,10,10,7,102,2,70.0,No Change
+23,Public Class,com.android.browser.BackgroundHandler,1,1,0,0,1,0,3,3,2,16,1,66.0,No Change
+24,Public Abstract Class,com.android.browser.BaseUi,1,2,15,2,82,27,82,82,59,646,1,94.0,No Change
+25,Anonymous Class,com.android.browser.BaseUi.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+26,Anonymous Class,com.android.browser.BaseUi.createSubWindow.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0.0,No Change
+27,Static Class,com.android.browser.BaseUi.FullscreenHolder,1,1,0,0,2,0,2,2,2,10,2,0.0,No Change
+28,Class,com.android.browser.BookmarkItem,1,1,1,1,12,6,12,12,1,109,2,75.0,No Change
+29,Public Class,com.android.browser.Bookmarks,3,1,1,0,0,0,7,7,1,128,1,0.0,No Change
+30,Anonymous Class,com.android.browser.Bookmarks.updateFavicon.(Anon_1),1,1,1,0,2,0,2,2,0,19,2,0.0,No Change
+31,Public Class,com.android.browser.BookmarkSearch,3,1,1,0,1,0,1,1,0,15,2,0.0,No Change
+32,Public Class,com.android.browser.BookmarksLoader,1,1,0,0,2,2,3,3,2,41,2,33.0,No Change
+33,Interface,com.android.browser.BookmarksPageCallbacks,0,0,0,2,2,0,2,2,0,4,0,0.0,No Change
+34,Public Class,com.android.browser.BookmarkUtils,2,1,1,0,0,0,10,10,0,157,1,0.0,No Change
+36,Anonymous Class,com.android.browser.BookmarkUtils.displayRemoveBookmarkDialog.(Anon_1),2,1,1,0,1,0,1,1,1,17,2,0.0,No Change
+37,Anonymous Class,com.android.browser.BookmarkUtils.displayRemoveBookmarkDialog.(Anon_1).onClick.(Anon_2),1,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+38,Public Class,com.android.browser.BreadCrumbView,1,2,2,0,29,9,29,29,18,278,2,88.0,No Change
+39,Public Interface,com.android.browser.BreadCrumbView.Controller,0,0,1,3,1,0,1,1,1,3,0,0.0,No Change
+40,Class,com.android.browser.BreadCrumbView.Crumb,1,1,1,0,4,3,4,4,2,28,1,75.0,No Change
+41,Public Class,com.android.browser.Browser,2,1,2,0,1,0,1,1,1,14,2,0.0,No Change
+42,Public Class,com.android.browser.BrowserActivity,1,1,8,0,31,3,32,32,23,219,2,67.0,No Change
+43,Public Class,com.android.browser.BrowserBackupAgent,4,1,1,0,5,0,5,5,2,135,2,0.0,No Change
+44,Static Class,com.android.browser.BrowserBackupAgent.Bookmark,0,1,0,0,0,5,0,0,0,7,1,0.0,No Change
+45,Public Class,com.android.browser.BrowserBookmarksAdapter,1,1,4,0,8,2,21,8,5,79,3,62.0,No Change
+46,Public Class,com.android.browser.BrowserBookmarksAdapterItem,0,1,0,0,0,5,0,0,0,7,1,0.0,No Change
+47,Public Class,com.android.browser.BrowserBookmarksPage,2,5,18,0,26,10,30,30,15,507,2,91.0,No Change
+48,Anonymous Class,com.android.browser.BrowserBookmarksPage.(Anon_1),1,1,0,0,1,0,1,1,0,5,2,0.0,No Change
+49,Anonymous Class,com.android.browser.BrowserBookmarksPage.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+50,Static Class,com.android.browser.BrowserBookmarksPage.AccountsLoader,1,1,1,0,1,0,1,1,1,13,2,0.0,No Change
+51,Private Static Class,com.android.browser.BrowserBookmarksPage.CombinedBookmarksCallbackWrapper,1,2,2,0,3,1,3,3,2,20,1,0.0,No Change
+52,Public Static Class,com.android.browser.BrowserBookmarksPage.ExtraDragState,0,1,0,0,0,2,0,0,0,4,1,0.0,No Change
+53,Private Static Class,com.android.browser.BrowserBookmarksPage.LookupBookmarkCount,2,1,2,0,3,2,3,3,1,35,2,16.0,No Change
+54,Class,com.android.browser.BrowserBookmarksPage.OpenAllInTabsTask,2,1,4,0,3,1,3,3,1,25,2,33.0,No Change
+55,Public Abstract Class,com.android.browser.BrowserDownloadListener,1,2,0,2,2,0,2,2,2,11,1,0.0,No Change
+56,Public Class,com.android.browser.BrowserHistoryPage,2,3,11,0,18,14,18,18,11,511,2,88.0,No Change
+57,Anonymous Class,com.android.browser.BrowserHistoryPage.(Anon_1),1,1,2,0,1,0,1,1,1,9,2,0.0,No Change
+58,Anonymous Class,com.android.browser.BrowserHistoryPage.(Anon_2),1,1,4,0,1,0,1,1,1,6,2,0.0,No Change
+59,Static Class,com.android.browser.BrowserHistoryPage.ClearHistoryTask,1,1,0,0,2,1,2,2,2,10,2,0.0,No Change
+60,Private Class,com.android.browser.BrowserHistoryPage.HistoryAdapter,2,1,4,0,12,3,40,12,7,129,3,72.0,No Change
+61,Private Static Class,com.android.browser.BrowserHistoryPage.HistoryChildWrapper,1,1,1,0,6,1,7,6,5,27,3,50.0,No Change
+62,Private Static Class,com.android.browser.BrowserHistoryPage.HistoryGroupWrapper,1,1,1,0,5,0,6,5,5,21,3,0.0,No Change
+63,Interface,com.android.browser.BrowserHistoryPage.HistoryQuery,0,0,0,0,0,0,0,0,0,18,0,0.0,No Change
+64,Private Static Abstract Class,com.android.browser.BrowserHistoryPage.HistoryWrapper,1,1,1,2,1,2,1,1,1,19,2,0.0,No Change
+65,Anonymous Class,com.android.browser.BrowserHistoryPage.HistoryWrapper.(Anon_4),1,1,0,0,2,0,2,2,2,11,2,0.0,No Change
+66,Anonymous Class,com.android.browser.BrowserHistoryPage.promptToClearHistory.(Anon_3),2,1,1,0,1,0,1,1,1,7,2,0.0,No Change
+67,Public Class,com.android.browser.BrowserPreferencesPage,2,1,3,0,5,1,5,5,5,59,2,60.0,Lines Increased
+68,Public Class,com.android.browser.BrowserSettings,1,3,9,0,85,13,96,96,84,633,1,93.0,No Change
+69,Anonymous Class,com.android.browser.BrowserSettings.(Anon_1),9,1,6,0,1,0,1,1,1,42,2,0.0,No Change
+70,Public Class,com.android.browser.BrowserSnapshotPage,1,3,4,0,12,5,13,13,9,216,2,81.0,No Change
+71,Anonymous Class,com.android.browser.BrowserSnapshotPage.deleteSnapshot.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+72,Private Static Class,com.android.browser.BrowserSnapshotPage.SnapshotAdapter,2,1,1,0,4,3,4,4,4,78,2,58.0,No Change
+73,Anonymous Class,com.android.browser.BrowserSnapshotPage.SnapshotAdapter.SnapshotAdapter.(Anon_2),1,1,1,0,4,0,4,4,4,15,2,0.0,No Change
+74,Public Class,com.android.browser.BrowserWebView,1,1,3,0,17,5,17,17,15,86,2,87.0,No Change
+75,Anonymous Class,com.android.browser.BrowserWebView.onDraw.(Anon_1),1,1,0,0,1,0,1,1,1,4,2,0.0,No Change
+76,Public Interface,com.android.browser.BrowserWebView.OnScrollChangedListener,0,0,0,1,1,0,1,1,0,3,0,0.0,No Change
+77,Public Class,com.android.browser.BrowserWebViewFactory,1,2,2,0,5,1,5,5,3,38,1,40.0,No Change
+78,Class,com.android.browser.BrowserYesNoPreference,5,1,2,0,2,0,2,2,1,32,2,0.0,No Change
+79,Public Interface,com.android.browser.CombinedBookmarksCallbacks,0,0,0,1,4,0,4,4,0,5,0,0.0,No Change
+80,Public Class,com.android.browser.ComboViewActivity,1,2,6,0,8,2,9,9,6,172,2,88.0,No Change
+81,Public Static Class,com.android.browser.ComboViewActivity.TabsAdapter,1,3,2,0,10,4,10,10,10,68,2,72.0,No Change
+82,Static Class,com.android.browser.ComboViewActivity.TabsAdapter.TabInfo,1,1,0,0,1,2,1,1,0,8,1,0.0,No Change
+83,Public Class,com.android.browser.Controller,2,4,37,0,141,30,145,145,100,1975,1,95.0,Lines Increased
+84,Anonymous Class,com.android.browser.Controller.Controller.(Anon_1),2,1,3,0,1,0,1,1,1,8,2,0.0,No Change
+85,Private Class,com.android.browser.Controller.Copy,1,2,1,0,2,1,2,2,2,11,1,0.0,No Change
+86,Anonymous Class,com.android.browser.Controller.doStart.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+87,Private Static Class,com.android.browser.Controller.Download,2,2,3,0,4,4,4,4,2,64,1,31.0,No Change
+88,Anonymous Class,com.android.browser.Controller.getVisitedHistory.(Anon_5),1,1,1,0,2,0,2,2,2,9,2,0.0,No Change
+89,Anonymous Class,com.android.browser.Controller.onCreateContextMenu.(Anon_6),1,1,1,0,1,0,1,1,1,13,2,0.0,No Change
+90,Anonymous Class,com.android.browser.Controller.onCreateContextMenu.(Anon_7),1,1,4,0,1,0,1,1,1,9,2,0.0,No Change
+91,Anonymous Class,com.android.browser.Controller.onCreateContextMenu.(Anon_8),1,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+92,Anonymous Class,com.android.browser.Controller.onCreateContextMenu.(Anon_9),1,1,2,0,1,0,1,1,1,6,2,0.0,Lines Increased
+93,Anonymous Class,com.android.browser.Controller.openIconDatabase.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+94,Private Static Class,com.android.browser.Controller.PruneThumbnails,2,2,1,0,2,2,2,2,1,28,1,0.0,No Change
+95,Anonymous Class,com.android.browser.Controller.startHandler.(Anon_4),18,1,6,0,1,0,1,1,1,65,2,0.0,No Change
+96,Anonymous Class,com.android.browser.Controller.updateScreenshot.(Anon_10),6,1,2,0,1,0,1,1,0,25,2,0.0,No Change
+97,Public Class,com.android.browser.CrashRecoveryHandler,2,1,4,0,9,8,11,11,6,181,1,81.0,No Change
+98,Anonymous Class,com.android.browser.CrashRecoveryHandler.(Anon_2),2,1,2,0,1,0,1,1,1,13,2,0.0,No Change
+99,Anonymous Class,com.android.browser.CrashRecoveryHandler.CrashRecoveryHandler.(Anon_1),6,1,1,0,1,0,1,1,1,27,2,0.0,No Change
+100,Public Class,com.android.browser.DataController,1,1,3,0,7,4,8,8,6,232,1,75.0,No Change
+101,Private Static Class,com.android.browser.DataController.CallbackContainer,0,1,0,0,0,2,0,0,0,4,1,0.0,No Change
+102,Anonymous Class,com.android.browser.DataController.DataController.(Anon_1),2,1,3,0,1,0,1,1,1,14,2,0.0,No Change
+103,Class,com.android.browser.DataController.DataControllerHandler,2,1,6,0,11,1,11,11,2,154,2,72.0,No Change
+104,Private Static Class,com.android.browser.DataController.DCMessage,1,1,0,0,1,3,1,1,0,9,1,33.0,No Change
+105,Interface,com.android.browser.DataController.OnQueryUrlIsBookmark,0,0,0,1,1,0,1,1,0,3,0,0.0,No Change
+106,Public Class,com.android.browser.DataUri,2,1,0,0,3,2,4,4,4,37,1,50.0,No Change
+107,Public Class,com.android.browser.DateSortedExpandableListAdapter,2,1,0,1,28,9,28,28,18,240,2,79.0,No Change
+108,Anonymous Class,com.android.browser.DateSortedExpandableListAdapter.(Anon_1),1,1,1,0,2,0,2,2,2,11,2,0.0,No Change
+109,Public Class,com.android.browser.DeviceAccountLogin,2,2,3,0,9,9,9,9,7,95,1,67.0,No Change
+110,Public Interface,com.android.browser.DeviceAccountLogin.AutoLoginCallback,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+111,Public Class,com.android.browser.DownloadHandler,6,1,2,0,0,0,3,3,1,136,1,0.0,No Change
+112,Anonymous Class,com.android.browser.DownloadHandler.onDownloadStartNoStream.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+113,Class,com.android.browser.DownloadTouchIcon,4,1,2,0,6,8,6,6,4,112,2,39.0,Lines Decreased
+114,Class,com.android.browser.ErrorConsoleView,2,1,1,0,9,9,9,9,8,199,2,71.0,No Change
+115,Anonymous Class,com.android.browser.ErrorConsoleView.commonSetupIfNeeded.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0.0,No Change
+116,Anonymous Class,com.android.browser.ErrorConsoleView.commonSetupIfNeeded.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+117,Private Static Class,com.android.browser.ErrorConsoleView.ErrorConsoleListView,1,1,1,0,3,1,3,3,3,85,2,0.0,No Change
+118,Private Static Class,com.android.browser.ErrorConsoleView.ErrorConsoleListView.ErrorConsoleMessageList,1,2,0,0,10,2,10,10,10,70,2,60.0,No Change
+119,Class,com.android.browser.FetchUrlMimeType,8,1,0,0,2,5,2,2,2,83,2,0.0,Lines Decreased
+120,Public Class,com.android.browser.GeolocationPermissionsPrompt,1,1,0,0,8,6,8,8,4,65,2,77.0,No Change
+121,Anonymous Class,com.android.browser.GeolocationPermissionsPrompt.init.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+122,Anonymous Class,com.android.browser.GeolocationPermissionsPrompt.init.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+123,Public Class,com.android.browser.GoogleAccountLogin,2,4,2,0,8,11,11,11,4,195,1,75.0,Lines Decreased
+124,Anonymous Class,com.android.browser.GoogleAccountLogin.done.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+125,Anonymous Class,com.android.browser.GoogleAccountLogin.GoogleAccountLogin.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0.0,No Change
+126,Anonymous Class,com.android.browser.GoogleAccountLogin.run.(Anon_2),2,1,1,0,1,0,1,1,1,9,2,0.0,No Change
+127,Class,com.android.browser.HistoryItem,1,2,1,0,6,1,18,6,1,42,3,33.0,No Change
+128,Public Class,com.android.browser.homepages.HomeProvider,1,1,2,0,7,0,9,9,8,77,2,0.0,No Change
+129,Public Class,com.android.browser.homepages.RequestHandler,1,1,2,0,11,3,12,12,2,196,2,55.0,No Change
+130,Anonymous Class,com.android.browser.homepages.RequestHandler.(Anon_3),3,1,0,0,1,0,1,1,1,8,2,0.0,No Change
+131,Anonymous Class,com.android.browser.homepages.RequestHandler.writeFolderIndex.(Anon_4),3,2,1,0,4,1,4,4,4,43,1,25.0,No Change
+132,Anonymous Class,com.android.browser.homepages.RequestHandler.writeTemplatedIndex.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0.0,No Change
+133,Anonymous Class,com.android.browser.homepages.RequestHandler.writeTemplatedIndex.(Anon_2),4,1,1,0,1,0,6,1,1,14,2,0.0,No Change
+134,Public Class,com.android.browser.homepages.Template,2,1,7,0,9,2,12,12,5,200,1,77.0,No Change
+135,Public Static Abstract Class,com.android.browser.homepages.Template.CursorListEntityWrapper,1,2,0,1,5,1,5,5,5,21,1,19.0,No Change
+136,Interface,com.android.browser.homepages.Template.Entity,0,0,1,3,1,0,1,1,0,3,0,0.0,No Change
+137,Interface,com.android.browser.homepages.Template.EntityData,0,0,1,2,2,0,2,2,0,4,0,0.0,No Change
+138,Static Class,com.android.browser.homepages.Template.HashMapEntityData,1,2,1,0,3,1,3,3,3,14,1,0.0,No Change
+139,Static Class,com.android.browser.homepages.Template.ListEntity,1,2,3,0,2,2,2,2,2,16,1,0.0,No Change
+140,Interface,com.android.browser.homepages.Template.ListEntityIterator,0,1,0,2,2,0,4,2,0,4,1,0.0,No Change
+141,Static Class,com.android.browser.homepages.Template.SimpleEntity,1,2,1,0,2,1,2,2,2,10,1,0.0,No Change
+142,Static Class,com.android.browser.homepages.Template.StringEntity,1,2,1,0,2,1,2,2,2,10,1,0.0,No Change
+143,Public Class,com.android.browser.HttpAuthenticationDialog,1,1,2,0,8,8,8,8,5,95,1,71.0,No Change
+144,Public Interface,com.android.browser.HttpAuthenticationDialog.CancelListener,0,0,0,1,1,0,1,1,0,3,0,0.0,No Change
+145,Anonymous Class,com.android.browser.HttpAuthenticationDialog.createDialog.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0.0,No Change
+146,Anonymous Class,com.android.browser.HttpAuthenticationDialog.createDialog.(Anon_2),2,1,2,0,1,0,1,1,1,5,2,0.0,No Change
+147,Anonymous Class,com.android.browser.HttpAuthenticationDialog.createDialog.(Anon_3),2,1,2,0,1,0,1,1,1,3,2,0.0,No Change
+148,Anonymous Class,com.android.browser.HttpAuthenticationDialog.createDialog.(Anon_4),2,1,2,0,1,0,1,1,1,3,2,0.0,No Change
+149,Public Interface,com.android.browser.HttpAuthenticationDialog.OkListener,0,0,0,1,1,0,1,1,0,3,0,0.0,No Change
+150,Public Class,com.android.browser.IntentHandler,8,1,12,0,2,4,5,5,1,248,1,60.0,Lines Increased
+151,Anonymous Class,com.android.browser.IntentHandler.handleWebSearchRequest.(Anon_1),1,1,1,0,1,0,1,1,0,6,2,0.0,No Change
+152,Static Class,com.android.browser.IntentHandler.UrlData,1,1,2,0,7,5,7,7,0,42,1,60.0,No Change
+153,Class,com.android.browser.KeyChainLookup,2,1,0,0,2,3,2,2,0,26,2,0.0,No Change
+154,Public Class,com.android.browser.LogTag,1,1,0,0,0,0,3,3,3,14,1,0.0,No Change
+155,Public Class,com.android.browser.NavigationBarBase,1,5,7,2,29,6,29,29,22,187,2,86.0,No Change
+156,Anonymous Class,com.android.browser.NavigationBarBase.onDismiss.(Anon_1),2,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+157,Public Class,com.android.browser.NavigationBarPhone,2,4,7,0,16,17,45,16,12,207,3,83.0,No Change
+158,Public Class,com.android.browser.NavigationBarTablet,2,2,7,0,22,20,51,22,12,275,3,87.0,No Change
+159,Anonymous Class,com.android.browser.NavigationBarTablet.hideNavButtons.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0.0,No Change
+160,Public Class,com.android.browser.NavScreen,1,4,10,0,15,18,15,15,5,191,2,85.0,No Change
+161,Anonymous Class,com.android.browser.NavScreen.init.(Anon_1),1,2,3,0,1,0,1,1,1,5,1,0.0,No Change
+162,Anonymous Class,com.android.browser.NavScreen.openNewTab.(Anon_2),1,2,4,0,1,0,1,1,1,7,1,0.0,No Change
+163,Class,com.android.browser.NavScreen.TabAdapter,1,1,4,0,5,2,5,5,5,44,2,60.0,No Change
+164,Anonymous Class,com.android.browser.NavScreen.TabAdapter.getView.(Anon_3),4,1,7,0,1,0,1,1,1,16,2,0.0,No Change
+165,Public Class,com.android.browser.NavTabScroller,2,1,4,0,41,13,117,41,10,462,3,91.0,No Change
+166,Anonymous Class,com.android.browser.NavTabScroller.animateOut.(Anon_2),2,1,2,0,1,0,1,1,1,10,2,0.0,No Change
+167,Static Class,com.android.browser.NavTabScroller.ContentLayout,2,1,1,0,2,1,2,2,1,23,2,0.0,No Change
+168,Interface,com.android.browser.NavTabScroller.OnLayoutListener,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+169,Interface,com.android.browser.NavTabScroller.OnRemoveListener,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+170,Anonymous Class,com.android.browser.NavTabScroller.setAdapter.(Anon_1),1,1,1,0,2,0,2,2,2,10,2,0.0,No Change
+171,Public Class,com.android.browser.NavTabView,1,1,1,0,12,8,12,12,4,89,2,80.0,No Change
+172,Public Class,com.android.browser.NetworkStateHandler,1,1,2,0,6,5,6,6,1,62,1,53.0,No Change
+173,Anonymous Class,com.android.browser.NetworkStateHandler.NetworkStateHandler.(Anon_1),3,1,2,0,1,0,1,1,1,17,2,0.0,No Change
+174,Public Class,com.android.browser.NfcHandler,2,2,2,0,2,5,4,4,4,61,1,70.0,No Change
+175,Anonymous Class,com.android.browser.NfcHandler.(Anon_1),2,1,2,0,1,0,1,1,1,8,2,0.0,No Change
+176,Public Class,com.android.browser.OpenDownloadReceiver,2,1,0,0,3,1,3,3,1,54,2,83.0,No Change
+177,Anonymous Class,com.android.browser.OpenDownloadReceiver.onReceive.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0.0,No Change
+178,Public Interface,com.android.browser.OptionsMenuHandler,0,0,0,0,3,0,3,3,0,5,0,0.0,No Change
+179,Public Class,com.android.browser.PageDialogsHandler,3,1,3,0,9,13,9,9,3,261,1,76.0,No Change
+180,Anonymous Class,com.android.browser.PageDialogsHandler.showHttpAuthentication.(Anon_1),1,2,1,0,1,0,1,1,1,6,1,0.0,No Change
+181,Anonymous Class,com.android.browser.PageDialogsHandler.showHttpAuthentication.(Anon_2),1,2,2,0,1,0,1,1,1,6,1,0.0,No Change
+182,Anonymous Class,com.android.browser.PageDialogsHandler.showPageInfo.(Anon_3),2,1,1,0,1,0,1,1,1,12,2,0.0,No Change
+183,Anonymous Class,com.android.browser.PageDialogsHandler.showPageInfo.(Anon_4),2,1,1,0,1,0,1,1,1,11,2,0.0,No Change
+184,Anonymous Class,com.android.browser.PageDialogsHandler.showPageInfo.(Anon_5),2,1,1,0,1,0,1,1,1,14,2,0.0,No Change
+185,Anonymous Class,com.android.browser.PageDialogsHandler.showSSLCertificate.(Anon_6),1,1,1,0,1,0,1,1,1,7,2,0.0,No Change
+186,Anonymous Class,com.android.browser.PageDialogsHandler.showSSLCertificate.(Anon_7),1,1,1,0,1,0,1,1,1,6,2,0.0,No Change
+187,Anonymous Class,com.android.browser.PageDialogsHandler.showSSLCertificateOnError.(Anon_10),1,1,2,0,1,0,1,1,1,9,2,0.0,No Change
+188,Anonymous Class,com.android.browser.PageDialogsHandler.showSSLCertificateOnError.(Anon_8),1,1,2,0,1,0,1,1,1,10,2,0.0,No Change
+189,Anonymous Class,com.android.browser.PageDialogsHandler.showSSLCertificateOnError.(Anon_9),1,1,3,0,1,0,1,1,1,9,2,0.0,No Change
+190,Public Class,com.android.browser.PageProgressView,1,1,0,0,7,5,7,7,5,62,2,68.0,No Change
+191,Anonymous Class,com.android.browser.PageProgressView.init.(Anon_1),3,1,1,0,1,0,1,1,1,13,2,0.0,No Change
+192,Public Class,com.android.browser.Performance,4,1,2,0,0,0,4,4,0,93,1,50.0,No Change
+193,Public Class,com.android.browser.PermissionsPrompt,1,1,0,0,8,5,8,8,5,74,2,77.0,No Change
+194,Anonymous Class,com.android.browser.PermissionsPrompt.init.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+195,Anonymous Class,com.android.browser.PermissionsPrompt.init.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+196,Public Class,com.android.browser.PhoneUi,2,1,13,0,25,6,107,25,19,436,2,87.0,No Change
+197,Static Class,com.android.browser.PhoneUi.AnimScreen,2,1,2,0,6,6,6,6,3,76,1,63.0,No Change
+198,Anonymous Class,com.android.browser.PhoneUi.hideNavScreen.(Anon_2),1,1,4,0,1,0,1,1,1,7,2,0.0,No Change
+199,Anonymous Class,com.android.browser.PhoneUi.showNavScreen.(Anon_1),1,1,4,0,1,0,1,1,1,7,2,0.0,No Change
+200,Public Class,com.android.browser.PieControl,2,3,13,0,13,23,13,13,4,278,1,79.0,No Change
+201,Anonymous Class,com.android.browser.PieControl.populateMenu.(Anon_1),1,2,1,0,1,0,1,1,1,5,1,0.0,No Change
+202,Static Class,com.android.browser.PieControl.TabAdapter,1,2,2,0,7,4,7,7,7,59,2,60.0,No Change
+203,Anonymous Class,com.android.browser.PieControl.TabAdapter.getView.(Anon_2),1,1,2,0,1,0,1,1,1,5,2,0.0,No Change
+204,Public Interface,com.android.browser.PreferenceKeys,0,0,0,1,0,0,0,0,0,59,0,0.0,No Change
+205,Public Class,com.android.browser.preferences.AccessibilityPreferencesFragment,1,2,2,0,9,2,9,9,5,79,2,55.0,No Change
+206,Public Class,com.android.browser.preferences.AdvancedPreferencesFragment,2,2,3,0,5,0,5,5,3,94,2,0.0,No Change
+207,Anonymous Class,com.android.browser.preferences.AdvancedPreferencesFragment.onResume.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0.0,No Change
+208,Anonymous Class,com.android.browser.preferences.AdvancedPreferencesFragment.onResume.(Anon_2),2,1,1,0,1,0,1,1,1,7,2,0.0,No Change
+209,Public Class,com.android.browser.preferences.BandwidthPreferencesFragment,3,1,2,0,2,0,2,2,2,28,2,0.0,No Change
+210,Public Class,com.android.browser.preferences.DebugPreferencesFragment,1,2,3,0,2,0,2,2,2,20,2,0.0,No Change
+211,Public Class,com.android.browser.preferences.FontSizePreview,1,1,1,0,6,1,17,6,3,35,3,66.0,No Change
+212,Public Class,com.android.browser.preferences.GeneralPreferencesFragment,3,2,3,0,6,3,6,6,2,140,2,61.0,No Change
+213,Anonymous Class,com.android.browser.preferences.GeneralPreferencesFragment.promptForHomepage.(Anon_1),1,1,3,0,1,0,1,1,1,9,2,0.0,No Change
+214,Anonymous Class,com.android.browser.preferences.GeneralPreferencesFragment.promptForHomepage.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0.0,No Change
+215,Anonymous Class,com.android.browser.preferences.GeneralPreferencesFragment.promptForHomepage.(Anon_3),2,1,1,0,1,0,1,1,1,9,2,0.0,No Change
+216,Public Class,com.android.browser.preferences.InvertedContrastPreview,1,1,0,0,5,1,16,5,3,45,3,80.0,No Change
+217,Public Class,com.android.browser.preferences.LabPreferencesFragment,1,1,0,0,1,0,1,1,1,7,2,0.0,No Change
+218,Public Class,com.android.browser.preferences.NonformattingListPreference,1,1,0,0,4,1,4,4,4,21,2,50.0,No Change
+219,Public Class,com.android.browser.preferences.PrivacySecurityPreferencesFragment,1,2,1,0,3,0,3,3,3,24,2,0.0,No Change
+220,Public Class,com.android.browser.preferences.SeekBarSummaryPreference,1,1,0,0,9,2,9,9,7,48,2,77.0,No Change
+221,Public Class,com.android.browser.preferences.WebsiteSettingsFragment,2,2,2,0,5,3,5,5,4,520,2,75.0,No Change
+222,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.onClick.(Anon_10),1,1,3,0,1,0,1,1,1,7,2,0.0,No Change
+223,Static Class,com.android.browser.preferences.WebsiteSettingsFragment.Site,1,2,0,0,16,4,16,16,14,89,1,64.0,No Change
+224,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.Site.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0.0,No Change
+225,Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter,2,2,3,0,14,9,14,14,13,364,2,84.0,No Change
+226,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.askForGeolocation.(Anon_3),3,1,2,0,1,0,1,1,1,11,2,0.0,No Change
+227,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.askForOrigins.(Anon_2),3,1,2,0,1,0,1,1,1,11,2,0.0,No Change
+228,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.getView.(Anon_4),2,1,1,0,1,0,1,1,1,7,2,0.0,No Change
+229,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.getView.(Anon_5),3,1,1,0,1,0,1,1,1,10,2,0.0,No Change
+230,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.getView.(Anon_6),2,1,2,0,1,0,1,1,1,10,2,0.0,No Change
+231,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.getView.(Anon_7),3,1,1,0,1,0,1,1,1,13,2,0.0,No Change
+232,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.onItemClick.(Anon_8),2,1,3,0,1,0,1,1,1,9,2,0.0,No Change
+233,Anonymous Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.onItemClick.(Anon_9),2,1,3,0,1,0,1,1,1,9,2,0.0,No Change
+234,Private Class,com.android.browser.preferences.WebsiteSettingsFragment.SiteAdapter.UpdateFromBookmarksDbTask,4,1,1,0,3,3,3,3,1,70,2,33.0,No Change
+235,Public Abstract Class,com.android.browser.preferences.WebViewPreview,1,2,0,2,11,1,11,11,4,56,2,90.0,No Change
+236,Public Class,com.android.browser.PreloadController,2,2,3,0,39,1,39,39,39,187,1,94.0,No Change
+237,Public Class,com.android.browser.PreloadedTabControl,2,1,2,0,8,3,8,8,8,45,1,75.0,No Change
+238,Public Class,com.android.browser.Preloader,2,1,5,0,7,4,9,9,6,119,1,82.0,No Change
+239,Private Class,com.android.browser.Preloader.PreloaderSession,1,1,5,0,5,3,5,5,5,30,1,60.0,No Change
+240,Anonymous Class,com.android.browser.Preloader.PreloaderSession.(Anon_1),2,1,2,0,1,0,1,1,1,5,2,0.0,No Change
+241,Public Class,com.android.browser.PreloadRequestReceiver,8,1,4,0,4,1,4,4,1,93,2,75.0,No Change
+242,Public Class,com.android.browser.provider.BrowserProvider,5,1,4,0,9,6,13,13,9,777,2,78.0,No Change
+243,Static Class,com.android.browser.provider.BrowserProvider.DatabaseHelper,3,1,1,0,4,1,4,4,3,131,2,50.0,No Change
+244,Anonymous Class,com.android.browser.provider.BrowserProvider.DatabaseHelper.removeGears.(Anon_1),4,1,1,0,2,0,2,2,1,41,2,0.0,No Change
+245,Anonymous Class,com.android.browser.provider.BrowserProvider.DatabaseHelper.removeGears.(Anon_1).run.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+246,Private Class,com.android.browser.provider.BrowserProvider.MySuggestionCursor,4,1,1,0,16,11,16,16,14,246,2,79.0,No Change
+247,Public Class,com.android.browser.provider.BrowserProvider2,6,1,4,0,34,8,53,37,8,1904,3,92.0,No Change
+248,Class,com.android.browser.provider.BrowserProvider2.DatabaseHelper,3,1,4,0,14,0,14,14,4,357,2,0.0,No Change
+249,Public Interface,com.android.browser.provider.BrowserProvider2.OmniboxSuggestions,0,0,0,0,0,0,0,0,0,8,0,0.0,No Change
+250,Static Class,com.android.browser.provider.BrowserProvider2.SuggestionsCursor,1,1,1,0,11,1,11,11,11,90,2,45.0,No Change
+251,Public Interface,com.android.browser.provider.BrowserProvider2.Thumbnails,0,0,0,0,0,0,0,0,0,6,0,0.0,No Change
+252,Public Class,com.android.browser.provider.SnapshotProvider,2,1,2,0,10,1,11,11,6,203,2,72.0,No Change
+253,Static Class,com.android.browser.provider.SnapshotProvider.SnapshotDatabaseHelper,1,1,2,0,3,0,3,3,3,38,2,0.0,No Change
+254,Public Interface,com.android.browser.provider.SnapshotProvider.Snapshots,0,0,1,0,0,0,0,0,0,15,0,0.0,No Change
+255,Public Abstract Class,com.android.browser.provider.SQLiteContentProvider,1,1,0,1,16,4,16,16,12,170,2,64.0,No Change
+256,Public Class,com.android.browser.search.DefaultSearchEngine,1,2,0,0,10,2,11,11,9,83,1,63.0,No Change
+257,Public Class,com.android.browser.search.OpenSearchSearchEngine,2,2,2,0,12,2,12,12,10,192,1,58.0,Lines Increased
+258,Private Static Class,com.android.browser.search.OpenSearchSearchEngine.SuggestionsCursor,1,1,1,0,10,2,10,10,10,64,2,70.0,No Change
+259,Public Interface,com.android.browser.search.SearchEngine,0,0,0,2,7,0,7,7,7,10,0,0.0,No Change
+260,Public Class,com.android.browser.search.SearchEngineInfo,1,1,0,0,11,2,11,11,8,95,1,69.0,No Change
+261,Class,com.android.browser.search.SearchEnginePreference,4,1,3,0,1,0,1,1,1,24,2,0.0,No Change
+262,Public Class,com.android.browser.search.SearchEngines,2,1,4,0,0,0,4,4,4,35,1,0.0,No Change
+263,Public Class,com.android.browser.ShortcutActivity,1,3,1,0,4,1,4,4,3,40,2,75.0,No Change
+264,Public Class,com.android.browser.stub.NullController,1,2,0,0,29,0,29,29,28,103,1,100.0,No Change
+265,Public Class,com.android.browser.SuggestionsAdapter,2,3,8,0,14,13,16,16,11,428,2,88.0,No Change
+266,Class,com.android.browser.SuggestionsAdapter.CombinedCursor,3,1,4,0,4,0,9,4,2,59,2,0.0,No Change
+267,Interface,com.android.browser.SuggestionsAdapter.CompletionListener,0,0,0,1,2,0,2,2,2,4,0,0.0,No Change
+268,Abstract Class,com.android.browser.SuggestionsAdapter.CursorSource,1,1,1,2,5,1,5,5,4,16,1,0.0,No Change
+269,Class,com.android.browser.SuggestionsAdapter.SlowFilterTask,1,1,4,0,2,0,2,2,0,21,2,0.0,No Change
+270,Class,com.android.browser.SuggestionsAdapter.SuggestCursor,4,1,4,0,2,0,7,2,2,41,2,0.0,No Change
+271,Class,com.android.browser.SuggestionsAdapter.SuggestFilter,2,1,7,0,6,0,6,6,1,67,2,0.0,No Change
+272,Class,com.android.browser.SuggestionsAdapter.SuggestionResults,2,1,2,0,5,2,5,5,1,35,1,30.0,No Change
+273,Public Class,com.android.browser.SuggestionsAdapter.SuggestItem,1,1,0,0,1,4,1,1,1,11,1,25.0,No Change
+274,Class,com.android.browser.SystemAllowGeolocationOrigins,1,1,2,0,8,3,9,9,3,93,1,70.0,No Change
+275,Anonymous Class,com.android.browser.SystemAllowGeolocationOrigins.(Anon_1),2,1,2,0,1,0,1,1,1,21,2,0.0,No Change
+276,Anonymous Class,com.android.browser.SystemAllowGeolocationOrigins.removeOrigins.(for_loop_4).(Anon_2),2,1,1,0,1,0,1,1,1,6,2,0.0,No Change
+278,Private Class,com.android.browser.SystemAllowGeolocationOrigins.SettingObserver,1,1,1,0,2,0,2,2,1,9,2,0.0,No Change
+279,Class,com.android.browser.Tab,2,2,21,0,81,38,82,82,24,1376,1,95.0,Lines Decreased
+280,Anonymous Class,com.android.browser.Tab.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+281,Anonymous Class,com.android.browser.Tab.(Anon_11),2,1,10,0,22,0,22,22,21,236,2,0.0,Lines Increased
+282,Anonymous Class,com.android.browser.Tab.(Anon_11).onCreateWindow.(Anon_12),1,1,1,0,1,0,1,1,1,5,2,0.0,No Change
+283,Anonymous Class,com.android.browser.Tab.(Anon_11).onCreateWindow.(Anon_13),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+284,Anonymous Class,com.android.browser.Tab.(Anon_18),2,2,3,0,1,0,1,1,1,8,1,0.0,No Change
+285,Anonymous Class,com.android.browser.Tab.(Anon_2),2,1,10,0,15,2,15,15,14,257,2,93.0,Lines Decreased
+286,Anonymous Class,com.android.browser.Tab.(Anon_2).onFormResubmission.(Anon_3),2,1,1,0,1,0,1,1,1,9,2,0.0,No Change
+287,Anonymous Class,com.android.browser.Tab.(Anon_2).onFormResubmission.(Anon_4),2,1,1,0,1,0,1,1,1,9,2,0.0,No Change
+288,Anonymous Class,com.android.browser.Tab.(Anon_2).onFormResubmission.(Anon_5),2,1,1,0,1,0,1,1,1,8,2,0.0,No Change
+289,Anonymous Class,com.android.browser.Tab.(Anon_2).onReceivedClientCertRequest.(Anon_10),2,1,3,0,1,0,1,1,1,8,2,0.0,No Change
+290,Anonymous Class,com.android.browser.Tab.(Anon_2).onReceivedSslError.(Anon_6),1,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+291,Anonymous Class,com.android.browser.Tab.(Anon_2).onReceivedSslError.(Anon_7),1,1,3,0,1,0,1,1,1,7,2,0.0,No Change
+292,Anonymous Class,com.android.browser.Tab.(Anon_2).onReceivedSslError.(Anon_8),1,1,0,0,1,0,1,1,1,6,2,0.0,No Change
+293,Anonymous Class,com.android.browser.Tab.(Anon_2).onReceivedSslError.(Anon_9),1,1,4,0,1,0,1,1,1,7,2,0.0,No Change
+294,Anonymous Class,com.android.browser.Tab.createSubWindow.(Anon_17),2,1,2,0,1,0,3,1,1,10,2,0.0,No Change
+295,Private Class,com.android.browser.Tab.ErrorDialog,1,1,0,0,1,3,1,1,0,10,1,0.0,No Change
+296,Protected Static Class,com.android.browser.Tab.PageState,2,1,1,0,2,8,2,2,0,31,1,37.0,No Change
+297,Private Static Class,com.android.browser.Tab.SaveCallback,1,2,0,0,1,1,1,1,1,10,1,0.0,No Change
+299,Private Class,com.android.browser.Tab.SubWindowChromeClient,1,1,2,0,4,1,4,4,3,22,2,25.0,No Change
+300,Private Static Class,com.android.browser.Tab.SubWindowClient,1,1,1,0,11,2,11,11,10,55,2,45.0,No Change
+301,Anonymous Class,com.android.browser.Tab.Tab.(Anon_14),1,1,2,0,1,0,3,1,1,7,2,0.0,No Change
+302,Anonymous Class,com.android.browser.Tab.Tab.(Anon_15),5,1,1,0,1,0,3,1,1,19,2,0.0,No Change
+303,Anonymous Class,com.android.browser.Tab.Tab.(Anon_16),2,1,1,0,1,0,1,1,1,9,2,0.0,No Change
+304,Public Class,com.android.browser.TabBar,2,2,8,0,18,24,19,19,8,403,2,89.0,No Change
+305,Anonymous Class,com.android.browser.TabBar.animateTabIn.(Anon_2),1,1,3,0,4,0,4,4,4,15,2,0.0,No Change
+306,Anonymous Class,com.android.browser.TabBar.animateTabOut.(Anon_1),1,1,3,0,4,0,4,4,4,16,2,0.0,No Change
+307,Class,com.android.browser.TabBar.TabView,2,2,5,0,15,12,15,15,4,160,2,82.0,No Change
+308,Class,com.android.browser.TabControl,2,1,4,0,39,6,40,40,2,422,1,83.0,Lines Increased
+309,Public Interface,com.android.browser.TabControl.OnThumbnailUpdatedListener,0,0,1,1,1,0,1,1,0,3,0,0.0,No Change
+310,Public Class,com.android.browser.TabScrollView,1,1,2,0,17,4,17,17,5,159,2,77.0,No Change
+311,Class,com.android.browser.TabScrollView.TabLayout,2,1,1,0,4,0,4,4,1,39,2,0.0,No Change
+312,Public Class,com.android.browser.TitleBar,1,1,6,0,36,14,36,36,20,321,2,88.0,No Change
+313,Anonymous Class,com.android.browser.TitleBar.(Anon_1),1,1,1,0,4,0,4,4,4,14,2,0.0,No Change
+314,Anonymous Class,com.android.browser.TitleBar.hideAutoLogin.(Anon_2),1,1,2,0,3,0,3,3,3,12,2,0.0,No Change
+315,Public Interface,com.android.browser.UI,0,0,2,1,54,0,54,54,41,62,0,0.0,No Change
+317,Public Interface,com.android.browser.UiController,0,0,5,1,39,0,39,39,0,42,0,0.0,No Change
+318,Public Class,com.android.browser.UploadHandler,2,1,1,0,11,5,11,11,1,121,1,78.0,No Change
+319,Public Class,com.android.browser.UrlBarAutoShowManager,4,3,2,0,5,10,5,5,4,102,1,66.0,No Change
+320,Public Class,com.android.browser.UrlHandler,5,1,6,0,7,4,8,8,1,217,1,59.0,Lines Increased
+321,Private Class,com.android.browser.UrlHandler.RLZTask,3,1,4,0,3,3,3,3,1,38,2,44.0,No Change
+322,Public Class,com.android.browser.UrlInputView,1,5,11,0,32,9,32,32,18,216,2,90.0,No Change
+323,Anonymous Class,com.android.browser.UrlInputView.onFocusChanged.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change
+324,Anonymous Class,com.android.browser.UrlInputView.onTouchEvent.(Anon_2),1,1,2,0,1,0,1,1,1,3,2,0.0,No Change
+325,Interface,com.android.browser.UrlInputView.StateListener,0,0,0,2,1,0,1,1,1,6,0,0.0,No Change
+326,Interface,com.android.browser.UrlInputView.UrlInputListener,0,0,0,1,3,0,3,3,3,5,0,0.0,No Change
+327,Public Class,com.android.browser.UrlSelectionActionMode,1,2,1,0,5,1,5,5,5,30,1,60.0,No Change
+328,Public Class,com.android.browser.UrlUtils,3,1,0,0,1,0,7,7,3,93,1,0.0,No Change
+329,Public Abstract Generic Class,com.android.browser.util.ThreadedCursorAdapter,1,1,1,1,13,9,13,13,10,160,2,69.0,No Change
+330,Private Class,com.android.browser.util.ThreadedCursorAdapter.LoadContainer,0,1,1,0,0,6,0,0,0,8,1,0.0,No Change
+332,Anonymous Class,com.android.browser.util.ThreadedCursorAdapter.ThreadedCursorAdapter.(Anon_1),1,1,1,0,4,0,4,4,4,23,2,0.0,No Change
+333,Anonymous Class,com.android.browser.util.ThreadedCursorAdapter.ThreadedCursorAdapter.(Anon_2),2,1,2,0,1,0,1,1,1,9,2,0.0,No Change
+334,Anonymous Class,com.android.browser.util.ThreadedCursorAdapter.ThreadedCursorAdapter.(Anon_3),3,1,2,0,1,0,1,1,1,19,2,0.0,No Change
+335,Public Abstract Class,com.android.browser.view.BasePieView,2,2,1,2,11,11,11,11,8,112,1,81.0,No Change
+336,Anonymous Class,com.android.browser.view.BasePieView.setAdapter.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0.0,No Change
+337,Public Class,com.android.browser.view.BookmarkContainer,1,2,0,0,11,2,11,11,8,64,2,81.0,No Change
+338,Public Class,com.android.browser.view.BookmarkExpandableView,1,2,4,0,19,11,19,19,16,349,2,90.0,No Change
+339,Anonymous Class,com.android.browser.view.BookmarkExpandableView.(Anon_1),4,1,2,0,1,0,1,1,1,18,2,0.0,No Change
+340,Anonymous Class,com.android.browser.view.BookmarkExpandableView.(Anon_2),2,1,0,0,1,0,1,1,1,10,2,0.0,No Change
+341,Class,com.android.browser.view.BookmarkExpandableView.BookmarkAccountAdapter,2,1,4,0,14,8,14,14,14,157,2,82.0,No Change
+342,Anonymous Class,com.android.browser.view.BookmarkExpandableView.BookmarkAccountAdapter.(Anon_3),1,1,0,0,2,0,2,2,2,9,2,0.0,No Change
+343,Public Static Class,com.android.browser.view.BookmarkExpandableView.BookmarkContextMenuInfo,1,2,0,0,1,2,1,1,0,8,1,0.0,No Change
+344,Public Class,com.android.browser.view.CustomScreenLinearLayout,1,1,0,0,4,0,4,4,3,19,2,0.0,No Change
+345,Public Class,com.android.browser.view.EventRedirectingFrameLayout,1,1,0,0,7,1,7,7,7,40,2,42.0,No Change
+346,Public Class,com.android.browser.view.PieItem,1,1,1,0,23,11,23,23,23,106,1,86.0,No Change
+347,Public Class,com.android.browser.view.PieListView,2,1,0,0,5,1,16,5,3,45,2,60.0,No Change
+348,Public Class,com.android.browser.view.PieMenu,3,1,3,0,29,21,29,29,9,487,2,86.0,No Change
+349,Anonymous Class,com.android.browser.view.PieMenu.animateIn.(Anon_3),3,1,2,0,1,0,1,1,1,11,2,0.0,No Change
+350,Anonymous Class,com.android.browser.view.PieMenu.animateOpen.(Anon_1),2,1,2,0,1,0,1,1,1,8,2,0.0,No Change
+351,Anonymous Class,com.android.browser.view.PieMenu.animateOut.(Anon_2),3,1,2,0,1,0,1,1,1,11,2,0.0,No Change
+352,Anonymous Class,com.android.browser.view.PieMenu.closeSub.(Anon_6),2,1,2,0,1,0,1,1,1,18,2,0.0,No Change
+353,Anonymous Class,com.android.browser.view.PieMenu.closeSub.(Anon_6).onAnimationEnd.(Anon_7),2,1,2,0,1,0,1,1,1,9,2,0.0,No Change
+354,Anonymous Class,com.android.browser.view.PieMenu.openSub.(Anon_4),4,1,2,0,1,0,1,1,1,25,2,0.0,No Change
+355,Anonymous Class,com.android.browser.view.PieMenu.openSub.(Anon_4).onAnimationEnd.(Anon_5),2,1,2,0,1,0,1,1,1,7,2,0.0,No Change
+356,Public Interface,com.android.browser.view.PieMenu.PieController,0,0,0,1,2,0,2,2,2,4,0,0.0,No Change
+357,Public Interface,com.android.browser.view.PieMenu.PieView,0,0,1,1,4,0,4,4,4,10,0,0.0,No Change
+358,Public Interface,com.android.browser.view.PieMenu.PieView.OnLayoutListener,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+359,Public Class,com.android.browser.view.PieStackView,2,1,1,0,7,2,18,7,5,63,2,71.0,No Change
+360,Public Interface,com.android.browser.view.PieStackView.OnCurrentListener,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+361,Public Class,com.android.browser.view.ScrollerView,3,1,0,1,76,23,76,76,34,1202,2,94.0,No Change
+362,Public Class,com.android.browser.view.SnapshotGridView,1,1,0,0,5,1,5,5,4,31,2,60.0,No Change
+363,Public Class,com.android.browser.view.StopProgressView,1,1,0,0,11,4,11,11,8,55,2,79.0,No Change
+364,Public Class,com.android.browser.WallpaperHandler,3,3,1,0,5,4,5,5,4,117,2,50.0,No Change
+365,Public Abstract Class,com.android.browser.WebBackForwardListClient,1,1,0,1,2,0,2,2,2,4,1,0.0,No Change
+366,Public Class,com.android.browser.WebStorageSizeManager,3,1,5,0,6,4,8,8,5,197,1,67.0,No Change
+367,Public Interface,com.android.browser.WebStorageSizeManager.AppCacheInfo,0,0,0,1,1,0,1,1,1,3,0,0.0,No Change
+368,Public Interface,com.android.browser.WebStorageSizeManager.DiskInfo,0,0,0,1,2,0,2,2,2,4,0,0.0,No Change
+369,Public Static Class,com.android.browser.WebStorageSizeManager.StatFsDiskInfo,1,2,0,0,3,1,3,3,3,12,1,0.0,No Change
+370,Public Static Class,com.android.browser.WebStorageSizeManager.WebKitAppCacheInfo,1,2,0,0,2,1,2,2,2,13,1,0.0,No Change
+371,Public Interface,com.android.browser.WebViewController,0,0,3,2,38,0,38,38,0,46,0,0.0,No Change
+372,Public Interface,com.android.browser.WebViewFactory,0,0,0,1,2,0,2,2,2,4,0,0.0,No Change
+373,Public Interface,com.android.browser.WebViewProperties,0,0,0,0,0,0,0,0,0,6,0,0.0,No Change
+374,Public Class,com.android.browser.WebViewTimersControl,2,1,1,0,7,2,8,8,5,50,1,70.0,No Change
+375,Public Class,com.android.browser.widget.BookmarkThumbnailWidgetProvider,1,1,3,0,6,0,8,8,5,67,2,0.0,No Change
+376,Public Class,com.android.browser.widget.BookmarkThumbnailWidgetService,2,1,2,0,1,0,6,6,1,268,2,0.0,No Change
+377,Static Class,com.android.browser.widget.BookmarkThumbnailWidgetService.BookmarkFactory,2,2,3,0,14,6,14,14,10,172,1,66.0,No Change
+378,Static Class,com.android.browser.widget.BookmarkThumbnailWidgetService.StateFilter,2,2,0,0,2,1,2,2,1,21,1,0.0,No Change
+379,Public Class,com.android.browser.widget.BookmarkWidgetConfigure,1,3,4,0,7,2,7,7,4,84,2,64.0,No Change
+380,Static Class,com.android.browser.widget.BookmarkWidgetConfigure.AccountsLoader,1,1,1,0,1,0,1,1,1,16,2,0.0,No Change
+381,Public Class,com.android.browser.widget.BookmarkWidgetProxy,2,1,2,0,2,0,2,2,1,25,2,0.0,No Change
+382,Public Class,com.android.browser.XLargeUi,1,1,10,0,29,5,111,29,19,212,2,86.0,No Change
+383,Anonymous Class,com.android.browser.XLargeUi.checkHideActionBar.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0.0,No Change

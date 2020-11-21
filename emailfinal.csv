@@ -1,0 +1,308 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.email.activity.ComposeActivityEmail,2,2,1,0,3,0,3,3,3,40,2,0,No Change
+1,Public Class,com.android.email.activity.ContactStatusLoader,1,1,1,0,5,2,6,6,3,88,2,66,No Change
+2,Public Static Class,com.android.email.activity.ContactStatusLoader.Result,1,1,1,0,2,3,2,2,2,14,1,33,No Change
+3,Public Class,com.android.email.activity.EventViewer,7,1,0,0,1,0,1,1,1,50,2,0,No Change
+4,Public Class,com.android.email.activity.InsertQuickResponseDialog,2,1,1,0,3,0,4,4,3,87,2,0,No Change
+5,Public Interface,com.android.email.activity.InsertQuickResponseDialog.Callback,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+6,Anonymous Class,com.android.email.activity.InsertQuickResponseDialog.onCreateDialog.(Anon_1),1,1,2,0,1,0,1,1,1,9,2,0,No Change
+7,Anonymous Class,com.android.email.activity.InsertQuickResponseDialog.onCreateDialog.(Anon_2),1,1,1,0,3,0,3,3,3,14,2,0,No Change
+8,Anonymous Class,com.android.email.activity.InsertQuickResponseDialog.onCreateDialog.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+9,Public Class,com.android.email.activity.setup.AccountCheckSettingsFragment,2,1,7,0,9,6,12,12,8,306,2,80,Lines Increased
+10,Private Static Class,com.android.email.activity.setup.AccountCheckSettingsFragment.AccountCheckTask,6,1,7,0,4,8,4,4,1,131,2,46,Lines Increased
+11,Public Static Class,com.android.email.activity.setup.AccountCheckSettingsFragment.AutoDiscoverResults,2,1,0,0,1,1,1,1,1,12,2,0,No Change
+12,Public Interface,com.android.email.activity.setup.AccountCheckSettingsFragment.Callback,0,0,0,2,4,0,4,4,0,6,0,0,No Change
+13,Public Class,com.android.email.activity.setup.AccountCreationFragment,1,1,3,0,9,3,10,10,7,240,2,80,No Change
+14,Private Class,com.android.email.activity.setup.AccountCreationFragment.AfterAccountSecurityCallbacks,1,2,1,0,3,0,3,3,3,42,1,0,No Change
+15,Anonymous Class,com.android.email.activity.setup.AccountCreationFragment.AfterAccountSecurityCallbacks.onCreateLoader.(Anon_4),1,1,5,0,2,0,2,2,1,12,2,0,Modified
+16,Anonymous Class,com.android.email.activity.setup.AccountCreationFragment.AfterAccountSecurityCallbacks.onLoadFinished.(Anon_5),3,1,4,0,1,0,1,1,1,16,2,0,Modified
+17,Private Class,com.android.email.activity.setup.AccountCreationFragment.BeforeAccountSecurityCallbacks,1,2,2,0,4,0,4,4,4,67,1,0,No Change
+18,Anonymous Class,com.android.email.activity.setup.AccountCreationFragment.BeforeAccountSecurityCallbacks.onCreateLoader.(Anon_1),3,1,4,0,2,0,2,2,1,30,2,0,Modified
+19,Anonymous Class,com.android.email.activity.setup.AccountCreationFragment.BeforeAccountSecurityCallbacks.onLoadFinished.(Anon_2),2,1,2,0,1,0,1,1,1,9,2,0,No Change
+20,Public Interface,com.android.email.activity.setup.AccountCreationFragment.Callback,0,0,0,1,4,0,4,4,0,6,0,0,No Change
+21,Private Class,com.android.email.activity.setup.AccountCreationFragment.RefreshAccountCallbacks,1,2,2,0,3,0,3,3,3,33,1,0,Modified
+22,Anonymous Class,com.android.email.activity.setup.AccountCreationFragment.RefreshAccountCallbacks.onCreateLoader.(Anon_3),1,1,2,0,2,0,2,2,1,8,2,0,No Change
+23,Public Class,com.android.email.activity.setup.AccountCredentials,1,2,1,0,3,0,4,4,4,45,2,0,No Change
+24,Public Class,com.android.email.activity.setup.AccountFinalizeFragment,1,1,0,0,3,2,4,4,4,74,2,87,No Change
+25,Public Interface,com.android.email.activity.setup.AccountFinalizeFragment.Callback,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+26,Private Static Class,com.android.email.activity.setup.AccountFinalizeFragment.FinalSetupTaskLoader,1,1,1,0,4,1,4,4,2,21,2,25,Modified
+27,Anonymous Class,com.android.email.activity.setup.AccountFinalizeFragment.onResume.(Anon_1),1,1,2,0,3,0,3,3,3,23,2,0,No Change
+28,Anonymous Class,com.android.email.activity.setup.AccountFinalizeFragment.onResume.(Anon_1).onLoadFinished.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+29,Public Class,com.android.email.activity.setup.AccountSecurity,3,1,6,0,10,9,13,13,3,404,2,79,Class Deleted
+30,Private Static Class,com.android.email.activity.setup.AccountSecurity.AccountAndPolicyLoader,1,1,0,0,3,5,3,3,1,32,2,53,Class Deleted
+31,Private Class,com.android.email.activity.setup.AccountSecurity.AccountAndPolicyLoaderCallbacks,1,2,2,0,3,0,3,3,3,39,1,0,Class Deleted
+32,Anonymous Class,com.android.email.activity.setup.AccountSecurity.AccountAndPolicyLoaderCallbacks.onLoadFinished.(Anon_1),4,1,3,0,1,0,1,1,1,19,2,0,Class Deleted
+33,Public Static Class,com.android.email.activity.setup.AccountSecurity.PasswordExpirationDialog,1,2,1,0,3,0,4,4,4,44,2,0,Class Deleted
+34,Anonymous Class,com.android.email.activity.setup.AccountSecurity.repostNotification.(Anon_2),1,1,2,0,1,0,1,1,0,6,2,0,Class Deleted
+35,Public Static Class,com.android.email.activity.setup.AccountSecurity.SecurityNeededDialog,2,2,3,0,3,0,4,4,4,53,2,0,Class Deleted
+36,Public Abstract Class,com.android.email.activity.setup.AccountServerBaseFragment,1,2,4,2,15,9,26,16,14,169,3,84,No Change
+37,Public Interface,com.android.email.activity.setup.AccountServerBaseFragment.Callback,0,1,0,2,2,0,4,2,2,4,1,0,No Change
+38,Anonymous Class,com.android.email.activity.setup.AccountServerBaseFragment.makeTextViewUneditable.(Anon_1),2,1,1,0,1,0,1,1,1,12,2,0,No Change
+39,Anonymous Class,com.android.email.activity.setup.AccountServerBaseFragment.makeTextViewUneditable.(Anon_2),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+40,Anonymous Class,com.android.email.activity.setup.AccountServerBaseFragment.saveSettings.(Anon_3),1,1,1,0,3,0,3,3,3,19,2,0,No Change
+41,Anonymous Class,com.android.email.activity.setup.AccountServerBaseFragment.saveSettings.(Anon_3).onLoadFinished.(Anon_4),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+42,Public Class,com.android.email.activity.setup.AccountServerSettingsActivity,1,6,9,0,17,1,21,19,17,175,3,89,No Change
+43,Public Static Class,com.android.email.activity.setup.AccountServerSettingsActivity.UnsavedChangesDialogFragment,1,1,1,0,2,0,3,3,3,28,2,0,No Change
+44,Anonymous Class,com.android.email.activity.setup.AccountServerSettingsActivity.UnsavedChangesDialogFragment.onCreateDialog.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+45,Public Class,com.android.email.activity.setup.AccountSettingsEditQuickResponsesFragment,1,1,2,0,7,1,8,8,8,85,2,75,No Change
+46,Anonymous Class,com.android.email.activity.setup.AccountSettingsEditQuickResponsesFragment.onActivityCreated.(Anon_1),1,1,1,0,3,0,3,3,3,14,2,0,No Change
+47,Anonymous Class,com.android.email.activity.setup.AccountSettingsEditQuickResponsesFragment.onCreateView.(Anon_2),1,1,2,0,1,0,1,1,1,11,2,0,No Change
+48,Public Class,com.android.email.activity.setup.AccountSettingsFragment,4,2,7,0,17,16,19,19,13,693,2,87,Lines Increased
+49,Private Static Class,com.android.email.activity.setup.AccountSettingsFragment.AccountLoader,4,1,1,0,3,3,3,3,1,83,2,33,Modified
+50,Private Class,com.android.email.activity.setup.AccountSettingsFragment.AccountLoaderCallbacks,2,2,4,0,4,1,4,4,3,51,1,25,Modified
+51,Anonymous Class,com.android.email.activity.setup.AccountSettingsFragment.loadSettings.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+52,Anonymous Class,com.android.email.activity.setup.AccountSettingsFragment.loadSettings.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+53,Anonymous Class,com.android.email.activity.setup.AccountSettingsFragment.loadSettings.(Anon_3),2,1,2,0,1,0,1,1,1,9,2,0,Modified
+54,Anonymous Class,com.android.email.activity.setup.AccountSettingsFragment.loadSettings.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+55,Anonymous Class,com.android.email.activity.setup.AccountSettingsFragment.loadSettings.(Anon_5),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+56,Public Class,com.android.email.activity.setup.AccountSettingsUtils,4,1,1,0,0,0,13,13,10,282,1,0,Class Deleted
+57,Public Class,com.android.email.activity.setup.AccountSetupABFragment,1,1,4,0,4,3,15,5,5,65,3,46,Modified
+58,Public Interface,com.android.email.activity.setup.AccountSetupABFragment.Callback,0,1,0,1,1,0,3,1,0,3,1,0,No Change
+59,Public Class,com.android.email.activity.setup.AccountSetupActivity,3,2,1,2,2,1,2,2,2,32,2,0,No Change
+60,Public Class,com.android.email.activity.setup.AccountSetupBasicsFragment,1,1,3,0,10,3,21,11,10,87,3,75,Lines Decreased
+61,Public Interface,com.android.email.activity.setup.AccountSetupBasicsFragment.Callback,0,1,0,1,0,0,2,0,0,2,1,0,No Change
+62,Anonymous Class,com.android.email.activity.setup.AccountSetupBasicsFragment.onCreateView.(Anon_1),1,1,1,0,3,0,3,3,3,9,2,0,No Change
+63,Public Class,com.android.email.activity.setup.AccountSetupCredentialsFragment,3,3,8,0,11,18,23,13,13,270,3,82,Lines Decreased
+64,Public Interface,com.android.email.activity.setup.AccountSetupCredentialsFragment.Callback,0,1,0,2,1,0,3,1,0,3,1,0,No Change
+65,Anonymous Class,com.android.email.activity.setup.AccountSetupCredentialsFragment.onCreateView.(Anon_1),1,1,1,0,3,0,3,3,3,9,2,0,Class Deleted
+66,Public Class,com.android.email.activity.setup.AccountSetupFinal,2,16,24,0,49,12,54,52,30,943,3,91,Modified
+67,Public Static Class,com.android.email.activity.setup.AccountSetupFinal.CreateAccountDialogFragment,1,1,0,0,2,0,3,3,3,15,2,0,No Change
+68,Public Static Class,com.android.email.activity.setup.AccountSetupFinal.CreateAccountErrorDialogFragment,1,2,0,0,3,0,3,3,3,20,2,0,No Change
+69,Anonymous Class,com.android.email.activity.setup.AccountSetupFinal.onCreate.(Anon_1),1,1,1,0,3,0,3,3,3,17,2,0,Class Deleted
+70,Anonymous Class,com.android.email.activity.setup.AccountSetupFinal.onCreate.(Anon_2),2,1,1,0,3,0,3,3,3,30,2,0,Class Deleted
+71,Public Class,com.android.email.activity.setup.AccountSetupFragment,1,2,2,7,10,3,10,10,9,71,2,66,No Change
+72,Public Interface,com.android.email.activity.setup.AccountSetupFragment.Callback,0,0,0,7,2,0,2,2,0,4,0,0,No Change
+73,Public Class,com.android.email.activity.setup.AccountSetupIncomingFragment,2,3,12,0,22,19,51,25,19,442,4,82,Lines Increased
+74,Anonymous Class,com.android.email.activity.setup.AccountSetupIncomingFragment.onCreateView.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+75,Anonymous Class,com.android.email.activity.setup.AccountSetupIncomingFragment.onCreateView.(Anon_2),1,1,1,0,3,0,3,3,3,9,2,0,No Change
+76,Private Static Class,com.android.email.activity.setup.AccountSetupIncomingFragment.SaveSettingsLoader,1,1,2,0,3,2,3,3,1,21,2,33,No Change
+77,Public Class,com.android.email.activity.setup.AccountSetupNamesFragment,1,1,4,0,6,4,17,7,6,113,3,60,Lines Decreased
+78,Public Interface,com.android.email.activity.setup.AccountSetupNamesFragment.Callback,0,1,0,1,0,0,2,0,0,2,1,0,No Change
+79,Anonymous Class,com.android.email.activity.setup.AccountSetupNamesFragment.onActivityCreated.(Anon_2),1,1,1,0,3,0,3,3,3,23,2,0,Class Deleted
+80,Anonymous Class,com.android.email.activity.setup.AccountSetupNamesFragment.onCreateView.(Anon_1),1,1,1,0,3,0,3,3,3,11,2,0,Class Deleted
+81,Public Class,com.android.email.activity.setup.AccountSetupNoteDialogFragment,1,1,1,0,3,0,4,4,4,51,2,0,No Change
+82,Public Interface,com.android.email.activity.setup.AccountSetupNoteDialogFragment.Callback,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+83,Anonymous Class,com.android.email.activity.setup.AccountSetupNoteDialogFragment.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+84,Anonymous Class,com.android.email.activity.setup.AccountSetupNoteDialogFragment.onCreateDialog.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+85,Public Class,com.android.email.activity.setup.AccountSetupOptionsFragment,2,1,5,0,10,8,21,11,10,134,3,75,Lines Increased
+86,Public Interface,com.android.email.activity.setup.AccountSetupOptionsFragment.Callback,0,1,0,1,0,0,2,0,0,2,1,0,No Change
+87,Public Class,com.android.email.activity.setup.AccountSetupOutgoingFragment,1,3,9,0,16,8,45,19,15,277,4,76,Modified
+88,Anonymous Class,com.android.email.activity.setup.AccountSetupOutgoingFragment.onCreateView.(Anon_1),1,1,1,0,1,0,1,1,1,14,2,0,No Change
+89,Anonymous Class,com.android.email.activity.setup.AccountSetupOutgoingFragment.onCreateView.(Anon_1).run.(Anon_2),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+90,Anonymous Class,com.android.email.activity.setup.AccountSetupOutgoingFragment.onCreateView.(Anon_3),1,1,1,0,3,0,3,3,3,9,2,0,No Change
+91,Private Static Class,com.android.email.activity.setup.AccountSetupOutgoingFragment.SaveSettingsLoader,1,1,2,0,3,2,3,3,1,21,2,33,No Change
+92,Public Class,com.android.email.activity.setup.AccountSetupTypeFragment,2,2,4,0,2,1,13,3,3,55,3,33,Modified
+93,Public Interface,com.android.email.activity.setup.AccountSetupTypeFragment.Callback,0,1,0,1,1,0,3,1,0,3,1,0,No Change
+94,Public Class,com.android.email.activity.setup.AuthenticationView,2,2,3,0,15,16,15,15,13,205,2,78,Lines Decreased
+95,Public Interface,com.android.email.activity.setup.AuthenticationView.AuthenticationCallback,0,0,0,2,2,0,2,2,2,4,0,0,No Change
+96,Anonymous Class,com.android.email.activity.setup.AuthenticationView.onFinishInflate.(Anon_1),1,1,1,0,3,0,3,3,3,9,2,0,Class Deleted
+97,Public Class,com.android.email.activity.setup.CheckSettingsErrorDialogFragment,5,1,1,0,3,0,6,6,6,158,2,0,No Change
+98,Public Interface,com.android.email.activity.setup.CheckSettingsErrorDialogFragment.Callback,0,0,0,2,2,0,2,2,0,4,0,0,No Change
+99,Anonymous Class,com.android.email.activity.setup.CheckSettingsErrorDialogFragment.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+100,Anonymous Class,com.android.email.activity.setup.CheckSettingsErrorDialogFragment.onCreateDialog.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+101,Anonymous Class,com.android.email.activity.setup.CheckSettingsErrorDialogFragment.onCreateDialog.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+102,Public Class,com.android.email.activity.setup.CheckSettingsProgressDialogFragment,1,1,2,0,5,1,6,6,5,65,2,50,No Change
+103,Public Interface,com.android.email.activity.setup.CheckSettingsProgressDialogFragment.Callback,0,0,0,2,1,0,1,1,0,3,0,0,No Change
+104,Anonymous Class,com.android.email.activity.setup.CheckSettingsProgressDialogFragment.onCreateDialog.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+105,Public Class,com.android.email.activity.setup.DebugFragment,2,3,4,0,5,1,5,5,4,75,2,60,Lines Increased
+106,Public Class,com.android.email.activity.setup.DuplicateAccountDialogFragment,1,1,1,0,3,0,4,4,4,38,2,0,No Change
+107,Public Interface,com.android.email.activity.setup.DuplicateAccountDialogFragment.Callback,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+108,Public Class,com.android.email.activity.setup.EditQuickResponseDialog,2,1,0,0,4,2,5,5,5,92,2,50,No Change
+109,Anonymous Class,com.android.email.activity.setup.EditQuickResponseDialog.onCreateDialog.(Anon_1),1,1,1,0,3,0,3,3,3,9,2,0,No Change
+110,Anonymous Class,com.android.email.activity.setup.EditQuickResponseDialog.onCreateDialog.(Anon_2),2,1,1,0,1,0,1,1,1,12,2,0,No Change
+111,Anonymous Class,com.android.email.activity.setup.EditQuickResponseDialog.onCreateDialog.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+112,Public Class,com.android.email.activity.setup.EmailPreferenceActivity,2,1,3,0,12,5,12,12,10,149,2,84,Modified
+113,Public Class,com.android.email.activity.setup.ForwardingIntent,1,1,0,0,1,0,1,1,1,6,2,0,Class Deleted
+114,Public Class,com.android.email.activity.setup.GeneralPreferences,1,1,0,0,3,0,3,3,2,22,2,0,No Change
+115,Public Class,com.android.email.activity.setup.HeadlessAccountSettingsLoader,1,1,1,0,1,0,3,3,3,46,2,0,Lines Decreased
+116,Private Class,com.android.email.activity.setup.HeadlessAccountSettingsLoader.LoadAccountIncomingSettingsAsyncTask,1,1,1,0,3,2,3,3,0,22,2,16,No Change
+117,Public Class,com.android.email.activity.setup.MailboxSettings,2,1,2,0,4,3,6,6,4,304,2,77,Lines Increased
+118,Private Class,com.android.email.activity.setup.MailboxSettings.MailboxSettingsFolderLoaderCallbacks,2,2,1,0,3,0,3,3,3,27,1,0,No Change
+119,Public Static Class,com.android.email.activity.setup.MailboxSettings.MailboxSettingsFragment,1,1,2,0,7,5,8,8,4,185,2,57,No Change
+120,Anonymous Class,com.android.email.activity.setup.MailboxSettings.MailboxSettingsFragment.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+121,Private Static Class,com.android.email.activity.setup.MailboxSettings.MailboxSettingsFragment.MailboxLoader,1,1,0,0,3,1,3,3,1,39,2,33,No Change
+122,Private Class,com.android.email.activity.setup.MailboxSettings.MailboxSettingsFragment.MailboxLoaderCallbacks,2,2,2,0,3,0,3,3,3,28,1,0,No Change
+123,Anonymous Class,com.android.email.activity.setup.MailboxSettings.MailboxSettingsFragment.saveToDatabase.(Anon_2),3,1,1,0,1,0,1,1,0,16,2,0,No Change
+124,Public Class,com.android.email.activity.setup.OAuthAuthenticationActivity,1,2,4,0,5,3,5,5,4,138,2,73,Modified
+125,Private Class,com.android.email.activity.setup.OAuthAuthenticationActivity.MyWebViewClient,4,1,1,0,1,0,1,1,1,31,2,0,No Change
+126,Private Static Class,com.android.email.activity.setup.OAuthAuthenticationActivity.OAuthTokenLoader,2,1,2,0,3,2,3,3,2,26,2,33,Modified
+127,Public Class,com.android.email.activity.setup.PolicyListPreference,1,1,0,0,3,0,3,3,2,14,2,0,No Change
+128,Public Class,com.android.email.activity.setup.SecurityRequiredDialogFragment,1,1,1,0,3,0,4,4,4,54,2,0,No Change
+129,Public Interface,com.android.email.activity.setup.SecurityRequiredDialogFragment.Callback,0,0,0,2,1,0,1,1,0,3,0,0,No Change
+130,Anonymous Class,com.android.email.activity.setup.SecurityRequiredDialogFragment.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+131,Anonymous Class,com.android.email.activity.setup.SecurityRequiredDialogFragment.onCreateDialog.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+132,Public Class,com.android.email.activity.setup.SetupDataFragment,1,2,2,0,28,10,28,28,28,205,2,76,Lines Decreased
+133,Anonymous Class,com.android.email.activity.setup.SetupDataFragment.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+134,Public Interface,com.android.email.activity.setup.SetupDataFragment.SetupDataContainer,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+135,Public Class,com.android.email.activity.setup.SpinnerOption,1,1,0,0,2,2,3,3,3,21,1,33,No Change
+136,Public Class,com.android.email.activity.UiUtilities,1,1,0,0,1,0,8,8,6,57,1,0,Lines Decreased
+138,Public Class,com.android.email.AttachmentInfo,2,1,1,0,10,10,10,10,9,152,1,74,Class Deleted
+139,Public Class,com.android.email.data.ClosingMatrixCursor,1,1,0,0,2,1,2,2,2,14,2,0,No Change
+140,Public Class,com.android.email.EmailAddressValidator,1,2,0,0,2,0,2,2,2,10,1,0,No Change
+141,Public Class,com.android.email.EmailApplication,0,1,1,0,0,0,0,0,0,27,2,0,Lines Increased
+142,Anonymous Class,com.android.email.EmailApplication.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+143,Anonymous Class,com.android.email.EmailApplication.(Anon_2),1,1,0,0,1,0,1,1,1,12,2,0,No Change
+144,Anonymous Class,com.android.email.EmailApplication.(Anon_2).createInlineAttachmentViewIntentBuilder.(Anon_3),1,1,0,0,1,0,1,1,1,6,2,0,No Change
+145,Public Class,com.android.email.EmailConnectivityManager,2,1,1,0,10,8,12,12,12,122,2,81,Class Deleted
+146,Public Class,com.android.email.EmailIntentService,1,1,1,0,2,0,2,2,1,14,2,0,Class Deleted
+147,Public Class,com.android.email.FixedLengthInputStream,1,1,0,0,7,3,7,7,7,47,2,38,Class Deleted
+148,Public Class,com.android.email.LegacyConversions,5,1,0,0,0,0,10,10,7,330,1,0,Class Deleted
+149,Public Class,com.android.email.mail.internet.AuthenticationCache,1,1,3,0,7,2,8,8,3,116,1,70,Class Deleted
+150,Private Class,com.android.email.mail.internet.AuthenticationCache.CacheEntry,1,1,0,0,1,5,1,1,0,15,1,0,Class Deleted
+151,Public Class,com.android.email.mail.internet.EmailHtmlUtil,9,1,0,0,0,0,1,1,1,34,1,0,No Change
+152,Public Class,com.android.email.mail.internet.OAuthAuthenticator,3,1,2,0,5,1,5,5,3,130,1,60,Class Deleted
+153,Public Static Class,com.android.email.mail.internet.OAuthAuthenticator.AuthenticationResult,2,1,0,0,2,3,2,2,2,17,1,0,Class Deleted
+154,Public Abstract Class,com.android.email.mail.Sender,3,1,0,1,3,0,7,7,5,64,1,0,Class Deleted
+155,Public Abstract Class,com.android.email.mail.Store,1,1,4,3,7,5,12,12,9,100,1,96,Class Deleted
+156,Public Class,com.android.email.mail.store.imap.ImapConstants,1,1,1,0,1,0,1,1,0,78,1,0,Class Deleted
+157,Public Abstract Class,com.android.email.mail.store.imap.ImapElement,1,1,0,3,7,1,7,7,5,41,1,25,Class Deleted
+158,Anonymous Class,com.android.email.mail.store.imap.ImapElement.(Anon_1),1,1,0,0,5,0,12,5,5,16,2,0,Class Deleted
+159,Public Class,com.android.email.mail.store.imap.ImapList,2,1,1,2,21,1,28,21,18,130,2,61,Class Deleted
+160,Anonymous Class,com.android.email.mail.store.imap.ImapList.(Anon_1),1,1,0,0,2,0,30,2,1,6,3,0,Class Deleted
+161,Public Class,com.android.email.mail.store.imap.ImapMemoryLiteral,1,1,1,0,5,1,25,5,4,34,3,0,Class Deleted
+162,Public Class,com.android.email.mail.store.imap.ImapResponse,1,1,2,0,13,2,42,14,12,82,3,75,Class Deleted
+163,Public Class,com.android.email.mail.store.imap.ImapResponseParser,3,1,13,0,16,6,17,17,3,265,1,87,Class Deleted
+164,Public Static Class,com.android.email.mail.store.imap.ImapResponseParser.ByeException,1,1,0,0,1,0,1,1,1,6,2,0,Class Deleted
+165,Public Class,com.android.email.mail.store.imap.ImapSimpleString,1,1,0,0,5,1,25,5,4,23,3,0,Class Deleted
+166,Public Abstract Class,com.android.email.mail.store.imap.ImapString,2,1,0,5,13,3,20,13,13,99,2,83,Class Deleted
+167,Anonymous Class,com.android.email.mail.store.imap.ImapString.(Anon_1),1,1,0,0,4,0,24,4,4,12,3,0,Class Deleted
+168,Public Class,com.android.email.mail.store.imap.ImapTempFileLiteral,1,1,2,0,7,2,27,7,5,61,3,57,Class Deleted
+169,Public Class,com.android.email.mail.store.imap.ImapUtility,4,1,0,0,0,0,3,3,3,54,1,0,Class Deleted
+170,Class,com.android.email.mail.store.ImapConnection,3,1,13,0,27,9,27,27,0,350,1,84,Class Deleted
+171,Class,com.android.email.mail.store.ImapFolder,4,1,13,0,39,8,42,42,26,902,2,85,Class Deleted
+172,Public Class,com.android.email.mail.store.ImapStore,2,1,10,0,19,4,39,27,6,364,2,88,Class Deleted
+173,Static Class,com.android.email.mail.store.ImapStore.ImapException,1,1,0,0,3,2,3,3,3,16,2,33,Class Deleted
+174,Static Class,com.android.email.mail.store.ImapStore.ImapMessage,1,1,1,0,5,0,5,5,4,21,2,0,Class Deleted
+175,Public Class,com.android.email.mail.store.Pop3Store,1,1,2,0,5,2,18,6,4,563,2,95,Class Deleted
+176,Class,com.android.email.mail.store.Pop3Store.Pop3Capabilities,1,1,0,0,1,1,1,1,1,7,1,0,Class Deleted
+177,Public Class,com.android.email.mail.store.Pop3Store.Pop3Folder,2,1,8,0,34,6,34,34,29,452,2,88,Class Deleted
+178,Class,com.android.email.mail.store.Pop3Store.Pop3Folder.UidlParser,4,1,0,0,3,4,3,3,3,57,1,25,Class Deleted
+179,Public Static Class,com.android.email.mail.store.Pop3Store.Pop3Message,1,1,1,0,4,0,4,4,4,19,2,0,Class Deleted
+180,Class,com.android.email.mail.store.Pop3Store.Pop3ResponseInputStream,2,1,0,0,2,3,2,2,2,25,2,33,Class Deleted
+181,Public Class,com.android.email.mail.store.ServiceStore,1,1,1,0,4,1,17,5,4,34,2,40,Class Deleted
+182,Public Class,com.android.email.mail.transport.DiscourseLogger,2,1,0,0,8,4,8,8,4,67,1,65,Class Deleted
+183,Public Class,com.android.email.mail.transport.MailTransport,2,1,1,0,18,6,19,19,18,181,1,71,Class Deleted
+184,Public Class,com.android.email.mail.transport.SmtpSender,3,1,3,0,11,6,19,12,6,211,2,76,Modified
+185,Public Class,com.android.email.mail.transport.StatusOutputStream,2,1,0,0,2,1,2,2,2,16,2,50,No Change
+186,Public Class,com.android.email.NotificationController,2,1,7,0,17,5,27,27,14,540,1,88,Class Deleted
+187,Private Static Class,com.android.email.NotificationController.AccountContentObserver,4,1,1,0,2,1,2,2,2,39,2,0,Class Deleted
+188,Anonymous Class,com.android.email.NotificationController.cancelSecurityNeededNotification.(Anon_3),2,1,1,0,1,0,1,1,1,15,2,0,Class Deleted
+189,Anonymous Class,com.android.email.NotificationController.ensureHandlerExists.(Anon_2),3,1,1,0,1,0,1,1,1,18,2,0,Class Deleted
+190,Private Static Class,com.android.email.NotificationController.MessageContentObserver,1,1,1,0,2,2,2,2,2,14,2,0,Class Deleted
+191,Private Static Class,com.android.email.NotificationController.NotificationThread,1,2,0,0,3,2,3,3,3,28,1,16,Class Deleted
+192,Anonymous Class,com.android.email.NotificationController.watchForMessages.(Anon_1),2,1,2,0,1,0,1,1,1,11,2,0,Class Deleted
+193,Public Class,com.android.email.PeekableInputStream,1,1,0,0,6,3,6,6,6,48,2,33,Class Deleted
+194,Public Class,com.android.email.Preferences,1,1,0,0,26,1,30,30,28,171,1,51,Class Deleted
+195,Public Class,com.android.email.preferences.EmailPreferenceMigrator,9,1,1,0,1,0,2,2,0,128,2,0,Modified
+196,Public Class,com.android.email.provider.AccountBackupRestore,1,1,1,0,0,0,1,1,1,6,1,0,Class Deleted
+197,Public Class,com.android.email.provider.AccountReconciler,5,1,4,0,0,0,6,6,1,156,1,0,Class Deleted
+198,Public Class,com.android.email.provider.AttachmentProvider,3,1,0,0,8,0,10,10,8,222,2,0,Class Deleted
+199,Public Class,com.android.email.provider.ContentCache,2,1,6,0,20,7,24,24,16,525,1,82,Class Deleted
+200,Public Static Class,com.android.email.provider.ContentCache.CachedCursor,1,2,2,0,17,6,17,17,17,92,2,81,Class Deleted
+201,Public Static Class,com.android.email.provider.ContentCache.CacheToken,1,1,1,0,6,2,6,6,2,24,1,50,Class Deleted
+202,Anonymous Class,com.android.email.provider.ContentCache.ContentCache.(Anon_1),2,1,2,0,1,0,1,1,0,8,2,0,Class Deleted
+203,Static Generic Class,com.android.email.provider.ContentCache.CounterMap,1,1,0,0,8,1,8,8,0,45,1,0,Class Deleted
+205,Static Class,com.android.email.provider.ContentCache.Statistics,1,1,1,0,4,14,5,5,1,60,1,62,Class Deleted
+206,Static Class,com.android.email.provider.ContentCache.TokenList,2,1,3,0,5,1,5,5,1,53,2,0,Class Deleted
+207,Public Class,com.android.email.provider.DBHelper,2,1,3,0,0,0,41,41,0,1393,1,95,Class Deleted
+208,Protected Static Class,com.android.email.provider.DBHelper.BodyDatabaseHelper,2,1,1,0,4,1,4,4,3,30,2,50,Class Deleted
+209,Protected Static Class,com.android.email.provider.DBHelper.DatabaseHelper,19,1,1,0,5,1,5,5,4,532,2,40,Class Deleted
+210,Public Class,com.android.email.provider.EmailConversationCursor,4,2,1,0,6,5,6,6,5,156,2,53,Class Deleted
+211,Public Class,com.android.email.provider.EmailMessageCursor,3,1,0,0,3,4,3,3,3,69,2,16,Class Deleted
+212,Public Class,com.android.email.provider.EmailProvider,5,2,22,0,95,16,162,162,23,4487,2,98,Class Deleted
+213,Anonymous Class,com.android.email.provider.EmailProvider.(Anon_3),1,2,1,0,1,0,1,1,1,5,1,0,Class Deleted
+214,Static Class,com.android.email.provider.EmailProvider.AttachmentsCursor,5,1,0,0,2,4,2,2,2,60,2,25,Class Deleted
+215,Static Class,com.android.email.provider.EmailProvider.CloseDetectingCursor,1,1,1,0,2,0,2,2,2,10,2,0,Class Deleted
+216,Public Interface,com.android.email.provider.EmailProvider.EmailAttachmentService,0,0,0,1,1,0,1,1,0,3,0,0,Class Deleted
+217,Anonymous Class,com.android.email.provider.EmailProvider.getDelayedSyncHandler.(Anon_7),1,1,2,0,1,0,1,1,1,14,2,0,Class Deleted
+218,Private Static Class,com.android.email.provider.EmailProvider.MessageQuery,1,1,0,0,1,2,1,1,0,8,1,0,Class Deleted
+219,Anonymous Class,com.android.email.provider.EmailProvider.notifyUIFolder.(Anon_4),1,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+220,Anonymous Class,com.android.email.provider.EmailProvider.onCreate.(Anon_2),1,1,1,0,2,0,2,2,2,10,2,0,Class Deleted
+221,Anonymous Class,com.android.email.provider.EmailProvider.reconcileAccountsAsync.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,Class Deleted
+222,Anonymous Class,com.android.email.provider.EmailProvider.runSearchQuery.(Anon_6),3,1,2,0,1,0,1,1,1,21,2,0,Class Deleted
+223,Private Class,com.android.email.provider.EmailProvider.SyncRequestMessage,1,1,0,0,3,3,3,3,2,31,1,0,Class Deleted
+224,Anonymous Class,com.android.email.provider.EmailProvider.uiFolderRefresh.(Anon_5),1,2,1,0,2,0,2,2,2,16,1,0,Class Deleted
+225,Public Class,com.android.email.provider.FolderPickerActivity,2,2,3,0,7,6,7,7,4,148,2,66,Class Deleted
+226,Private Class,com.android.email.provider.FolderPickerActivity.AccountObserver,2,1,1,0,2,1,2,2,2,21,2,0,Class Deleted
+227,Public Interface,com.android.email.provider.FolderPickerCallback,0,0,0,1,2,0,2,2,2,4,0,0,Class Deleted
+228,Public Class,com.android.email.provider.FolderPickerDialog,2,4,2,0,6,4,6,6,6,93,1,37,Class Deleted
+229,Anonymous Class,com.android.email.provider.FolderPickerDialog.show.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+230,Public Class,com.android.email.provider.FolderPickerSelectorAdapter,1,1,0,0,2,0,2,2,1,11,2,0,Class Deleted
+231,Public Class,com.android.email.provider.RefreshStatusMonitor,1,1,2,0,4,4,5,5,3,109,1,72,Class Deleted
+232,Public Interface,com.android.email.provider.RefreshStatusMonitor.Callback,0,0,0,1,2,0,2,2,0,4,0,0,Class Deleted
+233,Anonymous Class,com.android.email.provider.RefreshStatusMonitor.RefreshStatusMonitor.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,Class Deleted
+234,Private Class,com.android.email.provider.RefreshStatusMonitor.RemoveRefreshStatusRunnable,3,2,2,0,2,3,2,2,1,47,1,16,Class Deleted
+235,Public Class,com.android.email.provider.Utilities,5,1,1,0,0,0,4,4,4,126,1,0,Class Deleted
+236,Public Class,com.android.email.provider.WidgetProvider,2,1,1,0,4,0,10,10,1,113,2,0,Class Deleted
+237,Public Class,com.android.email.ResourceHelper,1,1,0,0,5,5,6,6,4,40,1,72,Class Deleted
+238,Public Class,com.android.email.SecurityPolicy,4,1,7,0,20,4,29,29,19,533,1,83,Class Deleted
+239,Public Static Class,com.android.email.SecurityPolicy.PolicyAdmin,1,1,2,0,5,0,5,5,5,26,2,0,Class Deleted
+240,Public Class,com.android.email.service.AccountService,3,1,0,0,1,2,1,1,1,41,2,0,Class Deleted
+241,Anonymous Class,com.android.email.service.AccountService.(Anon_1),1,1,2,0,3,0,3,3,3,26,2,0,Class Deleted
+242,Anonymous Class,com.android.email.service.AccountService.(Anon_1).getDeviceId.(Anon_2),1,1,3,0,1,0,1,1,1,5,2,0,Class Deleted
+243,Public Class,com.android.email.service.AttachmentService,4,2,9,0,20,11,23,23,10,867,2,86,Class Deleted
+244,Static Class,com.android.email.service.AttachmentService.AccountManagerStub,1,1,0,0,3,2,3,3,0,21,1,33,Class Deleted
+245,Public Static Class,com.android.email.service.AttachmentService.AttachmentWatchdog,2,1,2,0,6,1,6,6,3,71,2,83,Class Deleted
+246,Anonymous Class,com.android.email.service.AttachmentService.AttachmentWatchdog.onReceive.(Anon_1),3,1,2,0,1,0,1,1,1,11,2,0,Class Deleted
+247,Static Class,com.android.email.service.AttachmentService.DownloadQueue,2,1,3,0,6,4,6,6,6,92,1,37,Class Deleted
+248,Private Static Class,com.android.email.service.AttachmentService.DownloadQueue.DownloadComparator,5,2,1,0,1,0,1,1,1,16,1,0,Class Deleted
+249,Static Class,com.android.email.service.AttachmentService.DownloadRequest,1,1,1,0,5,12,5,5,2,58,1,60,Class Deleted
+250,Class,com.android.email.service.AttachmentService.ServiceCallback,3,1,2,0,2,0,2,2,1,48,2,0,Class Deleted
+251,Public Class,com.android.email.service.AuthenticatorService,2,1,1,7,1,0,1,1,1,96,2,0,Class Deleted
+252,Class,com.android.email.service.AuthenticatorService.Authenticator,1,1,4,0,8,0,8,8,8,81,2,0,Class Deleted
+253,Public Class,com.android.email.service.EasAuthenticatorService,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+254,Public Class,com.android.email.service.EasAuthenticatorServiceAlternate,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+255,Public Class,com.android.email.service.EasTestAuthenticatorService,2,1,1,0,1,0,1,1,1,69,2,0,Class Deleted
+256,Class,com.android.email.service.EasTestAuthenticatorService.EasAuthenticator,1,1,2,0,8,0,8,8,8,56,2,0,Class Deleted
+257,Public Class,com.android.email.service.EmailBroadcastProcessorService,2,1,9,0,12,0,18,18,4,204,2,0,Class Deleted
+258,Public Class,com.android.email.service.EmailBroadcastReceiver,1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+259,Public Abstract Class,com.android.email.service.EmailServiceStub,4,2,7,2,14,1,15,15,13,353,2,66,Class Deleted
+260,Public Class,com.android.email.service.EmailServiceStub.MessageRetrievalListenerBridge,1,2,0,0,3,3,3,3,3,22,1,33,Class Deleted
+261,Public Class,com.android.email.service.EmailServiceUtils,2,1,5,0,0,0,25,25,19,530,1,96,Class Deleted
+262,Public Static Class,com.android.email.service.EmailServiceUtils.EmailServiceInfo,2,1,0,0,1,32,1,1,1,44,1,90,Class Deleted
+263,Class,com.android.email.service.EmailServiceUtils.NullService,1,2,0,0,13,0,13,13,13,47,1,0,Class Deleted
+264,Public Class,com.android.email.service.EmailUpgradeBroadcastReceiver,1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+265,Public Class,com.android.email.service.ImapAuthenticatorService,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+266,Public Class,com.android.email.service.ImapService,7,1,9,0,3,1,19,19,6,990,2,93,Class Deleted
+267,Anonymous Class,com.android.email.service.ImapService.(Anon_1),2,1,1,0,1,0,16,1,1,10,3,0,Class Deleted
+268,Anonymous Class,com.android.email.service.ImapService.downloadFlagAndEnvelope.(Anon_2),4,1,4,0,2,0,2,2,2,39,2,0,Class Deleted
+269,Private Static Class,com.android.email.service.ImapService.LocalMessageInfo,1,1,0,0,1,7,1,1,1,34,1,0,Class Deleted
+270,Private Static Class,com.android.email.service.ImapService.OldestTimestampInfo,0,1,0,0,0,0,0,0,0,6,1,0,Class Deleted
+271,Anonymous Class,com.android.email.service.ImapService.processPendingDataChange.(Anon_3),1,1,1,0,2,0,2,2,2,11,2,0,Class Deleted
+272,Anonymous Class,com.android.email.service.ImapService.processPendingMoveToTrash.(Anon_4),1,1,1,0,2,0,2,2,2,11,2,0,Class Deleted
+273,Anonymous Class,com.android.email.service.ImapService.searchMailboxImpl.(Anon_5),3,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+274,Anonymous Class,com.android.email.service.ImapService.searchMailboxImpl.(Anon_6),2,1,3,0,2,0,2,2,2,23,2,0,Class Deleted
+275,Private Static Class,com.android.email.service.ImapService.SortableMessage,1,1,0,0,1,2,1,1,0,8,1,0,Class Deleted
+276,Public Class,com.android.email.service.ImapTempFileLiteral,1,1,2,0,7,2,27,7,5,61,3,57,Class Deleted
+277,Public Class,com.android.email.service.LegacyEasAuthenticatorService,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+278,Public Class,com.android.email.service.LegacyEmailAuthenticatorService,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+279,Public Class,com.android.email.service.LegacyImapAuthenticatorService,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+280,Public Class,com.android.email.service.LegacyImapSyncAdapterService,0,1,0,0,0,0,6,0,0,1,3,0,Class Deleted
+281,Public Class,com.android.email.service.PolicyService,1,1,1,0,1,3,1,1,1,49,2,0,Class Deleted
+282,Anonymous Class,com.android.email.service.PolicyService.(Anon_1),1,1,2,0,5,0,5,5,5,38,2,0,Class Deleted
+283,Public Class,com.android.email.service.Pop3AuthenticatorService,0,1,0,0,0,0,1,0,0,2,3,0,Class Deleted
+284,Public Class,com.android.email.service.Pop3Service,6,1,10,0,2,1,5,5,3,264,2,80,Class Deleted
+285,Anonymous Class,com.android.email.service.Pop3Service.(Anon_1),3,1,0,0,1,0,16,1,1,10,3,0,Class Deleted
+286,Private Static Class,com.android.email.service.Pop3Service.FetchCallback,1,2,0,0,2,3,2,2,1,14,1,16,Class Deleted
+287,Private Static Class,com.android.email.service.Pop3Service.LocalMessageInfo,1,1,0,0,1,3,1,1,1,16,1,0,Class Deleted
+288,Public Class,com.android.email.service.Pop3SyncAdapterService,0,1,0,0,0,0,6,0,0,1,3,0,Class Deleted
+289,Public Class,com.android.email.service.PopImapSyncAdapterService,5,1,5,2,3,1,6,6,3,178,2,66,Class Deleted
+290,Private Static Class,com.android.email.service.PopImapSyncAdapterService.SyncAdapterImpl,1,1,1,0,2,0,2,2,2,11,2,0,Class Deleted
+291,Public Class,com.android.email.StopWatch,1,1,0,0,3,3,5,5,3,29,1,46,No Change
+292,Public Class,com.android.email.view.CertificateSelector,1,2,3,0,12,4,12,12,9,97,2,79,No Change
+293,Public Interface,com.android.email.view.CertificateSelector.HostCallback,0,0,0,2,1,0,1,1,0,3,0,0,No Change
+294,Public Static Class,com.android.email.view.CertificateSelector.SavedState,1,1,0,0,3,1,3,3,1,28,2,0,No Change
+295,Anonymous Class,com.android.email.view.CertificateSelector.SavedState.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+296,Public Class,com.android.email2.ui.CreateShortcutActivityEmail,2,1,0,0,1,0,1,1,1,21,2,0,No Change
+297,Public Class,com.android.email2.ui.MailActivityEmail,2,1,5,0,2,0,9,9,6,145,2,97,Lines Decreased
+298,Anonymous Class,com.android.email2.ui.MailActivityEmail.setServicesEnabledAsync.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+299,Public Class,com.android.email2.ui.MailboxSelectionActivityEmail,0,1,0,0,0,0,0,0,0,1,2,0,No Change
+300,Public Class,com.android.mail.browse.EmailConversationProvider,2,1,0,0,1,0,1,1,0,9,2,0,No Change
+301,Public Class,com.android.mail.providers.EmailAccountCacheProvider,1,1,1,0,3,0,3,3,1,22,2,66,Lines Decreased
+302,Class,com.beetstra.jutf7.Base64Util,2,1,0,0,4,2,4,4,0,32,1,37,No Change
+303,Public Class,com.beetstra.jutf7.CharsetProvider,2,1,2,0,3,4,3,3,3,43,2,50,No Change
+304,Class,com.beetstra.jutf7.ModifiedUTF7Charset,1,1,0,0,4,0,11,4,0,18,3,0,No Change
+305,Class,com.beetstra.jutf7.UTF7Charset,1,1,0,0,4,1,11,4,0,24,3,50,No Change
+306,Abstract Class,com.beetstra.jutf7.UTF7StyleCharset,1,1,3,2,7,2,7,7,3,25,2,25,No Change
+307,Class,com.beetstra.jutf7.UTF7StyleCharsetDecoder,2,1,2,0,9,9,9,9,0,104,2,72,No Change
+308,Class,com.beetstra.jutf7.UTF7StyleCharsetEncoder,3,1,2,0,6,10,6,6,0,86,2,56,No Change

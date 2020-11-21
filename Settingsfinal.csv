@@ -1,0 +1,1191 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.settings.accessibility.AccessibilitySettings,2,4,5,0,21,23,56,21,5,477,3,87,Lines Increased
+1,Anonymous Class,com.android.settings.accessibility.AccessibilitySettings.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+2,Anonymous Class,com.android.settings.accessibility.AccessibilitySettings.(Anon_2),1,1,1,0,5,0,5,5,4,20,2,0,No Change
+3,Anonymous Class,com.android.settings.accessibility.AccessibilitySettings.(Anon_3),1,1,1,0,1,0,5,1,1,6,3,0,No Change
+4,Anonymous Class,com.android.settings.accessibility.AccessibilitySettings.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+5,Anonymous Class,com.android.settings.accessibility.AccessibilitySettings.(Anon_5),2,1,1,0,2,0,6,2,2,39,2,0,No Change
+6,Class,com.android.settings.accessibility.AccessibilityUtils,2,1,1,0,0,0,2,2,0,34,1,0,Lines Decreased
+7,Public Class,com.android.settings.accessibility.CaptionPropertiesFragment,2,3,9,0,17,20,53,18,8,318,3,80,Lines Increased
+8,Anonymous Class,com.android.settings.accessibility.CaptionPropertiesFragment.onInstallSwitchBarToggleSwitch.(Anon_2),4,2,3,0,1,0,1,1,1,12,1,0,No Change
+9,Anonymous Class,com.android.settings.accessibility.CaptionPropertiesFragment.onViewCreated.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+10,Public Class,com.android.settings.accessibility.ColorPreference,2,1,0,0,6,2,23,6,3,83,3,75,Lines Decreased
+11,Public Class,com.android.settings.accessibility.EdgeTypePreference,1,1,0,0,3,0,20,3,2,34,3,0,Lines Decreased
+12,Public Abstract Class,com.android.settings.accessibility.ListDialogPreference,1,1,3,3,17,7,17,17,8,190,2,83,Lines Decreased
+13,Private Class,com.android.settings.accessibility.ListDialogPreference.ListPreferenceAdapter,1,1,1,0,5,1,5,5,5,30,2,80,No Change
+14,Anonymous Class,com.android.settings.accessibility.ListDialogPreference.onPrepareDialogBuilder.(Anon_1),3,1,1,0,1,0,1,1,1,11,2,0,No Change
+15,Public Interface,com.android.settings.accessibility.ListDialogPreference.OnValueChangedListener,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+16,Private Static Class,com.android.settings.accessibility.ListDialogPreference.SavedState,1,1,0,0,3,1,3,3,3,26,2,33,No Change
+17,Anonymous Class,com.android.settings.accessibility.ListDialogPreference.SavedState.(Anon_2),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+18,Public Class,com.android.settings.accessibility.LocalePreference,1,1,0,0,3,0,3,3,3,26,2,0,Lines Decreased
+19,Public Class,com.android.settings.accessibility.PresetPreference,1,1,1,0,3,1,20,3,2,31,3,33,Lines Decreased
+20,Abstract Class,com.android.settings.accessibility.SettingsContentObserver,1,1,0,2,4,0,4,4,4,16,2,0,Lines Decreased
+21,Public Class,com.android.settings.accessibility.ToggleAccessibilityServicePreferenceFragment,3,2,6,0,13,4,60,13,7,278,4,82,Lines Increased
+22,Anonymous Class,com.android.settings.accessibility.ToggleAccessibilityServicePreferenceFragment.(Anon_1),1,1,4,0,1,0,5,1,1,8,3,0,Lines Decreased
+23,Anonymous Class,com.android.settings.accessibility.ToggleAccessibilityServicePreferenceFragment.onInstallSwitchBarToggleSwitch.(Anon_2),2,2,6,0,1,0,1,1,1,14,1,0,Class Deleted
+24,Public Class,com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment,1,3,1,0,8,1,55,8,4,58,4,62,Lines Increased
+25,Public Abstract Class,com.android.settings.accessibility.ToggleFeaturePreferenceFragment,1,1,4,4,12,6,47,12,6,104,3,83,Modified
+26,Anonymous Class,com.android.settings.accessibility.ToggleFeaturePreferenceFragment.onCreate.(Anon_1),1,1,0,0,2,0,2,2,0,19,2,0,No Change
+27,Public Class,com.android.settings.accessibility.ToggleGlobalGesturePreferenceFragment,1,1,1,0,2,0,49,2,0,21,4,0,Lines Increased
+28,Anonymous Class,com.android.settings.accessibility.ToggleGlobalGesturePreferenceFragment.onInstallSwitchBarToggleSwitch.(Anon_1),1,2,5,0,1,0,1,1,1,8,1,0,No Change
+29,Public Class,com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment,1,1,1,0,2,0,49,2,0,21,4,0,Class Deleted
+30,Anonymous Class,com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment.onInstallSwitchBarToggleSwitch.(Anon_1),1,2,5,0,1,0,1,1,1,8,1,0,Class Deleted
+31,Public Class,com.android.settings.AccountPreference,3,1,0,0,8,5,8,8,4,110,2,72,Lines Decreased
+32,Class,com.android.settings.accounts.AccountPreferenceBase,1,2,2,2,13,8,48,13,8,101,3,84,Lines Decreased
+33,Anonymous Class,com.android.settings.accounts.AccountPreferenceBase.(Anon_1),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+34,Anonymous Class,com.android.settings.accounts.AccountPreferenceBase.(Anon_1).onStatusChanged.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+35,Public Class,com.android.settings.accounts.AccountSettings,3,3,8,0,17,6,52,17,7,415,3,80,Lines Increased
+36,Private Class,com.android.settings.accounts.AccountSettings.AccountPreference,1,2,1,0,2,3,2,2,2,25,2,0,Lines Increased
+37,Public Static Class,com.android.settings.accounts.AccountSettings.ConfirmAutoSyncChangeFragment,2,1,1,0,2,2,3,3,3,42,2,33,Lines Increased
+38,Anonymous Class,com.android.settings.accounts.AccountSettings.ConfirmAutoSyncChangeFragment.onCreateDialog.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+39,Anonymous Class,com.android.settings.accounts.AccountSettings.getAccountTypePreferences.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+40,Private Class,com.android.settings.accounts.AccountSettings.ManagedProfileBroadcastReceiver,2,1,1,0,3,1,3,3,3,32,2,33,No Change
+41,Private Class,com.android.settings.accounts.AccountSettings.MasterSyncStateClickListener,1,2,2,0,2,1,2,2,2,16,1,0,No Change
+42,Anonymous Class,com.android.settings.accounts.AccountSettings.onPreferenceClick.(for_loop_1).(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+43,Private Static Class,com.android.settings.accounts.AccountSettings.ProfileData,0,1,1,0,0,5,0,0,0,7,1,0,No Change
+44,Public Class,com.android.settings.accounts.AccountSyncSettings,3,1,3,0,24,7,72,24,11,406,4,89,Lines Increased
+45,Anonymous Class,com.android.settings.accounts.AccountSyncSettings.onCreateDialog.(Anon_1),1,1,2,0,1,0,1,1,1,29,2,0,Lines Increased
+46,Anonymous Class,com.android.settings.accounts.AccountSyncSettings.onCreateDialog.(Anon_1).onClick.(Anon_2),7,1,2,0,1,0,1,1,1,22,2,0,Lines Increased
+47,Public Class,com.android.settings.accounts.AddAccountSettings,3,1,3,0,4,4,4,4,2,131,2,50,Lines Decreased
+48,Anonymous Class,com.android.settings.accounts.AddAccountSettings.(Anon_1),11,1,2,0,1,0,1,1,1,36,2,0,No Change
+49,Public Class,com.android.settings.accounts.AuthenticatorHelper,2,1,1,0,15,10,15,15,13,161,2,78,Lines Increased
+50,Public Interface,com.android.settings.accounts.AuthenticatorHelper.OnAccountsUpdateListener,0,0,0,3,1,0,1,1,0,3,0,0,No Change
+51,Anonymous Class,com.android.settings.accounts.AuthenticatorHelper.preloadDrawableForType.(Anon_1),1,1,1,0,1,0,1,1,0,6,2,0,No Change
+52,Public Class,com.android.settings.accounts.ChooseAccountActivity,4,1,5,0,8,9,8,8,2,180,2,72,Lines Increased
+53,Private Static Class,com.android.settings.accounts.ChooseAccountActivity.ProviderEntry,2,2,0,0,2,2,2,2,1,17,1,25,No Change
+54,Public Class,com.android.settings.accounts.ManageAccountsSettings,3,2,7,0,21,4,69,21,10,372,4,85,Lines Increased
+55,Private Class,com.android.settings.accounts.ManageAccountsSettings.FragmentStarter,1,2,3,0,2,2,2,2,2,20,1,0,No Change
+56,Anonymous Class,com.android.settings.accounts.ManageAccountsSettings.updatePreferenceIntents.(for_loop_9).(Anon_1),2,1,2,0,1,0,1,1,1,14,2,0,No Change
+57,Public Class,com.android.settings.accounts.ProviderPreference,1,1,0,0,2,1,2,2,2,14,2,0,Lines Decreased
+58,Public Class,com.android.settings.accounts.SyncStateCheckBoxPreference,1,1,1,0,11,6,11,11,10,75,2,75,Class Deleted
+59,Public Class,com.android.settings.ActiveNetworkScorerDialog,3,2,0,0,3,1,3,3,1,57,2,0,Lines Increased
+60,Public Class,com.android.settings.ActivityPicker,2,3,2,1,6,2,6,6,2,267,2,58,Lines Decreased
+61,Private Static Class,com.android.settings.ActivityPicker.EmptyDrawable,1,1,0,0,9,2,9,9,8,37,2,66,No Change
+62,Private Static Class,com.android.settings.ActivityPicker.IconResizer,6,1,1,0,2,5,2,2,2,77,1,9,No Change
+63,Protected Static Class,com.android.settings.ActivityPicker.PickAdapter,1,1,1,0,5,2,5,5,5,72,2,50,No Change
+64,Public Static Class,com.android.settings.ActivityPicker.PickAdapter.Item,1,2,1,0,5,5,5,5,1,45,1,60,No Change
+65,Public Class,com.android.settings.AirplaneModeEnabler,1,2,0,0,7,5,8,8,6,72,1,60,Lines Decreased
+66,Anonymous Class,com.android.settings.AirplaneModeEnabler.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+67,Anonymous Class,com.android.settings.AirplaneModeEnabler.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+68,Public Class,com.android.settings.AirplaneModeVoiceActivity,3,1,0,0,1,0,3,1,0,13,3,0,Lines Decreased
+69,Public Class,com.android.settings.AllowBindAppWidgetActivity,4,2,0,0,3,7,3,3,1,92,2,38,Lines Decreased
+70,Public Class,com.android.settings.ApnEditor,4,3,0,0,21,28,21,21,7,526,2,82,Lines Increased
+71,Public Class,com.android.settings.ApnPreference,1,3,0,0,10,2,10,10,10,83,2,72,No Change
+72,Public Class,com.android.settings.ApnSettings,2,2,3,0,15,8,51,16,10,280,3,87,Lines Increased
+73,Anonymous Class,com.android.settings.ApnSettings.(Anon_1),4,1,2,0,1,0,1,1,1,17,2,0,No Change
+74,Private Class,com.android.settings.ApnSettings.RestoreApnProcessHandler,1,1,2,0,2,1,2,2,2,18,2,0,No Change
+75,Private Class,com.android.settings.ApnSettings.RestoreApnUiHandler,3,1,2,0,1,0,1,1,1,23,2,0,No Change
+76,Interface,com.android.settings.applications.AppClickListener,0,0,1,1,1,0,1,1,0,4,0,0,Class Deleted
+77,Public Class,com.android.settings.applications.ApplicationsState,4,1,8,0,18,19,20,20,3,873,1,85,Class Deleted
+78,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_1),3,1,1,0,1,1,1,1,1,13,2,0,Class Deleted
+79,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_2),3,1,1,0,1,1,1,1,1,8,2,0,Class Deleted
+80,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_3),3,1,1,0,1,1,1,1,1,8,2,0,Class Deleted
+81,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_4),3,1,1,0,1,1,1,1,1,8,2,0,Class Deleted
+82,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_5),2,2,0,0,2,0,2,2,2,12,1,0,Class Deleted
+83,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_6),1,2,1,0,2,1,2,2,2,10,1,0,Class Deleted
+84,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_7),1,2,0,0,2,0,2,2,2,10,1,0,Class Deleted
+85,Anonymous Class,com.android.settings.applications.ApplicationsState.(Anon_8),1,2,0,0,2,0,2,2,2,10,1,0,Class Deleted
+86,Public Static Class,com.android.settings.applications.ApplicationsState.AppEntry,3,1,1,0,4,15,4,4,0,63,2,75,Class Deleted
+87,Public Interface,com.android.settings.applications.ApplicationsState.AppFilter,0,0,0,4,2,0,2,2,2,4,0,0,Class Deleted
+88,Class,com.android.settings.applications.ApplicationsState.BackgroundHandler,17,1,4,0,2,2,2,2,1,179,2,50,Class Deleted
+89,Anonymous Class,com.android.settings.applications.ApplicationsState.BackgroundHandler.(Anon_9),8,1,5,0,1,0,1,1,1,54,2,0,Class Deleted
+90,Public Interface,com.android.settings.applications.ApplicationsState.Callbacks,0,0,0,2,6,0,6,6,6,8,0,0,Class Deleted
+91,Class,com.android.settings.applications.ApplicationsState.MainHandler,13,1,3,0,1,0,1,1,1,47,2,0,Class Deleted
+92,Private Class,com.android.settings.applications.ApplicationsState.PackageIntentReceiver,3,1,1,0,3,0,3,3,1,45,2,0,Class Deleted
+93,Public Class,com.android.settings.applications.ApplicationsState.Session,4,1,6,0,6,9,6,6,3,127,1,70,Class Deleted
+94,Public Static Class,com.android.settings.applications.ApplicationsState.SizeInfo,0,1,0,1,0,6,0,0,0,8,1,0,Class Deleted
+95,Public Class,com.android.settings.applications.AppOpsCategory,1,2,8,0,9,3,9,9,8,200,2,66,Lines Decreased
+96,Public Static Class,com.android.settings.applications.AppOpsCategory.AppListAdapter,1,1,3,0,6,4,6,6,6,43,2,62,No Change
+97,Public Static Class,com.android.settings.applications.AppOpsCategory.AppListLoader,2,1,4,0,8,5,8,8,4,64,2,75,No Change
+98,Public Static Class,com.android.settings.applications.AppOpsCategory.InterestingConfigChanges,2,1,0,0,1,2,1,1,0,14,1,0,No Change
+99,Public Static Class,com.android.settings.applications.AppOpsCategory.PackageIntentReceiver,1,1,1,0,2,1,2,2,2,18,2,0,No Change
+100,Public Class,com.android.settings.applications.AppOpsDetails,3,1,6,0,7,8,7,7,3,131,2,69,Lines Decreased
+101,Anonymous Class,com.android.settings.applications.AppOpsDetails.refreshUi.(for_loop_1).(for_loop_2).(Anon_1),2,1,2,0,1,0,1,1,1,7,2,0,No Change
+102,Public Class,com.android.settings.applications.AppOpsState,7,1,3,0,5,6,5,5,3,484,1,70,Lines Increased
+103,Anonymous Class,com.android.settings.applications.AppOpsState.(Anon_2),7,1,2,0,1,1,1,1,1,16,2,0,No Change
+104,Public Static Class,com.android.settings.applications.AppOpsState.AppEntry,1,1,2,0,9,8,9,9,8,68,1,73,No Change
+105,Public Static Class,com.android.settings.applications.AppOpsState.AppOpEntry,1,1,2,0,14,5,15,15,13,103,1,74,No Change
+106,Public Static Class,com.android.settings.applications.AppOpsState.OpsTemplate,1,2,0,0,4,2,4,4,3,29,1,25,No Change
+107,Anonymous Class,com.android.settings.applications.AppOpsState.OpsTemplate.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+108,Public Class,com.android.settings.applications.AppOpsSummary,2,1,3,0,1,6,1,1,1,63,2,28,Lines Increased
+109,Class,com.android.settings.applications.AppOpsSummary.MyPagerAdapter,1,2,2,0,7,0,7,7,7,29,2,0,No Change
+110,Public Class,com.android.settings.applications.AppViewHolder,4,1,3,0,1,7,2,2,1,43,1,42,Modified
+111,Class,com.android.settings.applications.CanBeOnSdCardChecker,3,1,0,0,3,2,3,3,0,35,1,33,Class Deleted
+112,Public Class,com.android.settings.applications.InstalledAppDetails,4,4,14,0,42,53,42,42,17,1124,2,92,Lines Decreased
+113,Anonymous Class,com.android.settings.applications.InstalledAppDetails.(Anon_1),5,1,3,0,1,0,1,1,1,19,2,0,Class Deleted
+114,Anonymous Class,com.android.settings.applications.InstalledAppDetails.(Anon_11),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+115,Class,com.android.settings.applications.InstalledAppDetails.ClearCacheObserver,2,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+116,Class,com.android.settings.applications.InstalledAppDetails.ClearUserDataObserver,2,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+117,Static Class,com.android.settings.applications.InstalledAppDetails.DisableChanger,1,1,1,0,2,4,2,2,0,17,2,12,Modified
+118,Public Static Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment,4,1,1,0,2,0,3,3,2,133,2,0,Class Deleted
+119,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_10),1,1,3,0,1,0,1,1,1,5,2,0,Class Deleted
+120,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_2),1,1,2,0,1,0,1,1,1,4,2,0,Class Deleted
+121,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_3),1,1,3,0,1,0,1,1,1,5,2,0,Class Deleted
+122,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_4),1,1,2,0,1,0,1,1,1,4,2,0,Class Deleted
+123,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_5),1,1,2,0,1,0,1,1,1,5,2,0,Class Deleted
+124,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_6),1,1,3,0,1,0,1,1,1,4,2,0,Class Deleted
+125,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_7),1,1,4,0,1,0,1,1,1,6,2,0,Class Deleted
+126,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_8),1,1,2,0,1,0,1,1,1,4,2,0,Class Deleted
+127,Anonymous Class,com.android.settings.applications.InstalledAppDetails.MyAlertDialogFragment.onCreateDialog.(Anon_9),1,1,2,0,1,0,1,1,1,4,2,0,Class Deleted
+128,Class,com.android.settings.applications.InstalledAppDetails.PackageMoveObserver,1,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+129,Private Static Class,com.android.settings.applications.InstalledAppDetails.PremiumSmsSelectionListener,1,2,1,0,4,2,4,4,2,29,1,50,Class Deleted
+130,Public Class,com.android.settings.applications.InstalledAppDetailsTop,1,1,1,0,2,0,49,2,1,13,3,0,Lines Decreased
+131,Class,com.android.settings.applications.InterestingConfigChanges,2,1,0,0,1,2,1,1,0,14,1,0,Class Deleted
+132,Public Class,com.android.settings.applications.LinearColorBar,2,1,1,0,14,22,14,14,9,219,2,84,No Change
+133,Public Interface,com.android.settings.applications.LinearColorBar.OnRegionTappedListener,0,0,0,1,1,0,1,1,1,3,0,0,Modified
+134,Public Class,com.android.settings.applications.LinearColorPreference,1,1,2,0,6,8,6,6,5,45,2,66,Lines Decreased
+135,Public Class,com.android.settings.applications.ManageApplications,2,5,14,0,25,21,25,25,20,951,2,88,Lines Decreased
+136,Anonymous Class,com.android.settings.applications.ManageApplications.(Anon_5),1,1,1,0,2,0,2,2,2,12,2,0,Class Deleted
+137,Static Class,com.android.settings.applications.ManageApplications.ApplicationsAdapter,2,4,7,0,20,14,20,20,19,260,2,83,Lines Increased
+138,Anonymous Class,com.android.settings.applications.ManageApplications.ApplicationsAdapter.(Anon_2),1,1,4,0,2,0,2,2,0,17,2,0,Class Deleted
+139,Class,com.android.settings.applications.ManageApplications.MyPagerAdapter,1,2,2,0,9,1,9,9,9,45,2,77,Class Deleted
+142,Public Static Class,com.android.settings.applications.ManageApplications.TabInfo,3,2,8,0,11,25,11,11,8,198,1,83,Class Deleted
+143,Anonymous Class,com.android.settings.applications.ManageApplications.TabInfo.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+144,Public Class,com.android.settings.applications.ProcessStatsDetail,2,2,3,0,13,14,13,13,5,229,2,82,Lines Increased
+145,Anonymous Class,com.android.settings.applications.ProcessStatsDetail.(Anon_1),3,1,1,0,1,0,1,1,1,10,2,0,Class Deleted
+146,Anonymous Class,com.android.settings.applications.ProcessStatsDetail.(Anon_2),5,1,0,0,1,0,1,1,1,13,2,0,Lines Decreased
+147,Anonymous Class,com.android.settings.applications.ProcessStatsDetail.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,Lines Increased
+148,Public Class,com.android.settings.applications.ProcessStatsMemDetail,1,1,1,0,8,13,8,8,3,109,2,74,Lines Increased
+149,Public Class,com.android.settings.applications.ProcessStatsPreference,1,1,2,0,8,3,8,8,7,39,2,75,Lines Decreased
+150,Public Class,com.android.settings.applications.ProcessStatsUi,7,2,8,0,14,28,14,14,9,612,2,81,Lines Decreased
+151,Anonymous Class,com.android.settings.applications.ProcessStatsUi.(Anon_1),5,1,1,0,1,0,1,1,1,14,2,0,Lines Decreased
+152,Public Class,com.android.settings.applications.ProcStatsEntry,6,2,2,0,8,16,8,8,8,299,1,63,Lines Decreased
+153,Anonymous Class,com.android.settings.applications.ProcStatsEntry.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+154,Public Static Class,com.android.settings.applications.ProcStatsEntry.Service,1,2,0,0,4,4,4,4,4,40,1,25,No Change
+155,Anonymous Class,com.android.settings.applications.ProcStatsEntry.Service.(Anon_2),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+156,Public Class,com.android.settings.applications.RunningProcessesView,2,4,9,0,10,26,10,10,7,382,2,84,Lines Decreased
+157,Public Static Class,com.android.settings.applications.RunningProcessesView.ActiveItem,11,1,5,0,1,6,1,1,0,46,1,33,No Change
+158,Class,com.android.settings.applications.RunningProcessesView.ServiceListAdapter,1,1,5,0,14,5,14,14,10,90,2,74,No Change
+159,Static Class,com.android.settings.applications.RunningProcessesView.TimeTicker,1,1,0,0,1,0,1,1,1,5,2,0,No Change
+160,Public Static Class,com.android.settings.applications.RunningProcessesView.ViewHolder,2,1,5,0,2,6,2,2,2,47,1,16,No Change
+161,Public Class,com.android.settings.applications.RunningServiceDetails,4,2,11,0,18,20,18,18,5,507,2,83,Lines Increased
+162,Class,com.android.settings.applications.RunningServiceDetails.ActiveDetail,10,2,7,0,2,8,2,2,1,103,1,62,No Change
+163,Anonymous Class,com.android.settings.applications.RunningServiceDetails.finish.(Anon_1),2,1,0,0,1,0,1,1,1,8,2,0,No Change
+164,Public Static Class,com.android.settings.applications.RunningServiceDetails.MyAlertDialogFragment,1,1,1,0,2,0,3,3,2,40,2,0,No Change
+165,Anonymous Class,com.android.settings.applications.RunningServiceDetails.MyAlertDialogFragment.onCreateDialog.(Anon_2),2,1,3,0,1,0,1,1,1,7,2,0,No Change
+166,Public Class,com.android.settings.applications.RunningState,8,1,11,0,14,37,16,16,0,1120,1,88,Lines Increased
+167,Anonymous Class,com.android.settings.applications.RunningState.(Anon_1),24,1,4,0,1,0,1,1,1,54,2,0,No Change
+168,Anonymous Class,com.android.settings.applications.RunningState.(Anon_2),6,1,2,0,1,1,1,1,1,26,2,0,No Change
+169,Static Class,com.android.settings.applications.RunningState.AppProcessInfo,1,1,0,0,1,3,1,1,0,8,1,66,No Change
+170,Class,com.android.settings.applications.RunningState.BackgroundHandler,3,1,1,0,2,0,2,2,2,26,2,0,No Change
+171,Static Class,com.android.settings.applications.RunningState.BaseItem,1,1,1,3,2,13,2,2,2,25,1,88,Lines Increased
+172,Static Class,com.android.settings.applications.RunningState.MergedItem,5,1,4,0,5,7,7,5,1,103,2,60,No Change
+173,Interface,com.android.settings.applications.RunningState.OnRefreshUiListener,0,0,0,2,1,0,1,1,1,6,0,0,No Change
+174,Static Class,com.android.settings.applications.RunningState.ProcessItem,5,1,3,0,6,14,8,6,1,184,2,86,No Change
+175,Static Class,com.android.settings.applications.RunningState.ServiceItem,1,1,1,0,1,4,3,1,1,9,2,100,No Change
+176,Class,com.android.settings.applications.RunningState.ServiceProcessComparator,11,2,3,0,1,0,1,1,1,19,1,0,No Change
+177,Static Class,com.android.settings.applications.RunningState.UserState,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+178,Public Class,com.android.settings.ApplicationSettings,2,1,0,0,6,2,41,6,2,88,3,66,Lines Increased
+179,Anonymous Class,com.android.settings.ApplicationSettings.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+180,Public Class,com.android.settings.AppListPreference,3,1,1,0,3,1,3,3,2,69,2,33,Lines Increased
+181,Public Class,com.android.settings.AppListPreference.AppArrayAdapter,1,1,0,0,2,2,2,2,2,23,2,0,No Change
+182,Public Class,com.android.settings.AppPicker,1,1,2,0,4,1,4,4,0,86,2,50,Lines Increased
+183,Anonymous Class,com.android.settings.AppPicker.(Anon_1),1,1,1,0,1,1,1,1,1,6,2,0,No Change
+184,Public Class,com.android.settings.AppPicker.AppListAdapter,3,1,3,0,2,2,2,2,2,45,2,25,Lines Increased
+185,Class,com.android.settings.AppPicker.MyApplicationInfo,0,1,0,0,0,2,0,0,0,4,1,0,No Change
+186,Public Generic Class,com.android.settings.AppWidgetLoader,3,1,2,0,5,3,5,5,1,107,1,60,Lines Decreased
+187,Anonymous Class,com.android.settings.AppWidgetLoader.getItems.(Anon_1),1,1,2,0,1,1,1,1,1,5,2,0,No Change
+189,Public Generic Interface,com.android.settings.AppWidgetLoader.ItemConstructor,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+191,Interface,com.android.settings.AppWidgetLoader.LabelledItem,0,0,0,2,1,0,1,1,0,3,0,0,No Change
+192,Public Class,com.android.settings.AppWidgetPickActivity,3,2,3,0,5,5,11,5,3,100,3,56,Lines Decreased
+193,Public Class,com.android.settings.BandMode,3,1,1,0,6,7,6,6,0,140,2,69,Lines Decreased
+194,Anonymous Class,com.android.settings.BandMode.(Anon_1),2,1,2,0,1,0,1,1,1,12,2,0,No Change
+195,Anonymous Class,com.android.settings.BandMode.(Anon_2),4,1,1,0,1,0,1,1,1,19,2,0,No Change
+196,Private Static Class,com.android.settings.BandMode.BandListItem,1,1,1,0,3,1,3,3,3,13,1,0,No Change
+197,Public Class,com.android.settings.BatteryInfo,1,1,0,0,5,14,5,5,3,120,2,74,Class Deleted
+198,Anonymous Class,com.android.settings.BatteryInfo.(Anon_1),2,1,1,0,1,0,1,1,1,10,2,0,Class Deleted
+199,Anonymous Class,com.android.settings.BatteryInfo.(Anon_2),13,1,2,0,1,0,1,1,1,54,2,0,Class Deleted
+200,Class,com.android.settings.bluetooth.A2dpProfile,2,2,5,0,18,5,18,18,15,149,1,87,Class Deleted
+201,Private Class,com.android.settings.bluetooth.A2dpProfile.A2dpServiceListener,3,2,3,0,2,0,2,2,2,23,1,0,Class Deleted
+202,Interface,com.android.settings.bluetooth.BluetoothCallback,0,0,1,1,5,0,5,5,0,7,0,0,Class Deleted
+203,Class,com.android.settings.bluetooth.BluetoothDeviceFilter,1,1,8,0,1,0,2,2,0,102,1,0,Class Deleted
+204,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.AllFilter,1,2,0,0,1,0,1,1,1,5,1,0,Class Deleted
+205,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.AudioFilter,6,1,2,0,1,0,3,1,0,19,2,0,Class Deleted
+206,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.BondedDeviceFilter,1,2,0,0,1,0,1,1,1,5,1,0,Class Deleted
+207,Private Static Abstract Class,com.android.settings.bluetooth.BluetoothDeviceFilter.ClassUuidFilter,1,2,0,4,2,0,2,2,1,6,1,0,Class Deleted
+208,Interface,com.android.settings.bluetooth.BluetoothDeviceFilter.Filter,0,0,0,4,1,0,1,1,0,3,0,0,Class Deleted
+209,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.NapFilter,3,1,0,0,1,0,3,1,0,12,2,0,Class Deleted
+210,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.PanuFilter,3,1,0,0,1,0,3,1,0,12,2,0,Class Deleted
+211,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.TransferFilter,3,1,0,0,1,0,3,1,0,12,2,0,Class Deleted
+212,Private Static Class,com.android.settings.bluetooth.BluetoothDeviceFilter.UnbondedDeviceFilter,1,2,0,0,1,0,1,1,1,5,1,0,Class Deleted
+213,Public Class,com.android.settings.bluetooth.BluetoothDevicePreference,3,3,9,0,15,3,15,15,7,215,2,70,Lines Decreased
+214,Anonymous Class,com.android.settings.bluetooth.BluetoothDevicePreference.askDisconnect.(Anon_1),1,1,2,0,1,0,1,1,1,4,2,0,Modified
+215,Class,com.android.settings.bluetooth.BluetoothDiscoverableEnabler,2,2,3,0,13,10,14,14,3,209,1,77,Lines Decreased
+216,Anonymous Class,com.android.settings.bluetooth.BluetoothDiscoverableEnabler.(Anon_1),3,1,1,0,1,0,1,1,1,11,2,0,No Change
+217,Anonymous Class,com.android.settings.bluetooth.BluetoothDiscoverableEnabler.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+218,Public Class,com.android.settings.bluetooth.BluetoothDiscoverableTimeoutReceiver,2,1,1,0,1,0,3,3,1,44,2,0,Class Deleted
+219,Public Class,com.android.settings.bluetooth.BluetoothDiscoveryReceiver,2,1,1,0,1,0,1,1,1,12,2,0,Lines Decreased
+220,Public Class,com.android.settings.bluetooth.BluetoothEnabler,2,2,4,0,9,8,9,9,6,124,1,61,Modified
+221,Anonymous Class,com.android.settings.bluetooth.BluetoothEnabler.(Anon_1),2,1,3,0,1,0,1,1,1,11,2,0,No Change
+222,Anonymous Class,com.android.settings.bluetooth.BluetoothEnabler.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+223,Class,com.android.settings.bluetooth.BluetoothEventManager,1,1,16,0,9,9,10,10,0,285,1,76,Class Deleted
+224,Anonymous Class,com.android.settings.bluetooth.BluetoothEventManager.(Anon_1),2,1,2,0,1,0,1,1,1,11,2,0,Class Deleted
+225,Private Class,com.android.settings.bluetooth.BluetoothEventManager.AdapterStateChangedHandler,2,2,4,0,1,0,1,1,1,14,1,0,Class Deleted
+226,Private Class,com.android.settings.bluetooth.BluetoothEventManager.BondStateChangedHandler,8,2,6,0,2,0,2,2,1,69,1,0,Class Deleted
+227,Private Class,com.android.settings.bluetooth.BluetoothEventManager.ClassChangedHandler,1,2,2,0,1,0,1,1,1,6,1,0,Class Deleted
+228,Private Class,com.android.settings.bluetooth.BluetoothEventManager.DeviceDisappearedHandler,4,2,4,0,1,0,1,1,1,17,1,0,Class Deleted
+229,Private Class,com.android.settings.bluetooth.BluetoothEventManager.DeviceFoundHandler,2,2,3,0,1,0,1,1,1,19,1,0,Class Deleted
+230,Private Class,com.android.settings.bluetooth.BluetoothEventManager.DockEventHandler,4,2,3,0,1,0,1,1,1,14,1,0,Class Deleted
+231,Interface,com.android.settings.bluetooth.BluetoothEventManager.Handler,0,0,0,11,1,0,1,1,0,3,0,0,Class Deleted
+232,Private Class,com.android.settings.bluetooth.BluetoothEventManager.NameChangedHandler,1,2,2,0,1,0,1,1,1,6,1,0,Class Deleted
+233,Private Class,com.android.settings.bluetooth.BluetoothEventManager.PairingCancelHandler,2,2,4,0,1,0,1,1,1,11,1,0,Class Deleted
+234,Private Class,com.android.settings.bluetooth.BluetoothEventManager.ScanningStateChangedHandler,1,2,4,0,2,1,2,2,1,16,1,0,Class Deleted
+235,Private Class,com.android.settings.bluetooth.BluetoothEventManager.UuidChangedHandler,1,2,2,0,1,0,1,1,1,6,1,0,Class Deleted
+236,Public Class,com.android.settings.bluetooth.BluetoothNameDialogFragment,1,2,3,0,12,7,12,12,9,131,2,72,Lines Increased
+237,Anonymous Class,com.android.settings.bluetooth.BluetoothNameDialogFragment.(Anon_1),3,1,1,0,1,0,1,1,1,12,2,0,No Change
+238,Anonymous Class,com.android.settings.bluetooth.BluetoothNameDialogFragment.createDialogView.(Anon_3),2,1,1,0,1,0,1,1,1,11,2,0,No Change
+239,Anonymous Class,com.android.settings.bluetooth.BluetoothNameDialogFragment.onCreateDialog.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+240,Public Class,com.android.settings.bluetooth.BluetoothPairingDialog,3,4,3,0,17,8,17,17,6,295,2,79,Lines Increased
+241,Anonymous Class,com.android.settings.bluetooth.BluetoothPairingDialog.(Anon_1),5,1,1,0,1,0,1,1,1,18,2,0,No Change
+242,Public Class,com.android.settings.bluetooth.BluetoothPairingRequest,10,1,2,0,1,0,1,1,1,70,2,0,Lines Decreased
+243,Public Class,com.android.settings.bluetooth.BluetoothPermissionActivity,2,3,4,0,14,9,14,14,3,181,2,81,Lines Increased
+244,Anonymous Class,com.android.settings.bluetooth.BluetoothPermissionActivity.(Anon_1),4,1,1,0,1,0,1,1,1,12,2,0,No Change
+245,Public Class,com.android.settings.bluetooth.BluetoothPermissionRequest,7,1,6,0,4,5,4,4,1,164,2,30,Lines Increased
+246,Public Class,com.android.settings.bluetooth.BluetoothProgressCategory,1,1,0,0,4,0,16,4,4,16,4,0,Lines Decreased
+247,Public Class,com.android.settings.bluetooth.BluetoothSettings,2,2,13,0,17,12,82,17,10,356,5,89,Lines Decreased
+248,Anonymous Class,com.android.settings.bluetooth.BluetoothSettings.(Anon_1),2,1,3,0,2,0,2,2,1,19,2,0,Modified
+249,Anonymous Class,com.android.settings.bluetooth.BluetoothSettings.(Anon_2),5,1,3,0,1,0,1,1,1,66,2,0,Class Deleted
+250,Anonymous Class,com.android.settings.bluetooth.BluetoothSettings.(Anon_2).onClick.(Anon_3),1,1,2,0,1,0,1,1,1,6,2,0,Class Deleted
+251,Anonymous Class,com.android.settings.bluetooth.BluetoothSettings.(Anon_2).onClick.(Anon_4),1,1,4,0,1,0,1,1,1,9,2,0,Class Deleted
+252,Anonymous Class,com.android.settings.bluetooth.BluetoothSettings.(Anon_2).onClick.(Anon_5),2,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+253,Anonymous Class,com.android.settings.bluetooth.BluetoothSettings.(Anon_6),3,1,3,0,1,0,5,1,1,23,2,0,Class Deleted
+254,Public Class,com.android.settings.bluetooth.BluetoothVisibilityTimeoutFragment,1,2,2,0,3,1,3,3,3,21,2,0,Class Deleted
+255,Class,com.android.settings.bluetooth.CachedBluetoothDevice,2,2,8,0,58,19,58,58,5,529,1,91,Class Deleted
+256,Public Interface,com.android.settings.bluetooth.CachedBluetoothDevice.Callback,0,0,0,2,1,0,1,1,0,3,0,0,Class Deleted
+257,Class,com.android.settings.bluetooth.CachedBluetoothDeviceManager,2,1,4,0,12,2,13,13,9,97,1,69,Class Deleted
+258,Public Abstract Class,com.android.settings.bluetooth.DeviceListPreferenceFragment,1,2,10,2,19,6,65,19,8,130,4,77,Modified
+259,Public Class,com.android.settings.bluetooth.DevicePickerActivity,1,1,0,0,1,0,1,1,0,7,2,0,Lines Decreased
+260,Public Class,com.android.settings.bluetooth.DevicePickerFragment,1,1,4,0,11,4,76,11,7,96,5,81,Lines Increased
+261,Public Class,com.android.settings.bluetooth.DeviceProfilesSettings,2,3,8,0,18,8,53,18,8,243,3,80,Lines Increased
+262,Anonymous Class,com.android.settings.bluetooth.DeviceProfilesSettings.askDisconnect.(Anon_1),2,1,4,0,1,0,1,1,1,10,2,0,Lines Decreased
+263,Public Class,com.android.settings.bluetooth.DockEventReceiver,8,1,1,0,1,0,3,3,2,91,2,33,Lines Decreased
+264,Public Class,com.android.settings.bluetooth.DockService,6,2,9,0,24,20,24,24,6,671,2,86,Lines Increased
+265,Anonymous Class,com.android.settings.bluetooth.DockService.(Anon_2),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+266,Anonymous Class,com.android.settings.bluetooth.DockService.(Anon_3),4,1,2,0,1,0,1,1,1,13,2,0,No Change
+267,Anonymous Class,com.android.settings.bluetooth.DockService.(Anon_4),2,1,2,0,1,0,1,1,1,8,2,0,No Change
+268,Anonymous Class,com.android.settings.bluetooth.DockService.(Anon_5),6,1,2,0,1,0,1,1,1,21,2,0,No Change
+269,Anonymous Class,com.android.settings.bluetooth.DockService.msgTypeDocked.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+270,Private Class,com.android.settings.bluetooth.DockService.ServiceHandler,1,1,1,0,2,0,2,2,1,9,2,0,No Change
+271,Class,com.android.settings.bluetooth.HeadsetProfile,2,2,5,0,17,5,17,17,15,158,1,86,Class Deleted
+272,Private Class,com.android.settings.bluetooth.HeadsetProfile.HeadsetServiceListener,3,2,4,0,2,0,2,2,2,26,1,0,Class Deleted
+273,Class,com.android.settings.bluetooth.HidProfile,2,2,5,0,16,5,17,17,14,136,1,88,Class Deleted
+274,Private Class,com.android.settings.bluetooth.HidProfile.InputDeviceServiceListener,3,2,3,0,2,0,2,2,2,23,1,0,Class Deleted
+275,Public Class,com.android.settings.bluetooth.LocalBluetoothAdapter,1,1,3,0,23,4,24,24,2,127,1,76,Class Deleted
+276,Public Class,com.android.settings.bluetooth.LocalBluetoothManager,1,1,5,0,11,7,12,12,6,69,1,83,Class Deleted
+277,Class,com.android.settings.bluetooth.LocalBluetoothPreferences,2,1,3,0,1,0,11,11,0,106,1,0,Lines Decreased
+278,Anonymous Class,com.android.settings.bluetooth.LocalBluetoothPreferences.persistDiscoveringTimestamp.(Anon_1),1,1,1,0,1,0,1,1,1,8,2,0,No Change
+279,Interface,com.android.settings.bluetooth.LocalBluetoothProfile,0,0,0,7,13,0,13,13,0,15,0,0,Class Deleted
+280,Class,com.android.settings.bluetooth.LocalBluetoothProfileManager,2,1,15,0,16,13,16,16,1,229,1,82,Class Deleted
+281,Private Class,com.android.settings.bluetooth.LocalBluetoothProfileManager.PanStateChangedHandler,1,1,2,0,2,0,4,2,1,12,2,0,Class Deleted
+282,Public Interface,com.android.settings.bluetooth.LocalBluetoothProfileManager.ServiceListener,0,0,0,1,2,0,2,2,0,4,0,0,Class Deleted
+283,Private Class,com.android.settings.bluetooth.LocalBluetoothProfileManager.StateChangedHandler,2,2,4,1,2,1,2,2,1,22,1,0,Class Deleted
+284,Class,com.android.settings.bluetooth.MapProfile,2,2,5,0,17,5,17,17,15,144,1,85,Class Deleted
+285,Private Class,com.android.settings.bluetooth.MapProfile.MapServiceListener,3,2,4,0,2,0,2,2,2,26,1,0,Class Deleted
+286,Class,com.android.settings.bluetooth.OppProfile,1,2,0,0,14,0,14,14,14,45,1,0,Class Deleted
+287,Class,com.android.settings.bluetooth.PanProfile,1,2,2,0,18,3,18,18,14,116,1,88,Class Deleted
+288,Private Class,com.android.settings.bluetooth.PanProfile.PanServiceListener,2,2,1,0,2,0,2,2,2,12,1,0,Class Deleted
+289,Class,com.android.settings.bluetooth.PbapServerProfile,1,2,1,0,16,2,16,16,14,82,1,89,Class Deleted
+290,Private Class,com.android.settings.bluetooth.PbapServerProfile.PbapServiceListener,2,2,1,0,2,0,2,2,2,12,1,0,Class Deleted
+291,Public Class,com.android.settings.bluetooth.RequestPermissionActivity,4,2,6,0,8,7,8,8,2,185,2,66,Lines Decreased
+292,Anonymous Class,com.android.settings.bluetooth.RequestPermissionActivity.(Anon_1),5,1,1,0,1,0,1,1,1,16,2,0,No Change
+293,Public Class,com.android.settings.bluetooth.RequestPermissionHelperActivity,3,2,4,0,5,3,5,5,2,97,2,60,Lines Decreased
+294,Class,com.android.settings.bluetooth.Utf8ByteLengthFilter,7,2,0,0,2,1,2,2,1,37,1,0,Lines Decreased
+295,Class,com.android.settings.bluetooth.Utils,2,1,3,0,1,0,6,6,2,69,1,0,Lines Increased
+296,Public Class,com.android.settings.BrightnessPreference,1,1,0,0,2,0,2,2,1,10,2,0,Lines Decreased
+297,Public Class,com.android.settings.BugreportPreference,1,1,0,0,6,0,6,6,2,29,2,0,Lines Decreased
+298,Public Interface,com.android.settings.ButtonBarHandler,0,0,0,3,2,0,2,2,2,3,0,0,No Change
+299,Public Class,com.android.settings.ChooseLockGeneric,1,1,1,1,2,0,49,2,1,344,3,0,Lines Increased
+300,Public Static Class,com.android.settings.ChooseLockGeneric.ChooseLockGenericFragment,3,1,8,0,17,10,52,17,6,328,3,80,Lines Increased
+301,Public Static Class,com.android.settings.ChooseLockGeneric.InternalActivity,0,1,0,0,0,0,49,0,0,2,4,0,Modified
+302,Public Class,com.android.settings.ChooseLockPassword,1,1,3,0,3,0,51,4,3,406,3,0,Lines Increased
+303,Public Static Class,com.android.settings.ChooseLockPassword.ChooseLockPasswordFragment,4,4,6,0,17,22,17,17,12,367,2,85,Lines Increased
+304,Anonymous Class,com.android.settings.ChooseLockPassword.ChooseLockPasswordFragment.(Anon_1),2,1,2,0,1,0,1,1,1,7,2,0,No Change
+305,Public Class,com.android.settings.ChooseLockPattern,1,1,3,0,4,0,52,5,4,373,3,0,Lines Increased
+306,Public Static Class,com.android.settings.ChooseLockPattern.ChooseLockPatternFragment,4,2,7,0,9,12,9,9,6,340,2,72,Lines Increased
+307,Anonymous Class,com.android.settings.ChooseLockPattern.ChooseLockPatternFragment.(Anon_1),2,1,2,0,5,0,5,5,4,37,2,0,No Change
+308,Anonymous Class,com.android.settings.ChooseLockPattern.ChooseLockPatternFragment.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+309,Public Class,com.android.settings.ChooseLockSettingsHelper,2,1,4,0,7,3,7,7,3,73,1,47,Lines Increased
+310,Public Class,com.android.settings.ConfirmDeviceCredentialActivity,1,1,1,0,2,0,3,3,2,31,2,0,Lines Increased
+311,Public Class,com.android.settings.ConfirmLockPassword,1,1,1,1,3,0,50,3,2,207,3,0,Lines Increased
+312,Public Static Class,com.android.settings.ConfirmLockPassword.ConfirmLockPasswordFragment,2,4,4,0,16,11,16,16,11,184,2,84,Lines Increased
+313,Anonymous Class,com.android.settings.ConfirmLockPassword.ConfirmLockPasswordFragment.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+314,Anonymous Class,com.android.settings.ConfirmLockPassword.ConfirmLockPasswordFragment.handleAttemptLockout.(Anon_1),1,1,1,0,2,0,2,2,2,14,2,0,Class Deleted
+315,Public Static Class,com.android.settings.ConfirmLockPassword.InternalActivity,0,1,0,0,0,0,50,0,0,2,4,0,Modified
+316,Public Class,com.android.settings.ConfirmLockPattern,1,1,1,1,3,0,50,3,2,206,3,0,Lines Increased
+317,Public Static Class,com.android.settings.ConfirmLockPattern.ConfirmLockPatternFragment,2,1,2,0,9,12,9,9,6,175,2,75,Lines Increased
+318,Anonymous Class,com.android.settings.ConfirmLockPattern.ConfirmLockPatternFragment.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+319,Anonymous Class,com.android.settings.ConfirmLockPattern.ConfirmLockPatternFragment.(Anon_2),1,1,5,0,4,0,4,4,4,32,2,0,Lines Decreased
+320,Anonymous Class,com.android.settings.ConfirmLockPattern.ConfirmLockPatternFragment.handleAttemptLockout.(Anon_3),1,1,2,0,2,0,2,2,2,14,2,0,Class Deleted
+321,Public Static Class,com.android.settings.ConfirmLockPattern.InternalActivity,0,1,0,0,0,0,50,0,0,2,4,0,Modified
+322,Public Class,com.android.settings.CreateShortcut,2,1,2,0,4,0,4,4,0,38,2,0,Lines Increased
+323,Public Class,com.android.settings.CredentialStorage,3,1,4,0,8,3,8,8,1,297,2,79,Lines Increased
+324,Private Class,com.android.settings.CredentialStorage.ConfigureKeyGuardDialog,1,3,3,0,3,1,3,3,2,29,1,33,No Change
+325,Private Class,com.android.settings.CredentialStorage.ResetDialog,1,3,2,0,3,1,3,3,2,26,1,33,No Change
+326,Private Class,com.android.settings.CredentialStorage.ResetKeyStoreAndKeyChain,2,1,1,0,2,0,2,2,0,28,2,0,Lines Increased
+327,Private Class,com.android.settings.CredentialStorage.UnlockDialog,2,4,1,0,6,4,6,6,5,72,1,62,No Change
+328,Public Class,com.android.settings.CryptKeeper,2,5,3,0,34,18,34,34,12,656,2,93,Lines Increased
+329,Anonymous Class,com.android.settings.CryptKeeper.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,Lines Increased
+330,Anonymous Class,com.android.settings.CryptKeeper.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,Lines Increased
+331,Anonymous Class,com.android.settings.CryptKeeper.(Anon_3),4,1,1,0,1,0,1,1,1,15,2,0,Lines Decreased
+332,Anonymous Class,com.android.settings.CryptKeeper.(Anon_6),1,1,2,0,4,0,4,4,4,20,2,0,No Change
+333,Private Class,com.android.settings.CryptKeeper.DecryptTask,3,1,1,0,3,0,3,3,0,44,2,0,Lines Increased
+334,Private Static Class,com.android.settings.CryptKeeper.NonConfigurationInstanceState,1,1,0,0,1,1,1,1,0,6,1,0,No Change
+335,Anonymous Class,com.android.settings.CryptKeeper.passwordEntryInit.(Anon_7),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+336,Anonymous Class,com.android.settings.CryptKeeper.passwordEntryInit.(Anon_8),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+337,Anonymous Class,com.android.settings.CryptKeeper.setupUi.(Anon_4),3,1,1,0,2,3,2,2,2,43,2,0,Lines Increased
+338,Anonymous Class,com.android.settings.CryptKeeper.showFactoryReset.(Anon_5),1,1,1,0,1,0,1,1,1,9,2,0,No Change
+339,Anonymous Class,com.android.settings.CryptKeeper.updateEmergencyCallButtonState.(Anon_9),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+340,Private Class,com.android.settings.CryptKeeper.ValidationTask,2,1,1,0,2,1,2,2,0,31,2,0,No Change
+341,Public Class,com.android.settings.CryptKeeperConfirm,1,1,0,0,2,3,2,2,1,76,2,33,Lines Increased
+342,Anonymous Class,com.android.settings.CryptKeeperConfirm.(Anon_2),4,1,3,0,1,0,1,1,1,22,2,0,Lines Increased
+343,Public Static Class,com.android.settings.CryptKeeperConfirm.Blank,2,1,1,0,1,1,1,1,1,37,2,0,No Change
+344,Anonymous Class,com.android.settings.CryptKeeperConfirm.Blank.onCreate.(Anon_1),3,1,0,0,1,0,1,1,1,16,2,0,No Change
+345,Public Class,com.android.settings.CryptKeeperSettings,2,1,3,0,7,7,7,7,5,114,2,81,Lines Increased
+346,Anonymous Class,com.android.settings.CryptKeeperSettings.(Anon_1),4,1,1,0,1,0,1,1,1,18,2,0,No Change
+347,Anonymous Class,com.android.settings.CryptKeeperSettings.(Anon_2),2,1,1,0,1,0,1,1,1,11,2,0,Lines Increased
+348,Public Class,com.android.settings.dashboard.DashboardCategory,1,2,1,0,12,4,12,12,11,68,1,70,Lines Increased
+349,Anonymous Class,com.android.settings.dashboard.DashboardCategory.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+350,Public Class,com.android.settings.dashboard.DashboardContainerView,4,1,1,0,3,4,3,3,1,85,2,8,Lines Decreased
+351,Public Class,com.android.settings.dashboard.DashboardSummary,2,1,5,0,6,4,6,6,3,103,2,70,Lines Increased
+352,Anonymous Class,com.android.settings.dashboard.DashboardSummary.(Anon_1),2,1,1,0,1,0,1,1,1,10,2,0,No Change
+353,Private Class,com.android.settings.dashboard.DashboardSummary.HomePackageReceiver,1,1,1,0,1,0,1,1,1,6,2,0,No Change
+354,Public Class,com.android.settings.dashboard.DashboardTile,1,2,0,0,7,10,7,7,6,74,1,65,Lines Increased
+355,Anonymous Class,com.android.settings.dashboard.DashboardTile.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+356,Public Class,com.android.settings.dashboard.DashboardTileView,1,2,2,0,10,6,10,10,8,53,2,80,Lines Increased
+357,Public Class,com.android.settings.dashboard.NoHomeDialogFragment,1,1,0,0,1,0,2,2,2,13,2,0,Lines Decreased
+358,Public Class,com.android.settings.dashboard.SearchResultsSummary,1,1,5,0,21,11,21,21,10,473,2,85,Lines Increased
+359,Anonymous Class,com.android.settings.dashboard.SearchResultsSummary.onCreateView.(Anon_1),4,1,5,0,1,0,1,1,1,35,2,0,No Change
+360,Anonymous Class,com.android.settings.dashboard.SearchResultsSummary.onCreateView.(Anon_2),2,1,2,0,1,0,1,1,1,13,2,0,No Change
+361,Private Static Class,com.android.settings.dashboard.SearchResultsSummary.SearchResult,1,1,0,0,1,7,1,1,1,19,1,0,No Change
+362,Private Static Class,com.android.settings.dashboard.SearchResultsSummary.SearchResultsAdapter,3,1,3,0,6,5,6,6,6,110,2,53,No Change
+363,Private Static Class,com.android.settings.dashboard.SearchResultsSummary.SuggestionItem,1,1,0,0,1,1,1,1,1,6,1,0,No Change
+364,Private Static Class,com.android.settings.dashboard.SearchResultsSummary.SuggestionsAdapter,2,1,1,0,6,4,6,6,6,65,2,50,No Change
+365,Private Class,com.android.settings.dashboard.SearchResultsSummary.UpdateSearchResultsTask,2,1,2,0,2,0,2,2,0,15,2,0,Lines Increased
+366,Private Class,com.android.settings.dashboard.SearchResultsSummary.UpdateSuggestionsTask,2,1,2,0,2,0,2,2,0,15,2,0,No Change
+367,Public Class,com.android.settings.DataUsageSummary,3,2,19,0,33,66,53,45,14,1700,3,95,Lines Increased
+368,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_10),2,1,5,0,2,0,2,2,2,19,2,0,Lines Decreased
+369,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_11),1,1,4,0,3,0,3,3,3,22,2,0,Lines Decreased
+370,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_12),1,1,3,0,4,0,4,4,3,22,2,0,Modified
+371,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_13),1,2,4,0,4,0,4,4,4,17,1,0,Lines Increased
+372,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_22),1,1,2,0,1,0,5,1,1,26,2,0,Class Deleted
+373,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+374,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+375,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_6),4,1,2,0,1,0,1,1,1,15,2,0,Lines Increased
+376,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_7),2,1,2,0,1,0,1,1,1,10,2,0,Class Deleted
+377,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_8),2,1,2,0,1,0,1,1,1,10,2,0,No Change
+378,Anonymous Class,com.android.settings.DataUsageSummary.(Anon_9),2,1,5,0,1,0,1,1,1,9,2,0,Lines Increased
+379,Public Static Class,com.android.settings.DataUsageSummary.AppDetailsFragment,1,1,2,0,2,0,3,3,3,31,2,0,Lines Increased
+380,Public Static Class,com.android.settings.DataUsageSummary.AppItem,1,3,0,0,7,5,7,7,7,52,1,68,No Change
+381,Anonymous Class,com.android.settings.DataUsageSummary.AppItem.(Anon_14),1,1,1,0,2,0,2,2,2,9,2,0,Class Deleted
+382,Public Static Class,com.android.settings.DataUsageSummary.ConfirmAppRestrictFragment,1,1,1,0,1,0,2,2,2,26,2,0,No Change
+383,Anonymous Class,com.android.settings.DataUsageSummary.ConfirmAppRestrictFragment.onCreateDialog.(Anon_21),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+384,Public Static Class,com.android.settings.DataUsageSummary.ConfirmDataDisableFragment,1,1,1,0,1,0,2,2,2,25,2,0,Lines Increased
+385,Anonymous Class,com.android.settings.DataUsageSummary.ConfirmDataDisableFragment.onCreateDialog.(Anon_19),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+386,Public Static Class,com.android.settings.DataUsageSummary.ConfirmLimitFragment,3,1,2,0,1,0,2,2,2,52,2,0,No Change
+387,Anonymous Class,com.android.settings.DataUsageSummary.ConfirmLimitFragment.onCreateDialog.(Anon_15),2,1,2,0,1,0,1,1,1,8,2,0,Class Deleted
+388,Public Static Class,com.android.settings.DataUsageSummary.ConfirmRestrictFragment,2,1,2,0,1,0,2,2,2,30,2,0,No Change
+389,Anonymous Class,com.android.settings.DataUsageSummary.ConfirmRestrictFragment.onCreateDialog.(Anon_20),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+390,Public Static Class,com.android.settings.DataUsageSummary.CycleAdapter,2,1,2,0,5,3,5,5,4,38,2,60,No Change
+391,Public Static Class,com.android.settings.DataUsageSummary.CycleChangeItem,1,1,0,0,1,0,6,1,1,5,2,0,No Change
+392,Public Static Class,com.android.settings.DataUsageSummary.CycleEditorFragment,1,1,2,0,1,0,2,2,2,42,2,0,No Change
+393,Anonymous Class,com.android.settings.DataUsageSummary.CycleEditorFragment.onCreateDialog.(Anon_16),1,1,3,0,1,0,1,1,1,9,2,0,Class Deleted
+394,Public Static Class,com.android.settings.DataUsageSummary.CycleItem,1,2,1,1,5,3,5,5,4,29,1,46,No Change
+395,Public Static Class,com.android.settings.DataUsageSummary.DataUsageAdapter,2,1,4,0,11,5,11,11,10,158,2,69,Lines Increased
+396,Public Static Class,com.android.settings.DataUsageSummary.DeniedRestrictFragment,1,1,1,0,1,0,2,2,2,17,2,0,No Change
+397,Public Static Class,com.android.settings.DataUsageSummary.LimitEditorFragment,2,1,2,0,1,0,2,2,2,46,2,0,No Change
+398,Anonymous Class,com.android.settings.DataUsageSummary.LimitEditorFragment.onCreateDialog.(Anon_18),1,1,3,0,1,0,1,1,1,8,2,0,Class Deleted
+399,Anonymous Class,com.android.settings.DataUsageSummary.onResume.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+400,Anonymous Class,com.android.settings.DataUsageSummary.onResume.(Anon_2),2,1,1,0,2,0,2,2,0,17,2,0,No Change
+401,Private Static Class,com.android.settings.DataUsageSummary.UidDetailTask,1,1,3,0,4,3,6,6,1,48,2,61,No Change
+402,Anonymous Class,com.android.settings.DataUsageSummary.updateAppDetail.(Anon_5),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+403,Public Static Class,com.android.settings.DataUsageSummary.WarningEditorFragment,2,1,2,0,1,0,2,2,2,46,2,0,No Change
+404,Anonymous Class,com.android.settings.DataUsageSummary.WarningEditorFragment.onCreateDialog.(Anon_17),1,1,3,0,1,0,1,1,1,8,2,0,Class Deleted
+405,Public Class,com.android.settings.DateTimeSettings,2,4,1,0,16,9,55,20,11,273,3,87,Lines Decreased
+406,Anonymous Class,com.android.settings.DateTimeSettings.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+407,Public Class,com.android.settings.DateTimeSettingsSetupWizard,2,5,2,0,11,10,11,11,7,195,2,72,Lines Decreased
+408,Anonymous Class,com.android.settings.DateTimeSettingsSetupWizard.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+409,Public Class,com.android.settings.DefaultRingtonePreference,1,1,0,0,4,0,4,4,1,19,2,0,Lines Decreased
+410,Public Class,com.android.settings.DevelopmentSettings,3,6,7,0,91,64,130,95,11,1351,3,96,Lines Increased
+411,Anonymous Class,com.android.settings.DevelopmentSettings.(Anon_1),2,1,1,0,3,0,7,3,2,28,2,0,Class Deleted
+412,Static Class,com.android.settings.DevelopmentSettings.SystemPropPoker,6,1,1,0,1,0,1,1,0,26,2,0,No Change
+413,Public Class,com.android.settings.DeviceAdminAdd,5,1,0,0,9,25,10,10,0,382,2,78,Lines Increased
+414,Anonymous Class,com.android.settings.DeviceAdminAdd.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,Lines Increased
+415,Anonymous Class,com.android.settings.DeviceAdminAdd.onCreate.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,Lines Increased
+416,Anonymous Class,com.android.settings.DeviceAdminAdd.onCreate.(Anon_3),4,1,1,0,1,0,1,1,1,28,2,0,Lines Decreased
+417,Anonymous Class,com.android.settings.DeviceAdminAdd.onCreate.(Anon_3).onClick.(Anon_4),2,1,1,0,1,0,1,1,0,9,2,0,Class Deleted
+418,Anonymous Class,com.android.settings.DeviceAdminAdd.onCreate.(Anon_3).onClick.(Anon_5),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+419,Anonymous Class,com.android.settings.DeviceAdminAdd.onCreateDialog.(Anon_6),2,1,1,0,1,0,1,1,1,9,2,0,Class Deleted
+420,Public Class,com.android.settings.DeviceAdminSettings,2,1,3,0,14,5,14,14,5,303,2,80,Lines Increased
+421,Class,com.android.settings.DeviceAdminSettings.PolicyListAdapter,2,1,2,0,14,1,14,14,9,136,2,78,Lines Decreased
+422,Static Class,com.android.settings.DeviceAdminSettings.ViewHolder,0,1,0,0,0,4,0,0,0,6,1,0,No Change
+423,Public Class,com.android.settings.deviceinfo.FileItemInfoLayout,1,2,0,0,10,3,10,10,9,41,2,70,Class Deleted
+424,Public Class,com.android.settings.deviceinfo.Memory,2,2,6,0,18,6,53,18,9,349,3,85,Class Deleted
+425,Anonymous Class,com.android.settings.deviceinfo.Memory.(Anon_1),3,1,2,0,1,0,1,1,1,13,2,0,Class Deleted
+426,Anonymous Class,com.android.settings.deviceinfo.Memory.(Anon_2),5,1,2,0,1,0,1,1,1,16,2,0,Class Deleted
+427,Anonymous Class,com.android.settings.deviceinfo.Memory.(Anon_5),3,1,1,0,1,0,5,1,1,55,2,0,Class Deleted
+428,Private Static Class,com.android.settings.deviceinfo.Memory.ClearCacheObserver,1,1,1,0,2,2,2,2,2,16,2,0,Class Deleted
+429,Public Static Class,com.android.settings.deviceinfo.Memory.ConfirmClearCacheFragment,1,1,1,0,1,0,2,2,2,30,2,0,Class Deleted
+430,Anonymous Class,com.android.settings.deviceinfo.Memory.ConfirmClearCacheFragment.onCreateDialog.(Anon_4),2,1,3,0,1,0,1,1,1,12,2,0,Class Deleted
+431,Anonymous Class,com.android.settings.deviceinfo.Memory.onCreateDialog.(Anon_3),1,1,1,0,1,0,1,1,1,3,2,0,Class Deleted
+432,Public Class,com.android.settings.deviceinfo.MiscFilesHandler,1,1,2,0,1,4,1,1,1,202,2,0,Class Deleted
+433,Class,com.android.settings.deviceinfo.MiscFilesHandler.MemoryMearurementAdapter,2,1,4,0,8,3,8,8,8,89,2,58,Class Deleted
+434,Anonymous Class,com.android.settings.deviceinfo.MiscFilesHandler.MemoryMearurementAdapter.getView.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+435,Anonymous Class,com.android.settings.deviceinfo.MiscFilesHandler.MemoryMearurementAdapter.getView.(Anon_2),2,1,2,0,1,0,1,1,1,9,2,0,Class Deleted
+436,Anonymous Class,com.android.settings.deviceinfo.MiscFilesHandler.MemoryMearurementAdapter.getView.(Anon_3),2,1,2,0,1,0,1,1,1,7,2,0,Class Deleted
+437,Private Class,com.android.settings.deviceinfo.MiscFilesHandler.ModeCallback,3,2,4,0,7,2,7,7,6,90,1,64,Class Deleted
+438,Public Class,com.android.settings.deviceinfo.PercentageBarChart,2,1,1,0,4,3,5,5,4,92,2,53,Lines Decreased
+439,Public Static Class,com.android.settings.deviceinfo.PercentageBarChart.Entry,1,2,0,0,2,3,2,2,1,14,1,33,No Change
+440,Public Class,com.android.settings.deviceinfo.Status,3,1,2,0,21,23,21,21,1,446,2,88,Lines Decreased
+441,Anonymous Class,com.android.settings.deviceinfo.Status.(Anon_1),2,1,2,0,1,0,1,1,1,9,2,0,No Change
+442,Anonymous Class,com.android.settings.deviceinfo.Status.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,Lines Increased
+443,Anonymous Class,com.android.settings.deviceinfo.Status.(Anon_3),4,1,1,0,1,0,1,1,1,16,2,0,Class Deleted
+444,Anonymous Class,com.android.settings.deviceinfo.Status.(Anon_4),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+445,Private Static Class,com.android.settings.deviceinfo.Status.MyHandler,3,1,1,0,2,1,2,2,2,29,2,0,Lines Decreased
+446,Anonymous Class,com.android.settings.deviceinfo.Status.onCreate.(Anon_5),1,1,1,0,1,0,1,1,1,15,2,0,Class Deleted
+447,Public Class,com.android.settings.deviceinfo.StorageItemPreference,1,1,0,0,2,2,3,3,2,30,2,66,Lines Decreased
+448,Public Class,com.android.settings.deviceinfo.StorageMeasurement,2,1,4,0,8,8,11,11,5,343,1,84,Class Deleted
+449,Static Class,com.android.settings.deviceinfo.StorageMeasurement.FileInfo,1,2,0,0,3,3,3,3,2,19,1,22,Class Deleted
+450,Public Static Class,com.android.settings.deviceinfo.StorageMeasurement.MeasurementDetails,0,1,0,0,0,7,0,0,0,9,1,0,Class Deleted
+451,Private Class,com.android.settings.deviceinfo.StorageMeasurement.MeasurementHandler,7,1,3,0,4,6,4,4,2,147,2,66,Class Deleted
+452,Anonymous Class,com.android.settings.deviceinfo.StorageMeasurement.MeasurementHandler.(Anon_1),1,1,1,0,2,0,2,2,2,14,2,0,Class Deleted
+453,Public Interface,com.android.settings.deviceinfo.StorageMeasurement.MeasurementReceiver,0,0,2,1,2,0,2,2,2,4,0,0,Class Deleted
+454,Private Static Class,com.android.settings.deviceinfo.StorageMeasurement.StatsObserver,2,1,2,0,3,5,3,3,2,48,2,26,Class Deleted
+455,Public Class,com.android.settings.deviceinfo.StorageVolumePreferenceCategory,2,1,10,0,19,23,22,22,14,341,2,87,Class Deleted
+456,Anonymous Class,com.android.settings.deviceinfo.StorageVolumePreferenceCategory.(Anon_1),3,1,2,0,1,0,1,1,1,16,2,0,Class Deleted
+457,Anonymous Class,com.android.settings.deviceinfo.StorageVolumePreferenceCategory.(Anon_2),1,2,3,0,2,0,2,2,2,10,1,0,Class Deleted
+458,Public Static Class,com.android.settings.deviceinfo.StorageVolumePreferenceCategory.PreferenceHeader,1,1,0,0,3,0,3,3,3,14,2,0,Class Deleted
+459,Public Class,com.android.settings.deviceinfo.UsageBarPreference,1,1,1,0,8,2,8,8,7,36,2,68,Class Deleted
+460,Public Class,com.android.settings.deviceinfo.UsbSettings,2,1,1,0,6,5,41,6,4,97,3,63,Class Deleted
+461,Anonymous Class,com.android.settings.deviceinfo.UsbSettings.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,Class Deleted
+462,Public Class,com.android.settings.DeviceInfoSettings,4,2,4,0,9,3,48,13,5,336,3,87,Lines Increased
+463,Anonymous Class,com.android.settings.DeviceInfoSettings.(Anon_1),4,1,2,0,4,0,8,4,2,61,2,0,Lines Decreased
+464,Public Interface,com.android.settings.DialogCreatable,0,0,0,5,1,0,1,1,1,3,0,0,Lines Decreased
+465,Public Class,com.android.settings.Display,2,2,0,0,4,6,4,4,3,89,2,50,Lines Decreased
+466,Anonymous Class,com.android.settings.Display.(Anon_1),2,1,1,0,2,0,2,2,2,14,2,0,No Change
+467,Public Class,com.android.settings.DisplaySettings,3,4,5,0,13,7,52,17,8,325,3,84,Lines Increased
+468,Anonymous Class,com.android.settings.DisplaySettings.(Anon_3),3,1,1,0,2,0,6,2,2,32,2,0,Lines Increased
+469,Anonymous Class,com.android.settings.DisplaySettings.onCreate.(Anon_1),1,2,1,0,1,0,1,1,1,6,1,0,Lines Increased
+470,Anonymous Class,com.android.settings.DisplaySettings.onCreateDialog.(Anon_2),1,1,2,0,1,0,1,1,1,4,2,0,No Change
+471,Public Class,com.android.settings.drawable.CircleFramedDrawable,1,1,0,0,10,14,11,11,11,118,2,79,Lines Decreased
+472,Public Class,com.android.settings.drawable.DrawableWrapper,1,2,0,1,25,1,25,25,25,101,2,12,Lines Decreased
+473,Public Class,com.android.settings.drawable.InsetBoundsDrawable,1,1,0,0,2,1,27,2,2,11,3,0,Lines Decreased
+474,Public Class,com.android.settings.DreamBackend,2,1,3,0,17,6,20,20,15,232,1,83,Lines Decreased
+475,Public Static Class,com.android.settings.DreamBackend.DreamInfo,3,1,0,0,1,5,1,1,1,18,1,19,No Change
+476,Private Static Class,com.android.settings.DreamBackend.DreamInfoComparator,1,2,1,0,3,1,3,3,2,16,1,33,No Change
+477,Public Class,com.android.settings.DreamSettings,1,2,5,0,14,7,52,17,13,265,3,82,Lines Increased
+478,Anonymous Class,com.android.settings.DreamSettings.createMenuItem.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+479,Anonymous Class,com.android.settings.DreamSettings.createWhenToDreamDialog.(Anon_4),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+480,Private Class,com.android.settings.DreamSettings.DreamInfoAdapter,2,1,4,0,5,1,5,5,2,67,2,60,No Change
+481,Anonymous Class,com.android.settings.DreamSettings.DreamInfoAdapter.createDreamInfoRow.(Anon_7),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+482,Anonymous Class,com.android.settings.DreamSettings.DreamInfoAdapter.getView.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+483,Anonymous Class,com.android.settings.DreamSettings.DreamInfoAdapter.getView.(Anon_6),1,1,4,0,1,0,1,1,1,4,2,0,No Change
+484,Anonymous Class,com.android.settings.DreamSettings.onCreateOptionsMenu.(Anon_1),1,1,2,0,1,0,1,1,1,4,2,0,No Change
+485,Anonymous Class,com.android.settings.DreamSettings.onCreateOptionsMenu.(Anon_2),1,1,2,0,1,0,1,1,1,4,2,0,No Change
+486,Private Class,com.android.settings.DreamSettings.PackageReceiver,1,1,1,0,1,0,1,1,1,7,2,0,No Change
+487,Class,com.android.settings.EditPinPreference,1,1,1,0,7,1,7,7,5,41,2,71,Lines Decreased
+488,Interface,com.android.settings.EditPinPreference.OnPinEnteredListener,0,0,1,1,1,0,1,1,0,3,0,0,No Change
+489,Public Class,com.android.settings.EncryptionInterstitial,1,1,1,0,2,0,50,3,2,152,3,0,Lines Increased
+490,Public Static Class,com.android.settings.EncryptionInterstitial.EncryptionInterstitialFragment,3,2,2,0,5,4,40,5,4,127,3,60,Lines Increased
+491,Public Class,com.android.settings.fuelgauge.BatteryEntry,6,1,4,0,5,6,8,8,7,257,1,62,Lines Decreased
+492,Private Static Class,com.android.settings.fuelgauge.BatteryEntry.NameAndIconLoader,2,1,1,0,3,1,3,3,3,26,2,33,No Change
+493,Static Class,com.android.settings.fuelgauge.BatteryEntry.UidToDetail,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+494,Public Class,com.android.settings.fuelgauge.BatteryHistoryChart,15,1,5,0,12,89,12,12,1,1119,2,79,Lines Increased
+495,Static Class,com.android.settings.fuelgauge.BatteryHistoryChart.ChartData,2,1,1,0,5,5,5,5,0,51,1,52,No Change
+496,Static Class,com.android.settings.fuelgauge.BatteryHistoryChart.DateLabel,2,1,0,0,1,3,1,1,0,12,1,0,No Change
+497,Static Class,com.android.settings.fuelgauge.BatteryHistoryChart.TextAttrs,5,1,1,0,3,4,3,3,1,73,1,33,No Change
+498,Static Class,com.android.settings.fuelgauge.BatteryHistoryChart.TimeLabel,2,1,0,0,1,3,1,1,0,12,1,0,No Change
+499,Public Class,com.android.settings.fuelgauge.BatteryHistoryDetail,1,1,1,0,2,2,2,2,2,21,2,0,Lines Increased
+500,Public Class,com.android.settings.fuelgauge.BatteryHistoryPreference,2,1,1,0,4,5,4,4,2,44,2,50,Lines Increased
+501,Public Class,com.android.settings.fuelgauge.BatterySaverSettings,2,2,5,0,7,12,42,7,5,152,3,71,Lines Increased
+502,Anonymous Class,com.android.settings.fuelgauge.BatterySaverSettings.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+503,Anonymous Class,com.android.settings.fuelgauge.BatterySaverSettings.(Anon_3),1,1,0,0,1,0,1,1,1,11,2,0,No Change
+504,Anonymous Class,com.android.settings.fuelgauge.BatterySaverSettings.(Anon_3).run.(Anon_4),2,1,1,0,1,0,1,1,1,6,2,0,No Change
+505,Anonymous Class,com.android.settings.fuelgauge.BatterySaverSettings.onActivityCreated.(Anon_1),2,1,0,0,1,0,12,1,0,8,2,0,Lines Increased
+506,Private Class,com.android.settings.fuelgauge.BatterySaverSettings.Receiver,2,1,1,0,2,1,2,2,2,17,2,50,No Change
+507,Private Class,com.android.settings.fuelgauge.BatterySaverSettings.SettingsObserver,1,1,3,0,3,1,3,3,3,21,2,33,No Change
+508,Public Class,com.android.settings.fuelgauge.PowerGaugePreference,1,1,2,0,4,4,4,4,2,34,2,50,Lines Decreased
+509,Public Class,com.android.settings.fuelgauge.PowerUsageDetail,4,2,9,0,19,25,20,20,6,624,2,89,Lines Increased
+510,Anonymous Class,com.android.settings.fuelgauge.PowerUsageDetail.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+511,Public Class,com.android.settings.fuelgauge.PowerUsageSummary,3,1,9,0,13,9,13,13,10,277,2,76,Lines Increased
+512,Anonymous Class,com.android.settings.fuelgauge.PowerUsageSummary.(Anon_1),3,1,1,0,1,0,1,1,1,11,2,0,Class Deleted
+513,Anonymous Class,com.android.settings.fuelgauge.PowerUsageSummary.(Anon_2),6,1,3,0,1,0,1,1,1,28,2,0,Lines Decreased
+514,Public Class,com.android.settings.HelpUtils,2,1,0,0,1,0,4,4,3,51,1,75,Lines Increased
+515,Public Class,com.android.settings.HighlightingFragment,2,1,1,1,8,3,8,8,4,83,2,70,Lines Decreased
+516,Anonymous Class,com.android.settings.HighlightingFragment.highlightView.(Anon_1),1,1,1,0,1,0,1,1,1,9,2,0,No Change
+517,Public Class,com.android.settings.HomeSettings,2,2,4,0,11,10,46,11,5,298,3,83,Lines Increased
+518,Anonymous Class,com.android.settings.HomeSettings.(Anon_1),2,1,2,0,1,0,1,1,1,9,2,0,No Change
+519,Anonymous Class,com.android.settings.HomeSettings.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+520,Anonymous Class,com.android.settings.HomeSettings.(Anon_4),5,1,2,0,1,0,5,1,1,38,2,0,No Change
+521,Anonymous Class,com.android.settings.HomeSettings.buildHomeActivitiesList.(Anon_3),1,1,2,0,1,0,1,1,1,4,2,0,No Change
+522,Private Class,com.android.settings.HomeSettings.HomeAppPreference,2,1,1,0,4,7,4,4,1,75,2,60,No Change
+523,Private Class,com.android.settings.HomeSettings.HomePackageReceiver,1,1,2,0,1,0,1,1,1,8,2,0,No Change
+524,Public Class,com.android.settings.IccLockSettings,2,2,2,0,16,12,18,18,2,296,2,74,Lines Increased
+525,Anonymous Class,com.android.settings.IccLockSettings.(Anon_1),4,1,1,0,1,0,1,1,1,16,2,0,No Change
+526,Anonymous Class,com.android.settings.IccLockSettings.(Anon_2),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+527,Public Class,com.android.settings.IconPreferenceScreen,1,1,0,0,6,2,6,6,6,36,2,58,Lines Decreased
+528,Public Class,com.android.settings.inputmethod.InputMethodAndLanguageSettings,2,6,14,0,25,16,62,27,11,617,3,89,Lines Increased
+529,Anonymous Class,com.android.settings.inputmethod.InputMethodAndLanguageSettings.(Anon_4),14,1,4,0,1,0,5,1,1,146,2,0,Lines Decreased
+530,Private Class,com.android.settings.inputmethod.InputMethodAndLanguageSettings.SettingsObserver,1,1,1,0,4,1,4,4,4,20,2,25,No Change
+531,Anonymous Class,com.android.settings.inputmethod.InputMethodAndLanguageSettings.updateHardKeyboards.(for_loop_7).(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+532,Anonymous Class,com.android.settings.inputmethod.InputMethodAndLanguageSettings.updateInputMethodPreferenceViews.(Anon_2),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+533,Anonymous Class,com.android.settings.inputmethod.InputMethodAndLanguageSettings.updateUserDictionaryPreference.(Anon_1),3,1,4,0,1,0,1,1,1,17,2,0,No Change
+534,Public Class,com.android.settings.inputmethod.InputMethodAndSubtypeEnabler,3,2,4,0,12,6,47,12,5,221,3,70,Lines Increased
+535,Anonymous Class,com.android.settings.inputmethod.InputMethodAndSubtypeEnabler.addInputMethodSubtypePreferences.(Anon_1),2,1,2,0,1,0,1,1,1,8,2,0,No Change
+536,Public Class,com.android.settings.inputmethod.InputMethodAndSubtypeEnablerActivity,1,1,1,0,4,0,51,4,2,29,3,0,Lines Decreased
+537,Class,com.android.settings.inputmethod.InputMethodAndSubtypeUtil,4,1,2,0,0,0,14,14,0,280,1,0,Lines Decreased
+538,Public Class,com.android.settings.inputmethod.InputMethodDialogReceiver,2,1,0,0,1,0,1,1,1,9,2,0,Lines Decreased
+539,Class,com.android.settings.inputmethod.InputMethodPreference,2,3,2,0,10,6,10,10,3,159,2,73,Lines Decreased
+540,Interface,com.android.settings.inputmethod.InputMethodPreference.OnSavePreferenceListener,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+541,Anonymous Class,com.android.settings.inputmethod.InputMethodPreference.showSecurityWarnDialog.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+542,Anonymous Class,com.android.settings.inputmethod.InputMethodPreference.showSecurityWarnDialog.(Anon_2),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+543,Class,com.android.settings.inputmethod.InputMethodSettingValuesWrapper,2,1,0,0,9,5,11,11,0,141,1,65,Lines Increased
+544,Class,com.android.settings.inputmethod.InputMethodSubtypePreference,6,1,0,0,2,2,3,2,0,57,3,0,Lines Decreased
+545,Public Class,com.android.settings.inputmethod.KeyboardLayoutDialogFragment,1,3,4,0,19,4,19,19,16,262,2,72,No Change
+546,Private Static Class,com.android.settings.inputmethod.KeyboardLayoutDialogFragment.KeyboardLayoutAdapter,1,1,0,0,5,2,7,7,3,67,2,64,No Change
+547,Private Static Class,com.android.settings.inputmethod.KeyboardLayoutDialogFragment.KeyboardLayoutLoader,2,1,1,0,4,1,4,4,2,48,2,50,No Change
+548,Public Static Class,com.android.settings.inputmethod.KeyboardLayoutDialogFragment.Keyboards,0,1,0,0,0,2,0,0,0,4,1,0,No Change
+549,Anonymous Class,com.android.settings.inputmethod.KeyboardLayoutDialogFragment.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+550,Anonymous Class,com.android.settings.inputmethod.KeyboardLayoutDialogFragment.onCreateDialog.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+551,Public Interface,com.android.settings.inputmethod.KeyboardLayoutDialogFragment.OnSetupKeyboardLayoutsListener,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+552,Public Class,com.android.settings.inputmethod.KeyboardLayoutPickerFragment,2,2,0,0,9,5,44,9,7,98,3,60,Lines Increased
+553,Class,com.android.settings.inputmethod.SpellCheckerPreference,2,2,2,0,8,6,8,8,4,92,2,70,Lines Decreased
+554,Interface,com.android.settings.inputmethod.SpellCheckerPreference.OnRadioButtonPreferenceListener,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+555,Public Class,com.android.settings.inputmethod.SpellCheckersSettings,1,4,4,0,12,6,49,14,6,178,3,79,Lines Increased
+556,Anonymous Class,com.android.settings.inputmethod.SpellCheckersSettings.showChooseLanguageDialog.(Anon_1),4,1,1,0,1,0,1,1,1,18,2,0,No Change
+557,Anonymous Class,com.android.settings.inputmethod.SpellCheckersSettings.showSecurityWarnDialog.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+558,Anonymous Class,com.android.settings.inputmethod.SpellCheckersSettings.showSecurityWarnDialog.(Anon_3),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+559,Class,com.android.settings.inputmethod.SwitchWithNoTextPreference,1,1,0,1,1,0,1,1,0,8,2,0,Lines Decreased
+560,Public Class,com.android.settings.inputmethod.UserDictionaryAddWordActivity,2,1,1,0,5,1,5,5,4,56,2,40,Lines Decreased
+561,Public Class,com.android.settings.inputmethod.UserDictionaryAddWordContents,3,1,5,0,9,8,10,10,2,176,1,58,Lines Decreased
+562,Public Static Class,com.android.settings.inputmethod.UserDictionaryAddWordContents.LocaleRenderer,1,1,1,0,4,2,4,4,4,24,1,37,No Change
+563,Public Class,com.android.settings.inputmethod.UserDictionaryAddWordFragment,1,3,5,0,10,3,10,10,9,86,2,63,Lines Increased
+564,Public Class,com.android.settings.inputmethod.UserDictionaryList,4,1,2,0,5,1,41,6,4,109,3,66,Lines Increased
+565,Public Class,com.android.settings.inputmethod.UserDictionaryLocalePicker,1,1,1,0,1,0,1,1,1,6,2,0,Lines Decreased
+566,Public Class,com.android.settings.inputmethod.UserDictionarySettingsUtils,2,1,1,0,0,0,1,1,1,10,1,0,Lines Decreased
+567,Public Class,com.android.settings.LocalePicker,1,3,2,0,8,2,8,8,6,70,2,68,Lines Decreased
+568,Anonymous Class,com.android.settings.LocalePicker.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+569,Public Class,com.android.settings.location.DimmableIconPreference,1,1,0,1,6,0,6,6,5,30,2,0,Class Deleted
+570,Class,com.android.settings.location.InjectedSetting,1,1,1,0,5,5,6,6,5,61,1,26,Lines Increased
+571,Public Class,com.android.settings.location.LocationMode,2,2,1,0,7,3,49,7,5,92,4,42,Lines Increased
+572,Public Class,com.android.settings.location.LocationSettings,2,2,4,0,10,7,52,10,7,167,4,74,Lines Increased
+573,Anonymous Class,com.android.settings.location.LocationSettings.addLocationServices.(Anon_3),2,1,2,0,1,0,1,1,1,8,2,0,No Change
+574,Anonymous Class,com.android.settings.location.LocationSettings.addPreferencesSorted.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+575,Anonymous Class,com.android.settings.location.LocationSettings.createPreferenceHierarchy.(Anon_2),1,1,3,0,1,0,1,1,1,9,2,0,No Change
+576,Public Abstract Class,com.android.settings.location.LocationSettingsBase,2,1,0,2,7,3,42,7,6,75,3,50,Lines Decreased
+577,Anonymous Class,com.android.settings.location.LocationSettingsBase.onCreate.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+578,Public Class,com.android.settings.location.RadioButtonPreference,1,1,1,0,6,1,6,6,4,34,2,66,Lines Decreased
+579,Public Interface,com.android.settings.location.RadioButtonPreference.OnClickListener,0,0,1,1,1,0,1,1,1,3,0,0,No Change
+580,Public Class,com.android.settings.location.RecentLocationApps,4,1,3,0,4,2,4,4,2,139,1,25,Lines Decreased
+581,Private Static Class,com.android.settings.location.RecentLocationApps.AccessiblePreference,1,1,0,0,2,1,8,2,1,15,3,0,Class Deleted
+582,Private Class,com.android.settings.location.RecentLocationApps.PackageEntryClickedListener,1,2,3,0,2,1,2,2,2,15,1,0,Lines Increased
+583,Class,com.android.settings.location.SettingsInjector,3,1,4,0,5,3,7,7,3,267,1,61,Lines Increased
+584,Private Class,com.android.settings.location.SettingsInjector.Setting,1,1,2,0,7,3,7,7,6,61,1,52,No Change
+585,Anonymous Class,com.android.settings.location.SettingsInjector.Setting.startService.(Anon_1),2,1,3,0,1,0,1,1,1,13,2,0,No Change
+586,Private Class,com.android.settings.location.SettingsInjector.StatusLoadingHandler,7,1,2,0,2,4,2,2,2,75,2,0,No Change
+587,Public Class,com.android.settings.ManagedProfileSetup,5,1,2,0,1,0,1,1,1,37,2,0,Lines Decreased
+588,Public Class,com.android.settings.MasterClear,2,1,3,0,7,5,7,7,2,133,2,77,Lines Increased
+589,Anonymous Class,com.android.settings.MasterClear.(Anon_1),2,1,1,0,1,0,1,1,1,6,2,0,No Change
+590,Anonymous Class,com.android.settings.MasterClear.establishInitialState.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+591,Public Class,com.android.settings.MasterClearConfirm,1,1,1,0,4,3,4,4,2,78,2,58,Lines Increased
+592,Anonymous Class,com.android.settings.MasterClearConfirm.(Anon_1),2,1,2,0,2,0,2,2,1,39,2,0,Lines Increased
+593,Anonymous Class,com.android.settings.MasterClearConfirm.(Anon_1).onClick.(Anon_2),1,1,2,0,2,0,2,2,0,12,2,0,Lines Increased
+594,Public Class,com.android.settings.MediaFormat,2,1,1,0,6,7,6,6,1,82,2,73,Class Deleted
+595,Anonymous Class,com.android.settings.MediaFormat.(Anon_1),2,1,1,0,1,0,1,1,1,13,2,0,Class Deleted
+596,Anonymous Class,com.android.settings.MediaFormat.(Anon_2),2,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+597,Public Class,com.android.settings.MonitoringCertInfoActivity,2,2,0,0,2,1,2,2,1,49,2,0,Lines Decreased
+598,Anonymous Class,com.android.settings.MonitoringCertInfoActivity.onCreate.(Anon_1),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+599,Public Class,com.android.settings.net.ChartData,0,1,0,0,0,4,0,0,0,6,1,0,Lines Decreased
+600,Public Class,com.android.settings.net.ChartDataLoader,1,1,2,0,7,2,9,9,4,85,2,72,Lines Decreased
+601,Public Class,com.android.settings.net.DataUsageMeteredSettings,2,2,4,0,4,6,39,4,1,143,3,58,Lines Increased
+602,Anonymous Class,com.android.settings.net.DataUsageMeteredSettings.(Anon_1),3,1,3,0,2,0,6,2,2,56,2,0,No Change
+603,Private Class,com.android.settings.net.DataUsageMeteredSettings.MeteredPreference,2,1,2,0,2,2,2,2,1,29,2,0,No Change
+604,Public Class,com.android.settings.net.NetworkPolicyEditor,2,1,0,0,20,2,22,22,18,252,1,75,Lines Decreased
+605,Anonymous Class,com.android.settings.net.NetworkPolicyEditor.writeAsync.(Anon_1),1,1,1,0,1,0,1,1,0,6,2,0,No Change
+606,Public Class,com.android.settings.net.SummaryForAllUidLoader,1,1,0,0,5,2,6,6,3,45,2,66,Lines Decreased
+607,Public Class,com.android.settings.net.UidDetail,0,1,0,0,0,5,0,0,0,7,1,0,Lines Decreased
+608,Public Class,com.android.settings.net.UidDetailProvider,3,1,2,0,4,2,7,7,6,126,1,64,Lines Decreased
+609,Public Class,com.android.settings.nfc.AndroidBeam,1,2,2,0,5,5,5,5,5,57,2,56,Lines Increased
+610,Public Class,com.android.settings.nfc.NfcEnabler,3,2,0,0,5,7,5,5,4,92,1,40,Lines Decreased
+611,Anonymous Class,com.android.settings.nfc.NfcEnabler.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+612,Public Class,com.android.settings.nfc.PaymentBackend,2,1,1,0,6,3,6,6,3,62,1,50,Lines Increased
+613,Public Static Class,com.android.settings.nfc.PaymentBackend.PaymentAppInfo,0,1,0,0,0,4,0,0,0,6,1,0,Lines Increased
+614,Public Class,com.android.settings.nfc.PaymentDefaultDialog,4,2,2,0,4,2,4,4,1,89,2,37,Lines Decreased
+615,Public Class,com.android.settings.nfc.PaymentSettings,2,3,4,0,8,4,43,8,8,166,3,75,Lines Decreased
+616,Anonymous Class,com.android.settings.nfc.PaymentSettings.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+617,Anonymous Class,com.android.settings.nfc.PaymentSettings.onCreateView.(Anon_1),2,1,2,0,1,0,1,1,1,16,2,0,Class Deleted
+618,Public Static Class,com.android.settings.nfc.PaymentSettings.PaymentAppPreference,1,1,1,0,2,2,2,2,1,23,2,0,Class Deleted
+619,Private Class,com.android.settings.nfc.PaymentSettings.SettingsPackageMonitor,1,1,1,0,4,0,4,4,4,18,2,0,Class Deleted
+620,Public Class,com.android.settings.notification.AppNotificationSettings,4,1,4,0,5,7,41,6,2,158,3,78,Lines Increased
+621,Anonymous Class,com.android.settings.notification.AppNotificationSettings.onActivityCreated.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,Class Deleted
+622,Anonymous Class,com.android.settings.notification.AppNotificationSettings.onCreate.(Anon_2),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+623,Anonymous Class,com.android.settings.notification.AppNotificationSettings.onCreate.(Anon_3),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+624,Anonymous Class,com.android.settings.notification.AppNotificationSettings.onCreate.(Anon_4),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+625,Public Class,com.android.settings.notification.ConditionProviderSettings,1,1,1,0,1,0,18,4,2,26,3,0,Class Deleted
+626,Public Class,com.android.settings.notification.DropDownPreference,1,1,1,0,10,5,10,10,9,85,2,65,Class Deleted
+627,Public Interface,com.android.settings.notification.DropDownPreference.Callback,0,0,0,5,1,0,1,1,0,3,0,0,Class Deleted
+628,Anonymous Class,com.android.settings.notification.DropDownPreference.DropDownPreference.(Anon_1),1,1,1,0,2,0,2,2,2,8,2,0,Class Deleted
+629,Anonymous Class,com.android.settings.notification.DropDownPreference.DropDownPreference.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+630,Public Abstract Class,com.android.settings.notification.ManagedServiceSettings,1,1,3,2,11,7,14,14,6,245,2,72,Lines Decreased
+631,Anonymous Class,com.android.settings.notification.ManagedServiceSettings.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+632,Anonymous Class,com.android.settings.notification.ManagedServiceSettings.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+633,Protected Static Class,com.android.settings.notification.ManagedServiceSettings.Config,0,1,0,0,0,8,0,0,0,10,1,0,No Change
+634,Public Class,com.android.settings.notification.ManagedServiceSettings.ScaryWarningDialogFragment,1,1,2,0,2,0,2,2,2,37,2,0,No Change
+635,Anonymous Class,com.android.settings.notification.ManagedServiceSettings.ScaryWarningDialogFragment.onCreateDialog.(Anon_3),1,1,2,0,1,0,1,1,1,5,2,0,Lines Decreased
+636,Anonymous Class,com.android.settings.notification.ManagedServiceSettings.ScaryWarningDialogFragment.onCreateDialog.(Anon_4),1,1,0,0,1,0,1,1,1,3,2,0,No Change
+637,Private Class,com.android.settings.notification.ManagedServiceSettings.ServiceListAdapter,1,1,2,0,6,1,6,6,5,47,2,66,Class Deleted
+638,Private Static Class,com.android.settings.notification.ManagedServiceSettings.ViewHolder,0,1,0,0,0,4,0,0,0,6,1,0,Class Deleted
+639,Public Class,com.android.settings.notification.NotificationAccessSettings,1,1,1,0,1,0,18,4,2,26,3,0,Lines Increased
+640,Public Class,com.android.settings.notification.NotificationAppList,2,2,7,0,14,16,21,18,14,460,3,93,Class Deleted
+641,Anonymous Class,com.android.settings.notification.NotificationAppList.(Anon_2),1,1,1,0,1,1,1,1,1,6,2,0,Class Deleted
+642,Anonymous Class,com.android.settings.notification.NotificationAppList.(Anon_3),13,1,3,0,1,0,1,1,1,50,2,0,Class Deleted
+643,Anonymous Class,com.android.settings.notification.NotificationAppList.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+644,Public Static Class,com.android.settings.notification.NotificationAppList.AppRow,0,1,0,0,0,9,0,0,0,11,2,0,Class Deleted
+645,Public Static Class,com.android.settings.notification.NotificationAppList.Backend,2,1,1,0,6,0,6,6,6,59,1,0,Class Deleted
+646,Private Class,com.android.settings.notification.NotificationAppList.NotificationAppAdapter,2,2,4,0,13,0,13,13,11,121,2,0,Class Deleted
+647,Anonymous Class,com.android.settings.notification.NotificationAppList.NotificationAppAdapter.bindView.(Anon_1),1,1,4,0,1,0,1,1,1,10,2,0,Class Deleted
+648,Private Static Class,com.android.settings.notification.NotificationAppList.Row,0,1,0,1,0,1,0,0,0,3,1,0,Class Deleted
+649,Private Static Class,com.android.settings.notification.NotificationAppList.ViewHolder,0,1,0,0,0,5,0,0,0,7,1,0,Class Deleted
+650,Public Class,com.android.settings.notification.NotificationSettings,2,2,8,0,16,17,52,17,3,395,3,89,Lines Increased
+651,Anonymous Class,com.android.settings.notification.NotificationSettings.(Anon_1),5,1,2,0,1,0,1,1,1,18,2,0,No Change
+652,Anonymous Class,com.android.settings.notification.NotificationSettings.(Anon_5),1,1,2,0,2,0,6,2,2,18,2,0,Lines Increased
+653,Private Class,com.android.settings.notification.NotificationSettings.H,3,1,2,0,2,0,2,2,1,26,2,0,Lines Increased
+654,Anonymous Class,com.android.settings.notification.NotificationSettings.initLockscreenNotifications.(Anon_4),4,2,2,0,1,0,1,1,1,16,1,0,Lines Increased
+655,Anonymous Class,com.android.settings.notification.NotificationSettings.initPulse.(Anon_3),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+656,Anonymous Class,com.android.settings.notification.NotificationSettings.initVibrateWhenRinging.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+657,Private Class,com.android.settings.notification.NotificationSettings.SettingsObserver,2,1,2,0,3,4,3,3,3,37,2,33,No Change
+658,Private Class,com.android.settings.notification.NotificationSettings.VolumePreferenceCallback,2,2,2,0,3,1,3,3,3,26,1,33,Lines Decreased
+659,Public Class,com.android.settings.notification.NotificationStation,2,1,3,0,11,7,47,12,4,240,3,80,Lines Increased
+660,Anonymous Class,com.android.settings.notification.NotificationStation.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+661,Anonymous Class,com.android.settings.notification.NotificationStation.(Anon_2),1,1,1,0,2,0,2,2,2,14,2,0,No Change
+662,Anonymous Class,com.android.settings.notification.NotificationStation.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+663,Private Static Class,com.android.settings.notification.NotificationStation.HistoricalNotificationInfo,0,1,0,0,0,9,0,0,0,11,1,0,No Change
+664,Private Class,com.android.settings.notification.NotificationStation.NotificationHistoryAdapter,2,1,2,0,3,1,3,3,2,35,2,33,No Change
+665,Anonymous Class,com.android.settings.notification.NotificationStation.NotificationHistoryAdapter.getView.(Anon_4),1,1,3,0,1,0,1,1,1,5,2,0,No Change
+666,Public Class,com.android.settings.notification.OtherSoundSettings,1,2,3,0,3,2,40,5,3,175,3,70,Lines Increased
+667,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_1),1,1,1,0,1,0,12,1,1,5,2,0,No Change
+668,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_2),1,1,1,0,1,0,12,1,1,5,2,0,No Change
+669,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_3),2,1,0,0,1,0,12,1,0,11,2,0,No Change
+670,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_4),1,1,1,0,1,0,12,1,1,5,2,0,No Change
+671,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_5),2,1,1,0,2,0,13,2,1,16,2,0,No Change
+672,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_6),2,1,1,0,2,0,13,2,1,19,2,0,No Change
+673,Anonymous Class,com.android.settings.notification.OtherSoundSettings.(Anon_7),2,1,2,0,2,0,6,2,2,16,2,0,No Change
+674,Private Class,com.android.settings.notification.OtherSoundSettings.SettingsObserver,2,1,3,0,3,0,3,3,3,25,2,0,No Change
+675,Public Class,com.android.settings.notification.RedactionInterstitial,1,1,1,0,2,0,50,3,2,60,3,0,Lines Increased
+676,Public Static Class,com.android.settings.notification.RedactionInterstitial.RedactionInterstitialFragment,1,2,0,0,4,3,39,4,3,41,3,33,Lines Increased
+677,Public Class,com.android.settings.notification.RedactionSettingsStandalone,1,1,1,0,2,0,49,2,1,16,3,0,Lines Decreased
+678,Public Class,com.android.settings.notification.SettingPref,2,1,2,8,8,8,11,11,6,106,1,78,Modified
+679,Anonymous Class,com.android.settings.notification.SettingPref.init.(Anon_1),2,1,1,0,1,0,1,1,1,6,2,0,No Change
+680,Anonymous Class,com.android.settings.notification.SettingPref.init.(Anon_2),1,2,1,0,1,0,1,1,1,5,1,0,No Change
+681,Public Class,com.android.settings.notification.VolumeSeekBarPreference,1,2,1,0,11,5,11,11,9,88,2,80,Lines Increased
+682,Public Interface,com.android.settings.notification.VolumeSeekBarPreference.Callback,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+683,Anonymous Class,com.android.settings.notification.VolumeSeekBarPreference.onBindView.(Anon_1),2,1,2,0,1,0,1,1,1,7,2,0,Class Deleted
+684,Anonymous Class,com.android.settings.notification.VolumeSeekBarPreference.onBindView.(Anon_2),1,1,2,0,1,0,1,1,1,7,2,0,Class Deleted
+685,Public Class,com.android.settings.notification.ZenModeAutomaticConditionSelection,2,1,1,0,8,5,8,8,1,109,2,75,Class Deleted
+686,Anonymous Class,com.android.settings.notification.ZenModeAutomaticConditionSelection.(Anon_2),2,1,2,0,1,0,1,1,1,6,2,0,Class Deleted
+687,Private Class,com.android.settings.notification.ZenModeAutomaticConditionSelection.H,2,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+688,Anonymous Class,com.android.settings.notification.ZenModeAutomaticConditionSelection.newCheckBox.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+689,Public Class,com.android.settings.notification.ZenModeConditionSelection,2,1,1,0,9,6,9,9,2,100,2,81,Lines Increased
+690,Anonymous Class,com.android.settings.notification.ZenModeConditionSelection.(Anon_2),2,1,2,0,1,0,1,1,1,6,2,0,No Change
+691,Private Class,com.android.settings.notification.ZenModeConditionSelection.H,2,1,1,0,1,0,1,1,1,7,2,0,No Change
+692,Anonymous Class,com.android.settings.notification.ZenModeConditionSelection.newRadioButton.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+693,Public Class,com.android.settings.notification.ZenModeDowntimeDaysSelection,3,1,0,1,3,2,3,3,1,58,2,50,Class Deleted
+694,Anonymous Class,com.android.settings.notification.ZenModeDowntimeDaysSelection.ZenModeDowntimeDaysSelection.(for_loop_2).(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+695,Public Class,com.android.settings.notification.ZenModeSettings,2,2,10,0,15,17,51,16,3,588,3,84,Lines Decreased
+696,Anonymous Class,com.android.settings.notification.ZenModeSettings.(Anon_1),3,1,0,0,1,0,19,1,0,11,3,0,Lines Increased
+697,Anonymous Class,com.android.settings.notification.ZenModeSettings.(Anon_17),2,1,3,0,2,0,6,2,2,23,2,0,Class Deleted
+698,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_10),6,2,1,0,1,0,1,1,1,15,1,0,Class Deleted
+699,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_11),6,2,1,0,1,0,1,1,1,15,1,0,Class Deleted
+700,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_12),1,1,2,0,1,0,1,1,1,16,2,0,Class Deleted
+701,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_12).onPreferenceClick.(Anon_13),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+702,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_2),2,2,1,0,1,0,1,1,1,7,1,0,Class Deleted
+703,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_3),4,1,1,0,1,0,1,1,1,11,2,0,Class Deleted
+704,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_4),4,1,1,0,1,0,1,1,1,11,2,0,Class Deleted
+705,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_5),4,2,1,0,1,0,1,1,1,12,1,0,Class Deleted
+706,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_6),4,1,1,0,1,0,1,1,1,11,2,0,Class Deleted
+707,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_7),1,1,1,0,1,0,1,1,1,26,2,0,Class Deleted
+708,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_7).onPreferenceClick.(Anon_8),4,1,1,0,1,0,4,1,0,10,3,0,Class Deleted
+709,Anonymous Class,com.android.settings.notification.ZenModeSettings.onCreate.(Anon_7).onPreferenceClick.(Anon_9),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+710,Private Static Class,com.android.settings.notification.ZenModeSettings.SettingPrefWithCallback,1,1,2,1,7,2,18,7,6,41,2,57,Class Deleted
+711,Public Interface,com.android.settings.notification.ZenModeSettings.SettingPrefWithCallback.Callback,0,0,0,1,1,0,1,1,0,3,0,0,Class Deleted
+712,Private Class,com.android.settings.notification.ZenModeSettings.SettingsObserver,1,1,3,0,4,2,4,4,4,24,2,50,Class Deleted
+713,Anonymous Class,com.android.settings.notification.ZenModeSettings.showConditionSelection.(Anon_14),1,1,2,0,1,0,1,1,1,6,2,0,Class Deleted
+714,Anonymous Class,com.android.settings.notification.ZenModeSettings.showConditionSelection.(Anon_15),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+715,Anonymous Class,com.android.settings.notification.ZenModeSettings.showConditionSelection.(Anon_16),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+716,Private Static Class,com.android.settings.notification.ZenModeSettings.TimePickerPreference,1,1,1,0,5,5,5,5,4,65,2,60,Class Deleted
+717,Public Interface,com.android.settings.notification.ZenModeSettings.TimePickerPreference.Callback,0,0,0,2,1,0,1,1,0,3,0,0,Class Deleted
+718,Public Static Class,com.android.settings.notification.ZenModeSettings.TimePickerPreference.TimePickerFragment,2,2,1,0,2,1,2,2,2,18,2,0,Class Deleted
+719,Anonymous Class,com.android.settings.notification.ZenModeSettings.TimePickerPreference.TimePickerPreference.(Anon_18),1,1,2,0,1,0,1,1,1,8,2,0,Class Deleted
+720,Public Class,com.android.settings.NsdEnabler,1,2,0,0,5,5,5,5,4,48,1,43,Lines Decreased
+721,Anonymous Class,com.android.settings.NsdEnabler.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+722,Public Class,com.android.settings.OwnerInfoSettings,2,1,0,0,5,7,5,5,3,75,2,54,Lines Decreased
+723,Anonymous Class,com.android.settings.OwnerInfoSettings.initView.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+724,Public Class,com.android.settings.PinnedHeaderListFragment,1,1,0,1,3,0,3,3,3,11,2,0,Lines Decreased
+725,Public Class,com.android.settings.PointerSpeedPreference,1,2,1,0,11,6,11,11,4,117,2,63,Lines Decreased
+726,Anonymous Class,com.android.settings.PointerSpeedPreference.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+727,Private Static Class,com.android.settings.PointerSpeedPreference.SavedState,1,1,0,0,3,2,3,3,3,27,2,33,No Change
+728,Anonymous Class,com.android.settings.PointerSpeedPreference.SavedState.(Anon_2),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+729,Public Class,com.android.settings.print.PrintJobSettingsFragment,3,1,0,0,9,7,44,9,6,161,3,77,Lines Increased
+730,Anonymous Class,com.android.settings.print.PrintJobSettingsFragment.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+731,Public Class,com.android.settings.print.PrintServiceSettingsFragment,2,3,7,0,13,16,48,13,8,566,3,84,Lines Increased
+732,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.(Anon_1),1,1,1,0,1,0,5,1,1,5,3,0,No Change
+733,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.(Anon_2),1,1,2,0,3,0,3,3,2,18,2,0,No Change
+734,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.initComponents.(Anon_3),3,2,5,0,1,0,1,1,1,16,1,0,No Change
+735,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.onCreateOptionsMenu.(Anon_4),1,1,0,0,2,0,2,2,2,10,2,0,No Change
+736,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.onCreateOptionsMenu.(Anon_5),2,1,0,0,2,0,2,2,2,17,2,0,No Change
+737,Private Class,com.android.settings.print.PrintServiceSettingsFragment.PrintersAdapter,1,2,3,0,12,4,12,12,12,150,2,70,No Change
+738,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.PrintersAdapter.getFilter.(Anon_6),3,1,1,0,2,0,2,2,0,37,2,0,No Change
+739,Private Static Class,com.android.settings.print.PrintServiceSettingsFragment.PrintersLoader,2,1,0,0,10,2,10,10,2,89,2,75,No Change
+740,Anonymous Class,com.android.settings.print.PrintServiceSettingsFragment.PrintersLoader.loadInternal.(Anon_7),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+741,Private Static Abstract Class,com.android.settings.print.PrintServiceSettingsFragment.SettingsContentObserver,1,1,0,1,4,0,4,4,4,14,2,0,No Change
+742,Public Class,com.android.settings.print.PrintSettingsFragment,2,4,8,0,9,7,44,9,7,429,3,84,Lines Increased
+743,Anonymous Class,com.android.settings.print.PrintSettingsFragment.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+744,Anonymous Class,com.android.settings.print.PrintSettingsFragment.(Anon_2),1,1,1,0,1,0,5,1,1,5,3,0,No Change
+745,Anonymous Class,com.android.settings.print.PrintSettingsFragment.(Anon_4),1,1,1,0,2,0,6,2,2,38,2,0,No Change
+746,Private Class,com.android.settings.print.PrintSettingsFragment.PrintJobsController,5,2,3,0,3,0,3,3,3,81,1,0,No Change
+747,Private Static Class,com.android.settings.print.PrintSettingsFragment.PrintJobsLoader,3,1,0,0,6,3,7,7,3,88,2,61,No Change
+748,Anonymous Class,com.android.settings.print.PrintSettingsFragment.PrintJobsLoader.onStartLoading.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+749,Private Static Abstract Class,com.android.settings.print.PrintSettingsFragment.SettingsContentObserver,1,1,0,1,4,0,4,4,4,14,2,0,No Change
+750,Private Class,com.android.settings.print.PrintSettingsFragment.SettingsPackageMonitor,1,1,1,0,4,0,4,4,4,18,2,0,No Change
+751,Public Class,com.android.settings.print.PrintSettingsUtils,2,1,0,0,1,0,3,3,2,38,1,0,Lines Increased
+752,Public Class,com.android.settings.PrivacySettings,2,2,2,0,10,8,45,10,4,181,3,72,Lines Decreased
+753,Anonymous Class,com.android.settings.PrivacySettings.(Anon_1),6,1,1,0,1,0,1,1,1,25,2,0,Lines Decreased
+754,Private Static Class,com.android.settings.PrivacySettings.PrivacySearchIndexProvider,1,1,0,0,2,1,6,2,2,19,2,0,Lines Increased
+755,Public Class,com.android.settings.ProgressCategory,1,1,0,1,7,4,12,7,7,53,3,78,Lines Decreased
+756,Public Abstract Class,com.android.settings.ProgressCategoryBase,1,1,0,1,5,0,5,5,5,15,2,0,No Change
+757,Public Class,com.android.settings.ProxySelector,2,2,1,0,8,12,9,9,5,173,2,74,Lines Increased
+758,Anonymous Class,com.android.settings.ProxySelector.(Anon_1),2,1,1,0,1,0,1,1,1,6,2,0,No Change
+759,Anonymous Class,com.android.settings.ProxySelector.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+760,Anonymous Class,com.android.settings.ProxySelector.(Anon_3),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+761,Anonymous Class,com.android.settings.ProxySelector.(Anon_4),2,1,0,0,1,0,1,1,1,7,2,0,No Change
+762,Public Class,com.android.settings.quicklaunch.BookmarkPicker,1,2,0,0,16,4,17,17,4,176,2,90,Class Deleted
+763,Anonymous Class,com.android.settings.quicklaunch.BookmarkPicker.updateAdapterToUseNewLists.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+764,Anonymous Class,com.android.settings.quicklaunch.BookmarkPicker.updateListAndAdapter.(Anon_1),1,1,1,0,1,0,1,1,1,13,2,0,Class Deleted
+765,Public Class,com.android.settings.quicklaunch.QuickLaunchSettings,2,3,3,0,18,8,53,18,11,222,3,82,Class Deleted
+766,Private Class,com.android.settings.quicklaunch.QuickLaunchSettings.BookmarksObserver,1,1,1,0,2,0,2,2,2,10,2,0,Class Deleted
+767,Public Class,com.android.settings.quicklaunch.ShortcutPreference,2,2,0,0,9,2,9,9,8,89,2,75,Class Deleted
+768,Public Class,com.android.settings.RadioInfo,2,1,1,0,36,68,36,36,4,835,2,95,Lines Increased
+769,Anonymous Class,com.android.settings.RadioInfo.(Anon_1),1,1,1,0,7,0,7,7,7,36,2,0,No Change
+770,Anonymous Class,com.android.settings.RadioInfo.(Anon_10),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+771,Anonymous Class,com.android.settings.RadioInfo.(Anon_11),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+772,Anonymous Class,com.android.settings.RadioInfo.(Anon_12),3,1,1,0,1,0,1,1,1,15,2,0,No Change
+773,Anonymous Class,com.android.settings.RadioInfo.(Anon_13),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+774,Anonymous Class,com.android.settings.RadioInfo.(Anon_14),3,1,1,0,1,0,1,1,1,10,2,0,No Change
+775,Anonymous Class,com.android.settings.RadioInfo.(Anon_15),3,1,1,0,1,0,1,1,1,9,2,0,No Change
+776,Anonymous Class,com.android.settings.RadioInfo.(Anon_16),3,1,1,0,1,0,1,1,1,9,2,0,Lines Increased
+777,Anonymous Class,com.android.settings.RadioInfo.(Anon_17),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+778,Anonymous Class,com.android.settings.RadioInfo.(Anon_18),2,1,1,0,1,0,1,1,1,9,2,0,Modified
+779,Anonymous Class,com.android.settings.RadioInfo.(Anon_19),1,1,1,0,1,0,1,1,1,4,2,0,Lines Increased
+780,Anonymous Class,com.android.settings.RadioInfo.(Anon_2),15,1,1,0,1,0,1,1,1,62,2,0,Lines Increased
+781,Anonymous Class,com.android.settings.RadioInfo.(Anon_20),1,1,1,0,1,0,1,1,1,6,2,0,Lines Increased
+782,Anonymous Class,com.android.settings.RadioInfo.(Anon_21),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+783,Anonymous Class,com.android.settings.RadioInfo.(Anon_22),1,1,1,0,2,0,2,2,2,9,2,0,Lines Decreased
+784,Anonymous Class,com.android.settings.RadioInfo.(Anon_7),1,1,0,0,1,0,1,1,1,8,2,0,No Change
+785,Anonymous Class,com.android.settings.RadioInfo.(Anon_8),1,1,0,0,1,0,1,1,1,8,2,0,No Change
+786,Anonymous Class,com.android.settings.RadioInfo.(Anon_9),1,1,0,0,1,0,1,1,1,9,2,0,No Change
+787,Class,com.android.settings.RadioInfo.CellInfoListRateHandler,1,2,1,0,2,2,2,2,2,16,1,0,No Change
+788,Anonymous Class,com.android.settings.RadioInfo.updatePingState.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+789,Anonymous Class,com.android.settings.RadioInfo.updatePingState.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+790,Anonymous Class,com.android.settings.RadioInfo.updatePingState.(Anon_5),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+791,Anonymous Class,com.android.settings.RadioInfo.updatePingState.(Anon_6),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+792,Public Class,com.android.settings.RegulatoryInfoDisplayActivity,3,2,0,0,3,1,3,3,1,59,2,66,Lines Decreased
+793,Public Class,com.android.settings.RestrictedSettingsFragment,1,1,0,3,11,6,46,11,6,105,3,65,Lines Decreased
+794,Anonymous Class,com.android.settings.RestrictedSettingsFragment.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+795,Public Class,com.android.settings.ScreenPinningSettings,1,3,3,0,6,1,41,6,4,57,3,66,Lines Increased
+796,Anonymous Class,com.android.settings.ScreenPinningSettings.(Anon_1),1,1,1,0,1,0,5,1,1,15,2,0,Class Deleted
+797,Public Class,com.android.settings.search.BaseSearchIndexProvider,1,2,0,23,4,0,4,4,4,17,1,0,Lines Decreased
+798,Public Class,com.android.settings.search.DynamicIndexableContentMonitor,2,2,5,0,11,8,14,14,8,213,2,73,Lines Decreased
+799,Anonymous Class,com.android.settings.search.DynamicIndexableContentMonitor.(Anon_1),3,1,1,0,1,0,1,1,1,14,2,0,No Change
+800,Private Class,com.android.settings.search.DynamicIndexableContentMonitor.UserDictionaryContentObserver,1,1,3,0,2,0,2,2,2,12,2,0,No Change
+801,Public Class,com.android.settings.search.Index,2,1,12,0,48,4,56,56,14,991,1,93,Lines Increased
+802,Private Class,com.android.settings.search.Index.SaveSearchQueryTask,3,1,3,0,1,0,1,1,0,27,1,0,Lines Increased
+803,Private Static Class,com.android.settings.search.Index.UpdateData,1,1,1,0,4,4,4,4,4,26,1,31,No Change
+804,Private Class,com.android.settings.search.Index.UpdateIndexTask,2,1,4,0,7,0,7,7,0,108,1,0,Lines Increased
+805,Public Interface,com.android.settings.search.Indexable,0,0,0,22,0,0,0,0,0,7,0,0,Lines Decreased
+806,Public Interface,com.android.settings.search.Indexable.SearchIndexProvider,0,0,0,1,3,0,3,3,0,5,0,0,No Change
+807,Public Class,com.android.settings.search.IndexDatabaseHelper,1,1,4,0,9,0,10,10,6,171,2,90,Lines Decreased
+808,Public Interface,com.android.settings.search.IndexDatabaseHelper.IndexColumns,0,0,0,0,0,0,0,0,0,22,0,0,No Change
+809,Public Interface,com.android.settings.search.IndexDatabaseHelper.MetaColumns,0,0,0,0,0,0,0,0,0,3,0,0,No Change
+810,Public Interface,com.android.settings.search.IndexDatabaseHelper.SavedQueriesColums,0,0,0,0,0,0,0,0,0,4,0,0,No Change
+811,Public Interface,com.android.settings.search.IndexDatabaseHelper.Tables,0,0,0,2,0,0,0,0,0,5,0,0,No Change
+812,Public Class,com.android.settings.search.Ranking,2,1,31,0,0,0,2,2,2,77,1,50,Lines Increased
+813,Public Class,com.android.settings.search.SearchIndexableRaw,1,1,0,0,1,6,1,1,1,11,2,100,Lines Decreased
+814,Public Class,com.android.settings.search.SearchIndexableResources,1,1,30,0,1,0,4,4,3,192,1,62,Lines Increased
+815,Public Class,com.android.settings.search.SettingsSearchIndexablesProvider,1,1,1,0,4,0,4,4,4,34,2,0,Class Deleted
+816,Public Class,com.android.settings.SecuritySettings,5,4,6,0,17,14,54,19,9,589,3,86,Class Deleted
+817,Private Static Class,com.android.settings.SecuritySettings.SecuritySearchIndexProvider,4,1,3,0,4,1,8,4,4,102,2,0,Class Deleted
+818,Public Class,com.android.settings.SelectableEditTextPreference,2,1,0,0,3,1,3,3,2,31,2,33,Lines Decreased
+819,Public Class,com.android.settings.SetFullBackupPassword,1,1,0,0,2,7,2,2,1,60,2,42,Lines Decreased
+820,Anonymous Class,com.android.settings.SetFullBackupPassword.(Anon_1),5,1,1,0,1,0,1,1,1,32,2,0,No Change
+821,Public Class,com.android.settings.Settings,0,1,0,0,0,0,47,0,0,76,3,0,Lines Increased
+822,Public Static Class,com.android.settings.Settings.AccessibilityContrastSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+823,Public Static Class,com.android.settings.Settings.AccessibilityDaltonizerSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+824,Public Static Class,com.android.settings.Settings.AccessibilityInversionSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+825,Public Static Class,com.android.settings.Settings.AccessibilitySettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+826,Public Static Class,com.android.settings.Settings.AccountSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+827,Public Static Class,com.android.settings.Settings.AccountSyncSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+828,Public Static Class,com.android.settings.Settings.AccountSyncSettingsInAddAccountActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+829,Public Static Class,com.android.settings.Settings.AdvancedWifiSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+830,Public Static Class,com.android.settings.Settings.AndroidBeamSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+831,Public Static Class,com.android.settings.Settings.ApnSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+832,Public Static Class,com.android.settings.Settings.ApplicationSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+833,Public Static Class,com.android.settings.Settings.AppNotificationSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+834,Public Static Class,com.android.settings.Settings.AppOpsSummaryActivity,2,1,1,0,1,0,48,1,1,9,3,0,Modified
+835,Public Static Class,com.android.settings.Settings.BatterySaverSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+836,Public Static Class,com.android.settings.Settings.BluetoothSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+837,Public Static Class,com.android.settings.Settings.CaptioningSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+838,Public Static Class,com.android.settings.Settings.ConditionProviderSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+839,Public Static Class,com.android.settings.Settings.CryptKeeperSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+840,Public Static Class,com.android.settings.Settings.DataUsageSummaryActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+841,Public Static Class,com.android.settings.Settings.DateTimeSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+842,Public Static Class,com.android.settings.Settings.DevelopmentSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+843,Public Static Class,com.android.settings.Settings.DeviceAdminSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+844,Public Static Class,com.android.settings.Settings.DeviceInfoSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+845,Public Static Class,com.android.settings.Settings.DisplaySettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+846,Public Static Class,com.android.settings.Settings.DreamSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+847,Public Static Class,com.android.settings.Settings.HomeSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+848,Public Static Class,com.android.settings.Settings.InputMethodAndLanguageSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+849,Public Static Class,com.android.settings.Settings.InputMethodAndSubtypeEnablerActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+850,Public Static Class,com.android.settings.Settings.KeyboardLayoutPickerActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+851,Public Static Class,com.android.settings.Settings.LocalePickerActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+852,Public Static Class,com.android.settings.Settings.LocationSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+853,Public Static Class,com.android.settings.Settings.ManageAccountsSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+854,Public Static Class,com.android.settings.Settings.ManageApplicationsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+855,Public Static Class,com.android.settings.Settings.NotificationAccessSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+856,Public Static Class,com.android.settings.Settings.NotificationAppListActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+857,Public Static Class,com.android.settings.Settings.NotificationSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+858,Public Static Class,com.android.settings.Settings.NotificationStationActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+859,Public Static Class,com.android.settings.Settings.OtherSoundSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+860,Public Static Class,com.android.settings.Settings.PaymentSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+861,Public Static Class,com.android.settings.Settings.PowerUsageSummaryActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+862,Public Static Class,com.android.settings.Settings.PrintJobSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+863,Public Static Class,com.android.settings.Settings.PrintSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+864,Public Static Class,com.android.settings.Settings.PrivacySettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+865,Public Static Class,com.android.settings.Settings.QuickLaunchSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Class Deleted
+866,Public Static Class,com.android.settings.Settings.RunningServicesActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+867,Public Static Class,com.android.settings.Settings.SavedAccessPointsSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+868,Public Static Class,com.android.settings.Settings.SecuritySettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+869,Public Static Class,com.android.settings.Settings.SimSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+870,Public Static Class,com.android.settings.Settings.SpellCheckersSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+871,Public Static Class,com.android.settings.Settings.StorageSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+872,Public Static Class,com.android.settings.Settings.StorageUseActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+873,Public Static Class,com.android.settings.Settings.TetherSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+874,Public Static Class,com.android.settings.Settings.TextToSpeechSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+875,Public Static Class,com.android.settings.Settings.TopLevelSettings,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+876,Public Static Class,com.android.settings.Settings.TrustedCredentialsSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+877,Public Static Class,com.android.settings.Settings.UsageAccessSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+878,Public Static Class,com.android.settings.Settings.UsbSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+879,Public Static Class,com.android.settings.Settings.UserDictionarySettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+880,Public Static Class,com.android.settings.Settings.UserSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+881,Public Static Class,com.android.settings.Settings.VoiceInputSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Class Deleted
+882,Public Static Class,com.android.settings.Settings.VpnSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+883,Public Static Class,com.android.settings.Settings.WifiDisplaySettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+884,Public Static Class,com.android.settings.Settings.WifiP2pSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+885,Public Static Class,com.android.settings.Settings.WifiSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+886,Public Static Class,com.android.settings.Settings.WirelessSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+887,Public Static Class,com.android.settings.Settings.ZenModeSettingsActivity,0,1,0,0,0,0,47,0,0,1,3,0,Modified
+888,Public Class,com.android.settings.SettingsActivity,3,8,76,79,44,27,47,47,27,924,2,94,Lines Increased
+889,Anonymous Class,com.android.settings.SettingsActivity.(Anon_1),3,1,2,0,1,0,1,1,1,12,2,0,No Change
+890,Anonymous Class,com.android.settings.SettingsActivity.(Anon_2),3,1,1,0,1,0,1,1,1,12,2,0,No Change
+891,Anonymous Class,com.android.settings.SettingsActivity.onCreate.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+892,Anonymous Class,com.android.settings.SettingsActivity.onCreate.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+893,Anonymous Class,com.android.settings.SettingsActivity.onCreate.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+894,Anonymous Class,com.android.settings.SettingsActivity.onResume.(Anon_6),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+895,Public Class,com.android.settings.SettingsLicenseActivity,1,1,1,0,5,4,5,5,1,141,2,40,Lines Decreased
+896,Private Class,com.android.settings.SettingsLicenseActivity.LicenseFileLoader,5,2,0,0,2,2,2,2,2,53,1,0,Class Deleted
+897,Anonymous Class,com.android.settings.SettingsLicenseActivity.onCreate.(Anon_1),2,1,2,0,1,0,1,1,1,11,2,0,Class Deleted
+898,Anonymous Class,com.android.settings.SettingsLicenseActivity.showPageOfText.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+899,Anonymous Class,com.android.settings.SettingsLicenseActivity.showPageOfText.(Anon_3),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+900,Public Class,com.android.settings.SettingsPreferenceFragment,1,2,4,57,35,10,35,35,18,351,2,92,Lines Increased
+901,Anonymous Class,com.android.settings.SettingsPreferenceFragment.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+902,Anonymous Class,com.android.settings.SettingsPreferenceFragment.highlightPreference.(Anon_2),1,1,1,0,1,0,1,1,1,19,2,0,No Change
+903,Anonymous Class,com.android.settings.SettingsPreferenceFragment.highlightPreference.(Anon_2).run.(Anon_3),2,1,1,0,1,0,1,1,1,13,2,0,No Change
+904,Public Static Class,com.android.settings.SettingsPreferenceFragment.SettingsDialogFragment,2,1,2,0,9,4,9,9,9,82,2,69,No Change
+905,Public Class,com.android.settings.SettingsSafetyLegalActivity,1,3,0,0,7,2,7,7,4,86,2,64,Class Deleted
+906,Anonymous Class,com.android.settings.SettingsSafetyLegalActivity.onCreate.(Anon_1),1,1,1,0,2,0,2,2,2,10,2,0,Class Deleted
+907,Public Class,com.android.settings.sim.SimSettings,2,2,3,0,15,6,61,15,5,245,4,86,Lines Decreased
+908,Anonymous Class,com.android.settings.sim.SimSettings.(Anon_4),2,1,1,0,1,0,5,1,1,13,2,0,Class Deleted
+909,Anonymous Class,com.android.settings.sim.SimSettings.createDropDown.(Anon_1),5,2,1,0,1,0,1,1,1,12,1,0,Class Deleted
+910,Private Class,com.android.settings.sim.SimSettings.SimPreference,1,1,0,0,3,2,3,3,3,61,2,16,Lines Decreased
+911,Anonymous Class,com.android.settings.sim.SimSettings.SimPreference.createEditDialog.(Anon_2),2,1,2,0,1,0,1,1,1,16,2,0,Class Deleted
+912,Anonymous Class,com.android.settings.sim.SimSettings.SimPreference.createEditDialog.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,Class Deleted
+913,Public Class,com.android.settings.SmsDefaultDialog,3,2,0,0,3,2,3,3,1,60,2,66,Lines Increased
+914,Public Class,com.android.settings.SubSettings,1,1,0,0,2,0,49,2,1,12,3,0,Lines Decreased
+915,Public Class,com.android.settings.TestingSettings,1,1,0,0,1,0,1,1,0,7,2,0,Lines Decreased
+916,Public Class,com.android.settings.TestingSettingsBroadcastReceiver,1,1,1,0,2,0,2,2,2,13,2,0,Lines Decreased
+917,Public Class,com.android.settings.TetherSettings,3,3,4,0,18,23,58,23,12,507,3,88,Lines Decreased
+918,Anonymous Class,com.android.settings.TetherSettings.(Anon_1),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+919,Private Class,com.android.settings.TetherSettings.TetherChangeReceiver,11,1,1,0,1,0,1,1,1,45,2,0,No Change
+920,Public Class,com.android.settings.TrustAgentSettings,2,2,2,0,7,3,42,7,3,109,3,57,Lines Increased
+921,Public Static Class,com.android.settings.TrustAgentSettings.AgentInfo,1,1,0,0,2,4,2,2,2,16,1,75,No Change
+922,Public Class,com.android.settings.TrustAgentUtils,5,1,1,0,0,0,3,3,3,76,1,0,No Change
+923,Public Static Class,com.android.settings.TrustAgentUtils.TrustAgentComponentInfo,0,1,0,0,0,3,0,0,0,5,1,0,Lines Increased
+924,Public Class,com.android.settings.TrustedCredentialsSettings,2,1,5,0,9,3,9,9,3,622,2,74,Lines Increased
+925,Private Class,com.android.settings.TrustedCredentialsSettings.AdapterData,2,1,3,0,2,3,2,2,1,98,1,50,Lines Increased
+926,Private Class,com.android.settings.TrustedCredentialsSettings.AdapterData.AliasLoader,2,1,5,0,4,2,4,4,0,80,2,37,Lines Increased
+927,Anonymous Class,com.android.settings.TrustedCredentialsSettings.addTab.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+928,Anonymous Class,com.android.settings.TrustedCredentialsSettings.addTab.(Anon_2),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+929,Private Class,com.android.settings.TrustedCredentialsSettings.AliasOperation,2,1,3,0,3,1,3,3,0,35,2,0,Lines Decreased
+930,Private Static Class,com.android.settings.TrustedCredentialsSettings.CertHolder,2,2,3,0,4,10,4,4,3,70,1,65,No Change
+931,Anonymous Class,com.android.settings.TrustedCredentialsSettings.showCertDialog.(Anon_3),2,1,1,0,2,0,2,2,2,10,2,0,No Change
+932,Anonymous Class,com.android.settings.TrustedCredentialsSettings.showCertDialog.(Anon_4),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+933,Anonymous Class,com.android.settings.TrustedCredentialsSettings.showCertDialog.(Anon_5),1,1,3,0,1,0,1,1,1,21,2,0,No Change
+934,Anonymous Class,com.android.settings.TrustedCredentialsSettings.showCertDialog.(Anon_5).onClick.(Anon_6),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+935,Anonymous Class,com.android.settings.TrustedCredentialsSettings.showCertDialog.(Anon_5).onClick.(Anon_7),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+936,Private Class,com.android.settings.TrustedCredentialsSettings.TrustedCertificateAdapter,1,2,5,0,8,1,8,8,7,36,2,25,No Change
+937,Private Interface,com.android.settings.TrustedCredentialsSettings.TrustedCertificateAdapterCommons,0,0,2,2,4,0,4,4,0,6,0,0,No Change
+938,Private Class,com.android.settings.TrustedCredentialsSettings.TrustedCertificateExpandableAdapter,1,2,5,0,15,1,15,15,13,89,2,40,Lines Decreased
+939,Private Static Class,com.android.settings.TrustedCredentialsSettings.ViewHolder,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+940,Public Class,com.android.settings.tts.TextToSpeechSettings,3,4,2,0,27,15,62,27,12,407,3,86,Lines Increased
+941,Anonymous Class,com.android.settings.tts.TextToSpeechSettings.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+942,Anonymous Class,com.android.settings.tts.TextToSpeechSettings.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+943,Anonymous Class,com.android.settings.tts.TextToSpeechSettings.setTtsUtteranceProgressListener.(Anon_3),1,1,1,0,3,0,3,3,3,9,2,0,No Change
+944,Public Class,com.android.settings.tts.TtsEnginePreference,2,1,3,0,7,8,7,7,3,148,2,64,Lines Decreased
+945,Anonymous Class,com.android.settings.tts.TtsEnginePreference.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+946,Anonymous Class,com.android.settings.tts.TtsEnginePreference.getView.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+947,Anonymous Class,com.android.settings.tts.TtsEnginePreference.getView.(Anon_3),2,1,3,0,1,0,1,1,1,13,2,0,No Change
+948,Anonymous Class,com.android.settings.tts.TtsEnginePreference.onRadioButtonClicked.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+949,Anonymous Class,com.android.settings.tts.TtsEnginePreference.onRadioButtonClicked.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+950,Public Interface,com.android.settings.tts.TtsEnginePreference.RadioButtonGroupState,0,0,0,1,4,0,4,4,0,6,0,0,No Change
+951,Public Class,com.android.settings.tts.TtsEngineSettingsFragment,3,3,1,0,15,10,50,15,7,260,3,80,Lines Increased
+952,Anonymous Class,com.android.settings.tts.TtsEngineSettingsFragment.(Anon_1),2,1,1,0,1,0,1,1,1,14,2,0,No Change
+953,Anonymous Class,com.android.settings.tts.TtsEngineSettingsFragment.(Anon_1).onInit.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+954,Anonymous Class,com.android.settings.tts.TtsEngineSettingsFragment.(Anon_3),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+955,Anonymous Class,com.android.settings.tts.TtsEngineSettingsFragment.updateDefaultLocalePref.(Anon_4),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+956,Public Class,com.android.settings.UsageAccessSettings,2,2,3,0,7,5,43,8,4,270,3,77,Class Deleted
+957,Anonymous Class,com.android.settings.UsageAccessSettings.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,Class Deleted
+958,Private Class,com.android.settings.UsageAccessSettings.AppsRequestingAccessFetcher,7,1,2,0,4,3,4,4,1,127,2,41,Class Deleted
+959,Private Static Class,com.android.settings.UsageAccessSettings.PackageEntry,1,1,0,0,1,5,1,1,1,11,1,60,Class Deleted
+960,Public Static Class,com.android.settings.UsageAccessSettings.WarningDialogFragment,1,2,1,0,2,0,3,3,3,30,2,0,Class Deleted
+961,Public Class,com.android.settings.UsageStatsActivity,1,2,1,0,3,4,3,3,2,157,2,58,Lines Decreased
+962,Public Static Class,com.android.settings.UsageStatsActivity.AppNameComparator,1,2,0,0,2,1,2,2,1,12,1,0,No Change
+963,Static Class,com.android.settings.UsageStatsActivity.AppViewHolder,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+964,Public Static Class,com.android.settings.UsageStatsActivity.LastTimeUsedComparator,1,2,0,0,1,0,1,1,1,6,1,0,No Change
+965,Class,com.android.settings.UsageStatsActivity.UsageStatsAdapter,2,1,5,0,7,6,7,7,4,100,2,69,No Change
+966,Public Static Class,com.android.settings.UsageStatsActivity.UsageTimeComparator,1,2,0,0,1,0,1,1,1,6,1,0,No Change
+967,Public Class,com.android.settings.UserDictionarySettings,2,1,5,0,11,2,12,12,7,183,2,75,Lines Decreased
+968,Private Static Class,com.android.settings.UserDictionarySettings.MyAdapter,2,2,1,0,4,2,4,4,4,43,2,37,No Change
+969,Anonymous Class,com.android.settings.UserDictionarySettings.MyAdapter.(Anon_1),3,1,1,0,1,0,1,1,1,16,2,0,No Change
+970,Public Class,com.android.settings.users.AppRestrictionsFragment,4,4,7,1,32,18,67,32,7,816,3,88,Lines Increased
+971,Anonymous Class,com.android.settings.users.AppRestrictionsFragment.(Anon_1),4,1,1,0,1,0,1,1,1,9,2,0,No Change
+972,Anonymous Class,com.android.settings.users.AppRestrictionsFragment.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+973,Private Class,com.android.settings.users.AppRestrictionsFragment.AppLabelComparator,1,2,1,0,1,0,1,1,1,8,1,0,No Change
+974,Private Class,com.android.settings.users.AppRestrictionsFragment.AppLoadingTask,1,1,1,0,3,0,3,3,0,14,2,0,No Change
+975,Static Class,com.android.settings.users.AppRestrictionsFragment.AppRestrictionsPreference,1,1,0,0,11,6,11,11,0,74,2,81,Lines Decreased
+976,Anonymous Class,com.android.settings.users.AppRestrictionsFragment.AppRestrictionsPreference.onBindView.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+977,Anonymous Class,com.android.settings.users.AppRestrictionsFragment.onPause.(Anon_4),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+978,Class,com.android.settings.users.AppRestrictionsFragment.RestrictionsResultReceiver,3,1,3,0,2,3,2,2,1,35,2,0,Lines Increased
+979,Static Class,com.android.settings.users.AppRestrictionsFragment.SelectableAppInfo,1,1,0,0,1,5,1,1,1,12,1,0,No Change
+980,Public Class,com.android.settings.users.EditUserInfoController,1,1,3,0,8,6,8,8,7,133,1,58,Lines Decreased
+981,Anonymous Class,com.android.settings.users.EditUserInfoController.createDialog.(Anon_1),7,1,4,0,1,0,1,1,1,36,2,0,No Change
+982,Anonymous Class,com.android.settings.users.EditUserInfoController.createDialog.(Anon_1).onClick.(Anon_2),1,1,2,0,1,0,1,1,0,7,2,0,No Change
+983,Anonymous Class,com.android.settings.users.EditUserInfoController.createDialog.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+984,Public Interface,com.android.settings.users.EditUserInfoController.OnContentChangedCallback,0,0,0,2,2,0,2,2,2,4,0,0,No Change
+985,Public Class,com.android.settings.users.EditUserPhotoController,1,1,2,0,14,8,15,15,4,248,1,81,No Change
+986,Private Static Class,com.android.settings.users.EditUserPhotoController.AdapterItem,1,1,0,0,2,2,2,2,2,12,1,25,No Change
+987,Anonymous Class,com.android.settings.users.EditUserPhotoController.EditUserPhotoController.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+988,Anonymous Class,com.android.settings.users.EditUserPhotoController.onPhotoCropped.(Anon_3),4,1,2,0,2,0,2,2,0,60,2,0,No Change
+989,Anonymous Class,com.android.settings.users.EditUserPhotoController.showUpdatePhotoPopup.(Anon_2),3,1,2,0,1,0,1,1,1,15,2,0,No Change
+990,Public Class,com.android.settings.users.ProfileUpdateReceiver,2,1,1,0,1,0,2,2,1,25,2,0,Lines Decreased
+991,Anonymous Class,com.android.settings.users.ProfileUpdateReceiver.onReceive.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+992,Public Class,com.android.settings.users.RestrictedProfileSettings,1,2,2,0,12,5,79,12,10,116,4,73,Lines Decreased
+993,Anonymous Class,com.android.settings.users.RestrictedProfileSettings.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+994,Anonymous Class,com.android.settings.users.RestrictedProfileSettings.removeUser.(Anon_2),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+995,Public Class,com.android.settings.users.RestrictionUtils,3,1,0,0,0,0,3,3,3,54,1,0,Lines Decreased
+996,Public Class,com.android.settings.users.UserDetailsSettings,3,3,1,0,5,6,40,5,4,106,3,53,Lines Increased
+997,Anonymous Class,com.android.settings.users.UserDetailsSettings.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+998,Public Class,com.android.settings.users.UserPreference,3,1,0,0,6,4,6,6,3,79,2,66,Lines Increased
+999,Public Class,com.android.settings.users.UserSettings,3,6,12,0,42,18,77,42,17,800,3,90,Lines Increased
+1000,Anonymous Class,com.android.settings.users.UserSettings.(Anon_1),4,1,1,0,1,0,1,1,1,15,2,0,No Change
+1001,Anonymous Class,com.android.settings.users.UserSettings.(Anon_2),4,1,1,0,1,0,1,1,1,13,2,0,No Change
+1002,Anonymous Class,com.android.settings.users.UserSettings.addUserNow.(Anon_12),3,1,1,0,1,0,1,1,1,20,2,0,No Change
+1003,Anonymous Class,com.android.settings.users.UserSettings.loadIconsAsync.(Anon_13),2,1,1,0,2,0,2,2,0,17,2,0,Lines Decreased
+1004,Anonymous Class,com.android.settings.users.UserSettings.loadProfile.(Anon_3),1,1,1,0,2,0,2,2,0,13,2,0,No Change
+1005,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_10),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1006,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1007,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_5),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+1008,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_6),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+1009,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_7),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+1010,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_8),2,1,1,0,1,0,1,1,1,6,2,0,Lines Increased
+1011,Anonymous Class,com.android.settings.users.UserSettings.onCreateDialog.(Anon_9),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1012,Anonymous Class,com.android.settings.users.UserSettings.removeUserNow.(Anon_11),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+1013,Public Class,com.android.settings.UserSpinnerAdapter,1,2,1,0,14,2,14,14,13,87,1,67,Class Deleted
+1014,Public Static Class,com.android.settings.UserSpinnerAdapter.UserDetails,3,1,0,0,1,3,1,1,1,22,1,0,Class Deleted
+1015,Public Class,com.android.settings.Utils,2,1,6,0,0,0,46,46,36,583,1,97,Lines Increased
+1016,Anonymous Class,com.android.settings.Utils.buildGlobalChangeWarningDialog.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1017,Public Class,com.android.settings.voice.VoiceInputHelper,5,1,2,0,3,7,3,3,3,139,1,42,Lines Decreased
+1018,Public Static Class,com.android.settings.voice.VoiceInputHelper.BaseInfo,1,2,0,2,2,7,2,2,2,23,1,42,No Change
+1019,Public Static Class,com.android.settings.voice.VoiceInputHelper.InteractionInfo,1,1,0,0,1,1,3,1,1,7,2,0,No Change
+1020,Public Static Class,com.android.settings.voice.VoiceInputHelper.RecognizerInfo,1,1,0,0,1,0,3,1,1,5,2,0,No Change
+1021,Public Class,com.android.settings.voice.VoiceInputPreference,2,1,3,0,8,9,8,8,3,152,2,72,Class Deleted
+1022,Anonymous Class,com.android.settings.voice.VoiceInputPreference.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+1023,Anonymous Class,com.android.settings.voice.VoiceInputPreference.displayAlert.(Anon_4),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+1024,Anonymous Class,com.android.settings.voice.VoiceInputPreference.getView.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+1025,Anonymous Class,com.android.settings.voice.VoiceInputPreference.getView.(Anon_3),1,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+1026,Anonymous Class,com.android.settings.voice.VoiceInputPreference.onRadioButtonClicked.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+1027,Anonymous Class,com.android.settings.voice.VoiceInputPreference.onRadioButtonClicked.(Anon_6),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+1028,Public Interface,com.android.settings.voice.VoiceInputPreference.RadioButtonGroupState,0,0,0,1,4,0,4,4,0,6,0,0,Class Deleted
+1029,Public Class,com.android.settings.voice.VoiceInputSettings,2,4,6,0,8,7,43,8,7,150,3,73,Class Deleted
+1030,Anonymous Class,com.android.settings.voice.VoiceInputSettings.(Anon_1),2,1,1,0,2,0,6,2,1,47,2,0,Class Deleted
+1031,Public Class,com.android.settings.VoiceInputOutputSettings,1,1,2,0,5,6,5,5,2,45,1,50,Lines Decreased
+1032,Public Abstract Class,com.android.settings.VoiceSettingsActivity,2,1,0,1,2,0,2,2,1,14,2,0,Class Deleted
+1033,Class,com.android.settings.vpn2.VpnDialog,3,4,0,0,14,21,14,14,6,272,2,80,Class Deleted
+1034,Public Class,com.android.settings.vpn2.VpnSettings,3,5,3,0,16,10,52,17,13,419,3,80,Lines Decreased
+1035,Public Static Class,com.android.settings.vpn2.VpnSettings.LockdownConfigFragment,2,1,2,0,2,3,4,4,2,69,2,58,Class Deleted
+1036,Anonymous Class,com.android.settings.vpn2.VpnSettings.LockdownConfigFragment.onCreateDialog.(Anon_1),4,1,1,0,1,0,1,1,1,19,2,0,Class Deleted
+1037,Private Static Class,com.android.settings.vpn2.VpnSettings.LockdownConfigFragment.TitleAdapter,1,1,0,0,1,0,1,1,1,6,2,0,Class Deleted
+1038,Private Static Class,com.android.settings.vpn2.VpnSettings.VpnPreference,1,1,0,0,6,2,6,6,1,48,2,33,Class Deleted
+1039,Public Class,com.android.settings.WallpaperTypeSettings,2,2,1,0,2,0,37,2,1,51,3,0,Lines Increased
+1040,Anonymous Class,com.android.settings.WallpaperTypeSettings.(Anon_1),3,1,1,0,1,0,5,1,1,22,2,0,No Change
+1041,Public Class,com.android.settings.WarnedListPreference,1,1,0,0,3,0,3,3,2,11,2,0,Lines Decreased
+1042,Public Class,com.android.settings.wfd.WifiDisplaySettings,2,1,3,0,21,21,56,21,7,566,3,88,Lines Increased
+1043,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.(Anon_15),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+1044,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.(Anon_16),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+1045,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.(Anon_17),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1046,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.(Anon_18),1,1,1,0,5,0,5,5,5,21,2,0,No Change
+1047,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_1),2,1,0,0,1,0,1,1,1,29,2,0,No Change
+1048,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_1).getView.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1049,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_1).getView.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1050,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_4),1,1,1,0,1,0,1,1,0,7,2,0,No Change
+1051,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_5),2,1,1,0,1,0,1,1,0,11,2,0,No Change
+1052,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_6),2,1,1,0,1,0,1,1,0,12,2,0,No Change
+1053,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_7),2,1,1,0,1,0,1,1,0,11,2,0,No Change
+1054,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.buildCertificationMenu.(Anon_8),2,1,1,0,1,0,1,1,0,11,2,0,No Change
+1055,Private Class,com.android.settings.wfd.WifiDisplaySettings.RoutePreference,3,2,1,1,2,1,2,2,2,36,2,0,No Change
+1056,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.setListenMode.(Anon_11),2,1,1,0,2,0,2,2,2,13,2,0,No Change
+1057,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.setWifiP2pChannels.(Anon_12),1,1,1,0,2,0,2,2,2,11,2,0,No Change
+1058,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.showWifiDisplayOptionsDialog.(Anon_13),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+1059,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.showWifiDisplayOptionsDialog.(Anon_14),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1060,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.startAutoGO.(Anon_9),1,1,1,0,2,0,2,2,2,11,2,0,No Change
+1061,Anonymous Class,com.android.settings.wfd.WifiDisplaySettings.stopAutoGO.(Anon_10),1,1,1,0,2,0,2,2,2,11,2,0,No Change
+1062,Private Class,com.android.settings.wfd.WifiDisplaySettings.UnpairedWifiDisplayPreference,1,2,1,0,2,1,2,2,2,23,2,0,No Change
+1063,Private Class,com.android.settings.wfd.WifiDisplaySettings.WifiDisplayRoutePreference,1,2,1,0,3,1,5,3,2,29,3,33,No Change
+1064,Public Class,com.android.settings.widget.AnimatedImageView,1,1,0,0,10,2,10,10,7,64,2,75,Lines Decreased
+1065,Public Interface,com.android.settings.widget.ChartAxis,0,0,0,3,7,0,7,7,7,9,0,0,Lines Decreased
+1066,Public Class,com.android.settings.widget.ChartDataUsageView,2,1,9,0,19,12,30,21,13,445,3,85,Lines Decreased
+1067,Anonymous Class,com.android.settings.widget.ChartDataUsageView.(Anon_2),3,2,3,0,2,0,2,2,2,23,1,0,No Change
+1068,Anonymous Class,com.android.settings.widget.ChartDataUsageView.ChartDataUsageView.(Anon_1),1,1,2,0,1,0,1,1,1,8,2,0,No Change
+1069,Public Static Class,com.android.settings.widget.ChartDataUsageView.DataAxis,2,2,1,0,8,3,8,8,8,102,1,37,Lines Decreased
+1070,Public Interface,com.android.settings.widget.ChartDataUsageView.DataUsageChartListener,0,0,0,1,4,0,4,4,4,6,0,0,No Change
+1071,Public Static Class,com.android.settings.widget.ChartDataUsageView.TimeAxis,1,2,0,0,9,3,9,9,9,70,1,48,No Change
+1072,Public Class,com.android.settings.widget.ChartGridView,2,1,2,0,7,10,7,7,3,110,2,71,Lines Decreased
+1073,Public Class,com.android.settings.widget.ChartNetworkSeriesView,1,1,1,0,16,19,16,16,13,209,2,84,Lines Decreased
+1074,Public Class,com.android.settings.widget.ChartSweepView,2,1,3,0,49,30,52,52,35,534,2,94,Lines Increased
+1075,Anonymous Class,com.android.settings.widget.ChartSweepView.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+1076,Public Interface,com.android.settings.widget.ChartSweepView.OnSweepListener,0,0,1,1,2,0,2,2,2,4,0,0,No Change
+1077,Public Class,com.android.settings.widget.ChartView,1,1,4,1,9,5,9,9,4,95,2,77,Lines Decreased
+1078,Public Class,com.android.settings.widget.InvertedChartAxis,1,2,0,0,8,2,8,8,8,40,1,25,Lines Decreased
+1079,Public Class,com.android.settings.widget.SettingsAppWidgetProvider,3,1,7,0,5,0,12,12,5,637,2,91,Lines Decreased
+1080,Private Static Class,com.android.settings.widget.SettingsAppWidgetProvider.BluetoothStateTracker,2,1,3,0,8,0,24,9,7,57,2,0,Modified
+1081,Anonymous Class,com.android.settings.widget.SettingsAppWidgetProvider.BluetoothStateTracker.requestStateChange.(Anon_2),1,1,3,0,1,0,1,1,0,6,2,0,Modified
+1082,Private Static Class,com.android.settings.widget.SettingsAppWidgetProvider.LocationStateTracker,1,1,1,0,8,1,23,8,8,71,2,75,No Change
+1083,Anonymous Class,com.android.settings.widget.SettingsAppWidgetProvider.LocationStateTracker.requestStateChange.(Anon_3),4,1,3,0,2,0,2,2,0,35,2,0,No Change
+1084,Private Static Class,com.android.settings.widget.SettingsAppWidgetProvider.SettingsObserver,1,1,1,0,4,1,4,4,1,21,2,0,No Change
+1085,Private Static Abstract Class,com.android.settings.widget.SettingsAppWidgetProvider.StateTracker,3,1,1,4,15,4,15,15,12,131,1,67,No Change
+1086,Private Static Class,com.android.settings.widget.SettingsAppWidgetProvider.SyncStateTracker,1,1,1,0,8,0,23,8,8,47,2,0,No Change
+1087,Anonymous Class,com.android.settings.widget.SettingsAppWidgetProvider.SyncStateTracker.requestStateChange.(Anon_4),3,1,3,0,2,0,2,2,0,21,2,0,No Change
+1088,Private Static Class,com.android.settings.widget.SettingsAppWidgetProvider.WifiStateTracker,1,1,1,0,9,0,25,10,8,63,2,0,No Change
+1089,Anonymous Class,com.android.settings.widget.SettingsAppWidgetProvider.WifiStateTracker.requestStateChange.(Anon_1),2,1,1,0,1,0,1,1,0,11,2,0,No Change
+1090,Public Class,com.android.settings.widget.SetupWizardIllustration,1,1,0,0,10,7,10,10,8,95,2,74,Lines Decreased
+1091,Public Class,com.android.settings.widget.StickyHeaderListView,1,1,0,0,10,5,10,10,8,75,2,76,Lines Decreased
+1092,Public Class,com.android.settings.widget.SwitchBar,1,3,3,0,20,3,20,20,20,161,2,76,Lines Increased
+1093,Public Interface,com.android.settings.widget.SwitchBar.OnSwitchChangeListener,0,0,0,12,1,0,1,1,0,3,0,0,Modified
+1094,Static Class,com.android.settings.widget.SwitchBar.SavedState,1,1,0,0,4,2,4,4,2,34,2,25,No Change
+1095,Anonymous Class,com.android.settings.widget.SwitchBar.SavedState.(Anon_2),1,1,1,0,2,0,2,2,2,7,2,0,No Change
+1096,Anonymous Class,com.android.settings.widget.SwitchBar.SwitchBar.(Anon_1),1,2,1,0,1,0,1,1,1,5,1,0,No Change
+1097,Public Class,com.android.settings.widget.ToggleSwitch,1,1,1,0,7,1,7,7,7,32,2,71,Lines Decreased
+1098,Public Interface,com.android.settings.widget.ToggleSwitch.OnBeforeCheckedChangeListener,0,0,1,5,1,0,1,1,1,3,0,0,Modified
+1099,Class,com.android.settings.wifi.AccessPoint,5,1,3,0,22,14,27,27,6,500,2,84,Class Deleted
+1100,Public Class,com.android.settings.wifi.AdvancedWifiSettings,3,2,4,0,10,4,45,10,6,245,3,75,Lines Increased
+1101,Anonymous Class,com.android.settings.wifi.AdvancedWifiSettings.(Anon_1),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+1102,Anonymous Class,com.android.settings.wifi.AdvancedWifiSettings.initPreferences.(Anon_2),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+1103,Anonymous Class,com.android.settings.wifi.AdvancedWifiSettings.initPreferences.(Anon_3),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+1104,Public Static Class,com.android.settings.wifi.AdvancedWifiSettings.WpsFragment,1,1,1,0,3,0,3,3,3,14,2,33,No Change
+1105,Public Class,com.android.settings.wifi.p2p.WifiP2pPeer,2,1,0,0,5,3,5,5,2,59,2,40,Lines Decreased
+1106,Public Class,com.android.settings.wifi.p2p.WifiP2pPersistentGroup,1,1,0,0,4,1,4,4,1,18,2,0,Lines Decreased
+1107,Public Class,com.android.settings.wifi.p2p.WifiP2pSettings,3,3,2,0,17,22,52,17,12,452,3,84,Lines Increased
+1108,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.(Anon_1),15,1,1,0,1,0,1,1,1,44,2,0,No Change
+1109,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_2),3,1,1,0,1,0,1,1,1,20,2,0,Lines Increased
+1110,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_2).onClick.(Anon_3),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+1111,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_4),3,1,1,0,1,0,1,1,1,16,2,0,No Change
+1112,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_4).onClick.(Anon_5),2,1,1,0,2,0,2,2,2,7,2,0,No Change
+1113,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_6),3,1,1,0,1,0,1,1,1,17,2,0,No Change
+1114,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_6).onClick.(Anon_7),2,1,1,0,2,0,2,2,2,7,2,0,No Change
+1115,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_8),8,1,2,0,1,0,1,1,1,29,2,0,No Change
+1116,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onActivityCreated.(Anon_8).onClick.(Anon_9),2,1,1,0,2,0,2,2,2,7,2,0,No Change
+1117,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.onPreferenceTreeClick.(Anon_10),1,1,1,0,2,0,2,2,2,10,2,0,No Change
+1118,Anonymous Class,com.android.settings.wifi.p2p.WifiP2pSettings.startSearch.(Anon_11),1,1,1,0,2,0,2,2,2,6,2,0,No Change
+1119,Public Class,com.android.settings.wifi.SavedAccessPointsWifiSettings,2,3,4,0,9,5,45,10,7,161,3,72,Lines Decreased
+1120,Anonymous Class,com.android.settings.wifi.SavedAccessPointsWifiSettings.(Anon_1),2,1,2,0,1,0,5,1,1,25,2,0,Class Deleted
+1121,Class,com.android.settings.wifi.Summary,2,1,0,0,0,0,2,2,0,14,1,0,Class Deleted
+1122,Public Class,com.android.settings.wifi.WifiApDialog,1,4,0,0,11,6,12,12,9,112,2,73,Lines Increased
+1123,Public Class,com.android.settings.wifi.WifiApEnabler,3,1,0,0,8,8,8,8,5,138,1,60,Lines Decreased
+1124,Anonymous Class,com.android.settings.wifi.WifiApEnabler.(Anon_1),4,1,1,0,1,0,1,1,1,19,2,0,Lines Increased
+1125,Public Class,com.android.settings.wifi.WifiAPITest,1,2,0,0,4,5,4,4,2,75,2,60,Lines Decreased
+1126,Anonymous Class,com.android.settings.wifi.WifiAPITest.onPreferenceClick.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1127,Anonymous Class,com.android.settings.wifi.WifiAPITest.onPreferenceClick.(Anon_2),1,1,0,0,1,0,1,1,1,3,2,0,No Change
+1128,Anonymous Class,com.android.settings.wifi.WifiAPITest.onPreferenceClick.(Anon_3),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1129,Anonymous Class,com.android.settings.wifi.WifiAPITest.onPreferenceClick.(Anon_4),1,1,0,0,1,0,1,1,1,3,2,0,No Change
+1130,Public Class,com.android.settings.wifi.WifiConfigController,5,4,6,0,29,37,29,29,8,766,1,89,Lines Increased
+1131,Anonymous Class,com.android.settings.wifi.WifiConfigController.afterTextChanged.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+1132,Public Class,com.android.settings.wifi.WifiConfigInfo,2,1,0,0,2,2,2,2,0,25,2,0,Lines Decreased
+1133,Public Interface,com.android.settings.wifi.WifiConfigUiBase,0,0,1,2,12,0,12,12,12,13,0,0,Modified
+1134,Public Class,com.android.settings.wifi.WifiConfigUiForSetupWizardXL,1,3,4,0,17,10,17,17,17,131,1,87,Class Deleted
+1135,Private Class,com.android.settings.wifi.WifiConfigUiForSetupWizardXL.FocusRunnable,1,2,2,0,2,1,2,2,2,16,1,0,Class Deleted
+1136,Class,com.android.settings.wifi.WifiDialog,1,2,2,0,11,6,11,11,10,68,2,77,Lines Increased
+1137,Public Class,com.android.settings.wifi.WifiEnabler,2,2,2,0,10,9,10,10,6,141,1,71,Lines Increased
+1138,Anonymous Class,com.android.settings.wifi.WifiEnabler.(Anon_1),5,1,1,0,1,0,1,1,1,19,2,0,No Change
+1139,Anonymous Class,com.android.settings.wifi.WifiEnabler.(Anon_2),2,1,3,0,1,0,1,1,1,11,2,0,No Change
+1140,Public Class,com.android.settings.wifi.WifiInfo,1,1,0,0,1,0,1,1,0,7,2,0,Lines Decreased
+1141,Public Class,com.android.settings.wifi.WifiPickerActivity,1,2,4,1,3,0,50,3,1,22,3,0,Lines Decreased
+1142,Public Class,com.android.settings.wifi.WifiScanModeActivity,1,1,1,0,8,2,8,8,3,102,2,68,Lines Decreased
+1143,Public Static Class,com.android.settings.wifi.WifiScanModeActivity.AlertDialogFragment,1,1,1,0,4,1,5,5,4,39,2,40,No Change
+1144,Anonymous Class,com.android.settings.wifi.WifiScanModeActivity.AlertDialogFragment.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1145,Anonymous Class,com.android.settings.wifi.WifiScanModeActivity.AlertDialogFragment.onCreateDialog.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1146,Public Class,com.android.settings.wifi.WifiSettings,3,3,13,1,38,21,86,40,16,785,4,90,Lines Decreased
+1147,Anonymous Class,com.android.settings.wifi.WifiSettings.(Anon_7),3,1,3,0,1,0,5,1,1,24,2,0,Class Deleted
+1148,Private Static Generic Class,com.android.settings.wifi.WifiSettings.Multimap,2,1,0,0,2,1,2,2,0,15,1,0,Class Deleted
+1151,Anonymous Class,com.android.settings.wifi.WifiSettings.onActivityCreated.(Anon_2),1,1,0,0,2,0,2,2,2,13,2,0,No Change
+1152,Anonymous Class,com.android.settings.wifi.WifiSettings.onActivityCreated.(Anon_3),1,1,0,0,2,0,2,2,2,13,2,0,No Change
+1153,Anonymous Class,com.android.settings.wifi.WifiSettings.onActivityCreated.(Anon_4),1,1,0,0,2,0,2,2,2,13,2,0,Class Deleted
+1154,Anonymous Class,com.android.settings.wifi.WifiSettings.prepareWifiAssistantCard.(Anon_5),2,1,1,0,1,0,1,1,1,14,2,0,Class Deleted
+1155,Anonymous Class,com.android.settings.wifi.WifiSettings.prepareWifiAssistantCard.(Anon_6),1,1,1,0,1,0,1,1,1,7,2,0,Class Deleted
+1156,Private Static Class,com.android.settings.wifi.WifiSettings.Scanner,1,1,1,0,5,2,5,5,1,34,2,60,Class Deleted
+1157,Anonymous Class,com.android.settings.wifi.WifiSettings.WifiSettings.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+1158,Public Class,com.android.settings.wifi.WifiSettingsForSetupWizard,1,1,2,0,9,4,95,9,3,111,5,80,Lines Increased
+1159,Anonymous Class,com.android.settings.wifi.WifiSettingsForSetupWizard.onActivityCreated.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+1160,Anonymous Class,com.android.settings.wifi.WifiSettingsForSetupWizard.onCreateView.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+1161,Public Class,com.android.settings.wifi.WifiSettingsForSetupWizardXL,2,2,5,0,34,22,34,34,2,494,2,82,Class Deleted
+1162,Anonymous Class,com.android.settings.wifi.WifiSettingsForSetupWizardXL.onBackButtonPressed.(for_loop_1).(Anon_1),1,1,0,0,2,0,2,2,2,5,2,0,Class Deleted
+1163,Anonymous Class,com.android.settings.wifi.WifiSettingsForSetupWizardXL.onSaveNetwork.(Anon_2),1,1,0,0,2,0,2,2,2,5,2,0,Class Deleted
+1164,Public Class,com.android.settings.wifi.WifiSetupActivity,1,3,2,0,18,7,68,18,6,201,4,87,Lines Decreased
+1165,Anonymous Class,com.android.settings.wifi.WifiSetupActivity.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1166,Public Static Class,com.android.settings.wifi.WifiSetupActivity.WifiSkipDialog,1,1,0,0,2,0,3,3,3,33,2,0,Lines Increased
+1167,Anonymous Class,com.android.settings.wifi.WifiSetupActivity.WifiSkipDialog.onCreateDialog.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1168,Anonymous Class,com.android.settings.wifi.WifiSetupActivity.WifiSkipDialog.onCreateDialog.(Anon_3),1,1,0,0,1,0,1,1,1,4,2,0,No Change
+1169,Public Class,com.android.settings.wifi.WifiStatusTest,3,1,1,0,14,25,14,14,0,297,2,88,Lines Increased
+1170,Anonymous Class,com.android.settings.wifi.WifiStatusTest.(Anon_1),8,1,1,0,1,0,1,1,1,24,2,0,No Change
+1171,Anonymous Class,com.android.settings.wifi.WifiStatusTest.(Anon_2),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+1172,Anonymous Class,com.android.settings.wifi.WifiStatusTest.(Anon_3),1,1,1,0,1,0,1,1,1,21,2,0,No Change
+1173,Anonymous Class,com.android.settings.wifi.WifiStatusTest.updatePingState.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1174,Anonymous Class,com.android.settings.wifi.WifiStatusTest.updatePingState.(Anon_5),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1175,Anonymous Class,com.android.settings.wifi.WifiStatusTest.updatePingState.(Anon_6),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1176,Anonymous Class,com.android.settings.wifi.WifiStatusTest.updatePingState.(Anon_7),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1177,Public Class,com.android.settings.wifi.WpsDialog,2,1,2,0,8,15,8,8,3,195,2,72,Lines Increased
+1178,Anonymous Class,com.android.settings.wifi.WpsDialog.onCreate.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+1179,Anonymous Class,com.android.settings.wifi.WpsDialog.onStart.(Anon_3),1,1,1,0,1,0,1,1,1,10,2,0,No Change
+1180,Anonymous Class,com.android.settings.wifi.WpsDialog.onStart.(Anon_3).run.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1181,Anonymous Class,com.android.settings.wifi.WpsDialog.updateDialog.(Anon_5),5,1,2,0,1,0,1,1,1,21,2,0,No Change
+1182,Anonymous Class,com.android.settings.wifi.WpsDialog.WpsDialog.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1183,Class,com.android.settings.wifi.WpsDialog.WpsDialog.WpsListener,2,1,2,0,3,0,3,3,3,36,2,0,No Change
+1184,Class,com.android.settings.wifi.WriteWifiConfigToNfcDialog,2,4,1,0,11,13,13,13,7,195,2,81,Lines Increased
+1185,Anonymous Class,com.android.settings.wifi.WriteWifiConfigToNfcDialog.handleWriteNfcEvent.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1186,Anonymous Class,com.android.settings.wifi.WriteWifiConfigToNfcDialog.onClick.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1187,Anonymous Class,com.android.settings.wifi.WriteWifiConfigToNfcDialog.onTextChanged.(Anon_3),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1188,Anonymous Class,com.android.settings.wifi.WriteWifiConfigToNfcDialog.setViewText.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+1189,Public Class,com.android.settings.WirelessSettings,3,3,7,0,14,11,50,15,11,393,3,83,Lines Decreased
+1190,Anonymous Class,com.android.settings.WirelessSettings.(Anon_2),7,1,2,0,2,0,6,2,2,72,2,0,Lines Decreased
+1191,Anonymous Class,com.android.settings.WirelessSettings.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+1192,Public Class,com.android.settings.ZonePicker,1,1,4,0,8,4,12,12,11,210,2,83,Lines Decreased
+1193,Private Static Class,com.android.settings.ZonePicker.MyComparator,1,2,0,0,4,1,4,4,3,22,1,25,No Change
+1194,Static Class,com.android.settings.ZonePicker.ZoneGetter,6,1,2,0,2,4,2,2,0,58,1,25,Class Deleted
+1195,Public Interface,com.android.settings.ZonePicker.ZoneSelectionListener,0,0,0,0,1,0,1,1,1,3,0,0,Modified

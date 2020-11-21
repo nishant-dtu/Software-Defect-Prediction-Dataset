@@ -1,0 +1,22 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.calculator2.Calculator,2,4,4,0,15,15,15,15,6,333,2,80,Lines Decreased
+1,Anonymous Class,com.android.calculator2.Calculator.(Anon_1),1,1,2,0,3,0,3,3,3,12,2,0,No Change
+2,Anonymous Class,com.android.calculator2.Calculator.(Anon_2),4,1,1,0,1,0,1,1,1,14,2,0,Lines Decreased
+3,Anonymous Class,com.android.calculator2.Calculator.(Anon_3),1,1,3,0,1,0,1,1,1,7,2,0,No Change
+4,Anonymous Class,com.android.calculator2.Calculator.onClear.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+5,Anonymous Class,com.android.calculator2.Calculator.onError.(Anon_6),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+6,Anonymous Class,com.android.calculator2.Calculator.onResult.(Anon_7),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+7,Anonymous Class,com.android.calculator2.Calculator.onResult.(Anon_8),1,1,2,0,2,0,2,2,2,17,2,0,No Change
+8,Anonymous Class,com.android.calculator2.Calculator.reveal.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+9,Public Class,com.android.calculator2.CalculatorEditText,1,1,1,0,12,7,12,12,10,122,2,85,No Change
+10,Anonymous Class,com.android.calculator2.CalculatorEditText.(Anon_1),1,1,0,0,4,0,4,4,4,16,2,0,No Change
+11,Public Interface,com.android.calculator2.CalculatorEditText.OnTextSizeChangeListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+12,Public Class,com.android.calculator2.CalculatorExpressionBuilder,7,1,1,0,2,2,2,2,2,55,2,0,No Change
+13,Public Class,com.android.calculator2.CalculatorExpressionEvaluator,2,1,3,0,3,2,3,3,3,41,1,33,No Change
+14,Public Interface,com.android.calculator2.CalculatorExpressionEvaluator.EvaluateCallback,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+15,Public Class,com.android.calculator2.CalculatorExpressionTokenizer,1,1,0,0,3,1,3,3,3,38,1,0,Lines Increased
+16,Public Class,com.android.calculator2.CalculatorPadLayout,1,1,0,0,9,2,9,9,5,74,2,77,Modified
+17,Public Class,com.android.calculator2.CalculatorPadViewPager,1,1,0,0,3,3,3,3,2,74,2,55,No Change
+18,Anonymous Class,com.android.calculator2.CalculatorPadViewPager.(Anon_1),1,1,0,0,5,0,5,5,5,21,2,0,No Change
+19,Anonymous Class,com.android.calculator2.CalculatorPadViewPager.(Anon_2),3,1,1,0,2,0,2,2,1,19,2,0,No Change
+20,Anonymous Class,com.android.calculator2.CalculatorPadViewPager.(Anon_3),2,1,0,0,1,0,1,1,1,11,2,0,No Change

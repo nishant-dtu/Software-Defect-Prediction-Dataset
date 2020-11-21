@@ -1,0 +1,6 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.basicsmsreceiver.BasicSmsReceiverApp,1,1,0,0,2,0,3,3,3,28,2,33,No Change
+1,Public Class,com.android.basicsmsreceiver.DialogSmsDisplay,1,1,0,0,4,2,4,4,0,65,2,50,No Change
+2,Anonymous Class,com.android.basicsmsreceiver.DialogSmsDisplay.onCreateDialog.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+3,Anonymous Class,com.android.basicsmsreceiver.DialogSmsDisplay.onCreateDialog.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+4,Public Class,com.android.basicsmsreceiver.SmsMessageReceiver,1,1,2,0,3,0,3,3,1,46,2,0,No Change

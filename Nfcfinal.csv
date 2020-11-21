@@ -1,0 +1,135 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.nfc.BeamShareActivity,7,1,0,0,5,5,5,5,1,166,2,56,Lines Increased
+1,Anonymous Class,com.android.nfc.BeamShareActivity.(Anon_4),3,1,1,0,1,0,1,1,1,12,2,0,No Change
+2,Anonymous Class,com.android.nfc.BeamShareActivity.showNfcDialogAndExit.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+3,Anonymous Class,com.android.nfc.BeamShareActivity.showNfcDialogAndExit.(Anon_2),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+4,Anonymous Class,com.android.nfc.BeamShareActivity.showNfcDialogAndExit.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+5,Public Class,com.android.nfc.cardemulation.AidRoutingManager,5,1,1,0,9,6,9,9,5,120,1,52,Lines Increased
+6,Public Class,com.android.nfc.cardemulation.AppChooserActivity,2,2,3,0,4,6,4,4,1,191,2,58,No Change
+7,Anonymous Class,com.android.nfc.cardemulation.AppChooserActivity.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+8,Class,com.android.nfc.cardemulation.AppChooserActivity.DisplayAppInfo,1,1,0,0,1,4,1,1,1,13,1,0,No Change
+9,Class,com.android.nfc.cardemulation.AppChooserActivity.ListAdapter,2,1,3,0,5,3,5,5,5,66,2,46,No Change
+10,Static Class,com.android.nfc.cardemulation.AppChooserActivity.ViewHolder,1,1,0,0,1,3,1,1,1,10,1,0,No Change
+11,Public Class,com.android.nfc.cardemulation.CardEmulationManager,2,3,5,0,17,6,17,17,13,276,1,66,Lines Increased
+12,Class,com.android.nfc.cardemulation.CardEmulationManager.CardEmulationInterface,1,1,5,0,11,0,11,11,11,105,2,0,No Change
+13,Public Class,com.android.nfc.cardemulation.DefaultRemovedActivity,1,2,0,0,2,0,2,2,1,18,2,0,No Change
+14,Public Class,com.android.nfc.cardemulation.PreferredServices,3,2,7,0,14,14,14,14,10,245,1,78,Lines Increased
+15,Public Class,com.android.nfc.cardemulation.PreferredServices,3,2,7,0,14,14,14,14,10,245,1,78,Lines Increased
+16,Public Interface,com.android.nfc.cardemulation.PreferredServices.Callback,0,0,0,0,2,0,2,2,0,4,0,0,Modified
+17,Public Interface,com.android.nfc.cardemulation.PreferredServices.Callback,0,0,0,1,2,0,2,2,0,4,0,0,Modified
+18,Class,com.android.nfc.cardemulation.PreferredServices.PaymentDefaults,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+19,Class,com.android.nfc.cardemulation.PreferredServices.PaymentDefaults,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+20,Private Class,com.android.nfc.cardemulation.PreferredServices.SettingsObserver,1,1,1,0,2,0,2,2,2,11,2,0,No Change
+21,Private Class,com.android.nfc.cardemulation.PreferredServices.SettingsObserver,1,1,1,0,2,0,2,2,2,11,2,0,No Change
+22,Public Class,com.android.nfc.cardemulation.RegisteredAidCache,5,1,5,0,18,10,19,19,10,435,1,81,Lines Increased
+23,Class,com.android.nfc.cardemulation.RegisteredAidCache.AidResolveInfo,1,1,0,0,1,4,1,1,1,15,1,0,No Change
+24,Class,com.android.nfc.cardemulation.RegisteredAidCache.DefaultServiceInfo,0,1,1,0,0,2,0,0,0,4,1,0,No Change
+25,Class,com.android.nfc.cardemulation.RegisteredAidCache.PrefixConflicts,0,1,1,0,0,3,0,0,0,5,1,0,No Change
+26,Class,com.android.nfc.cardemulation.RegisteredAidCache.ServiceAidInfo,2,1,0,0,3,3,3,3,3,30,1,0,No Change
+27,Public Class,com.android.nfc.cardemulation.RegisteredServicesCache,4,1,3,0,17,6,17,17,10,433,1,81,Lines Increased
+28,Public Interface,com.android.nfc.cardemulation.RegisteredServicesCache.Callback,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+29,Static Class,com.android.nfc.cardemulation.RegisteredServicesCache.DynamicAids,1,1,0,0,1,2,1,1,0,7,1,50,No Change
+30,Anonymous Class,com.android.nfc.cardemulation.RegisteredServicesCache.RegisteredServicesCache.(Anon_1),6,1,1,0,1,0,1,1,1,21,2,0,No Change
+31,Private Static Class,com.android.nfc.cardemulation.RegisteredServicesCache.UserServices,0,1,0,0,0,2,0,0,0,6,1,0,No Change
+32,Public Class,com.android.nfc.cardemulation.TapAgainDialog,2,2,0,0,4,3,4,4,1,67,2,58,No Change
+33,Anonymous Class,com.android.nfc.cardemulation.TapAgainDialog.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+34,Public Class,com.android.nfc.ConfirmConnectToWifiNetworkActivity,1,3,1,0,7,5,7,7,2,110,2,65,Lines Increased
+35,Anonymous Class,com.android.nfc.ConfirmConnectToWifiNetworkActivity.(Anon_3),4,1,1,0,1,0,1,1,1,16,2,0,No Change
+36,Anonymous Class,com.android.nfc.ConfirmConnectToWifiNetworkActivity.doConnect.(Anon_2),1,1,1,0,2,0,2,2,2,10,2,0,No Change
+37,Anonymous Class,com.android.nfc.ConfirmConnectToWifiNetworkActivity.onClick.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+38,Public Class,com.android.nfc.echoserver.EchoServer,1,1,3,0,5,3,5,5,5,258,1,75,Lines Increased
+39,Public Class,com.android.nfc.echoserver.EchoServer.ConnectionlessServerThread,4,2,5,0,4,4,4,4,4,66,2,50,Modified
+40,Static Class,com.android.nfc.echoserver.EchoServer.EchoMachine,3,2,2,0,4,5,4,4,3,53,1,40,No Change
+41,Public Class,com.android.nfc.echoserver.EchoServer.ServerThread,5,2,4,0,5,4,5,5,4,90,2,55,Modified
+42,Public Interface,com.android.nfc.echoserver.EchoServer.WriteCallback,0,0,0,2,1,0,1,1,1,3,0,0,No Change
+43,Public Class,com.android.nfc.FireflyRenderer,2,1,2,0,3,9,3,3,3,276,1,62,Class Deleted
+44,Public Class,com.android.nfc.FireflyRenderer,2,1,3,0,3,9,3,3,3,276,1,62,Class Deleted
+45,Private Class,com.android.nfc.FireflyRenderer.Firefly,1,1,1,0,4,7,4,4,3,45,1,42,Class Deleted
+46,Private Class,com.android.nfc.FireflyRenderer.Firefly,1,1,1,0,4,7,4,4,3,45,1,42,Class Deleted
+47,Private Class,com.android.nfc.FireflyRenderer.FireflyRenderThread,4,1,2,0,7,8,7,7,2,155,2,57,Class Deleted
+48,Private Class,com.android.nfc.FireflyRenderer.FireflyRenderThread,4,1,2,0,7,8,7,7,2,155,2,57,Class Deleted
+49,Public Class,com.android.nfc.ForegroundUtils,2,1,2,0,9,5,10,10,7,120,2,72,Lines Increased
+50,Public Interface,com.android.nfc.ForegroundUtils.Callback,0,0,0,2,1,0,1,1,0,3,0,0,Modified
+51,Private Static Class,com.android.nfc.ForegroundUtils.Singleton,0,1,1,0,0,0,0,0,0,3,1,0,No Change
+52,Public Class,com.android.nfc.handover.BluetoothPeripheralHandover,5,2,2,0,16,18,17,17,5,428,1,72,Lines Increased
+53,Public Class,com.android.nfc.handover.BluetoothPeripheralHandover,5,2,2,0,16,18,17,17,5,428,1,72,Lines Increased
+54,Anonymous Class,com.android.nfc.handover.BluetoothPeripheralHandover.(Anon_1),4,1,1,0,1,0,1,1,1,14,2,0,No Change
+55,Anonymous Class,com.android.nfc.handover.BluetoothPeripheralHandover.(Anon_1),4,1,1,0,1,0,1,1,1,14,2,0,No Change
+56,Anonymous Class,com.android.nfc.handover.BluetoothPeripheralHandover.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+57,Anonymous Class,com.android.nfc.handover.BluetoothPeripheralHandover.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+58,Public Interface,com.android.nfc.handover.BluetoothPeripheralHandover.Callback,0,0,0,0,1,0,1,1,1,3,0,0,Modified
+59,Public Interface,com.android.nfc.handover.BluetoothPeripheralHandover.Callback,0,0,0,1,1,0,1,1,1,3,0,0,Modified
+60,Public Class,com.android.nfc.handover.ConfirmConnectActivity,3,1,0,0,1,1,1,1,0,36,2,0,Lines Increased
+61,Anonymous Class,com.android.nfc.handover.ConfirmConnectActivity.onCreate.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0,Lines Increased
+62,Anonymous Class,com.android.nfc.handover.ConfirmConnectActivity.onCreate.(Anon_2),1,1,2,0,1,0,1,1,1,7,2,0,Lines Increased
+63,Public Class,com.android.nfc.handover.HandoverClient,8,1,3,0,3,2,3,3,3,114,1,0,Lines Increased
+64,Public Class,com.android.nfc.handover.HandoverManager,3,1,4,0,27,18,30,30,8,558,1,91,Class Deleted
+65,Anonymous Class,com.android.nfc.handover.HandoverManager.(Anon_1),4,1,2,0,2,0,2,2,2,45,2,0,Class Deleted
+66,Anonymous Class,com.android.nfc.handover.HandoverManager.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+67,Static Class,com.android.nfc.handover.HandoverManager.BluetoothHandoverData,0,1,0,0,0,5,0,0,0,7,1,0,Class Deleted
+68,Class,com.android.nfc.handover.HandoverManager.MessageHandler,5,1,1,0,1,0,1,1,1,32,2,0,Class Deleted
+69,Public Class,com.android.nfc.handover.HandoverServer,1,1,3,0,3,5,3,3,3,174,1,53,Lines Increased
+70,Public Interface,com.android.nfc.handover.HandoverServer.Callback,0,0,0,0,1,0,1,1,0,3,0,0,Lines Increased
+71,Private Class,com.android.nfc.handover.HandoverServer.ConnectionThread,7,1,3,0,2,1,2,2,1,65,2,0,Lines Increased
+72,Private Class,com.android.nfc.handover.HandoverServer.ServerThread,10,1,4,0,2,2,2,2,2,77,2,0,Modified
+73,Public Class,com.android.nfc.handover.HandoverService,3,3,5,0,20,14,20,20,7,406,2,83,Class Deleted
+74,Anonymous Class,com.android.nfc.handover.HandoverService.(Anon_1),4,1,2,0,1,0,1,1,1,16,2,0,Class Deleted
+75,Class,com.android.nfc.handover.HandoverService.MessageHandler,7,1,1,0,1,0,1,1,1,27,2,0,Class Deleted
+76,Public Class,com.android.nfc.handover.HandoverTransfer,3,3,5,0,20,26,20,20,9,372,1,84,Class Deleted
+77,Interface,com.android.nfc.handover.HandoverTransfer.Callback,0,0,1,1,1,0,1,1,0,3,0,0,Class Deleted
+78,Public Class,com.android.nfc.handover.MimeTypeUtil,3,1,0,0,1,0,2,2,1,20,1,0,Class Deleted
+79,Public Class,com.android.nfc.handover.PendingHandoverTransfer,1,2,1,0,4,7,6,6,4,87,1,54,Class Deleted
+80,Anonymous Class,com.android.nfc.handover.PendingHandoverTransfer.(Anon_1),3,1,2,0,2,0,2,2,2,30,2,0,Class Deleted
+81,Public Class,com.android.nfc.LlcpException,1,1,0,0,2,0,2,2,2,7,2,0,Lines Increased
+82,Public Class,com.android.nfc.LlcpPacket,1,1,0,0,3,2,3,3,3,11,1,66,Lines Increased
+83,Public Class,com.android.nfc.ndefpush.NdefPushClient,7,1,4,0,3,3,3,3,3,99,1,0,Lines Increased
+84,Public Class,com.android.nfc.ndefpush.NdefPushProtocol,4,1,0,0,5,3,5,5,5,112,1,0,Lines Increased
+85,Public Class,com.android.nfc.ndefpush.NdefPushServer,3,1,3,0,3,4,3,3,3,155,1,66,Lines Increased
+86,Public Interface,com.android.nfc.ndefpush.NdefPushServer.Callback,0,0,0,0,1,0,1,1,0,3,0,0,Modified
+87,Private Class,com.android.nfc.ndefpush.NdefPushServer.ConnectionThread,6,1,3,0,2,1,2,2,1,44,2,0,Modified
+88,Class,com.android.nfc.ndefpush.NdefPushServer.ServerThread,10,1,4,0,2,2,2,2,2,75,2,0,Modified
+89,Public Class,com.android.nfc.NfcApplication,2,1,1,0,2,1,2,2,2,25,2,50,Lines Increased
+90,Public Class,com.android.nfc.NfcBackupAgent,1,1,1,0,1,0,1,1,1,8,2,0,Lines Increased
+91,Public Class,com.android.nfc.NfcDiscoveryParameters,1,1,1,0,8,4,11,11,11,95,1,68,Lines Increased
+92,Public Static Class,com.android.nfc.NfcDiscoveryParameters.Builder,1,1,1,0,6,1,6,6,5,31,1,0,Lines Increased
+93,Class,com.android.nfc.NfcDispatcher,5,1,8,0,13,12,17,17,3,401,1,84,Lines Increased
+94,Static Class,com.android.nfc.NfcDispatcher.DispatchInfo,1,1,1,0,6,6,6,6,4,68,1,50,No Change
+95,Public Class,com.android.nfc.NfceeAccessControl,7,1,0,0,7,4,7,7,4,193,1,50,Lines Increased
+96,Public Class,com.android.nfc.NfcPermissions,1,1,0,0,0,0,3,3,3,16,1,0,Lines Increased
+97,Public Class,com.android.nfc.NfcRootActivity,4,1,0,0,1,0,1,1,0,17,2,0,Lines Increased
+98,Public Class,com.android.nfc.NfcService,2,2,17,0,38,41,41,41,20,1465,1,94,Lines Increased
+99,Anonymous Class,com.android.nfc.NfcService.(Anon_2),13,1,5,0,1,0,1,1,1,44,2,0,Modified
+100,Anonymous Class,com.android.nfc.NfcService.(Anon_3),3,1,2,0,1,0,1,1,1,14,2,0,No Change
+101,Class,com.android.nfc.NfcService.ApplyRoutingTask,2,1,1,0,1,0,1,1,0,19,2,0,No Change
+102,Class,com.android.nfc.NfcService.EnableDisableTask,4,1,5,0,4,0,4,4,0,110,2,0,Modified
+103,Class,com.android.nfc.NfcService.NfcAdapterService,2,1,9,0,22,0,22,22,20,247,2,0,Lines Increased
+104,Class,com.android.nfc.NfcService.NfcServiceHandler,14,1,7,0,4,0,4,4,1,236,2,0,Lines Increased
+105,Anonymous Class,com.android.nfc.NfcService.NfcServiceHandler.handleMessage.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Modified
+106,Class,com.android.nfc.NfcService.ReaderModeDeathRecipient,2,2,1,0,1,0,1,1,1,11,1,0,No Change
+107,Class,com.android.nfc.NfcService.ReaderModeParams,0,1,0,0,0,3,0,0,0,5,1,0,No Change
+108,Class,com.android.nfc.NfcService.TagService,2,1,2,0,19,0,19,19,19,248,2,0,Modified
+109,Class,com.android.nfc.NfcService.WatchDogThread,1,1,1,0,3,3,3,3,3,31,2,33,Modified
+110,Class,com.android.nfc.NfcUnlockManager,1,1,2,0,7,2,8,8,1,67,1,31,Lines Increased
+111,Private Static Class,com.android.nfc.NfcUnlockManager.Singleton,0,1,1,0,0,0,0,0,0,3,1,0,No Change
+112,Private Static Class,com.android.nfc.NfcUnlockManager.UnlockHandlerWrapper,1,1,0,0,1,2,1,1,0,8,1,0,No Change
+113,Public Class,com.android.nfc.NfcWifiProtectedSetup,4,1,1,0,1,0,5,5,1,108,1,0,Lines Decreased
+114,Public Class,com.android.nfc.P2pEventManager,2,3,2,0,13,10,13,13,13,140,1,57,Lines Increased
+115,Public Class,com.android.nfc.RegisteredComponentCache,3,1,1,0,8,5,8,8,3,149,1,70,Lines Increased
+116,Public Class,com.android.nfc.RegisteredComponentCache,3,1,1,0,8,5,8,8,3,149,1,70,Lines Increased
+117,Public Static Class,com.android.nfc.RegisteredComponentCache.ComponentInfo,1,1,0,0,2,2,2,2,1,19,1,0,No Change
+118,Public Static Class,com.android.nfc.RegisteredComponentCache.ComponentInfo,1,1,0,0,2,2,2,2,1,19,1,0,No Change
+119,Anonymous Class,com.android.nfc.RegisteredComponentCache.RegisteredComponentCache.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+120,Anonymous Class,com.android.nfc.RegisteredComponentCache.RegisteredComponentCache.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+121,Class,com.android.nfc.ScreenStateHelper,2,1,0,0,2,2,3,3,0,33,1,33,Lines Increased
+122,Public Class,com.android.nfc.SendUi,2,6,3,0,40,35,41,41,38,584,1,91,Class Deleted
+123,Interface,com.android.nfc.SendUi.Callback,0,0,0,1,2,0,2,2,2,4,0,0,Class Deleted
+124,Class,com.android.nfc.SendUi.ScreenshotTask,3,1,1,0,2,0,2,2,0,27,2,0,Class Deleted
+125,Public Class,com.android.nfc.snep.SnepClient,2,1,6,0,9,9,9,9,7,152,1,43,Lines Increased
+126,Public Class,com.android.nfc.snep.SnepException,1,1,0,0,3,0,3,3,3,10,2,0,Lines Increased
+127,Public Class,com.android.nfc.snep.SnepMessage,1,1,0,0,8,5,13,13,11,122,1,69,Lines Increased
+128,Public Class,com.android.nfc.snep.SnepMessenger,7,1,2,0,4,3,4,4,4,134,1,16,Lines Increased
+129,Public Class,com.android.nfc.snep.SnepServer,3,1,5,0,6,8,7,7,5,218,1,50,Lines Increased
+130,Public Interface,com.android.nfc.snep.SnepServer.Callback,0,0,1,0,2,0,2,2,2,4,0,0,Modified
+131,Private Class,com.android.nfc.snep.SnepServer.ConnectionThread,5,1,2,0,2,2,2,2,1,36,2,0,Modified
+132,Class,com.android.nfc.snep.SnepServer.ServerThread,11,1,4,0,2,2,2,2,2,80,2,0,Modified
+133,Public Class,com.android.nfc.TechListChooserActivity,2,1,0,0,1,0,1,1,0,16,2,0,Lines Increased

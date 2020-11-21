@@ -1,0 +1,69 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.managedprovisioning.BootReminder,2,1,5,0,1,0,6,6,3,91,2,0,Lines Increased
+1,Public Class,com.android.managedprovisioning.CrossProfileIntentFiltersHelper,6,1,1,0,0,0,1,1,1,136,1,0,Lines Increased
+2,Public Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity,2,1,9,0,17,6,17,17,3,284,2,88,Lines Decreased
+3,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.error.(Anon_6),1,1,2,0,1,0,1,1,1,12,2,0,Class Deleted
+4,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.error.(Anon_7),1,1,2,0,1,0,1,1,1,7,2,0,Class Deleted
+5,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,4,2,0,Class Deleted
+6,Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.ServiceMessageReceiver,6,1,3,0,1,0,1,1,1,34,2,0,Lines Decreased
+7,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.showCancelResetDialog.(Anon_4),2,1,1,0,1,0,1,1,1,11,2,0,Class Deleted
+8,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.showCancelResetDialog.(Anon_5),1,1,2,0,1,0,1,1,1,12,2,0,Class Deleted
+9,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.showInterstitialAndProvision.(Anon_2),1,1,1,0,1,0,1,1,1,6,2,0,Class Deleted
+10,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningActivity.showInterstitialAndProvision.(Anon_3),1,1,0,0,1,0,1,1,1,5,2,0,Class Deleted
+11,Public Class,com.android.managedprovisioning.DeviceOwnerProvisioningService,1,1,11,0,15,11,15,15,4,298,2,87,Lines Decreased
+12,Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.IndirectHomeReceiver,3,1,3,0,1,0,1,1,1,22,2,0,Class Deleted
+13,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.onStartCommand.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+14,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.startDeviceOwnerProvisioning.(Anon_2),1,1,4,0,2,0,4,2,2,15,2,0,Lines Decreased
+15,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.startDeviceOwnerProvisioning.(Anon_3),2,1,3,0,2,0,4,2,2,22,2,0,Lines Increased
+16,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.startDeviceOwnerProvisioning.(Anon_4),2,1,3,0,2,0,4,2,2,20,2,0,Lines Increased
+17,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.startDeviceOwnerProvisioning.(Anon_5),2,1,3,0,2,0,4,2,2,19,2,0,No Change
+18,Anonymous Class,com.android.managedprovisioning.DeviceOwnerProvisioningService.startDeviceOwnerProvisioning.(Anon_6),1,1,2,0,2,0,4,2,2,8,2,0,Lines Increased
+19,Public Class,com.android.managedprovisioning.EncryptDeviceActivity,1,1,0,0,1,2,2,2,2,41,2,50,Lines Increased
+20,Anonymous Class,com.android.managedprovisioning.EncryptDeviceActivity.onCreate.(Anon_1),1,1,2,0,1,0,1,1,1,9,2,0,Class Deleted
+21,Anonymous Class,com.android.managedprovisioning.EncryptDeviceActivity.onCreate.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,Class Deleted
+22,Public Class,com.android.managedprovisioning.HomeReceiverActivity,1,1,1,0,1,0,1,1,1,8,2,0,Lines Increased
+23,Public Class,com.android.managedprovisioning.IntentStore,3,1,1,0,11,9,11,11,9,143,1,76,Lines Increased
+24,Public Class,com.android.managedprovisioning.ManagedProvisioningActivity,2,1,8,0,20,5,20,20,3,320,2,90,Class Deleted
+25,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.buildDeleteManagedProfileDialog.(Anon_7),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+26,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.checkEncryptedAndStartProvisioningService.(Anon_2),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+27,Private Class,com.android.managedprovisioning.ManagedProvisioningActivity.ManagedProvisioningFailedException,1,1,0,0,2,0,2,2,2,8,2,0,Class Deleted
+28,Class,com.android.managedprovisioning.ManagedProvisioningActivity.ServiceMessageReceiver,3,1,3,0,1,0,1,1,1,19,2,0,Class Deleted
+29,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.showCurrentLauncherInvalid.(Anon_3),1,1,0,0,1,0,1,1,1,7,2,0,Class Deleted
+30,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.showCurrentLauncherInvalid.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+31,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.showManagedProfileExistsDialog.(Anon_5),1,1,1,0,1,0,1,1,1,17,2,0,Class Deleted
+32,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.showManagedProfileExistsDialog.(Anon_5).onClick.(Anon_6),1,1,1,0,1,0,1,1,1,8,2,0,Class Deleted
+33,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningActivity.showStartProvisioningScreen.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,Class Deleted
+34,Public Class,com.android.managedprovisioning.ManagedProvisioningErrorDialog,1,1,0,0,2,1,2,2,2,20,2,0,Class Deleted
+35,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningErrorDialog.onCreateDialog.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,Class Deleted
+36,Public Class,com.android.managedprovisioning.ManagedProvisioningService,2,1,4,0,16,8,16,16,4,210,2,78,Class Deleted
+37,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningService.onProvisioningSuccess.(Anon_2),1,1,2,0,1,0,1,1,1,10,2,0,Class Deleted
+38,Private Class,com.android.managedprovisioning.ManagedProvisioningService.RunnerTask,1,1,1,0,1,0,1,1,0,8,2,0,Class Deleted
+39,Anonymous Class,com.android.managedprovisioning.ManagedProvisioningService.startManagedProfileProvisioning.(Anon_1),1,1,1,0,2,0,4,2,2,9,2,0,Class Deleted
+40,Public Class,com.android.managedprovisioning.MessageParser,3,1,3,0,6,0,8,8,6,214,1,0,Lines Increased
+41,Public Static Class,com.android.managedprovisioning.MessageParser.ParseException,1,1,0,0,3,1,3,3,3,14,2,0,Class Deleted
+42,Public Class,com.android.managedprovisioning.NetworkMonitor,2,1,1,0,3,5,4,4,4,61,1,55,Lines Increased
+43,Anonymous Class,com.android.managedprovisioning.NetworkMonitor.(Anon_1),3,1,3,0,1,0,1,1,1,14,2,0,No Change
+44,Public Interface,com.android.managedprovisioning.NetworkMonitor.Callback,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+45,Public Class,com.android.managedprovisioning.PreBootListener,4,1,3,0,2,0,2,2,1,48,2,0,Lines Increased
+46,Anonymous Class,com.android.managedprovisioning.PreBootListener.deleteNonRequiredApps.(Anon_1),1,1,1,0,2,0,4,2,2,9,2,0,Class Deleted
+47,Public Class,com.android.managedprovisioning.ProvisioningParams,1,2,0,0,4,17,4,4,4,86,1,73,Lines Increased
+48,Anonymous Class,com.android.managedprovisioning.ProvisioningParams.(Anon_1),1,1,1,0,2,0,2,2,2,28,2,0,Lines Decreased
+49,Public Class,com.android.managedprovisioning.ProvisionLogger,2,1,0,0,0,0,17,17,16,106,1,0,Lines Increased
+50,Public Class,com.android.managedprovisioning.task.AddWifiNetworkTask,2,2,4,0,7,15,9,9,7,137,1,73,Lines Decreased
+51,Public Static Abstract Class,com.android.managedprovisioning.task.AddWifiNetworkTask.Callback,0,1,0,1,2,0,2,2,2,4,1,0,No Change
+52,Public Class,com.android.managedprovisioning.task.DeleteNonRequiredAppsTask,3,1,3,0,11,10,11,11,2,228,1,73,Lines Increased
+53,Public Static Abstract Class,com.android.managedprovisioning.task.DeleteNonRequiredAppsTask.Callback,0,1,0,3,2,0,2,2,2,4,1,0,Modified
+54,Class,com.android.managedprovisioning.task.DeleteNonRequiredAppsTask.PackageDeleteObserver,2,1,3,0,2,1,2,2,2,19,2,0,Lines Increased
+55,Public Class,com.android.managedprovisioning.task.DownloadPackageTask,2,1,2,0,10,9,10,10,5,157,1,75,Lines Increased
+56,Public Static Abstract Class,com.android.managedprovisioning.task.DownloadPackageTask.Callback,0,1,0,1,2,0,2,2,2,4,1,0,No Change
+57,Anonymous Class,com.android.managedprovisioning.task.DownloadPackageTask.createDownloadReceiver.(Anon_1),5,1,1,0,1,0,1,1,1,24,2,0,Lines Increased
+58,Public Class,com.android.managedprovisioning.task.InstallPackageTask,3,1,3,0,3,6,3,3,2,89,1,27,Lines Increased
+59,Public Static Abstract Class,com.android.managedprovisioning.task.InstallPackageTask.Callback,0,1,0,1,2,0,2,2,2,4,1,0,No Change
+60,Private Class,com.android.managedprovisioning.task.InstallPackageTask.PackageInstallObserver,3,1,3,0,1,0,1,1,1,24,2,0,Lines Increased
+61,Public Class,com.android.managedprovisioning.task.SetDevicePolicyTask,2,1,2,0,6,7,6,6,4,70,1,54,Lines Increased
+62,Public Static Abstract Class,com.android.managedprovisioning.task.SetDevicePolicyTask.Callback,0,1,0,1,2,0,2,2,2,4,1,0,No Change
+63,Public Class,com.android.managedprovisioning.UserConsentDialog,2,1,0,0,3,5,3,3,3,73,2,40,Lines Increased
+64,Anonymous Class,com.android.managedprovisioning.UserConsentDialog.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,Lines Increased
+65,Anonymous Class,com.android.managedprovisioning.UserConsentDialog.onCreateDialog.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,Lines Increased
+66,Anonymous Class,com.android.managedprovisioning.UserConsentDialog.onCreateDialog.(Anon_3),2,1,1,0,1,0,1,1,1,8,2,0,Lines Decreased
+67,Public Class,com.android.managedprovisioning.WifiConfig,3,1,1,0,5,1,5,5,2,90,1,60,Lines Increased

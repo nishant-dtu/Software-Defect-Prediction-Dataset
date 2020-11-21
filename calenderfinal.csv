@@ -1,0 +1,291 @@
+,Kind,Name,AvgCyclomatic,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethodAll,CountDeclMethod,CountDeclMethodPublic,CountLineCode,MaxInheritanceTree,PercentLackOfCohesion,Change
+0,Public Class,com.android.calendar.AboutPreferences,2,1,0,0,1,0,1,1,1,15,2,0,No Change
+1,Public Abstract Class,com.android.calendar.AbstractCalendarActivity,2,1,1,3,1,1,1,1,1,9,2,0,No Change
+2,Public Class,com.android.calendar.agenda.AgendaAdapter,8,1,4,0,2,12,2,2,2,159,2,12,No Change
+3,Anonymous Class,com.android.calendar.agenda.AgendaAdapter.(Anon_1),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+4,Static Class,com.android.calendar.agenda.AgendaAdapter.ViewHolder,0,1,1,0,0,11,0,0,0,16,1,0,No Change
+5,Public Class,com.android.calendar.agenda.AgendaByDayAdapter,4,1,8,0,22,10,22,22,22,475,2,81,No Change
+6,Anonymous Class,com.android.calendar.agenda.AgendaByDayAdapter.(Anon_1),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+7,Private Static Class,com.android.calendar.agenda.AgendaByDayAdapter.MultipleDayInfo,1,1,0,0,1,7,1,1,0,19,1,0,No Change
+8,Private Static Class,com.android.calendar.agenda.AgendaByDayAdapter.RowInfo,1,1,0,0,2,9,2,2,0,34,1,0,No Change
+9,Static Class,com.android.calendar.agenda.AgendaByDayAdapter.ViewHolder,0,1,0,0,0,4,0,0,0,6,1,0,No Change
+10,Public Class,com.android.calendar.agenda.AgendaFragment,3,3,11,0,18,20,18,18,15,331,2,84,No Change
+11,Anonymous Class,com.android.calendar.agenda.AgendaFragment.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+12,Anonymous Class,com.android.calendar.agenda.AgendaFragment.onScroll.(Anon_2),1,1,4,0,1,0,1,1,1,8,2,0,No Change
+13,Public Class,com.android.calendar.agenda.AgendaListView,2,2,12,0,24,10,24,24,18,317,2,82,No Change
+14,Anonymous Class,com.android.calendar.agenda.AgendaListView.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+15,Anonymous Class,com.android.calendar.agenda.AgendaListView.(Anon_2),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+16,Anonymous Class,com.android.calendar.agenda.AgendaListView.(Anon_3),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+17,Public Class,com.android.calendar.agenda.AgendaWindowAdapter,3,3,14,0,44,35,45,45,25,1073,2,94,No Change
+18,Anonymous Class,com.android.calendar.agenda.AgendaWindowAdapter.(Anon_1),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+19,Anonymous Class,com.android.calendar.agenda.AgendaWindowAdapter.(Anon_2),1,1,0,0,1,0,1,1,1,5,2,0,No Change
+20,Static Class,com.android.calendar.agenda.AgendaWindowAdapter.AgendaItem,0,1,0,0,0,5,0,0,0,7,1,0,No Change
+21,Static Class,com.android.calendar.agenda.AgendaWindowAdapter.DayAdapterInfo,1,1,1,0,2,6,2,2,2,25,1,58,No Change
+22,Private Class,com.android.calendar.agenda.AgendaWindowAdapter.QueryHandler,18,1,11,0,3,0,3,3,1,260,2,0,No Change
+23,Anonymous Class,com.android.calendar.agenda.AgendaWindowAdapter.QueryHandler.onQueryComplete.(Anon_3),2,1,2,0,1,0,1,1,1,7,2,0,No Change
+24,Private Static Class,com.android.calendar.agenda.AgendaWindowAdapter.QuerySpec,4,1,1,0,3,7,3,3,3,53,1,23,No Change
+25,Public Interface,com.android.calendar.alerts.AlarmManagerInterface,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+26,Public Class,com.android.calendar.alerts.AlarmScheduler,4,1,5,0,0,0,5,5,1,195,1,0,No Change
+27,Public Class,com.android.calendar.alerts.AlertActivity,2,2,5,0,11,6,11,11,3,202,2,75,No Change
+28,Anonymous Class,com.android.calendar.alerts.AlertActivity.(Anon_2),2,1,4,0,1,0,1,1,1,22,2,0,No Change
+29,Anonymous Class,com.android.calendar.alerts.AlertActivity.initiateGlobalDismiss.(Anon_1),1,1,1,0,1,0,1,1,0,6,2,0,No Change
+30,Anonymous Class,com.android.calendar.alerts.AlertActivity.onStop.(Anon_3),1,1,1,0,1,0,1,1,0,6,2,0,No Change
+31,Private Class,com.android.calendar.alerts.AlertActivity.QueryHandler,1,1,1,0,3,0,19,3,1,19,3,0,No Change
+32,Public Class,com.android.calendar.alerts.AlertAdapter,3,1,2,0,3,0,4,4,3,91,2,70,No Change
+33,Public Class,com.android.calendar.alerts.AlertReceiver,3,1,9,0,2,1,24,24,6,595,2,97,No Change
+34,Public Class,com.android.calendar.alerts.AlertService,5,1,15,0,6,2,19,19,5,758,2,91,No Change
+35,Static Class,com.android.calendar.alerts.AlertService.NotificationInfo,1,1,0,0,1,8,1,1,0,21,1,0,No Change
+36,Public Static Class,com.android.calendar.alerts.AlertService.NotificationMgrWrapper,1,1,1,0,3,1,7,3,3,14,2,0,No Change
+37,Static Class,com.android.calendar.alerts.AlertService.NotificationPrefs,2,1,2,0,4,6,4,4,0,42,1,54,No Change
+38,Public Static Class,com.android.calendar.alerts.AlertService.NotificationWrapper,1,1,0,0,3,5,3,3,3,23,1,60,No Change
+39,Private Class,com.android.calendar.alerts.AlertService.ServiceHandler,1,1,2,0,2,0,2,2,2,10,2,0,No Change
+40,Public Class,com.android.calendar.alerts.AlertUtils,2,1,4,0,0,0,13,13,5,195,1,92,No Change
+41,Anonymous Class,com.android.calendar.alerts.AlertUtils.createAlarmManager.(Anon_1),2,2,2,0,1,0,1,1,1,9,1,0,No Change
+42,Public Class,com.android.calendar.alerts.DismissAlarmsService,3,1,5,0,4,0,4,4,3,79,2,0,No Change
+43,Public Class,com.android.calendar.alerts.GlobalDismissManager,4,1,5,0,1,0,9,9,5,401,2,83,No Change
+44,Public Static Class,com.android.calendar.alerts.GlobalDismissManager.AlarmId,1,1,0,0,1,2,1,1,1,8,1,0,No Change
+45,Private Static Class,com.android.calendar.alerts.GlobalDismissManager.GlobalDismissId,3,1,0,0,3,3,3,3,2,42,1,0,No Change
+46,Public Static Class,com.android.calendar.alerts.GlobalDismissManager.LocalDismissId,3,1,0,0,3,4,3,3,3,49,1,0,No Change
+47,Anonymous Class,com.android.calendar.alerts.GlobalDismissManager.onReceive.(Anon_1),2,1,3,0,1,0,1,1,0,18,2,0,No Change
+48,Public Class,com.android.calendar.alerts.InitAlarmsService,1,1,0,0,2,0,2,2,1,21,2,0,No Change
+49,Public Abstract Class,com.android.calendar.alerts.NotificationMgr,1,1,2,1,4,0,4,4,4,12,1,0,No Change
+50,Public Class,com.android.calendar.alerts.QuickResponseActivity,3,2,2,0,2,1,2,2,1,66,2,0,No Change
+51,Private Class,com.android.calendar.alerts.QuickResponseActivity.QueryThread,2,1,2,0,2,2,2,2,1,28,2,0,No Change
+52,Anonymous Class,com.android.calendar.alerts.QuickResponseActivity.QueryThread.run.(catch_1).(Anon_1),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+53,Public Class,com.android.calendar.alerts.SnoozeAlarmsService,1,1,2,0,3,0,3,3,3,43,2,0,No Change
+54,Public Class,com.android.calendar.AllInOneActivity,5,7,19,0,33,55,34,33,19,1044,3,90,No Change
+55,Anonymous Class,com.android.calendar.AllInOneActivity.(Anon_1),1,1,1,0,4,0,4,4,4,17,2,0,No Change
+56,Anonymous Class,com.android.calendar.AllInOneActivity.(Anon_3),1,1,2,0,1,0,1,1,1,8,2,0,No Change
+57,Anonymous Class,com.android.calendar.AllInOneActivity.(Anon_4),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+58,Anonymous Class,com.android.calendar.AllInOneActivity.(Anon_5),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+59,Private Class,com.android.calendar.AllInOneActivity.QueryHandler,2,1,1,0,2,0,2,2,1,44,2,0,No Change
+60,Anonymous Class,com.android.calendar.AllInOneActivity.QueryHandler.onQueryComplete.(Anon_2),6,1,3,0,1,0,1,1,1,18,2,0,No Change
+61,Public Interface,com.android.calendar.AllInOneMenuExtensionsInterface,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+62,Public Interface,com.android.calendar.AnalyticsLogger,0,0,0,1,2,0,2,2,2,4,0,0,No Change
+63,Public Class,com.android.calendar.AsyncQueryService,1,1,3,7,16,2,16,16,10,182,2,72,No Change
+64,Public Static Class,com.android.calendar.AsyncQueryService.Operation,3,1,0,0,1,3,2,2,1,38,1,50,No Change
+65,Public Class,com.android.calendar.AsyncQueryServiceHelper,4,1,3,0,6,1,9,9,8,241,2,100,No Change
+66,Protected Static Class,com.android.calendar.AsyncQueryServiceHelper.OperationInfo,1,2,1,0,5,16,5,5,4,76,1,72,No Change
+67,Public Class,com.android.calendar.CalendarApplication,1,1,3,0,1,0,1,1,1,10,2,0,No Change
+68,Public Class,com.android.calendar.CalendarBackupAgent,1,1,1,0,2,0,2,2,2,18,2,0,No Change
+69,Public Class,com.android.calendar.CalendarColorPickerDialog,1,1,3,0,10,3,11,11,8,170,2,75,No Change
+70,Private Class,com.android.calendar.CalendarColorPickerDialog.OnCalendarColorSelectedListener,2,2,3,0,1,0,1,1,1,12,1,0,No Change
+71,Private Class,com.android.calendar.CalendarColorPickerDialog.QueryService,5,1,2,0,2,0,18,2,0,59,3,0,No Change
+72,Public Class,com.android.calendar.CalendarController,3,1,11,0,32,15,34,34,25,575,1,89,No Change
+73,Anonymous Class,com.android.calendar.CalendarController.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+74,Public Interface,com.android.calendar.CalendarController.EventHandler,0,0,1,8,3,0,3,3,0,5,0,0,No Change
+75,Public Static Class,com.android.calendar.CalendarController.EventInfo,5,1,2,0,2,13,3,3,3,70,1,89,No Change
+76,Public Interface,com.android.calendar.CalendarController.EventType,0,0,0,0,0,12,0,0,0,14,0,0,No Change
+77,Public Interface,com.android.calendar.CalendarController.ViewType,0,0,0,0,0,8,0,0,0,10,0,0,No Change
+78,Public Class,com.android.calendar.CalendarData,0,1,0,0,0,0,0,0,0,9,1,0,No Change
+79,Public Class,com.android.calendar.CalendarEventModel,8,2,6,0,23,55,23,23,22,706,1,85,No Change
+80,Public Static Class,com.android.calendar.CalendarEventModel.Attendee,2,2,0,0,5,5,5,5,4,43,1,64,No Change
+81,Public Static Class,com.android.calendar.CalendarEventModel.ReminderEntry,1,3,0,0,7,2,9,9,8,54,1,33,No Change
+82,Public Class,com.android.calendar.CalendarRecentSuggestionsProvider,1,1,1,0,2,0,2,2,2,10,2,0,No Change
+83,Public Class,com.android.calendar.CalendarSettingsActivity,2,1,1,0,7,4,7,7,6,89,2,75,No Change
+84,Anonymous Class,com.android.calendar.CalendarSettingsActivity.(Anon_1),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+85,Public Class,com.android.calendar.CalendarUtils,1,1,0,0,0,0,3,3,3,183,1,0,No Change
+86,Public Static Class,com.android.calendar.CalendarUtils.TimeZoneUtils,4,1,2,0,5,1,5,5,5,166,1,62,No Change
+87,Private Class,com.android.calendar.CalendarUtils.TimeZoneUtils.AsyncTZHandler,5,1,2,0,2,0,2,2,1,49,2,0,No Change
+88,Public Class,com.android.calendar.CalendarViewAdapter,2,1,2,0,22,12,22,22,14,295,2,76,No Change
+89,Anonymous Class,com.android.calendar.CalendarViewAdapter.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+90,Public Interface,com.android.calendar.CloudNotificationBackplane,0,0,0,1,4,0,4,4,4,7,0,0,No Change
+91,Public Class,com.android.calendar.ColorChipView,2,1,1,0,7,5,7,7,6,84,2,71,No Change
+92,Public Class,com.android.calendar.ContactsAsyncHelper,4,1,3,0,2,0,4,4,3,135,2,37,No Change
+93,Public Interface,com.android.calendar.ContactsAsyncHelper.OnImageLoadCompleteListener,0,0,0,0,1,0,1,1,1,4,0,0,No Change
+94,Private Static Class,com.android.calendar.ContactsAsyncHelper.WorkerArgs,0,1,1,0,0,7,0,0,0,9,1,0,No Change
+95,Private Class,com.android.calendar.ContactsAsyncHelper.WorkerHandler,4,1,2,0,2,0,2,2,2,36,2,0,No Change
+96,Public Class,com.android.calendar.DayFragment,1,3,6,0,19,10,19,19,13,178,2,82,No Change
+97,Anonymous Class,com.android.calendar.DayFragment.(Anon_1),2,1,2,0,1,0,1,1,1,10,2,0,No Change
+98,Public Class,com.android.calendar.DayOfMonthCursor,1,1,0,0,12,2,12,12,12,96,2,8,No Change
+99,Public Class,com.android.calendar.DayOfMonthDrawable,1,1,0,0,6,3,6,6,6,38,2,70,No Change
+100,Public Class,com.android.calendar.DayView,5,5,19,0,108,144,110,110,27,3679,2,96,No Change
+101,Anonymous Class,com.android.calendar.DayView.(Anon_1),1,1,2,0,1,0,1,1,1,9,2,0,No Change
+102,Anonymous Class,com.android.calendar.DayView.(Anon_2),1,1,1,0,1,0,1,1,1,7,2,0,No Change
+103,Anonymous Class,com.android.calendar.DayView.(Anon_3),2,1,4,0,1,0,1,1,1,12,2,0,No Change
+104,Anonymous Class,com.android.calendar.DayView.(Anon_4),1,1,1,0,3,0,3,3,3,15,2,0,No Change
+105,Anonymous Class,com.android.calendar.DayView.(Anon_5),1,1,1,0,1,0,1,1,1,4,2,0,No Change
+106,Class,com.android.calendar.DayView.CalendarGestureListener,2,1,1,0,5,0,5,5,5,45,2,0,No Change
+107,Private Class,com.android.calendar.DayView.ContextMenuHandler,10,2,5,0,1,0,1,1,1,54,1,0,No Change
+108,Private Class,com.android.calendar.DayView.ContinueScroll,8,2,1,0,1,0,1,1,1,31,1,0,No Change
+109,Class,com.android.calendar.DayView.DismissPopup,2,2,1,0,1,0,1,1,1,7,1,0,No Change
+110,Anonymous Class,com.android.calendar.DayView.getAllDayAnimator.(Anon_7),2,1,1,0,1,0,1,1,1,10,2,0,No Change
+111,Private Class,com.android.calendar.DayView.GotoBroadcaster,1,2,4,0,4,3,4,4,4,27,1,50,No Change
+112,Anonymous Class,com.android.calendar.DayView.onLongClick.(Anon_8),3,1,3,0,1,0,1,1,1,13,2,0,No Change
+113,Anonymous Class,com.android.calendar.DayView.reloadEvents.(Anon_6),8,1,2,0,1,0,1,1,1,40,2,0,No Change
+114,Private Class,com.android.calendar.DayView.ScrollInterpolator,1,2,1,0,2,0,2,2,2,12,1,0,No Change
+115,Class,com.android.calendar.DayView.TodayAnimatorListener,2,1,1,0,3,2,3,3,3,40,2,33,No Change
+116,Class,com.android.calendar.DayView.UpdateCurrentTime,2,2,1,0,1,0,1,1,1,12,1,0,No Change
+117,Public Class,com.android.calendar.DeleteEventHelper,3,1,5,0,11,18,11,11,8,264,1,80,No Change
+118,Anonymous Class,com.android.calendar.DeleteEventHelper.(Anon_2),3,1,4,0,1,0,1,1,1,13,2,0,No Change
+119,Anonymous Class,com.android.calendar.DeleteEventHelper.(Anon_3),3,1,1,0,1,0,1,1,1,11,2,0,No Change
+120,Anonymous Class,com.android.calendar.DeleteEventHelper.(Anon_4),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+121,Anonymous Class,com.android.calendar.DeleteEventHelper.(Anon_5),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+122,Anonymous Class,com.android.calendar.DeleteEventHelper.DeleteEventHelper.(Anon_1),2,1,3,0,1,0,17,1,0,12,3,0,No Change
+123,Public Interface,com.android.calendar.DeleteEventHelper.DeleteNotifyListener,0,0,0,1,1,0,1,1,1,3,0,0,No Change
+124,Public Class,com.android.calendar.EditResponseHelper,1,3,0,0,11,7,11,11,9,72,1,83,No Change
+125,Anonymous Class,com.android.calendar.EditResponseHelper.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+126,Public Class,com.android.calendar.EmailAddressAdapter,1,2,0,0,5,1,5,5,1,30,2,40,No Change
+127,Public Class,com.android.calendar.Event,2,2,2,0,14,26,24,24,18,418,1,85,No Change
+128,Public Class,com.android.calendar.event.AttendeesView,3,2,4,0,16,18,16,16,11,341,2,87,No Change
+129,Private Class,com.android.calendar.event.AttendeesView.PresenceQueryHandler,4,1,5,0,2,0,2,2,1,48,2,0,No Change
+130,Anonymous Class,com.android.calendar.event.AttendeesView.PresenceQueryHandler.onQueryComplete.(Anon_1),1,1,2,0,1,0,1,1,1,5,2,0,No Change
+131,Public Class,com.android.calendar.event.CreateEventDialogFragment,1,2,7,0,14,15,14,14,11,218,2,84,No Change
+132,Private Class,com.android.calendar.event.CreateEventDialogFragment.CalendarQueryService,1,1,1,0,2,0,18,2,2,12,3,0,No Change
+133,Anonymous Class,com.android.calendar.event.CreateEventDialogFragment.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+134,Anonymous Class,com.android.calendar.event.CreateEventDialogFragment.onCreateDialog.(Anon_2),1,1,3,0,1,0,1,1,1,11,2,0,No Change
+135,Anonymous Class,com.android.calendar.event.CreateEventDialogFragment.setDefaultCalendarView.(Anon_3),2,1,0,0,1,0,1,1,1,13,2,0,No Change
+136,Public Class,com.android.calendar.event.EditEventActivity,4,1,5,0,4,5,5,4,1,107,3,75,No Change
+137,Public Class,com.android.calendar.event.EditEventFragment,3,3,12,0,22,32,22,22,16,758,2,87,No Change
+138,Anonymous Class,com.android.calendar.event.EditEventFragment.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+139,Anonymous Class,com.android.calendar.event.EditEventFragment.(Anon_2),3,1,4,0,1,0,1,1,1,18,2,0,No Change
+140,Anonymous Class,com.android.calendar.event.EditEventFragment.displayEditWhichDialog.(Anon_3),8,1,4,0,1,0,1,1,1,18,2,0,No Change
+141,Anonymous Class,com.android.calendar.event.EditEventFragment.displayEditWhichDialog.(Anon_4),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+142,Class,com.android.calendar.event.EditEventFragment.Done,9,2,7,0,2,1,2,2,2,89,1,0,No Change
+143,Private Static Class,com.android.calendar.event.EditEventFragment.EventBundle,0,2,0,0,0,3,0,0,0,6,1,0,No Change
+144,Private Class,com.android.calendar.event.EditEventFragment.QueryHandler,13,1,9,0,2,0,2,2,1,202,2,0,No Change
+145,Public Class,com.android.calendar.event.EditEventHelper,5,1,6,0,10,3,23,23,15,920,1,94,No Change
+146,Public Static Class,com.android.calendar.event.EditEventHelper.AttendeeItem,1,1,1,0,1,6,1,1,1,12,1,66,No Change
+147,Public Interface,com.android.calendar.event.EditEventHelper.EditDoneRunnable,0,1,0,1,1,0,1,1,1,3,2,0,No Change
+148,Public Class,com.android.calendar.event.EditEventView,4,6,19,0,41,84,43,43,18,1326,1,92,No Change
+149,Public Static Class,com.android.calendar.event.EditEventView.CalendarsAdapter,2,1,1,0,2,0,2,2,2,27,2,0,No Change
+150,Private Class,com.android.calendar.event.EditEventView.DateClickListener,2,2,3,0,2,1,2,2,2,26,1,0,No Change
+151,Private Class,com.android.calendar.event.EditEventView.DateListener,2,2,1,0,2,1,2,2,2,43,1,0,No Change
+152,Anonymous Class,com.android.calendar.event.EditEventView.EditEventView.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+153,Anonymous Class,com.android.calendar.event.EditEventView.EditEventView.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+154,Anonymous Class,com.android.calendar.event.EditEventView.EditEventView.(Anon_3),2,1,1,0,2,0,2,2,2,17,2,0,No Change
+155,Anonymous Class,com.android.calendar.event.EditEventView.setModel.(Anon_4),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+156,Anonymous Class,com.android.calendar.event.EditEventView.setModel.(Anon_5),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+157,Anonymous Class,com.android.calendar.event.EditEventView.setModel.(Anon_6),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+158,Private Class,com.android.calendar.event.EditEventView.TimeClickListener,3,2,2,0,2,1,2,2,2,34,1,0,No Change
+159,Private Class,com.android.calendar.event.EditEventView.TimeListener,2,2,1,0,2,1,2,2,2,35,1,0,No Change
+160,Public Class,com.android.calendar.event.EventColorCache,1,2,0,0,7,2,7,7,5,59,1,50,No Change
+161,Public Class,com.android.calendar.event.EventColorPickerDialog,1,1,0,0,5,1,6,6,6,44,2,50,No Change
+162,Anonymous Class,com.android.calendar.event.EventColorPickerDialog.onCreateDialog.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+163,Public Class,com.android.calendar.event.EventLocationAdapter,3,2,2,0,6,4,9,9,5,286,2,84,No Change
+164,Anonymous Class,com.android.calendar.event.EventLocationAdapter.asyncLoadPhotoAndUpdateView.(Anon_1),2,1,1,0,2,0,2,2,1,18,2,0,No Change
+165,Public Class,com.android.calendar.event.EventLocationAdapter.LocationFilter,5,1,2,0,2,0,2,2,0,58,2,0,No Change
+166,Anonymous Class,com.android.calendar.event.EventLocationAdapter.LocationFilter.performFiltering.(Anon_2),1,1,2,0,1,0,1,1,0,5,2,0,No Change
+167,Public Static Class,com.android.calendar.event.EventLocationAdapter.Result,1,1,0,0,2,4,2,2,2,17,1,37,No Change
+168,Public Class,com.android.calendar.event.EventViewUtils,3,1,1,0,1,0,10,10,8,158,1,0,No Change
+169,Public Class,com.android.calendar.EventGeometry,3,1,2,0,7,4,7,7,4,100,1,71,No Change
+170,Public Class,com.android.calendar.EventInfoActivity,3,1,3,0,6,5,6,6,1,117,2,80,No Change
+171,Anonymous Class,com.android.calendar.EventInfoActivity.(Anon_1),2,1,2,0,2,0,2,2,2,12,2,0,No Change
+172,Public Class,com.android.calendar.EventInfoFragment,3,6,19,0,59,93,63,63,31,1706,2,94,No Change
+173,Anonymous Class,com.android.calendar.EventInfoFragment.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+174,Anonymous Class,com.android.calendar.EventInfoFragment.(Anon_10),3,1,1,0,1,0,1,1,1,11,2,0,No Change
+175,Anonymous Class,com.android.calendar.EventInfoFragment.(Anon_2),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+176,Anonymous Class,com.android.calendar.EventInfoFragment.createDeleteOnDismissListener.(Anon_14),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+177,Anonymous Class,com.android.calendar.EventInfoFragment.onActivityCreated.(Anon_3),1,1,1,0,2,0,2,2,2,12,2,0,No Change
+178,Anonymous Class,com.android.calendar.EventInfoFragment.onAttach.(Anon_4),6,1,2,0,1,0,1,1,1,25,2,0,No Change
+179,Anonymous Class,com.android.calendar.EventInfoFragment.onCreateView.(Anon_5),1,1,1,0,3,1,3,3,3,18,2,0,No Change
+180,Anonymous Class,com.android.calendar.EventInfoFragment.onCreateView.(Anon_6),2,1,2,0,1,0,1,1,1,13,2,0,No Change
+181,Anonymous Class,com.android.calendar.EventInfoFragment.onCreateView.(Anon_7),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+182,Anonymous Class,com.android.calendar.EventInfoFragment.onCreateView.(Anon_8),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+183,Anonymous Class,com.android.calendar.EventInfoFragment.onCreateView.(Anon_9),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+184,Private Class,com.android.calendar.EventInfoFragment.QueryHandler,15,1,2,0,2,0,18,2,1,155,3,0,No Change
+185,Anonymous Class,com.android.calendar.EventInfoFragment.updateCalendar.(Anon_13),3,1,1,0,1,0,1,1,1,11,2,0,No Change
+186,Anonymous Class,com.android.calendar.EventInfoFragment.updateCustomAppButton.(Anon_12),2,1,1,0,1,0,1,1,1,9,2,0,No Change
+187,Anonymous Class,com.android.calendar.EventInfoFragment.updateEvent.(Anon_11),2,1,0,0,1,0,1,1,1,9,2,0,No Change
+188,Public Class,com.android.calendar.EventLoader,1,1,4,0,5,6,5,5,4,161,1,70,No Change
+189,Private Static Class,com.android.calendar.EventLoader.LoaderThread,2,1,3,0,3,2,3,3,3,34,2,16,No Change
+190,Private Static Class,com.android.calendar.EventLoader.LoadEventDaysRequest,2,2,1,0,3,4,3,3,3,46,1,33,No Change
+191,Private Static Class,com.android.calendar.EventLoader.LoadEventsRequest,1,2,2,0,3,6,3,3,3,29,1,27,No Change
+192,Private Interface,com.android.calendar.EventLoader.LoadRequest,0,0,1,3,2,0,2,2,2,4,0,0,No Change
+193,Private Static Class,com.android.calendar.EventLoader.ShutdownRequest,1,2,1,0,2,0,2,2,2,6,1,0,No Change
+194,Public Class,com.android.calendar.EventRecurrenceFormatter,7,1,0,0,0,0,4,4,1,113,1,62,No Change
+195,Public Class,com.android.calendar.ExpandableTextView,2,2,0,0,9,7,9,9,6,75,2,69,No Change
+196,Public Class,com.android.calendar.ExtensionsFactory,3,1,3,0,0,0,5,5,4,110,1,62,No Change
+198,Anonymous Class,com.android.calendar.ExtensionsFactory.getAllInOneMenuExtensions.(Anon_1),1,2,0,0,2,0,2,2,2,9,1,0,No Change
+199,Anonymous Class,com.android.calendar.ExtensionsFactory.getAnalyticsLogger.(Anon_3),1,2,0,0,2,0,2,2,2,8,1,0,No Change
+200,Anonymous Class,com.android.calendar.ExtensionsFactory.getCloudNotificationBackplane.(Anon_2),1,2,0,0,4,0,4,4,4,15,1,0,No Change
+201,Public Class,com.android.calendar.GeneralPreferences,3,4,6,0,12,11,14,14,10,285,2,77,No Change
+202,Anonymous Class,com.android.calendar.GeneralPreferences.onCreate.(Anon_1),1,1,1,0,1,0,1,1,1,6,2,0,No Change
+203,Public Class,com.android.calendar.GoogleCalendarUriIntentFilter,15,1,1,0,3,0,3,3,0,209,2,0,No Change
+204,Anonymous Class,com.android.calendar.GoogleCalendarUriIntentFilter.updateSelfAttendeeStatus.(Anon_1),5,1,1,0,1,0,1,1,0,26,2,0,No Change
+205,Public Class,com.android.calendar.month.MonthByWeekAdapter,3,1,8,0,13,21,27,13,6,321,3,86,No Change
+206,Anonymous Class,com.android.calendar.month.MonthByWeekAdapter.(Anon_1),2,1,3,0,1,0,1,1,1,12,2,0,No Change
+207,Anonymous Class,com.android.calendar.month.MonthByWeekAdapter.(Anon_2),4,1,3,0,1,0,1,1,1,15,2,0,No Change
+208,Protected Class,com.android.calendar.month.MonthByWeekAdapter.CalendarGestureListener,2,1,2,0,2,0,2,2,2,20,2,0,No Change
+209,Public Class,com.android.calendar.month.MonthByWeekFragment,2,5,11,0,22,18,41,22,15,373,3,88,No Change
+210,Anonymous Class,com.android.calendar.month.MonthByWeekFragment.(Anon_1),2,1,2,0,1,0,1,1,1,10,2,0,No Change
+211,Anonymous Class,com.android.calendar.month.MonthByWeekFragment.(Anon_2),2,1,4,0,1,0,1,1,1,15,2,0,No Change
+212,Anonymous Class,com.android.calendar.month.MonthByWeekFragment.(Anon_3),3,1,1,0,1,0,1,1,1,17,2,0,No Change
+213,Anonymous Class,com.android.calendar.month.MonthByWeekFragment.(Anon_4),2,1,1,0,1,0,1,1,1,8,2,0,No Change
+214,Anonymous Class,com.android.calendar.month.MonthByWeekFragment.handleEvent.(Anon_5),1,1,2,0,1,0,1,1,1,6,2,0,No Change
+215,Public Class,com.android.calendar.month.MonthListView,2,1,3,0,9,6,9,9,5,122,2,82,No Change
+216,Anonymous Class,com.android.calendar.month.MonthListView.(Anon_1),2,1,2,0,1,0,1,1,1,8,2,0,No Change
+217,Public Class,com.android.calendar.month.MonthWeekEventsView,4,1,5,0,27,56,42,27,12,846,3,92,No Change
+218,Private Class,com.android.calendar.month.MonthWeekEventsView.FloatRef,1,1,0,0,2,1,2,2,2,11,1,0,No Change
+219,Class,com.android.calendar.month.MonthWeekEventsView.TodayAnimatorListener,2,1,1,0,3,2,3,3,3,40,2,33,No Change
+220,Public Class,com.android.calendar.month.SimpleDayPickerFragment,3,2,4,1,19,31,19,19,12,376,2,88,No Change
+221,Anonymous Class,com.android.calendar.month.SimpleDayPickerFragment.(Anon_1),2,1,1,0,1,0,1,1,1,16,2,0,No Change
+222,Anonymous Class,com.android.calendar.month.SimpleDayPickerFragment.(Anon_2),2,1,2,0,1,0,1,1,1,8,2,0,No Change
+223,Protected Class,com.android.calendar.month.SimpleDayPickerFragment.ScrollStateRunnable,2,2,2,0,2,1,2,2,2,22,1,0,No Change
+224,Public Class,com.android.calendar.month.SimpleWeeksAdapter,2,2,4,1,14,10,14,14,11,167,2,86,No Change
+225,Protected Class,com.android.calendar.month.SimpleWeeksAdapter.CalendarGestureListener,1,1,0,0,1,0,1,1,1,6,2,0,No Change
+226,Public Class,com.android.calendar.month.SimpleWeekView,3,1,1,1,15,33,15,15,7,330,2,83,No Change
+227,Public Class,com.android.calendar.MultiStateButton,2,1,0,0,11,5,11,11,10,108,2,70,No Change
+228,Public Class,com.android.calendar.OtherPreferences,3,2,1,0,6,11,6,6,4,171,2,72,No Change
+229,Private Class,com.android.calendar.OtherPreferences.TimeSetListener,2,2,1,0,2,1,2,2,2,28,1,0,No Change
+230,Public Class,com.android.calendar.QuickResponseSettings,2,2,2,0,4,2,4,4,4,57,2,50,No Change
+231,Public Class,com.android.calendar.RecipientAdapter,1,1,0,0,2,0,2,2,2,10,2,0,No Change
+232,Public Class,com.android.calendar.recurrencepicker.LinearLayoutWithMaxWidth,1,1,1,0,4,0,4,4,3,16,2,0,No Change
+233,Public Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog,6,6,4,0,18,35,22,22,14,930,2,87,No Change
+234,Private Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog.EndSpinnerAdapter,5,1,2,0,3,8,3,3,3,99,2,25,No Change
+235,Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog.minMaxTextWatcher,1,2,1,2,5,3,5,5,4,41,1,60,No Change
+236,Anonymous Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog.onCreateView.(Anon_1),2,1,2,0,1,0,1,1,1,7,2,0,No Change
+237,Anonymous Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog.onCreateView.(Anon_2),2,1,2,0,1,0,6,1,0,9,2,0,No Change
+238,Anonymous Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog.onCreateView.(Anon_3),2,1,2,0,1,0,6,1,0,9,2,0,No Change
+239,Public Interface,com.android.calendar.recurrencepicker.RecurrencePickerDialog.OnRecurrenceSetListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+240,Private Class,com.android.calendar.recurrencepicker.RecurrencePickerDialog.RecurrenceModel,1,2,1,0,4,11,4,4,4,54,1,52,No Change
+241,Public Class,com.android.calendar.recurrencepicker.WeekButton,2,1,0,0,4,0,5,5,4,33,2,80,No Change
+242,Public Class,com.android.calendar.SearchActivity,2,4,10,0,20,12,20,20,10,267,2,85,No Change
+243,Anonymous Class,com.android.calendar.SearchActivity.(Anon_1),1,1,1,0,2,0,2,2,2,9,2,0,No Change
+244,Anonymous Class,com.android.calendar.SearchActivity.(Anon_2),1,1,2,0,1,0,1,1,1,7,2,0,No Change
+245,Public Class,com.android.calendar.selectcalendars.CalendarColorCache,1,1,2,0,5,4,5,5,2,47,1,72,No Change
+246,Anonymous Class,com.android.calendar.selectcalendars.CalendarColorCache.CalendarColorCache.(Anon_1),5,1,2,0,1,0,17,1,1,17,3,0,No Change
+247,Public Interface,com.android.calendar.selectcalendars.CalendarColorCache.OnCalendarColorsLoadedListener,0,0,0,4,1,0,1,1,0,3,0,0,No Change
+248,Public Class,com.android.calendar.selectcalendars.CalendarColorSquare,1,1,0,0,3,0,3,3,3,14,2,0,No Change
+249,Public Class,com.android.calendar.selectcalendars.SelectCalendarsSimpleAdapter,2,3,5,0,13,23,13,13,10,283,2,85,No Change
+250,Private Class,com.android.calendar.selectcalendars.SelectCalendarsSimpleAdapter.CalendarRow,0,1,0,0,0,7,0,0,0,9,1,0,No Change
+251,Anonymous Class,com.android.calendar.selectcalendars.SelectCalendarsSimpleAdapter.getView.(Anon_1),1,1,1,0,1,0,1,1,1,11,2,0,No Change
+252,Anonymous Class,com.android.calendar.selectcalendars.SelectCalendarsSimpleAdapter.getView.(Anon_2),4,1,3,0,1,0,1,1,1,17,2,0,No Change
+253,Private Static Class,com.android.calendar.selectcalendars.SelectCalendarsSimpleAdapter.TabletCalendarItemBackgrounds,2,1,1,0,0,0,1,1,0,33,1,0,No Change
+254,Public Class,com.android.calendar.selectcalendars.SelectCalendarsSyncAdapter,1,4,4,0,13,18,14,14,11,206,2,86,No Change
+255,Public Class,com.android.calendar.selectcalendars.SelectCalendarsSyncAdapter.CalendarRow,0,1,0,0,0,7,0,0,0,9,1,0,No Change
+256,Anonymous Class,com.android.calendar.selectcalendars.SelectCalendarsSyncAdapter.getView.(Anon_1),1,1,1,0,1,0,1,1,1,11,2,0,No Change
+257,Anonymous Class,com.android.calendar.selectcalendars.SelectCalendarsSyncAdapter.getView.(Anon_2),4,1,3,0,1,0,1,1,1,17,2,0,No Change
+258,Public Class,com.android.calendar.selectcalendars.SelectCalendarsSyncFragment,1,3,4,0,11,7,11,11,11,137,2,83,No Change
+259,Anonymous Class,com.android.calendar.selectcalendars.SelectCalendarsSyncFragment.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+260,Public Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountActivity,2,2,2,0,9,3,9,9,3,124,2,70,No Change
+261,Anonymous Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountActivity.onResume.(Anon_1),2,1,3,0,1,0,1,1,0,13,2,0,No Change
+262,Public Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountAdapter,2,3,6,0,13,16,14,14,7,327,2,86,No Change
+263,Anonymous Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountAdapter.(Anon_1),1,1,1,0,1,0,1,1,1,5,2,0,No Change
+264,Private Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountAdapter.AsyncCalendarsUpdater,4,1,2,0,2,0,2,2,1,36,2,0,No Change
+265,Anonymous Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountAdapter.bindChildView.(Anon_2),1,1,1,0,1,0,1,1,1,11,2,0,No Change
+266,Anonymous Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountAdapter.bindChildView.(Anon_3),4,1,3,0,1,0,1,1,1,16,2,0,No Change
+267,Private Class,com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountAdapter.RefreshCalendars,1,2,1,0,2,3,2,2,2,24,1,0,No Change
+268,Public Class,com.android.calendar.selectcalendars.SelectVisibleCalendarsActivity,1,1,4,0,6,3,7,6,5,61,3,77,No Change
+269,Anonymous Class,com.android.calendar.selectcalendars.SelectVisibleCalendarsActivity.(Anon_1),1,1,4,0,2,0,2,2,2,9,2,0,No Change
+270,Public Class,com.android.calendar.selectcalendars.SelectVisibleCalendarsFragment,1,4,6,0,14,7,14,14,14,130,2,84,No Change
+271,Anonymous Class,com.android.calendar.selectcalendars.SelectVisibleCalendarsFragment.onAttach.(Anon_1),1,1,2,0,1,0,17,1,0,6,3,0,No Change
+272,Public Class,com.android.calendar.StickyHeaderListView,2,2,2,0,13,16,13,13,9,177,2,84,No Change
+273,Public Interface,com.android.calendar.StickyHeaderListView.HeaderHeightListener,0,0,0,1,1,0,1,1,0,3,0,0,No Change
+274,Public Interface,com.android.calendar.StickyHeaderListView.HeaderIndexer,0,0,0,1,2,0,2,2,0,4,0,0,No Change
+275,Public Class,com.android.calendar.UpgradeReceiver,1,1,1,0,1,0,1,1,1,5,2,0,No Change
+276,Public Class,com.android.calendar.Utils,3,1,13,0,0,0,82,82,66,1231,1,97,No Change
+277,Private Static Class,com.android.calendar.Utils.CalendarBroadcastReceiver,2,1,0,0,2,1,2,2,2,18,2,0,No Change
+278,Private Static Class,com.android.calendar.Utils.DNASegment,0,1,0,0,0,4,0,0,0,6,1,0,No Change
+279,Public Static Class,com.android.calendar.Utils.DNAStrand,0,1,0,0,0,5,0,0,0,7,1,0,No Change
+280,Class,com.android.calendar.widget.CalendarAppWidgetModel,4,1,5,0,5,9,5,5,3,320,1,51,No Change
+281,Static Class,com.android.calendar.widget.CalendarAppWidgetModel.DayInfo,3,1,0,0,4,2,4,4,3,38,1,12,No Change
+282,Static Class,com.android.calendar.widget.CalendarAppWidgetModel.EventInfo,7,1,0,0,4,12,4,4,4,109,1,25,No Change
+283,Static Class,com.android.calendar.widget.CalendarAppWidgetModel.RowInfo,1,1,0,0,1,2,1,1,0,10,1,0,No Change
+284,Public Class,com.android.calendar.widget.CalendarAppWidgetProvider,1,1,4,0,4,0,8,8,3,110,2,0,No Change
+285,Public Class,com.android.calendar.widget.CalendarAppWidgetService,1,1,2,0,1,0,2,2,1,425,2,0,No Change
+286,Public Static Class,com.android.calendar.widget.CalendarAppWidgetService.CalendarFactory,2,3,7,0,18,11,21,21,13,365,2,89,No Change
+287,Anonymous Class,com.android.calendar.widget.CalendarAppWidgetService.CalendarFactory.(Anon_1),2,1,1,0,1,0,1,1,1,7,2,0,No Change
+288,Anonymous Class,com.android.calendar.widget.CalendarAppWidgetService.CalendarFactory.createUpdateLoaderRunnable.(Anon_2),2,1,1,0,1,0,1,1,1,14,2,0,No Change
+289,Anonymous Class,com.android.calendar.widget.CalendarAppWidgetService.CalendarFactory.onReceive.(Anon_3),2,1,1,0,1,0,1,1,1,18,2,0,No Change
+290,Anonymous Class,com.android.calendar.widget.CalendarAppWidgetService.CalendarFactory.onReceive.(Anon_3).run.(Anon_4),1,1,2,0,1,0,1,1,1,6,2,0,No Change
